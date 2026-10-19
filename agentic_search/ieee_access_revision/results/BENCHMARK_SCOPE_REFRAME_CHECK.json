@@ -1,7 +1,7 @@
 {
   "status": "pass",
   "scope": "Editorial reframing as a retrospective computational benchmark; no searches, fits, bootstrap analyses or evaluation sets changed.",
-  "title": "Query-Efficient Interface Search in a Retrospective Sleep-EEG Benchmark",
+  "title": "Physiology-Informed Language-Model Search for Query-Efficient Sleep-EEG Interfaces",
   "scientific_files_unchanged": 20,
   "material_results_preserved": [
     "Feedback 0.612 versus 0.619 and conditional intervals",
@@ -12,5 +12,7 @@
     "Post hoc two-site scope and retained original source fits"
   ],
   "interpretation": "Common representation and source-fitting protocol define the observed comparison; shared exposure is not asserted to eliminate differential bias.",
-  "supplement_and_category_verification": "FINAL_SUPPLEMENT_NUMERICAL_CHECK.json"
+  "supplement_and_category_verification": "FINAL_SUPPLEMENT_NUMERICAL_CHECK.json",
+  "current_editorial_scope": "Contribution-led physiology-informed language-model procedure; retrospective evaluation retained in abstract/methods, detailed material results in Results, concise dedicated limitations.",
+  "prior_generic_title_superseded": true
 }

@@ -2,7 +2,7 @@
 
 This folder preserves the original September searches and manuscript unchanged and adds an explicitly post hoc October 18 extension.
 
-The revised main paper is `paper/paper.tex`, with complete technical details in `paper/supplement.tex`. The manuscript is framed as a retrospective computational benchmark of budgeted interface search, leading with candidate allocation, physiological structure and the reusable evaluation framework; the main paper explicitly retains the feedback null, development overlap and retained-sample reversal. Generated tables and figures read the saved numerical results directly. The final source archive includes the official May 2026 IEEE Access class and fonts. The ethics/consent and data-access declarations use the official Challenge and HSP documentation; the accepted non-archival NeurIPS AgenticLS paper and the added journal analyses are disclosed.
+The revised main paper is `paper/paper.tex`, with complete technical details in `paper/supplement.tex`. The manuscript presents a physiology-informed language-model proposal-and-selection procedure, leading with its implementation, query-budget results, physiological structure and reusable evaluation framework; the main paper explicitly retains the feedback null, development overlap and retained-sample reversal. Generated tables and figures read the saved numerical results directly. The final source archive includes the official May 2026 IEEE Access class and fonts. The ethics/consent and data-access declarations use the official Challenge and HSP documentation; the accepted non-archival NeurIPS AgenticLS paper and the added journal analyses are disclosed.
 
 ## What was completed
 
