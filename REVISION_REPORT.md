@@ -87,3 +87,7 @@ Restored the technical title Physiology-Informed Language-Model Search for Query
 ## Focused related-work and workflow pass — October 19, 2026
 
 Added a short direct comparison with LLM-Select (TMLR 2025) and Dardour/Yanes clinical feature selection (Concurrency and Computation 2025), verified from author/publisher primary sources. Positioning emphasizes joint four-head interface search and matched-budget source/held-site evaluation, without claiming first use of language models for feature selection. Added a vector workflow diagram of the existing source-only generation/evaluation/selection loop, manifest gate and held-site scoring. Clarified that proposal generation and the fixed selector can be used as separate modules. Existing claims, title and scientific results are preserved.
+
+## Plain research prose — October 19, 2026
+
+Rewrote the abstract, introduction, discussion, conclusion, supplement, captions and cover letter in direct prose. Removed repeated process descriptions and words such as frozen, fixed, auditable, inspectable, pipeline and framework from the authored main text. The main text before references is about 32% shorter. Simplified the workflow to five scientific steps. Main paper: six pages; supplement: four. The original experimental prompt remains quoted without edits. Numerical results, study design, required disclosures and reference identities are unchanged.

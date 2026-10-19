@@ -50,7 +50,7 @@ def main():
         cols=set(pd.read_csv(p,nrows=0).columns)
         if cols&prohibited:raise ValueError('Private columns in purported aggregate: '+str(p))
         copy(p)
-    for name in ['extension_protocol.json','pretarget_manifest.json','target_release.json','cohort_audit.json','provenance_audit.json','runtime_reproduction_check.json','FINAL_VERIFICATION.json','ETHICS_DECLARATION_SOURCES.json','NARRATIVE_REFRAME_CHECK.json','DISCLOSURE_REVIEW_20261019.json','BENCHMARK_SCOPE_REFRAME_CHECK.json','FINAL_SUPPLEMENT_NUMERICAL_CHECK.json','FINAL_EDITORIAL_POLISH_CHECK.json','RELATED_WORK_WORKFLOW_CHECK.json']:
+    for name in ['extension_protocol.json','pretarget_manifest.json','target_release.json','cohort_audit.json','provenance_audit.json','runtime_reproduction_check.json','FINAL_VERIFICATION.json','ETHICS_DECLARATION_SOURCES.json','NARRATIVE_REFRAME_CHECK.json','DISCLOSURE_REVIEW_20261019.json','BENCHMARK_SCOPE_REFRAME_CHECK.json','FINAL_SUPPLEMENT_NUMERICAL_CHECK.json','FINAL_EDITORIAL_POLISH_CHECK.json','RELATED_WORK_WORKFLOW_CHECK.json','PLAIN_LANGUAGE_EDIT_CHECK.json']:
         copy(REV/'results'/name)
     for d in ['continuations','controller_logs']:
         for p in (REV/'results'/d).rglob('*'):

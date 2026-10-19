@@ -172,7 +172,7 @@
     "structure"
   ],
   "supplement": {
-    "pages": 5,
+    "pages": 4,
     "sections": [
       "S1 matched feedback",
       "S2 provenance and exclusion",
@@ -181,7 +181,7 @@
     ],
     "unresolved_references": false,
     "text_inside_page_bounds": true,
-    "pdf_sha256": "f5d1983945cfa6a468a0124f6168eb911ca46dac00f7734a6f18c577bf9b691c"
+    "pdf_sha256": "996cde8d6f01e22f4d29b0853c56c95dc3bceac9ae2694593f56afaf92ed89cd"
   },
   "no_manuscript_numerical_correction_needed": true
 }

@@ -36,11 +36,11 @@
     }
   ],
   "positioning": "Extension to joint four-head interfaces on a frozen physiological model and matched-budget source/held-institution protocol; no first-ever LLM feature-selection or direct superiority claim over cited studies.",
-  "workflow": "Existing procedure only: catalog, batch proposals, directional source evaluation, robust selection, all-run freeze, refit and held-site scoring; source-score feedback returns only to proposal stage.",
-  "main_pages": 8,
-  "supplement_pages": 5,
-  "workflow_main_pdf_min_checked_font_points": 8.154719352722168,
-  "workflow_visual_review": "No label/border overlaps; source-feedback loop and release gate legible; vector text.",
+  "workflow": "Catalog, proposals, source-hospital testing, minimum-source selection, held-out-hospital testing. Five stages; labels simplified. Test timing remains described in Methods.",
+  "main_pages": 6,
+  "supplement_pages": 4,
+  "workflow_visual_review": "Five boxes, readable labels and source-score feedback arrow; no text overlap.",
   "figure_numbering": "Workflow Figure 1; budget comparison Figure 2; paired supplement figure unchanged.",
-  "numerical_results_unchanged": true
+  "numerical_results_unchanged": true,
+  "workflow_asset_min_font_points": 9.0
 }

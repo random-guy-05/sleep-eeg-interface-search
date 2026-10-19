@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "scope": "Prose, captions and diagram labels only; no scientific result or original controller prompt changed.",
+  "main_words_before_references_before": 4054,
+  "main_words_before_references_after": 2742,
+  "main_word_reduction_percent": 32.4,
+  "abstract_words": 156,
+  "scientific_files_unchanged": 20,
+  "terms_removed_from_authored_main_prose": {
+    "frozen": 7,
+    "fixed": 10,
+    "auditable": 2,
+    "inspectable": 2,
+    "pipeline": 4,
+    "framework": 3
+  },
+  "original_experimental_prompt_preserved": true,
+  "ai_and_workshop_disclosures_preserved": true,
+  "main_pages": 6,
+  "supplement_pages": 4,
+  "original_prompt_sha256": "7760383feaef368ad4b7540e52bc73dab209bcace187bb330e5762c3594aeadc",
+  "terms_in_current_authored_main_prose": {
+    "frozen": 0,
+    "fixed": 0,
+    "auditable": 0,
+    "inspectable": 0,
+    "pipeline": 0,
+    "framework": 0,
+    "immutable": 0,
+    "manifest": 0
+  }
+}

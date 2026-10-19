@@ -9,8 +9,8 @@ import matplotlib.pyplot as plt
 
 PACKAGE=Path(__file__).resolve().parents[2];REV=PACKAGE/'ieee_access_revision'
 OUT=REV/'results';PAPER=REV/'paper'
-LABELS={'full_agent':'Agent + robust','random_source_robust':'Random + robust',
-        'random_source_mean':'Random + mean','evolutionary_robust':'Evolutionary',
+LABELS={'full_agent':'Language model','random_source_robust':'Random (min.)',
+        'random_source_mean':'Random (mean)','evolutionary_robust':'Evolutionary',
         'taxonomy_diverse_robust':'Taxonomy-diverse'}
 
 def tex(s):
@@ -28,31 +28,29 @@ def table(name,headers,rows,spec,caption,label,wide=False):
     (PAPER/(name+'.tex')).write_text(text)
 
 def workflow_figure():
-    """Vector diagram of the existing controller/source/target-release protocol."""
+    """Show feature proposals, training-hospital tests and held-hospital testing."""
     from matplotlib.patches import FancyBboxPatch
     fig,ax=plt.subplots(figsize=(7.2,1.75))
     ax.set_xlim(0,7.2);ax.set_ylim(-.02,1.80);ax.axis('off')
-    cards=[('Catalog','539 heads\n11 categories'),
-           ('Propose','Batch of 5\n4 heads each'),
-           ('Source probes','A to B; B to A\nsource-tuned C'),
-           ('Select','best minimum\nsource AUROC'),
-           ('Freeze','all proposals\nand choices'),
-           ('Score held site','refit on sources\nthen evaluate H')]
-    positions=[.06+1.2*i for i in range(6)];width=1.08;bottom=.59;height=.80
+    cards=[('Catalog','539 outputs\n11 categories'),
+           ('Propose','5 quartets/batch\n4 features each'),
+           ('Source tests','A to B, then B to A\nLogistic regression'),
+           ('Select','Highest minimum\nsource AUROC'),
+           ('Held-out test','Refit on A+B\ntest on H')]
+    positions=[.07+1.43*i for i in range(5)];width=1.26;bottom=.59;height=.80
     for i,((heading,body),x) in enumerate(zip(cards,positions)):
         color='#edf4fb' if i<4 else '#e8f3ed'
         ax.add_patch(FancyBboxPatch((x,bottom),width,height,boxstyle='round,pad=0.015,rounding_size=0.035',facecolor=color,edgecolor='#496579',lw=.8))
-        ax.text(x+width/2,1.18,heading,ha='center',va='center',fontsize=8.7,fontweight='bold')
-        ax.text(x+width/2,.88,body,ha='center',va='center',fontsize=8.4,linespacing=1.3)
-        if i<5:
+        ax.text(x+width/2,1.18,heading,ha='center',va='center',fontsize=9.4,fontweight='bold')
+        ax.text(x+width/2,.88,body,ha='center',va='center',fontsize=9.1,linespacing=1.3)
+        if i<4:
             ax.annotate('',xy=(positions[i+1]-.02,.99),xytext=(x+width+.015,.99),arrowprops=dict(arrowstyle='->',lw=.85,color='#425563'))
-    ax.text(2.99,1.61,'SOURCE-ONLY SEARCH AND SELECTION',ha='center',va='center',fontsize=8.4,fontweight='bold',color='#31546e')
-    ax.text(6.60,1.61,'HELD SITE',ha='center',va='center',fontsize=8.4,fontweight='bold',color='#315e44')
-    ax.plot([5.99,5.99],[.48,1.43],ls=(0,(3,2)),lw=.8,color='#547c64')
-    ax.plot([3.0,3.0,1.8],[.56,.23,.23],lw=.85,color='#31546e')
-    ax.annotate('',xy=(1.8,.57),xytext=(1.8,.23),arrowprops=dict(arrowstyle='->',lw=.85,color='#31546e'))
-    ax.text(2.42,.07,'Source scores; repeat to budget B',ha='center',va='center',fontsize=8.4,color='#31546e')
-    ax.text(5.98,.22,'Manifest verified\nbefore held-site scoring',ha='center',va='center',fontsize=8.4,color='#315e44',linespacing=1.15)
+    ax.text(2.85,1.61,'SEARCH',ha='center',va='center',fontsize=9,fontweight='bold',color='#31546e')
+    ax.text(6.42,1.61,'TEST',ha='center',va='center',fontsize=9,fontweight='bold',color='#315e44')
+    ax.plot([5.70,5.70],[.48,1.43],ls=(0,(3,2)),lw=.8,color='#547c64')
+    ax.plot([3.56,3.56,2.13],[.56,.23,.23],lw=.85,color='#31546e')
+    ax.annotate('',xy=(2.13,.57),xytext=(2.13,.23),arrowprops=dict(arrowstyle='->',lw=.85,color='#31546e'))
+    ax.text(2.85,.07,'Source AUROCs; next batch',ha='center',va='center',fontsize=9.1,color='#31546e')
     fig.subplots_adjust(left=0,right=1,bottom=0,top=1)
     fig.savefig(PAPER/'workflow.pdf');plt.close(fig)
 
@@ -72,14 +70,14 @@ def main():
     for method in methods:
         rows.append([LABELS[method]]+[f(means.loc[(method,b)]) if (method,b) in means.index else '---' for b in [10,25,50,500]])
     table('budget_table',['Method','$B=10$','$B=25$','$B=50$','$B=500$'],rows,'lrrrr',
-          'Original full-cohort macro age-conditioned AUROC. These are historical benchmark results, including S0001 model-development overlap.','tab:budget')
+          'Macro age-conditioned AUROC by method and evaluation budget. S0001 includes model-development matches.','tab:budget')
     fig,ax=plt.subplots(figsize=(6.4,3.1))
     colors=['#2166ac','#b2182b','#ef8a62','#555555','#1b7837']
     for method,color in zip(methods,colors):
         s=means.loc[method];s=s[s.index.isin([10,25,50,100,500])]
         ax.plot(s.index,s.values,'o-',label=LABELS[method],color=color,lw=1.5,ms=4)
     ax.set_xscale('log');ax.set_xticks([10,25,50,100,500],[10,25,50,100,500]);ax.set_ylim(.53,.65)
-    ax.set(xlabel='Candidate evaluation budget',ylabel='Macro age-conditioned AUROC')
+    ax.set(xlabel='Feature sets evaluated',ylabel='Macro age-conditioned AUROC')
     ax.legend(ncol=2,fontsize=8,loc='upper right');fig.tight_layout();fig.savefig(PAPER/'budget.pdf');plt.close(fig)
     contrasts=pd.read_csv(PACKAGE/'analysis/output/participant_bootstrap_contrasts.csv')
     rows=[]
@@ -87,19 +85,19 @@ def main():
         comp='Random, B=500' if '500' in r.comparison else ('Random' if 'random' in r.comparison else ('Evolutionary' if 'evolution' in r.comparison else 'Taxonomy-diverse'))
         rows.append([comp,str(r.budget),ci(r.macro_difference,r.bootstrap_ci_2_5,r.bootstrap_ci_97_5)])
     table('contrast_table',['Comparator','$B$','Agent minus comparator [95\\% CI]'],rows,'llr',
-        'Original participant-level intervals, conditional on fixed selections. B refers to the agent budget; the random-bank row compares B=10 with B=500. Contrasts are exploratory and intervals are pointwise.','tab:contrasts',True)
+        'Participant-bootstrap intervals for agent minus comparator. B is the agent budget; the last row compares agent B=10 with random B=500. Comparisons are exploratory.','tab:contrasts',True)
     flow=pd.read_csv(OUT/'cohort_flow.csv');demo=pd.read_csv(OUT/'available_demographic_frame.csv')
-    rows=[['Available labeled frame']+[str(int(demo[demo.SiteID.eq(s)].available_records.iloc[0])) for s in ['I0002','I0006','S0001']]]
-    for stage,label in [('initial_recovered','Initial recovered'),('positive_batch1_requested','Positive batch 1: requested'),('positive_batch1_completed','Positive batch 1: recovered'),('positive_batch2_requested','Positive batch 2: requested'),('positive_batch2_completed','Positive batch 2: recovered'),('negative_extension_requested','Negative extension: requested'),('negative_extension_completed','Negative extension: recovered'),('final_frozen','Final benchmark')]:
+    rows=[['Available labeled sample']+[str(int(demo[demo.SiteID.eq(s)].available_records.iloc[0])) for s in ['I0002','I0006','S0001']]]
+    for stage,label in [('initial_recovered','Initial sample'),('positive_batch1_requested','Positive batch 1: requested'),('positive_batch1_completed','Positive batch 1: extracted'),('positive_batch2_requested','Positive batch 2: requested'),('positive_batch2_completed','Positive batch 2: extracted'),('negative_extension_requested','Negative extension: requested'),('negative_extension_completed','Negative extension: extracted'),('final_frozen','Final benchmark')]:
         rows.append([label]+[str(int(flow[(flow.stage.eq(stage))&flow.site.eq(s)].n.iloc[0])) for s in ['I0002','I0006','S0001']])
     rows.append(['Final positive / negative','7 / 36','20 / 147','56 / 72'])
     rows.append(['Eligible age-matched pairs','41','441','812'])
     table('cohort_table',['Stage','I0002','I0006','S0001'],rows,'lrrr',
-        'Recoverable outcome-aware cohort assembly. Requested and recovered rows are alternatives, not additive stages. The initial cache plus the three recovered extensions sum to 338. The full HSP population denominator and initial extraction failures are unknown.','tab:cohort',True)
+        'Sample assembly. Requested and extracted counts are not additive. The initial sample and three expansions total 338 participants. Initial selection and extraction records were incomplete.','tab:cohort',True)
     overlap=pd.read_csv(OUT/'pretraining_overlap_summary.csv')
     rows=[[r.site,str(r.n),str(r.training_subject_matches),str(r.training_record_matches),str(r.development_subject_matches),f'{r.retained} ({r.retained_positive}/{r.retained_negative})',str(r.retained_age_pairs)] for r in overlap.itertuples()]
     table('overlap_table',['Site','$n$','Train subjects','Train records','Development subjects','Retained (pos/neg)','Pairs'],rows,'lrrrrlr',
-        'Identifier matches to published reconstructed checkpoint training and conservative development manifests. Retained excludes every conservative-development subject. Exact historical extraction checkpoint bytes are unavailable.','tab:overlap',True)
+        "Matches to the developers' training and development lists. Retained participants exclude development-list matches. The original EEG model version could not be verified.",'tab:overlap',True)
     sensitivity=pd.read_csv(OUT/'metric_sensitivity.csv',dtype={'tolerance':str})
     sc=pd.read_csv(OUT/'metric_sensitivity_contrasts.csv',dtype={'tolerance':str});rows=[]
     for tol in ['1.0','2.0','3.0','inf']:
@@ -107,7 +105,7 @@ def main():
         c=sc[(sc.site.eq('macro'))&sc.tolerance.eq(tol)&sc.comparison.eq('full_agent_minus_random_source_robust')].iloc[0]
         rows.append(['Conventional' if tol=='inf' else tol+' years']+[f(s.loc[k,'auc']) for k in ['full_agent','random_source_robust','evolutionary_robust','taxonomy_diverse_robust']]+[ci(c.difference,c.ci_low,c.ci_high)])
     table('sensitivity_table',['Metric','Agent','Random','Evolutionary','Taxonomy','Agent $-$ random [95\\% CI]'],rows,'lrrrrr',
-        'Secondary metric sensitivity on the original full cohort at B=10. Interfaces, source fits and selections are fixed; only the evaluation metric changes. Conventional AUROC does not condition on age.','tab:sensitivity',True)
+        'Metric sensitivity at B=10, using the same features and fitted models. Conventional AUROC includes all positive--negative pairs without an age filter.','tab:sensitivity',True)
     excluded=pd.read_csv(OUT/'overlap_exclusion_sensitivity.csv')
     rows=[]
     for site in ['S0001','macro_three_retained_sites','macro_I0002_I0006_only']:
@@ -115,14 +113,14 @@ def main():
         label={'S0001':'S0001 retained (7 people, 4 pairs)','macro_three_retained_sites':'Macro, three retained sites','macro_I0002_I0006_only':'Macro, I0002 and I0006 only'}[site]
         rows.append([label]+[f(s.loc[k,'auc']) for k in ['full_agent','random_source_robust','evolutionary_robust','taxonomy_diverse_robust']])
     table('exclusion_table',['Evaluation set','Agent','Random','Evolutionary','Taxonomy'],rows,'lrrrr',
-        'Secondary B=10 sensitivity after excluding model-development matches from target evaluation, with original interfaces and source-fitted probes fixed. The seven-person S0001 remainder is too sparse to establish reliable independent validation. The two-site macro is a separate descriptive estimand.','tab:exclusion',True)
+        'AUROC after excluding development-list matches from test data at B=10. Training data and selected features are unchanged. The two-hospital mean is a separate descriptive comparison.','tab:exclusion',True)
     order=['full_agent','random_source_robust','evolutionary_robust','taxonomy_diverse_robust']
-    rows=[['Original three-site benchmark']+[f(means.loc[(k,10)]) for k in order]]
-    for site,label in [('macro_I0002_I0006_only','I0002/I0006 descriptive summary'),('macro_three_retained_sites','Three-site development-exclusion sensitivity')]:
+    rows=[['Full sample (three hospitals)']+[f(means.loc[(k,10)]) for k in order]]
+    for site,label in [('macro_I0002_I0006_only','I0002/I0006'),('macro_three_retained_sites','Development matches excluded')]:
         s=excluded[excluded.site.eq(site)].set_index('method')
         rows.append([label]+[f(s.loc[k,'auc']) for k in order])
-    table('evaluation_scope_table',['Evaluation scope','Agent','Random','Evolutionary','Taxonomy'],rows,'lrrrr',
-        'B=10 scores under distinct evaluation scopes. The two-site summary is post hoc and retains all original source fits, including the other institution. The development-exclusion sensitivity retains seven S0001 participants and four eligible pairs; it is too sparse for reliable independent third-site validation. The rows are not interchangeable estimates.','tab:scope',True)
+    table('evaluation_scope_table',['Test sample','Agent','Random','Evolutionary','Taxonomy'],rows,'lrrrr',
+        'B=10 AUROC in the full sample, I0002/I0006 and the development-exclusion analysis. Features and training data are unchanged. Exclusion leaves seven S0001 participants and four eligible pairs.','tab:scope',True)
     catalog=pd.read_csv(PACKAGE/'data/heads.csv').set_index('head_id').taxonomy_category.to_dict()
     selected=m[m.method.eq('full_agent')&m.selector.eq('robust')].copy()
     selected['category_count']=selected.quartet_key.map(lambda q:len({catalog[h] for h in q.split('|')}))
@@ -134,14 +132,14 @@ def main():
         sc=selected[selected.budget.eq(b)].category_count.mean()
         j=convergence[convergence.method.eq('full_agent')&convergence.budget.eq(b)].mean_jaccard_selected_heads.mean()
         rows.append([str(b),f'{pc:.2f}',f'{sc:.2f}',f'{j:.3f}'])
-    table('structure_table',['Budget','Proposed','Selected','Head overlap'],rows,'rrrr',
-        'Physiological category coverage and convergence. Proposed and selected columns give mean distinct categories per quartet. Head overlap is mean pairwise Jaccard similarity of selected heads across runs, averaged over institutions. Categories were visible to the controller; no diversity rule was enforced.','tab:structure')
+    table('structure_table',['Budget','Proposed','Selected','Overlap'],rows,'rrrr',
+        'Feature diversity and recurrence. Proposed and selected columns show mean categories per quartet. Overlap is mean pairwise Jaccard similarity across selected sets, averaged over hospitals.','tab:structure')
     if (OUT/'feedback_ablation_summary.csv').exists():
         fb=pd.read_csv(OUT/'feedback_ablation_summary.csv');rows=[]
         for r in fb.itertuples():
             rows.append([tex(r.site),f(r.feedback_auc),f(r.no_feedback_auc),ci(r.difference,r.participant_ci_low,r.participant_ci_high),f'[{r.run_ci_low:+.3f}, {r.run_ci_high:+.3f}]'])
         table('feedback_table',['Site','Feedback','No feedback','$\\Delta$ [participant 95\\% CI]','Run 95\\% CI'],rows,'lrrrr',
-            'Post hoc paired ten-query feedback ablation. Each arm shares the same archived five-candidate opening; both continuations use the same current model ID and source selector. Ten paired continuations per institution. Intervals describe separate conditional uncertainty sources.','tab:feedback',True)
+            'Paired feedback comparison at ten evaluations. Each pair shares its first five candidates; both groups use the same model and minimum-source selection. Ten pairs per hospital.','tab:feedback',True)
         macro=fb[fb.site.eq('macro')].iloc[0]
         macros={'FeedbackAUC':f(macro.feedback_auc),'NoFeedbackAUC':f(macro.no_feedback_auc),
              'FeedbackContrast':ci(macro.difference,macro.participant_ci_low,macro.participant_ci_high),
