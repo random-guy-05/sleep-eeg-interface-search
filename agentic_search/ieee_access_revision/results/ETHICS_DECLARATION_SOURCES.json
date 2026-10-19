@@ -1,0 +1,47 @@
+{
+  "accessed_date_local": "2026-10-18",
+  "ethics_placeholder_replaced": true,
+  "source_dataset_irb": "BIDMC 2022P000417",
+  "source_deidentification": "HIPAA Safe Harbor",
+  "source_informed_consent": "waived under original dataset protocol",
+  "consent_for_publication": "Not applicable; no identifiable participant information presented",
+  "sources": [
+    {
+      "url": "https://moody-challenge.physionet.org/2026/",
+      "section": "Data",
+      "supports": [
+        "BIDMC IRB protocol number",
+        "Safe Harbor deidentification",
+        "waiver of informed consent"
+      ]
+    },
+    {
+      "url": "https://bdsp.io/content/hsp/3.0/",
+      "sections": [
+        "Ethics",
+        "Access"
+      ],
+      "supports": [
+        "source IRB and consent waiver",
+        "credentialed access",
+        "project data-use agreement and license"
+      ]
+    },
+    {
+      "url": "https://bdsp.io/content/hsp/2.0/",
+      "sections": [
+        "Ethics",
+        "Release Notes",
+        "Access"
+      ],
+      "notes": "Earlier release has its own access and publication conditions. No inference of unrestricted publication permission or author-specific access compliance is made."
+    }
+  ],
+  "not_asserted": [
+    "A new author-specific IRB approval or exemption",
+    "Verified author credentialing or signed DUA",
+    "Current concurrent-review status"
+  ],
+  "prior_publication": "Author confirmed on October 18, 2026: not previously published",
+  "remaining_author_placeholders": []
+}

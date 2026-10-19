@@ -14,8 +14,7 @@
   "original_source_regression_checks_exact": 3,
   "bootstrap_draws": 50000,
   "primary_extension_difference": -0.0066389465794728,
-  "author_placeholders_remaining": [
-    "Ethics/data authorization",
-    "Prior publication/review status"
-  ]
+  "author_placeholders_remaining": [],
+  "ethics_declaration": "Official Challenge source-dataset BIDMC IRB 2022P000417; Safe Harbor deidentification; informed-consent waiver; no author-specific approval or exemption asserted",
+  "prior_publication": "Author confirmed: work has not been published previously. Concurrent-review status is not asserted."
 }

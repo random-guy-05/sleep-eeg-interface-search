@@ -106,7 +106,7 @@ def main():
             ax.set_xticks([0,1],['No feedback','Feedback'],rotation=20);ax.set_title(site);ax.set_ylim(0,1)
         axes[0].set_ylabel('Held-site age-conditioned AUROC');fig.tight_layout();fig.savefig(PAPER/'feedback.pdf');plt.close(fig)
     prompt=(PACKAGE/'configs/prompts/full_agent.txt').read_text()
-    (PAPER/'controller_prompt.tex').write_text('\\begin{quote}\\small\\raggedright\\sloppy\n'+tex(prompt).replace('\n\n','\n\n')+'\n\\end{quote}\n')
+    (PAPER/'controller_prompt.tex').write_text('\\begin{quote}\\small\\raggedright\\sloppy\n'+tex(prompt).replace(',',r',\allowbreak{} ').replace('\n\n','\n\n')+'\n\\end{quote}\n')
     print('Generated tables and figures')
 
 if __name__=='__main__':main()

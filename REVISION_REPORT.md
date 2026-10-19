@@ -12,7 +12,7 @@ The requested work has been implemented as a separate journal revision, not writ
 | Statistics | Conditional participant and paired-run intervals separated; zero-pair draws accounted for; all budgets retained; post hoc contrast status explicit | Neither bootstrap creates new clinical cohorts or removes sampling/development exposure |
 | Sensitivity | One-year, two-year, three-year and conventional AUROC on fixed selections; conservative-development target exclusions | Metric robustness does not establish independent external validation |
 | Reproducibility | Code, prompts, query histories, aggregate tables, checksums, environment lock, build scripts, tests and privacy-reviewed release | Protected private inputs and missing legacy extraction evidence are not redistributable/recoverable |
-| Journal conversion | Official IEEE Access class; authors/affiliation/correspondence/biographies; no funding or conflicts; AI disclosure | Ethics and prior-publication statements remain placeholders at the user's request |
+| Journal conversion | Official IEEE Access class; authors/affiliation/correspondence/biographies; no funding or conflicts; AI disclosure | Source-dataset ethics/consent and access terms filled from official documentation; no prior publication confirmed by the author |
 
 ## New paired experiment
 
@@ -44,7 +44,7 @@ The separate two-site I0002/I0006 descriptive macro remains favorable (agent 0.6
 - Separated Luna's model-choice values (0.6004 at B=10) from its fixed-robust value (0.6021), and explained the 29/30 valid final choices at larger budgets.
 - Stated that the original hypothesis contrasts and focal B=10 presentation are exploratory; no retroactive preregistration claim.
 - Preserved the favorable 500-bank point estimate together with its zero-spanning participant interval.
-- Kept author-required placeholders explicit and made no claim of completed journal submission or guaranteed acceptance.
+- Filled source-dataset ethics/consent and access declarations from official documentation, filled the no-prior-publication declaration from author confirmation, and made no claim of author-specific approval/exemption, completed journal submission or guaranteed acceptance.
 
 ## Sources verified on October 18, 2026
 
@@ -55,3 +55,9 @@ The separate two-site I0002/I0006 descriptive macro remains favorable (agent 0.6
 - Human Sleep Project paper identity: https://pubmed.ncbi.nlm.nih.gov/42555111/
 
 Local primary evidence is in `results/`, with private individual-level material explicitly labeled `*_private.parquet`. Public-release materials must not include those files.
+
+## Ethics declaration update — October 18, 2026
+
+Replaced the ethics placeholder with a source-attributed statement: secondary analysis of deidentified HSP/Challenge data; source release under BIDMC IRB No. 2022P000417; HIPAA Safe Harbor deidentification; source-study informed-consent waiver; no new recruitment, intervention or participant contact; no identifiable participant information presented. Added the BDSP credentialing and data-use requirements to Data and Code Availability. These website statements do not certify the authors' own access compliance or a separate local review determination. The author subsequently confirmed that the work has not been published previously; that declaration is now filled.
+
+The author confirmed on October 18, 2026 that this work has not been published previously. The corresponding declaration now states that fact without asserting an unverified concurrent-review status. No author placeholders remain in the manuscript.
