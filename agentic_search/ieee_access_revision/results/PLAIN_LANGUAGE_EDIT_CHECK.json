@@ -2,9 +2,9 @@
   "status": "pass",
   "scope": "Prose, captions and diagram labels only; no scientific result or original controller prompt changed.",
   "main_words_before_references_before": 4054,
-  "main_words_before_references_after": 3301,
-  "main_word_reduction_percent": 18.6,
-  "abstract_words": 156,
+  "main_words_before_references_after": 3191,
+  "main_word_reduction_percent": 21.3,
+  "abstract_words": 154,
   "scientific_files_unchanged": 20,
   "terms_removed_from_authored_main_prose": {
     "frozen": 7,
@@ -27,7 +27,18 @@
     "pipeline": 0,
     "framework": 0,
     "immutable": 0,
-    "manifest": 0
+    "manifest": 0,
+    "delve": 0,
+    "leverage": 0,
+    "pivotal": 0,
+    "groundbreaking": 0,
+    "transformative": 0,
+    "unlock": 0,
+    "underscores": 0,
+    "paves the way": 0,
+    "holds promise": 0,
+    "more broadly": 0,
+    "concrete role": 0
   },
-  "followup": "IEEE style update: expanded contribution and literature comparisons, corrected citations and index terms, added saved comparison intervals to the figure. Scientific analyses unchanged."
+  "followup": "Full manuscript and supplement diction revision; original prompt and scientific results unchanged."
 }

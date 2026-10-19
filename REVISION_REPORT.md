@@ -103,3 +103,7 @@ Reverted the previous Discussion expansion following user correction. Revised fr
 ## IEEE Access style and positioning update — October 19, 2026
 
 Expanded the Introduction to explain the selection problem and state three contributions. Added direct comparisons with LLM-Select and Dardour/Yanes, and connected the selection discussion to Cawley/Talbot. Strengthened the abstract closing sentence. Ordered references by first use, alphabetized index terms, defined main-text acronyms and placed the singular Acknowledgment before References. Enlarged the performance figure to two panels, adding the three saved ten-evaluation participant-bootstrap contrasts. No new analyses; Results text, Limitations and Conclusion are unchanged apart from the figure caption. Main: seven pages; supplement: four. All 20 tracked scientific input/result hashes match.
+
+## Technical diction revision — October 19, 2026
+
+Revised the main text, supplement and cover letter for consistent technical terminology and direct statements of methods, results and interpretation. Removed rhetorical questions, broad utility claims and repeated explanations. Added the relevant IEEE Access article by Jang et al. and reordered the 25 references by first citation. No analyses were rerun. All numerical values, material feedback/provenance findings, declarations and the original controller prompt are retained. Main: seven pages; supplement: four. Both PDFs compile from the source archive with matching text.

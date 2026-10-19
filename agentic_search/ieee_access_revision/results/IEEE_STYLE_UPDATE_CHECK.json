@@ -1,7 +1,7 @@
 {
   "status": "pass",
   "scope": "Introduction, abstract closing sentence, discussion literature comparisons, IEEE style and performance-figure presentation; no new experiments.",
-  "abstract_words": 162,
+  "abstract_words": 154,
   "introduction_source_words": 360,
   "reference_first_citation_order": [
     "bommasani",
@@ -14,6 +14,7 @@
     "miller",
     "llmselect",
     "dardour",
+    "jang",
     "boiko",
     "bran",
     "roohani",
@@ -29,15 +30,15 @@
     "agenticlsversion",
     "agenticlspolicy"
   ],
-  "source_sha256": "7288090597427a3de7d725eb5458032999b56d207741b3970ac6bd4bfdee0533",
+  "source_sha256": "784aa26b215189529895e90b3aad00e4839f9818d493347495059a96a0d30c76",
   "scientific_analyses_rerun": false,
-  "pdf_sha256": "2324c61da054e767a70f7d05fbb81a13ad9127709fabbfd19f853883531c5265",
+  "pdf_sha256": "006e1885f4a0834eaa7c0753654f95d9c7150561e7b1f887989610eab9ba77ba",
   "main_pages": 7,
   "supplement_pages": 4,
   "scientific_files_unchanged": 20,
-  "results_text_unchanged_except_figure_caption": true,
-  "limitations_subsection_unchanged": true,
-  "conclusion_unchanged": true,
+  "results_text_unchanged_except_figure_caption": false,
+  "limitations_subsection_unchanged": false,
+  "conclusion_unchanged": false,
   "index_terms_alphabetical": true,
   "main_text_acronyms_defined": true,
   "acknowledgment_heading_and_placement_correct": true,
@@ -54,5 +55,6 @@
     "framework": 0,
     "immutable": 0,
     "manifest": 0
-  }
+  },
+  "followup": "Diction revised throughout; scientific numerical values and material conclusions retained. Current evidence: DICTION_REVIEW_CHECK.json."
 }
