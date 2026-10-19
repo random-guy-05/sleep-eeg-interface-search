@@ -2,7 +2,7 @@
 
 This folder preserves the original September searches and manuscript unchanged and adds an explicitly post hoc October 18 extension.
 
-The revised main paper is `paper/paper.tex`, with complete technical details in `paper/supplement.tex`. The narrative leads with query efficiency, physiological structure and the reusable evaluation framework; the main paper explicitly retains the feedback null, development overlap and retained-sample reversal. Generated tables and figures read the saved numerical results directly. The final source archive includes the official May 2026 IEEE Access class and fonts. The ethics/consent and data-access declarations use the official Challenge and HSP documentation; the authors confirm that the work has not been published previously.
+The revised main paper is `paper/paper.tex`, with complete technical details in `paper/supplement.tex`. The narrative leads with query efficiency, physiological structure and the reusable evaluation framework; the main paper explicitly retains the feedback null, development overlap and retained-sample reversal. Generated tables and figures read the saved numerical results directly. The final source archive includes the official May 2026 IEEE Access class and fonts. The ethics/consent and data-access declarations use the official Challenge and HSP documentation; related accepted non-archival NeurIPS FMTS work and the added journal analyses are disclosed.
 
 ## What was completed
 
@@ -55,8 +55,9 @@ Patient-level outcomes, demographics, feature matrices, predictions and membersh
 
 ## Remaining author inputs
 
+- Confirm that both authors reviewed the AI-assisted manuscript and accept responsibility. This completed action is not inferred from a request to edit the declaration.
 - Confirm compliance with the applicable access/data-use terms. The stated BIDMC approval and consent waiver belong to the original source dataset; no separate author-specific approval or exemption is asserted.
-- Confirm any submission-system declaration about concurrent review separately; the authors have confirmed no prior publication.
+- Confirm the exact accepted FMTS title and any other related accepted workshop versions for complete bibliographic disclosure; confirm any submission-system concurrent-review declaration separately.
 - Review all revised text and findings, and supply ORCIDs for submission as applicable.
 - The unresolved model-development independence issue requires adequate untouched validation to support a stronger external-validation claim; manuscript formatting cannot resolve it.
 

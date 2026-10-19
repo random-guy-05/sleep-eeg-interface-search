@@ -117,14 +117,15 @@ def main():
              'FeedbackRunCI':f'[{macro.run_ci_low:+.3f}, {macro.run_ci_high:+.3f}]'}
         (PAPER/'results_macros.tex').write_text('\n'.join('\\newcommand{\\'+k+'}{'+v+'}' for k,v in macros.items())+'\n')
         paired=pd.read_csv(OUT/'paired_target_results.csv')
-        fig,axes=plt.subplots(1,3,figsize=(6.6,2.6),sharey=True)
+        fig,axes=plt.subplots(1,3,figsize=(7.2,3.8),sharey=True)
         for ax,site in zip(axes,['I0002','I0006','S0001']):
             p=paired[paired.site.eq(site)].pivot(index='seed',columns='arm',values='target_auc')
-            for r in p.itertuples():ax.plot([0,1],[r.no_feedback,r.feedback],color='#808080',alpha=.55,lw=.8)
-            ax.scatter(np.zeros(len(p)),p.no_feedback,s=12,c='#b2182b',label='No feedback')
-            ax.scatter(np.ones(len(p)),p.feedback,s=12,c='#2166ac',label='Feedback')
-            ax.set_xticks([0,1],['No feedback','Feedback'],rotation=20);ax.set_title(site);ax.set_ylim(0,1)
-        axes[0].set_ylabel('Held-site age-conditioned AUROC');fig.tight_layout();fig.savefig(PAPER/'feedback.pdf');plt.close(fig)
+            for r in p.itertuples():ax.plot([0,1],[r.no_feedback,r.feedback],color='#737373',alpha=.7,lw=1.15)
+            ax.scatter(np.zeros(len(p)),p.no_feedback,s=28,c='#b2182b',label='No feedback')
+            ax.scatter(np.ones(len(p)),p.feedback,s=28,c='#2166ac',label='Feedback')
+            ax.set_xticks([0,1],['No feedback','Feedback'],rotation=18,fontsize=10);ax.set_title(site,fontsize=12);ax.set_ylim(0,1)
+            ax.tick_params(axis='y',labelsize=10);ax.grid(axis='y',color='#dddddd',lw=.5);ax.set_axisbelow(True)
+        axes[0].set_ylabel('Held-site age-conditioned AUROC',fontsize=11);fig.tight_layout();fig.savefig(PAPER/'feedback.pdf');plt.close(fig)
     prompt=(PACKAGE/'configs/prompts/full_agent.txt').read_text()
     (PAPER/'controller_prompt.tex').write_text('\\begin{quote}\\small\\raggedright\\sloppy\n'+tex(prompt).replace(',',r',\allowbreak{} ').replace('\n\n','\n\n')+'\n\\end{quote}\n')
     # Keep supplementary tables beside their discussion in the standalone article.

@@ -1,0 +1,27 @@
+{
+  "status": "author_confirmation_pending",
+  "ai_disclosure_location": "Acknowledgments",
+  "section_level_ai_citations": [
+    "Methods",
+    "Results",
+    "Discussion"
+  ],
+  "completed_author_review_confirmed": false,
+  "data_use_authorization_confirmed": false,
+  "public_requirements_verified": true,
+  "source_irb_does_not_establish_secondary_access": true,
+  "related_workshop": {
+    "venue": "NeurIPS 2026 FMTS",
+    "accepted_status_source": "Current user instruction",
+    "non_archival_policy": "https://fmts-workshop.github.io/cfp.html",
+    "exact_title_confirmation_pending": true
+  },
+  "plot": "Supplementary Figure S1 enlarged; same 30 pairs and numerical inputs",
+  "science_unchanged": true,
+  "sources": [
+    "https://ieeeaccess.ieee.org/authors/submission-guidelines/",
+    "https://fmts-workshop.github.io/cfp.html",
+    "https://bdsp.io/content/hsp/3.0/",
+    "https://bdsp.io/content/hsp/view-dua/3.0/"
+  ]
+}

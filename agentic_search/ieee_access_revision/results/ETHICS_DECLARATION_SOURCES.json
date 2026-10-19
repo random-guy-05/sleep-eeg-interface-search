@@ -42,6 +42,8 @@
     "Verified author credentialing or signed DUA",
     "Current concurrent-review status"
   ],
-  "prior_publication": "Author confirmed on October 18, 2026: not previously published",
-  "remaining_author_placeholders": []
+  "prior_publication": "October 19 correction: user reports related accepted non-archival FMTS work, now disclosed.",
+  "remaining_author_placeholders": [],
+  "author_review": "Pending explicit confirmation",
+  "author_access_and_dua_compliance": "Pending explicit confirmation; public website cannot certify individual authorization"
 }

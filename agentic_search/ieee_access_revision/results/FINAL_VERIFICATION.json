@@ -16,8 +16,10 @@
   "primary_extension_difference": -0.0066389465794728,
   "author_placeholders_remaining": [],
   "ethics_declaration": "Official Challenge source-dataset BIDMC IRB 2022P000417; Safe Harbor deidentification; informed-consent waiver; no author-specific approval or exemption asserted",
-  "prior_publication": "Author confirmed: work has not been published previously. Concurrent-review status is not asserted.",
+  "prior_publication": "Superseded October 19: accepted non-archival NeurIPS FMTS work disclosed; exact title and other workshop versions await confirmation.",
   "narrative_reframe": "Main and supplement restructured; all material feedback and provenance findings retained in main.",
   "scientific_files_unchanged": 20,
-  "reporting_correction": "Proposed B10 category mean 3.44; robust-selected B10 mean 3.633333; no scientific analyses rerun."
+  "reporting_correction": "Proposed B10 category mean 3.44; robust-selected B10 mean 3.633333; no scientific analyses rerun.",
+  "author_review": "Pending explicit author confirmation; no claim of completed review.",
+  "data_use_authorization": "Public requirements verified; individual authorization and DUA compliance await author confirmation."
 }
