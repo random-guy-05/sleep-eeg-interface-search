@@ -1,0 +1,8 @@
+{
+  "agentic_search/data/participants.parquet": "6ec97d455758657b0bf7b4a2d488222a862b067b0f6ecfa14e8af6495fe09a34",
+  "agentic_search/sealed/target_labels.parquet": "bdb1925141db6bd1fbed27eb04ee29a241ede7082ea248322139da33e7d272f5",
+  "agentic_search/data/source_folds/I0002.parquet": "4ae1b78a1e46d4cbfb844776ef12e051b2ced2a99b13c1412350d2944d836521",
+  "agentic_search/data/source_folds/S0001.parquet": "b20cb019d897582819799f0c9c4aed81e5d66490458cb0b4d2f35a74e89f7cb2",
+  "agentic_search/data/source_folds/I0006.parquet": "ffe3e9fb13b40b6ca7db95a9194ad638ef34baab126c5ee112ba1d8cae980326",
+  "brainbodyfm/cache/common_interface_manifest.csv": "f3acbd04603c3c21b850f27382bafefb72aa18c51e16fb7bbf97ec1a7ba033b7"
+}

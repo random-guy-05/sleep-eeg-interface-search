@@ -2,7 +2,7 @@ __pycache__/
 *.pyc
 .venv/
 *.sqlite*
-*private*
+*_private.parquet
 agentic_search/data/source_folds/
 agentic_search/data/participants.parquet
 agentic_search/sealed/

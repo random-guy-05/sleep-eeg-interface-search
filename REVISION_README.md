@@ -58,3 +58,7 @@ Patient-level outcomes, demographics, feature matrices, predictions and membersh
 - The unresolved model-development independence issue requires adequate untouched validation to support a stronger external-validation claim; manuscript formatting cannot resolve it.
 
 No journal submission has been made.
+
+## Published code release
+
+The screened code and aggregate-results repository was published and read back successfully on October 18, 2026: https://github.com/random-guy-05/sleep-eeg-interface-search . The journal manuscript was not posted there and no journal submission was made.

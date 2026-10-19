@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "source_candidate_slots": 600,
+  "paired_runs": 30,
+  "continuation_arms": 60,
+  "calls": 60,
+  "repairs": 0,
+  "fallbacks": 0,
+  "shared_openings_verified": true,
+  "source_selector_verified": true,
+  "target_gate_hashes_verified": true,
+  "no_feedback_numeric_history_withheld": true,
+  "focused_tests_passed": 13,
+  "original_source_regression_checks_exact": 3,
+  "bootstrap_draws": 50000,
+  "primary_extension_difference": -0.0066389465794728,
+  "author_placeholders_remaining": [
+    "Ethics/data authorization",
+    "Prior publication/review status"
+  ]
+}

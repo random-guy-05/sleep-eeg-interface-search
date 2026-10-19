@@ -48,7 +48,7 @@ def main():
         cols=set(pd.read_csv(p,nrows=0).columns)
         if cols&prohibited:raise ValueError('Private columns in purported aggregate: '+str(p))
         copy(p)
-    for name in ['extension_protocol.json','pretarget_manifest.json','target_release.json','cohort_audit.json','provenance_audit.json','runtime_reproduction_check.json']:
+    for name in ['extension_protocol.json','pretarget_manifest.json','target_release.json','cohort_audit.json','provenance_audit.json','runtime_reproduction_check.json','FINAL_VERIFICATION.json']:
         copy(REV/'results'/name)
     for d in ['continuations','controller_logs']:
         for p in (REV/'results'/d).rglob('*'):
@@ -63,7 +63,7 @@ def main():
     private=[PACKAGE/'data/participants.parquet',PACKAGE/'sealed/target_labels.parquet',
         *list((PACKAGE/'data/source_folds').glob('*.parquet')),ROOT/'brainbodyfm/cache/common_interface_manifest.csv']
     (DEST/'PRIVATE_INPUT_HASHES.json').write_text(json.dumps({str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in private},indent=2)+'\n')
-    (DEST/'.gitignore').write_text('__pycache__/\n*.pyc\n.venv/\n*.sqlite*\n*private*\nagentic_search/data/source_folds/\nagentic_search/data/participants.parquet\nagentic_search/sealed/\nbrainbodyfm/cache/\n')
+    (DEST/'.gitignore').write_text('__pycache__/\n*.pyc\n.venv/\n*.sqlite*\n*_private.parquet\nagentic_search/data/source_folds/\nagentic_search/data/participants.parquet\nagentic_search/sealed/\nbrainbodyfm/cache/\n')
     # Scan every released text file against actual private subject/record identifiers.
     m=pd.read_csv(ROOT/'brainbodyfm/cache/common_interface_manifest.csv',dtype=str)
     ids=set(m.subject_id)|set(m.record_id)|set('sub-'+m.site+m.subject_id)
