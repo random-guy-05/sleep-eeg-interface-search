@@ -41,6 +41,8 @@ mkdir -p agentic_search/ieee_access_revision/paper
 
 These operations use aggregate files only. They do not rerun a patient-level analysis or model calls.
 
+For the independent category/supplement check, extract the separately supplied manuscript source archive into `agentic_search/ieee_access_revision/paper/` and place the main and supplementary PDFs there as `paper.pdf` and `supplement.pdf` (including the compilation log). Run `python3 agentic_search/ieee_access_revision/reproducibility/checks/verify_category_and_supplement.py`. It reconstructs category counts and robust selections from the 90 released original run histories, cross-checks the tables, and inspects the supplied supplement. B=10 gives 1,032/300 = 3.44 categories among proposals and 109/30 = 3.633333 among source-selected quartets. This checks existing artifacts without new searches or clinical fitting.
+
 ## Authorized-data reproduction
 
 Obtain the [Human Sleep Project/Challenge data](https://moody-challenge.physionet.org/2026/) under its access requirements. Source EEG and derived representations remain subject to their applicable data terms. The [model inference repository](https://github.com/bdsp-core/philosophers-stone) describes authorized extraction. Verify its [training/development provenance](https://github.com/bdsp-core/philosophers-stone/tree/master/paper/provenance) before calling a validation set independent.
