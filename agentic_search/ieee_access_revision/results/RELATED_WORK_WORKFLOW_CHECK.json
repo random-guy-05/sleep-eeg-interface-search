@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "scope": "Focused related-work addition, protocol diagram and procedure-utility clarification; all scientific results unchanged.",
+  "new_references": [
+    {
+      "key": "llmselect",
+      "authors": "Daniel P. Jeong; Zachary C. Lipton; Pradeep Ravikumar",
+      "title": "LLM-Select: Feature Selection with Large Language Models",
+      "venue": "Transactions on Machine Learning Research",
+      "year": 2025,
+      "primary_source": "https://arxiv.org/abs/2407.02694",
+      "claims_used": "Feature names/task descriptions; scoring, ranking and sequential selection; TMLR publication stated on author-submitted arXiv page and official repository."
+    },
+    {
+      "key": "dardour",
+      "authors": "Sondes Dardour; Nacim Yanes",
+      "title": "Leveraging Large Language Models for Feature Selection in Drug Recommendation Systems",
+      "year": 2025,
+      "doi": "10.1002/cpe.70370",
+      "primary_source": "https://onlinelibrary.wiley.com/doi/10.1002/cpe.70370",
+      "claims_used": "Prompt-based feature selection for clinical drug recommendation with downstream XGBoost; publisher abstract and bibliographic metadata."
+    }
+  ],
+  "existing_reference_spot_checks": [
+    {
+      "key": "miller",
+      "primary_source": "https://proceedings.mlr.press/v139/miller21b.html"
+    },
+    {
+      "key": "biot",
+      "primary_source": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/f6b30f3e2dd9cb53bbf2024402d02295-Abstract.html"
+    },
+    {
+      "key": "eegpt",
+      "primary_source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/4540d267eeec4e5dbd9dae9448f0b739-Abstract-Conference.html"
+    }
+  ],
+  "positioning": "Extension to joint four-head interfaces on a frozen physiological model and matched-budget source/held-institution protocol; no first-ever LLM feature-selection or direct superiority claim over cited studies.",
+  "workflow": "Existing procedure only: catalog, batch proposals, directional source evaluation, robust selection, all-run freeze, refit and held-site scoring; source-score feedback returns only to proposal stage.",
+  "main_pages": 8,
+  "supplement_pages": 5,
+  "workflow_main_pdf_min_checked_font_points": 8.154719352722168,
+  "workflow_visual_review": "No label/border overlaps; source-feedback loop and release gate legible; vector text.",
+  "figure_numbering": "Workflow Figure 1; budget comparison Figure 2; paired supplement figure unchanged.",
+  "numerical_results_unchanged": true
+}

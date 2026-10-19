@@ -27,9 +27,40 @@ def table(name,headers,rows,spec,caption,label,wide=False):
     text+='\n\\bottomrule\n\\end{tabular}\n\\end{'+env+'}\n'
     (PAPER/(name+'.tex')).write_text(text)
 
+def workflow_figure():
+    """Vector diagram of the existing controller/source/target-release protocol."""
+    from matplotlib.patches import FancyBboxPatch
+    fig,ax=plt.subplots(figsize=(7.2,1.75))
+    ax.set_xlim(0,7.2);ax.set_ylim(-.02,1.80);ax.axis('off')
+    cards=[('Catalog','539 heads\n11 categories'),
+           ('Propose','Batch of 5\n4 heads each'),
+           ('Source probes','A to B; B to A\nsource-tuned C'),
+           ('Select','best minimum\nsource AUROC'),
+           ('Freeze','all proposals\nand choices'),
+           ('Score held site','refit on sources\nthen evaluate H')]
+    positions=[.06+1.2*i for i in range(6)];width=1.08;bottom=.59;height=.80
+    for i,((heading,body),x) in enumerate(zip(cards,positions)):
+        color='#edf4fb' if i<4 else '#e8f3ed'
+        ax.add_patch(FancyBboxPatch((x,bottom),width,height,boxstyle='round,pad=0.015,rounding_size=0.035',facecolor=color,edgecolor='#496579',lw=.8))
+        ax.text(x+width/2,1.18,heading,ha='center',va='center',fontsize=8.7,fontweight='bold')
+        ax.text(x+width/2,.88,body,ha='center',va='center',fontsize=8.4,linespacing=1.3)
+        if i<5:
+            ax.annotate('',xy=(positions[i+1]-.02,.99),xytext=(x+width+.015,.99),arrowprops=dict(arrowstyle='->',lw=.85,color='#425563'))
+    ax.text(2.99,1.61,'SOURCE-ONLY SEARCH AND SELECTION',ha='center',va='center',fontsize=8.4,fontweight='bold',color='#31546e')
+    ax.text(6.60,1.61,'HELD SITE',ha='center',va='center',fontsize=8.4,fontweight='bold',color='#315e44')
+    ax.plot([5.99,5.99],[.48,1.43],ls=(0,(3,2)),lw=.8,color='#547c64')
+    ax.plot([3.0,3.0,1.8],[.56,.23,.23],lw=.85,color='#31546e')
+    ax.annotate('',xy=(1.8,.57),xytext=(1.8,.23),arrowprops=dict(arrowstyle='->',lw=.85,color='#31546e'))
+    ax.text(2.42,.07,'Source scores; repeat to budget B',ha='center',va='center',fontsize=8.4,color='#31546e')
+    ax.text(5.98,.22,'Manifest verified\nbefore held-site scoring',ha='center',va='center',fontsize=8.4,color='#315e44',linespacing=1.15)
+    fig.subplots_adjust(left=0,right=1,bottom=0,top=1)
+    fig.savefig(PAPER/'workflow.pdf');plt.close(fig)
+
+
 def main():
     PAPER.mkdir(parents=True,exist_ok=True)
     plt.rcParams.update({'font.size':9,'axes.spines.top':False,'axes.spines.right':False,'pdf.fonttype':42})
+    workflow_figure()
     m=pd.read_csv(PACKAGE/'analysis/output/final_selection_metrics.csv')
     wanted=((m.method.eq('full_agent')&m.selector.eq('robust'))|
        (m.method.eq('random_source_robust')&m.selector.eq('source_robust'))|
