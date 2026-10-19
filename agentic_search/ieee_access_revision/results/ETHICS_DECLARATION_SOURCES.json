@@ -39,11 +39,11 @@
   ],
   "not_asserted": [
     "A new author-specific IRB approval or exemption",
-    "Verified author credentialing or signed DUA",
+    "Independent inspection of author credentialing or signed DUA records",
     "Current concurrent-review status"
   ],
-  "prior_publication": "October 19 correction: user reports related accepted non-archival FMTS work, now disclosed.",
+  "prior_publication": "Corrected October 19: user identifies accepted non-archival AgenticLS paper, now named/cited; FMTS attribution superseded.",
   "remaining_author_placeholders": [],
-  "author_review": "Pending explicit confirmation",
-  "author_access_and_dua_compliance": "Pending explicit confirmation; public website cannot certify individual authorization"
+  "author_review": "Both-author manuscript review and responsibility confirmed directly by the user on October 19, 2026.",
+  "author_access_and_dua_compliance": "Authorized credentialed HSP analysis compliant with DUA, confirmed directly by the user on October 19, 2026; no independent inspection of credentialing or signed forms claimed."
 }

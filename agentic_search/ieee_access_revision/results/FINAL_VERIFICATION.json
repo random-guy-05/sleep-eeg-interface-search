@@ -16,10 +16,10 @@
   "primary_extension_difference": -0.0066389465794728,
   "author_placeholders_remaining": [],
   "ethics_declaration": "Official Challenge source-dataset BIDMC IRB 2022P000417; Safe Harbor deidentification; informed-consent waiver; no author-specific approval or exemption asserted",
-  "prior_publication": "Superseded October 19: accepted non-archival NeurIPS FMTS work disclosed; exact title and other workshop versions await confirmation.",
+  "prior_publication": "Accepted non-archival NeurIPS 2026 AgenticLS version, Ten Queries Beat Five Hundred, explicitly cited and differentiated from the added journal analyses; earlier FMTS attribution corrected.",
   "narrative_reframe": "Main and supplement restructured; all material feedback and provenance findings retained in main.",
   "scientific_files_unchanged": 20,
   "reporting_correction": "Proposed B10 category mean 3.44; robust-selected B10 mean 3.633333; no scientific analyses rerun.",
-  "author_review": "Pending explicit author confirmation; no claim of completed review.",
-  "data_use_authorization": "Public requirements verified; individual authorization and DUA compliance await author confirmation."
+  "author_review": "Both authors reviewed the AI-assisted manuscript and accept responsibility, confirmed directly by the user on October 19, 2026.",
+  "data_use_authorization": "Authorized credentialed HSP use and DUA compliance confirmed directly by the user on October 19, 2026; no independent inspection of signed access documents claimed."
 }
