@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "scope": "Editorial reframing and main/supplement organization only; no search, model fit or bootstrap rerun.",
+  "scientific_files_unchanged": 20,
+  "scientific_file_sha256": {
+    "results/extension_protocol.json": "bba8a38f6d7bf191bd728ecfaba5ff40571f33a53a1828b0dd9a44d4ebb9c543",
+    "results/paired_target_results.csv": "d4b6ae7bfe3295ce05ca2d7976f18f43cc71d902fdae078b05ee33479767251c",
+    "results/cohort_flow.csv": "ba8eb1b2890f815c063d99d9a55c8b659d30de81f4b52ee80daff3f5a714cfa8",
+    "results/pretraining_membership_private.parquet": "0460eb96d273b516ed7b9c48a15892f71371c8298c5923a1d993cb122bdf1e34",
+    "results/metric_sensitivity.csv": "ced87337829d37150c0a2b1c733620a6c9d3b5adac696cf91c738adcf5f44ca7",
+    "results/overlap_exclusion_resampling.csv": "b771e82cff51284085f9ccb3d3ae298a288476ab6038aff7d983a6e3d10b51e6",
+    "results/overlap_exclusion_sensitivity.csv": "d5e3b5974719637d5fcd6e65d573b2a24766f2c8784f91bba701d433f5e77abd",
+    "results/paired_predictions_private.parquet": "dd94334908c75ef3138911c31ba603eaff1cc284a9b75702fd7fe5b421ccbc23",
+    "results/pretarget_manifest.json": "6e739cbb35d9c8806db6e2672d84911d8a4a144cf9e447f9bb0142d8eda97ef3",
+    "results/available_demographic_frame.csv": "734affc8b4d10a413aae091b2b55ad0c02027aae9622f93f3bfd5d4b1e29ccb7",
+    "results/pretraining_overlap_summary.csv": "7b4a2fd54d6c34f8379b4daa4ec478e8c1d721b6af4ba5644fbec7585e8c97ee",
+    "results/feedback_source_summary.csv": "d8207507787c5d5d3fc3c44a2e1acfd2b9ab34bb72b69bccbf8a0f8131ad2014",
+    "results/metric_sensitivity_contrasts.csv": "a24c29ca2d1893744c2cc14b8aca2e1792385983b2f6b1d443997d7762fe383a",
+    "results/metric_sensitivity_resampling.csv": "bff49cee28efd2aa246d7b47610d01649f481e25060d1e60e2a38585084c0c7c",
+    "results/source_choices.csv": "6990e9aadadb4757f93bdb5bbbd06357436ce7e289d002ab2c690d3543de57c9",
+    "results/target_release.json": "94c0191bb8522bae68de8051b8e2f2708a62731282ddb5de205b558c579ac26e",
+    "results/overlap_exclusion_contrasts.csv": "6de3ddcd62a091cc0b1ec8fced02b9296cbcf842d54e53932259399224c0a9f1",
+    "results/source_candidates.csv": "9e8e40d3252a2954df825b0e00dd0cffa95264b4c055ac2f25f126e9981fdacb",
+    "results/feedback_ablation_summary.csv": "108231a8e47d3145f6a531d95aeb28879aec6c777c85fecc3585ce4ff087a0ca",
+    "results/cohort_extraction_accounting.csv": "b1d58a69e916c8d8389d07b49dd91fe355b605c3640c6af25cdff48658d24661"
+  },
+  "material_findings_retained_in_main": [
+    "Matched feedback AUROC and paired interval",
+    "87 S0001 training-subject matches and 121 development matches",
+    "Seven retained S0001 participants and four pairs",
+    "Retained three-site macro 0.5818 versus random 0.5938",
+    "Two-site post hoc scope and retained original source fits"
+  ],
+  "reporting_correction": "Proposed B10 quartets average 3.44 categories; robust-selected B10 quartets average 3.633333. Earlier prose conflated proposed and selected category coverage.",
+  "full_details": "paper/supplement.tex"
+}

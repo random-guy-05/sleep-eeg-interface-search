@@ -2,7 +2,7 @@
 
 This folder preserves the original September searches and manuscript unchanged and adds an explicitly post hoc October 18 extension.
 
-The revised paper is `paper/paper.tex`. Generated tables and figures read the saved numerical results directly. The final source archive includes the official May 2026 IEEE Access class and fonts. The ethics/consent and data-access declarations use the official Challenge and HSP documentation; the authors confirm that the work has not been published previously.
+The revised main paper is `paper/paper.tex`, with complete technical details in `paper/supplement.tex`. The narrative leads with query efficiency, physiological structure and the reusable evaluation framework; the main paper explicitly retains the feedback null, development overlap and retained-sample reversal. Generated tables and figures read the saved numerical results directly. The final source archive includes the official May 2026 IEEE Access class and fonts. The ethics/consent and data-access declarations use the official Challenge and HSP documentation; the authors confirm that the work has not been published previously.
 
 ## What was completed
 
@@ -15,6 +15,9 @@ The revised paper is `paper/paper.tex`. Generated tables and figures read the sa
 - Built a journal manuscript with author names, affiliations, correspondence, biographies, funding/conflict declarations and AI assistance disclosure.
 
 ## Main findings
+
+At ten candidate evaluations, the original benchmark macro is 0.6302 for agent search, 0.5644 for matched random search and 0.5503 for evolutionary search. Repeated selections span physiological categories and return to overlapping heads; the taxonomy comparator remains competitive. Proposed B=10 quartets average 3.44 categories, while robust-selected quartets average 3.63. These are different denominators. The I0002/I0006 post hoc descriptive macro is 0.6727 versus 0.5757 for random search, retaining all original source fits.
+
 
 The matched feedback arm scores 0.612189 and no-feedback scores 0.618828. The difference is -0.006639, participant 95% interval [-0.029093, +0.014980], paired-run interval [-0.029306, +0.014971]. Feedback improves the selected minimum source AUROC by 0.017308 but does not establish a held-site advantage.
 
@@ -33,7 +36,7 @@ python3 -m agentic_search.ieee_access_revision.scripts.build_paper
 python3 -m pytest agentic_search/ieee_access_revision/tests -q
 ```
 
-The first four operations require the authorized private historical data/feature inputs described in the scripts. `build_paper` uses released aggregate outputs only. Compile the multi-file journal source with **pdfLaTeX**, twice, from `paper/`. The official IEEE Access class uses pdfTeX spot-color primitives and does not compile unmodified with Tectonic/XeTeX. A temporary TinyTeX runtime was used for local verification; it is not part of the release or a change to the user's global TeX installation.
+The first four operations require the authorized private historical data/feature inputs described in the scripts. `build_paper` uses released aggregate outputs only. Compile both `paper.tex` and `supplement.tex` with **pdfLaTeX**, twice each, from `paper/`. The official IEEE Access class uses pdfTeX spot-color primitives and does not compile unmodified with Tectonic/XeTeX. A temporary TinyTeX runtime was used for local verification; it is not part of the release or a change to the user's global TeX installation.
 
 To rerun controller generation, use a fresh output destination or an independent copy of this package. The archived extension refuses changed hashed inputs and resumes completed arms rather than silently rerolling them:
 

@@ -85,6 +85,26 @@ def main():
         rows.append([label]+[f(s.loc[k,'auc']) for k in ['full_agent','random_source_robust','evolutionary_robust','taxonomy_diverse_robust']])
     table('exclusion_table',['Evaluation set','Agent','Random','Evolutionary','Taxonomy'],rows,'lrrrr',
         'Secondary B=10 sensitivity after excluding model-development matches from target evaluation, with original interfaces and source-fitted probes fixed. The seven-person S0001 remainder is too sparse to establish reliable independent validation. The two-site macro is a separate descriptive estimand.','tab:exclusion',True)
+    order=['full_agent','random_source_robust','evolutionary_robust','taxonomy_diverse_robust']
+    rows=[['Original three-site benchmark']+[f(means.loc[(k,10)]) for k in order]]
+    for site,label in [('macro_I0002_I0006_only','I0002/I0006 descriptive summary'),('macro_three_retained_sites','Three-site development-exclusion sensitivity')]:
+        s=excluded[excluded.site.eq(site)].set_index('method')
+        rows.append([label]+[f(s.loc[k,'auc']) for k in order])
+    table('evaluation_scope_table',['Evaluation scope','Agent','Random','Evolutionary','Taxonomy'],rows,'lrrrr',
+        'B=10 scores under distinct evaluation scopes. The two-site summary is post hoc and retains all original source fits, including the other institution. The development-exclusion sensitivity retains seven S0001 participants and four eligible pairs; it is too sparse for reliable independent third-site validation. The rows are not interchangeable estimates.','tab:scope',True)
+    catalog=pd.read_csv(PACKAGE/'data/heads.csv').set_index('head_id').taxonomy_category.to_dict()
+    selected=m[m.method.eq('full_agent')&m.selector.eq('robust')].copy()
+    selected['category_count']=selected.quartet_key.map(lambda q:len({catalog[h] for h in q.split('|')}))
+    proposed=pd.read_csv(PACKAGE/'analysis/output/quartet_category_diversity.csv')
+    convergence=pd.read_csv(PACKAGE/'analysis/output/selected_quartet_convergence.csv')
+    rows=[]
+    for b in [10,25,50]:
+        pc=proposed[proposed.method.eq('full_agent')&proposed.budget.eq(b)].mean_unique_categories.iloc[0]
+        sc=selected[selected.budget.eq(b)].category_count.mean()
+        j=convergence[convergence.method.eq('full_agent')&convergence.budget.eq(b)].mean_jaccard_selected_heads.mean()
+        rows.append([str(b),f'{pc:.2f}',f'{sc:.2f}',f'{j:.3f}'])
+    table('structure_table',['Budget','Proposed','Selected','Head overlap'],rows,'rrrr',
+        'Physiological category coverage and convergence. Proposed and selected columns give mean distinct categories per quartet. Head overlap is mean pairwise Jaccard similarity of selected heads across runs, averaged over institutions. Categories were visible to the controller; no diversity rule was enforced.','tab:structure')
     if (OUT/'feedback_ablation_summary.csv').exists():
         fb=pd.read_csv(OUT/'feedback_ablation_summary.csv');rows=[]
         for r in fb.itertuples():
@@ -107,6 +127,11 @@ def main():
         axes[0].set_ylabel('Held-site age-conditioned AUROC');fig.tight_layout();fig.savefig(PAPER/'feedback.pdf');plt.close(fig)
     prompt=(PACKAGE/'configs/prompts/full_agent.txt').read_text()
     (PAPER/'controller_prompt.tex').write_text('\\begin{quote}\\small\\raggedright\\sloppy\n'+tex(prompt).replace(',',r',\allowbreak{} ').replace('\n\n','\n\n')+'\n\\end{quote}\n')
+    # Keep supplementary tables beside their discussion in the standalone article.
+    for name in ['feedback','overlap','exclusion','contrast','sensitivity']:
+        source=(PAPER/(name+'_table.tex')).read_text()
+        source=source.replace(r'\begin{table*}[t]',r'\begin{table}[H]').replace(r'\begin{table}[t]',r'\begin{table}[H]').replace(r'\end{table*}',r'\end{table}')
+        (PAPER/('supplement_'+name+'_table.tex')).write_text(source)
     print('Generated tables and figures')
 
 if __name__=='__main__':main()

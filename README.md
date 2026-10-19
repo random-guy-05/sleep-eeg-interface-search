@@ -32,7 +32,7 @@ The recorded numerical environment is Python 3.14, NumPy 2.5.1, pandas 3.0.3, Sc
 
 ## Regenerate aggregate journal tables and figures
 
-The manuscript source is delivered separately to the authors; it is not required for code use. To generate its `.tex` tables and PDF figures from released aggregate results:
+The main manuscript and supplement sources are delivered separately to the authors; it is not required for code use. To generate its `.tex` tables and PDF figures from released aggregate results:
 
 ```sh
 mkdir -p agentic_search/ieee_access_revision/paper

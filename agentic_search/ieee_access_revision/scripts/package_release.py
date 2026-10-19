@@ -42,13 +42,14 @@ def main():
         cols=set(pd.read_csv(p,nrows=0).columns)
         if cols&prohibited:continue
         copy(p)
-    for p in (REV/'scripts').glob('*.py'):copy(p)
+    for p in (REV/'scripts').glob('*.py'):
+        if p.name!='reframe_paper.py':copy(p)
     for p in (REV/'tests').glob('*.py'):copy(p)
     for p in (REV/'results').glob('*.csv'):
         cols=set(pd.read_csv(p,nrows=0).columns)
         if cols&prohibited:raise ValueError('Private columns in purported aggregate: '+str(p))
         copy(p)
-    for name in ['extension_protocol.json','pretarget_manifest.json','target_release.json','cohort_audit.json','provenance_audit.json','runtime_reproduction_check.json','FINAL_VERIFICATION.json','ETHICS_DECLARATION_SOURCES.json']:
+    for name in ['extension_protocol.json','pretarget_manifest.json','target_release.json','cohort_audit.json','provenance_audit.json','runtime_reproduction_check.json','FINAL_VERIFICATION.json','ETHICS_DECLARATION_SOURCES.json','NARRATIVE_REFRAME_CHECK.json']:
         copy(REV/'results'/name)
     for d in ['continuations','controller_logs']:
         for p in (REV/'results'/d).rglob('*'):

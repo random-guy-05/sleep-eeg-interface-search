@@ -1,6 +1,6 @@
 # Revision outcome
 
-The requested work has been implemented as a separate journal revision, not written over the original paper or frozen searches. The results do **not** support the original causal claim that feedback explains the held-site gain, or a claim that all three evaluation sites are independent of foundation-model development.
+The requested work has been implemented as a separate journal revision, preserving the original paper and frozen searches. The main paper now leads with query-efficient candidate generation, physiological structure and a reproducible evaluation framework. Detailed protocols and full tables are in the standalone supplement; every material negative finding remains explicit in the main paper. The results do **not** support the original causal claim that feedback explains the held-site gain, or a claim that all three evaluation sites are independent of foundation-model development.
 
 | Requested item | Completed work | Material limit |
 |---|---|---|
@@ -61,3 +61,9 @@ Local primary evidence is in `results/`, with private individual-level material 
 Replaced the ethics placeholder with a source-attributed statement: secondary analysis of deidentified HSP/Challenge data; source release under BIDMC IRB No. 2022P000417; HIPAA Safe Harbor deidentification; source-study informed-consent waiver; no new recruitment, intervention or participant contact; no identifiable participant information presented. Added the BDSP credentialing and data-use requirements to Data and Code Availability. These website statements do not certify the authors' own access compliance or a separate local review determination. The author subsequently confirmed that the work has not been published previously; that declaration is now filled.
 
 The author confirmed on October 18, 2026 that this work has not been published previously. The corresponding declaration now states that fact without asserting an unverified concurrent-review status. No author placeholders remain in the manuscript.
+
+## Narrative restructuring and reporting check
+
+The main text retains feedback AUROCs 0.612/0.619 and the paired interval; 87 training-subject and 121 development-subject matches; seven retained S0001 participants with four pairs; and retained three-site macro 0.5818 versus 0.5938 for random search. Two-site results are explicitly post hoc and retain the original source fits. The supplement contains the full paired experiment, provenance tables, all comparison intervals, metric sensitivities, controller prompt and reproduction boundaries.
+
+Corrected a proposed-versus-selected category distinction: B=10 proposals average 3.44 physiological categories and source-selected quartets average 3.63. No searches, probe fits or bootstrap analyses were rerun; hashes verify that all 20 tracked scientific inputs/results remained unchanged.
