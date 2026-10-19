@@ -91,3 +91,15 @@ Added a short direct comparison with LLM-Select (TMLR 2025) and Dardour/Yanes cl
 ## Plain research prose — October 19, 2026
 
 Rewrote the abstract, introduction, discussion, conclusion, supplement, captions and cover letter in direct prose. Removed repeated process descriptions and words such as frozen, fixed, auditable, inspectable, pipeline and framework from the authored main text. The main text before references is about 32% shorter. Simplified the workflow to five scientific steps. Main paper: six pages; supplement: four. The original experimental prompt remains quoted without edits. Numerical results, study design, required disclosures and reference identities are unchanged.
+
+## Discussion expansion — October 19, 2026
+
+Strengthened the interpretation of small search budgets, the gap between source selection and test-hospital performance, and recurrent physiological features. Discussed taxonomy-diverse search as a practical alternative and clarified what the feedback result suggests about source optimization. Only the Discussion changed; all other manuscript sections and all 20 tracked scientific inputs/results are unchanged. Main paper remains six pages; supplement remains four. Rebuilt the main PDF and matching source/review archives.
+
+## Discussion significance revision — October 19, 2026
+
+Reverted the previous Discussion expansion following user correction. Revised from the original to explain the significance of selecting useful outputs from a physiological foundation model, connecting a broad catalog to compact downstream prediction, and using physiological descriptions in candidate search. The original Limitations subsection is unchanged. Only the Discussion changed; all other manuscript sections and all 20 tracked scientific inputs/results are unchanged. Main paper remains six pages; supplement remains four. Rebuilt the main PDF and matching source/review archives.
+
+## IEEE Access style and positioning update — October 19, 2026
+
+Expanded the Introduction to explain the selection problem and state three contributions. Added direct comparisons with LLM-Select and Dardour/Yanes, and connected the selection discussion to Cawley/Talbot. Strengthened the abstract closing sentence. Ordered references by first use, alphabetized index terms, defined main-text acronyms and placed the singular Acknowledgment before References. Enlarged the performance figure to two panels, adding the three saved ten-evaluation participant-bootstrap contrasts. No new analyses; Results text, Limitations and Conclusion are unchanged apart from the figure caption. Main: seven pages; supplement: four. All 20 tracked scientific input/result hashes match.

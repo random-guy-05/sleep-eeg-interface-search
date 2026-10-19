@@ -24,5 +24,7 @@
   "data_use_authorization": "Authorized credentialed HSP use and DUA compliance confirmed directly by the user on October 19, 2026; no independent inspection of signed access documents claimed.",
   "supplement_and_category_consistency": "Independent reconstruction from 90 raw run histories: B10 proposed 1032/300=3.44, source-selected 109/30=3.633333; nine aggregate tables plus five supplementary copies match regeneration.",
   "final_focused_additions": "Two primary-source-verified LLM feature-selection references, vector workflow, modular-utility clarification; primary numerical findings unchanged.",
-  "current_prose_edit": "Main paper shortened from eight pages to six; supplement from five to four. Repeated process descriptions removed. Scientific results and original experiment prompt unchanged."
+  "current_prose_edit": "Seven-page main paper with explicit contributions, direct literature comparisons and saved participant intervals in the performance figure. Four-page supplement. All 20 tracked scientific input/result files unchanged.",
+  "discussion_edit": "Previous expansion reverted. Discussion now emphasizes why interface selection matters for physiological foundation-model reuse. Original limitations and all other manuscript sections unchanged.",
+  "ieee_style_check": "Reference first-use order, alphabetical index terms, main-text acronym definitions, singular Acknowledgment before References: pass."
 }

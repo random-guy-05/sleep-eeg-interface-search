@@ -71,15 +71,30 @@ def main():
         rows.append([LABELS[method]]+[f(means.loc[(method,b)]) if (method,b) in means.index else '---' for b in [10,25,50,500]])
     table('budget_table',['Method','$B=10$','$B=25$','$B=50$','$B=500$'],rows,'lrrrr',
           'Macro age-conditioned AUROC by method and evaluation budget. S0001 includes model-development matches.','tab:budget')
-    fig,ax=plt.subplots(figsize=(6.4,3.1))
+    contrasts=pd.read_csv(PACKAGE/'analysis/output/participant_bootstrap_contrasts.csv')
+    fig,(ax,contrast_ax)=plt.subplots(1,2,figsize=(7.2,2.85),gridspec_kw={'width_ratios':[1.15,1]})
     colors=['#2166ac','#b2182b','#ef8a62','#555555','#1b7837']
     for method,color in zip(methods,colors):
         s=means.loc[method];s=s[s.index.isin([10,25,50,100,500])]
         ax.plot(s.index,s.values,'o-',label=LABELS[method],color=color,lw=1.5,ms=4)
-    ax.set_xscale('log');ax.set_xticks([10,25,50,100,500],[10,25,50,100,500]);ax.set_ylim(.53,.65)
+    ax.set_xscale('log');ax.set_xticks([10,25,50,100,500],[10,25,50,100,500]);ax.set_ylim(.53,.68)
     ax.set(xlabel='Feature sets evaluated',ylabel='Macro age-conditioned AUROC')
-    ax.legend(ncol=2,fontsize=8,loc='upper right');fig.tight_layout();fig.savefig(PAPER/'budget.pdf');plt.close(fig)
-    contrasts=pd.read_csv(PACKAGE/'analysis/output/participant_bootstrap_contrasts.csv')
+    ax.set_title('(a) Search budget',loc='left',fontsize=10,fontweight='bold')
+    ax.legend(ncol=1,fontsize=8,loc='upper right',frameon=False,labelspacing=.3)
+    comparison_keys=['full_agent_B10_minus_random_source_robust','full_agent_B10_minus_evolutionary_robust','full_agent_B10_minus_taxonomy_diverse_robust']
+    focal=contrasts.set_index('comparison').loc[comparison_keys]
+    differences=focal.macro_difference.to_numpy()
+    errors=np.vstack([differences-focal.bootstrap_ci_2_5.to_numpy(),focal.bootstrap_ci_97_5.to_numpy()-differences])
+    contrast_ax.axvline(0,color='#777777',ls='--',lw=.8)
+    contrast_ax.errorbar(differences,np.arange(3),xerr=errors,fmt='o',color='#2166ac',capsize=3,lw=1.3,ms=5)
+    contrast_ax.set_yticks(np.arange(3),['Random','Evolutionary','Taxonomy-diverse'],fontsize=8)
+    contrast_ax.set_ylim(2.7,-.7);contrast_ax.set_xlim(-.05,.17)
+    contrast_ax.set_xticks([0,.05,.10,.15],['0','0.05','0.10','0.15'])
+    contrast_ax.set_xlabel('AUROC difference',fontsize=9)
+    contrast_ax.set_title('(b) Ten-evaluation contrasts',loc='left',fontsize=10,fontweight='bold')
+    for panel in [ax,contrast_ax]:
+        panel.tick_params(labelsize=8);panel.grid(axis='x',color='#eeeeee',lw=.5);panel.set_axisbelow(True)
+    fig.tight_layout(w_pad=1.5);fig.savefig(PAPER/'budget.pdf');plt.close(fig)
     rows=[]
     for r in contrasts.itertuples():
         comp='Random, B=500' if '500' in r.comparison else ('Random' if 'random' in r.comparison else ('Evolutionary' if 'evolution' in r.comparison else 'Taxonomy-diverse'))

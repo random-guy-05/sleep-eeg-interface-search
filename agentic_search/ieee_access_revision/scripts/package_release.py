@@ -52,6 +52,7 @@ def main():
         copy(p)
     for name in ['extension_protocol.json','pretarget_manifest.json','target_release.json','cohort_audit.json','provenance_audit.json','runtime_reproduction_check.json','FINAL_VERIFICATION.json','ETHICS_DECLARATION_SOURCES.json','NARRATIVE_REFRAME_CHECK.json','DISCLOSURE_REVIEW_20261019.json','BENCHMARK_SCOPE_REFRAME_CHECK.json','FINAL_SUPPLEMENT_NUMERICAL_CHECK.json','FINAL_EDITORIAL_POLISH_CHECK.json','RELATED_WORK_WORKFLOW_CHECK.json','PLAIN_LANGUAGE_EDIT_CHECK.json']:
         copy(REV/'results'/name)
+    copy(REV/'results/IEEE_STYLE_UPDATE_CHECK.json')
     for d in ['continuations','controller_logs']:
         for p in (REV/'results'/d).rglob('*'):
             if p.is_file() and p.suffix in ['.json','.txt']:copy(p)
