@@ -1,0 +1,71 @@
+candidate_size: 4
+protocol_version: 1
+main_budgets: [10, 25, 50]
+random_prefix_budgets: [1, 10, 25, 50, 100, 500]
+batch_size: 5
+primary_metric: age_conditioned_auroc
+age_window_years: 2.0
+regularization:
+  values: logspace(-4, 4, 17)
+  tie_tolerance: 0.0001
+  tie_rule: smallest_C
+agent_temperature: 0.2
+temperature_control:
+  requested_value: 0.2
+  codex_gpt6_sol: provider_default_cli_sampling; Codex CLI exposes no temperature parameter
+reasoning_effort: medium
+agent_tool_delivery:
+  mode: controller_mediated_source_only
+  reason: Codex CLI reports the configured MCP server enabled but does not inject its tools into model turns
+  model_access: frozen_catalog_and_source_metrics_only
+  controller_evaluator: agentic_search.agents.mcp_server.evaluate_batch
+full_agent_repeats: 10
+trajectory_seeds: [1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009]
+primary_selection_rule: max_min_source_auc
+agent_choice_secondary: true
+historical_candidates_forbidden: true
+target_access_during_search: false
+prospective_random_bank:
+  n: 500
+  seed: 2026092401
+  ordering_repeats: 100
+  ordering_seed: 2026092402
+opaque_mapping_seed: 2026092403
+taxonomy_diverse:
+  repeats: 20
+  budgets: [10, 25, 50]
+evolutionary:
+  repeats: 20
+  budgets: [10, 25, 50]
+  initial_batch: 5
+  elite_count: 3
+  mutation_policy: one_head_uniform_replacement
+agent_models:
+  - id: Agent A
+    provider: codex
+    model: gpt-6-sol
+    label: Agent A (OpenAI GPT-6 Sol, medium reasoning)
+    family: OpenAI GPT-6 Sol
+    reasoning_effort: medium
+    temperature_controlled: false
+    temperature_value: provider_default
+pilot:
+  provider: codex
+  model: gpt-6-sol
+  held_site: I0002
+  budget: 25
+  repetitions: 5
+  trajectory_seeds: [3000, 3001, 3002, 3003, 3004]
+ablations:
+  budget: 25
+  repeats: 10
+  batch_semantic: true
+  opaque_iterative: true
+invalid_output_policy:
+  repair_attempts: 1
+  remaining_invalid_slots: uniform_random_valid
+  manual_edits: false
+target_release:
+  only_after_all_searches_complete: true
+  required_frozen_manifest: runs/frozen_manifest.json
+  no_post_target_protocol_changes: true

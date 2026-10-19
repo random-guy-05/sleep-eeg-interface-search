@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0245",
+        "H0250",
+        "H0486",
+        "H0338"
+      ],
+      [
+        "H0046",
+        "H0245",
+        "H0302",
+        "H0338"
+      ],
+      [
+        "H0200",
+        "H0245",
+        "H0250",
+        "H0302"
+      ],
+      [
+        "H0235",
+        "H0250",
+        "H0302",
+        "H0338"
+      ],
+      [
+        "H0245",
+        "H0250",
+        "H0302",
+        "H0202"
+      ]
+    ],
+    "decision_summary": "The strongest prior quartet had the best minimum source AUROC and a moderate direction gap. These proposals vary one head at a time to test whether its cross-direction performance holds with related sleep continuity, NREM, and REM measures."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 14.852610250003636,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

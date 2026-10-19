@@ -1,0 +1,26 @@
+[
+  {
+    "site": "I0002",
+    "source_differences": {
+      "auc_source1_to_source2": 0.0,
+      "auc_source2_to_source1": 0.0,
+      "selected_C": 0.0
+    }
+  },
+  {
+    "site": "I0006",
+    "source_differences": {
+      "auc_source1_to_source2": 0.0,
+      "auc_source2_to_source1": 0.0,
+      "selected_C": 0.0
+    }
+  },
+  {
+    "site": "S0001",
+    "source_differences": {
+      "auc_source1_to_source2": 0.0,
+      "auc_source2_to_source1": 0.0,
+      "selected_C": 0.0
+    }
+  }
+]

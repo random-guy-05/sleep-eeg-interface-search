@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0249",
+        "H0486",
+        "H0488"
+      ],
+      [
+        "H0137",
+        "H0235",
+        "H0276",
+        "H0203"
+      ],
+      [
+        "H0359",
+        "H0361",
+        "H0384",
+        "H0249"
+      ],
+      [
+        "H0191",
+        "H0302",
+        "H0235",
+        "H0338"
+      ],
+      [
+        "H0046",
+        "H0402",
+        "H0404",
+        "H0406"
+      ]
+    ],
+    "decision_summary": "With source performance withheld, these quartets sample complementary measures of sleep continuity, slow waves, sigma activity, and REM physiology. They vary the measurement window and include relative spectral measures that may be less sensitive to recording differences across institutions."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 14.726303583011031,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

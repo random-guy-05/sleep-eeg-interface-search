@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0359",
+        "H0368",
+        "H0384"
+      ],
+      [
+        "H0138",
+        "H0200",
+        "H0245",
+        "H0249"
+      ],
+      [
+        "H0190",
+        "H0235",
+        "H0288",
+        "H0511"
+      ],
+      [
+        "H0046",
+        "H0144",
+        "H0276",
+        "H0380"
+      ],
+      [
+        "H0046",
+        "H0446",
+        "H0468",
+        "H0511"
+      ]
+    ],
+    "decision_summary": "These quartets pair slow-wave and spindle measures with REM activity or sleep continuity. They explore stage-specific, relative-power, and overnight dynamics as plausible interfaces for cross-institution transport. Source feedback was withheld, so no performance ranking is assumed."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 20.93461712496355,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

@@ -1,0 +1,4 @@
+site,n,training_subject_matches,training_record_matches,development_subject_matches,retained,retained_positive,retained_negative,retained_age_pairs
+I0002,43,0,0,0,43,7,36,41
+I0006,167,0,0,0,167,20,147,441
+S0001,128,87,74,121,7,3,4,4

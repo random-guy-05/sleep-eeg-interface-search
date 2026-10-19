@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0144",
+        "H0191",
+        "H0302",
+        "H0338"
+      ],
+      [
+        "H0144",
+        "H0191",
+        "H0203",
+        "H0276"
+      ],
+      [
+        "H0144",
+        "H0191",
+        "H0203",
+        "H0289"
+      ],
+      [
+        "H0191",
+        "H0203",
+        "H0245",
+        "H0302"
+      ],
+      [
+        "H0144",
+        "H0203",
+        "H0249",
+        "H0302"
+      ]
+    ],
+    "decision_summary": "The strongest prior quartet had the best minimum source AUROC and a relatively small direction gap. These candidates keep its physiological core while testing alternative measures of REM theta, slow-wave activity, and sigma dynamics, plus one sleep-efficiency substitution."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 15.104045082931407,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

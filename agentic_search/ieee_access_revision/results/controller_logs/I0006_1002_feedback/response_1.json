@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0144",
+        "H0200",
+        "H0249",
+        "H0302"
+      ],
+      [
+        "H0137",
+        "H0144",
+        "H0200",
+        "H0249"
+      ],
+      [
+        "H0144",
+        "H0249",
+        "H0276",
+        "H0338"
+      ],
+      [
+        "H0137",
+        "H0235",
+        "H0249",
+        "H0276"
+      ],
+      [
+        "H0144",
+        "H0200",
+        "H0235",
+        "H0276"
+      ]
+    ],
+    "decision_summary": "The strongest prior quartet combines spindle morphology, REM duration, sleep efficiency, and early slow-delta power, though its direction gap is large. These proposals vary one head at a time or combine it with the more balanced delta-slope and N2 sigma signals to test whether source consistency improves."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 15.3181922090007,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

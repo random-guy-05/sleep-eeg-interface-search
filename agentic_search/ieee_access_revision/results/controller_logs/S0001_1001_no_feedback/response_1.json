@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0137",
+        "H0144",
+        "H0200"
+      ],
+      [
+        "H0249",
+        "H0486",
+        "H0488",
+        "H0511"
+      ],
+      [
+        "H0190",
+        "H0203",
+        "H0235",
+        "H0288"
+      ],
+      [
+        "H0046",
+        "H0366",
+        "H0368",
+        "H0384"
+      ],
+      [
+        "H0140",
+        "H0402",
+        "H0404",
+        "H0518"
+      ]
+    ],
+    "decision_summary": "With source feedback withheld, these quartets test complementary slow-wave, spindle, REM, and sleep-continuity signals across different spectral summaries. Relative-power heads may be less sensitive to recording-scale differences. Each candidate is distinct from the prior five."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 16.387696582940407,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

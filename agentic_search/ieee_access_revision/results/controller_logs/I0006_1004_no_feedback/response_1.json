@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0359",
+        "H0361",
+        "H0384"
+      ],
+      [
+        "H0191",
+        "H0249",
+        "H0444",
+        "H0509"
+      ],
+      [
+        "H0138",
+        "H0235",
+        "H0203",
+        "H0190"
+      ],
+      [
+        "H0288",
+        "H0235",
+        "H0511",
+        "H0249"
+      ],
+      [
+        "H0144",
+        "H0486",
+        "H0378",
+        "H0046"
+      ]
+    ],
+    "decision_summary": "These quartets sample complementary slow-wave, spindle, REM, sleep-continuity, and respiratory physiology. They also vary stage-specific and relative spectral heads to explore interfaces that may be less sensitive to institutional recording differences. Source performance was withheld, so no metric-based ranking is implied."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 14.984959000023082,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

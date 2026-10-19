@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.5419501133786848,
+  "auc_source2_to_source1": 0.6097560975609756,
+  "cache_hit": false,
+  "completed_at_utc": "2026-09-27T03:03:59.247330+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "Chosen for complementary slow-wave, sigma, sleep-duration, and arousal-continuity physiology, which may offer robust signal across institutions.",
+  "direction_gap": 0.06780598418229078,
+  "head_ids": [
+    "H0046",
+    "H0092",
+    "H0190",
+    "H0204"
+  ],
+  "head_names": [
+    "pred_regression_f_arousal_index",
+    "pred_regression_f_delta-0-mean",
+    "pred_regression_f_hours_sleep",
+    "pred_regression_f_sigma-0-mean"
+  ],
+  "held_site": "S0001",
+  "mean_source_auc": 0.5758531054698302,
+  "min_source_auc": 0.5419501133786848,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 72.07426854292862,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0046|H0092|H0190|H0204",
+  "reasoning_effort_requested": "medium",
+  "seed": 1008,
+  "selected_C": 0.0001,
+  "source_site_1": "I0002",
+  "source_site_2": "I0006"
+}

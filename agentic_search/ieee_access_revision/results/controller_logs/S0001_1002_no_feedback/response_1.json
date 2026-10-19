@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0288",
+        "H0236",
+        "H0511"
+      ],
+      [
+        "H0249",
+        "H0486",
+        "H0488",
+        "H0203"
+      ],
+      [
+        "H0138",
+        "H0144",
+        "H0384",
+        "H0190"
+      ],
+      [
+        "H0302",
+        "H0204",
+        "H0505",
+        "H0250"
+      ],
+      [
+        "H0359",
+        "H0361",
+        "H0384",
+        "H0046"
+      ]
+    ],
+    "decision_summary": "With source feedback withheld, these quartets test complementary slow-wave, sigma, REM, and sleep-continuity signals across stage-specific and whole-night summaries. The choices favor biologically distinct measures without assuming any previous candidate\u2019s performance."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 13.190348375006579,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

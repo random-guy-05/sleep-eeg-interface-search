@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0123",
+        "H0235",
+        "H0203"
+      ],
+      [
+        "H0046",
+        "H0123",
+        "H0235",
+        "H0143"
+      ],
+      [
+        "H0046",
+        "H0138",
+        "H0144",
+        "H0338"
+      ],
+      [
+        "H0046",
+        "H0138",
+        "H0235",
+        "H0203"
+      ],
+      [
+        "H0143",
+        "H0204",
+        "H0250",
+        "H0123"
+      ]
+    ],
+    "decision_summary": "The strongest source results favor arousal paired with NREM delta and sigma measures, while REM and theta provide complementary signals. These candidates test targeted substitutions and one balanced architecture-based quartet, with attention to the weaker source direction and direction gap."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 16.6190317919245,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

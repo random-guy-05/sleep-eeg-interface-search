@@ -1,0 +1,51 @@
+{
+  "execution_sha256": {
+    "../brainbodyfm/__init__.py": "089a95c8156a1137a3f1591b9f03f6869e2d2bd407a08380f3480d50ac533aad",
+    "../brainbodyfm/config.py": "02d43ce469a4ee9d289d5a939c72f09e0a2b1f60ddd754bf6d48e6213ab2b9de",
+    "../brainbodyfm/metrics.py": "d0fc3f5802c21d96c9025e0349c4d454581d2b68229bc350073ba34b1735d6d9",
+    "../brainbodyfm/models.py": "9d7f4ff19887d18f0e84f84939ca668aef3dcfaac41a7f1f8a1952ca506ed589",
+    "../brainbodyfm/preprocess.py": "2bda575d4d3baedfaa9faae5428a1bea212d5f5b6b6e90682bba7273fb2986c3",
+    "../brainbodyfm/tuning.py": "20063408370fcf45540d8f8fbff5db35a885ca41032af271aeb6ee1de6ea5bc4",
+    "agents/mcp_server.py": "26cd231a29835f794570c87b45ecfdec0012ad35a91f5ae43cbaed38a97c885c",
+    "agents/model_cli.py": "a31e7d5ffeb799d530b07b9cda14e9107b36293d84dc04fcca64ba1ac2732456",
+    "agents/run_batch_semantic.py": "cdab6a112177fccbce37125921c2e6f396b3572b5e945b48e62d14ce2e1348f1",
+    "agents/run_trajectories.py": "b24f4715e5b83f9bd0d5a7b636f309a12227455147bdcacd66e1becb43033e4d",
+    "analysis/aggregate.py": "07f5ad45b788831a653ec4d26dab429bc92c6908656062dce09b65db35ba89bf",
+    "analysis/make_figures.py": "18ef744d07fb4be6858aa9878f8533a215b98d51a97e8291e1418bd25d12d20a",
+    "audit.py": "4348ec36b3fa23bfa375eba235c10b64fede761bf9f559b0d95da948a75c5b00",
+    "baselines/random_orderings.py": "583a895feab86d776975a7ba596d43fcf8064bed6988237b168ae0d5caae3703",
+    "build_manifest.py": "b60cbf2a62b7fc7114159c7e90bfc1346b7d4221f5165cd6f1c0be922a5af7b4",
+    "evaluator/cache.py": "1f3b162ec971c81c63ffb268bf9eeeb457df837eacaaaec6604721e6080e9580",
+    "evaluator/source_evaluator.py": "cb30de15a03ff38e62fc0e7d3f26f07ea76f1b210e70d870d1c01b1c8fcebbfb",
+    "evaluator/target_evaluator.py": "ad44ec5103c6511cfe88da3f04b1b056514d8e19fd63b01cf6cf03086b5061b4",
+    "freeze_protocol.py": "41b3d37bcd3fddfff1b645a5738193a0b0c08042785e030c3cf9a3179a97a357",
+    "generate_opaque_mapping.py": "020701f240ee23ecaaa5c29f677c0acfff1da7517539b88e999f30d38b46732b",
+    "generate_prospective_bank.py": "40aadcfbe8539ff537f9959759685c457703568edaa3650e2bfe19a7a3114699",
+    "prepare_search_space.py": "6b1c1916856e7cbd484180c2933ddc77af5a047c441ed8fe9064fe0e14e46113",
+    "regression_test_existing.py": "c71fb7e68641c300e06cf4c90410f919776234cdf53a9eb8a5462baa9da45fe9",
+    "run_classical_baselines.py": "b622226521c8cda318e294825743e4561d0022dea2cd24143539898cf537cce7",
+    "score_source_bank.py": "5dc6a676ffbc9b0e38ab7e0e3a1ceaca3e7343f499b4e7e04290c1d407359a48",
+    "score_targets.py": "4f1cb77ac50dd793985cf5cc7c0daab325ec9e8259cc47aa1eb424efabbb00da"
+  },
+  "frozen_at_utc": "2026-09-26T05:31:33.978888+00:00",
+  "input_sha256": {
+    "data/folds.json": "97b9d79408f6354ca4b3a2b82d8508720de930dcc9f4293ec3d6c3f8bb1ccc43",
+    "data/heads.csv": "a9a8e13957b7e74929ee5ea296adb73c217da073242398a8d322e2240ed112bd",
+    "data/historical_quartets.csv": "a0956eeeb323ee08945ff27de32024702898bcbae747256cac0dbdbb6ea0c4af",
+    "data/opaque_head_mapping.csv": "ab7f7d7da3b266079d123e8e7f8c521f76e5f1d6a8c0bdba39a822e464e834b6",
+    "data/opaque_mapping_provenance.json": "dd9bf9dcc8f76c7f3e161f0eb33a965d356a74724d90863bbde9c949ff90fd34",
+    "data/participants.parquet": "6ec97d455758657b0bf7b4a2d488222a862b067b0f6ecfa14e8af6495fe09a34",
+    "data/prospective_random500.csv": "13dd1001159a408a3ffd58e6e6f734b03738710fc6ef17c0fbb724db3af3b63a",
+    "data/source_folds/I0002.parquet": "4ae1b78a1e46d4cbfb844776ef12e051b2ced2a99b13c1412350d2944d836521",
+    "data/source_folds/I0006.parquet": "ffe3e9fb13b40b6ca7db95a9194ad638ef34baab126c5ee112ba1d8cae980326",
+    "data/source_folds/S0001.parquet": "b20cb019d897582819799f0c9c4aed81e5d66490458cb0b4d2f35a74e89f7cb2"
+  },
+  "phase": "final",
+  "prompt_sha256": {
+    "batch_semantic.txt": "292e155cacca16ef8aafccbfe51ff1b1c6518ef953575ee279a159ce86542ff8",
+    "full_agent.txt": "7760383feaef368ad4b7540e52bc73dab209bcace187bb330e5762c3594aeadc",
+    "opaque_agent.txt": "3fe7993d0b670b552db9551882b2dd6946edc97b8955e9ae8a874d05459fd569"
+  },
+  "protocol_path": "configs/protocol.yaml",
+  "protocol_sha256": "a7375b950cae5b33e495f823b711d1c6be0363734b0083743e8623530178ac40"
+}

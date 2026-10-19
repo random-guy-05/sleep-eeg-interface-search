@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0138",
+        "H0144",
+        "H0190",
+        "H0203"
+      ],
+      [
+        "H0138",
+        "H0144",
+        "H0249",
+        "H0338"
+      ],
+      [
+        "H0138",
+        "H0190",
+        "H0235",
+        "H0338"
+      ],
+      [
+        "H0144",
+        "H0190",
+        "H0276",
+        "H0338"
+      ],
+      [
+        "H0046",
+        "H0144",
+        "H0190",
+        "H0338"
+      ]
+    ],
+    "decision_summary": "The strongest prior quartet had a large direction gap, so these candidates test whether its performance persists when one head changes. The replacements probe related sleep architecture, delta, spindle, REM theta, and arousal physiology while retaining complementary signals."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 17.088795499992557,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

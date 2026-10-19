@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0203",
+        "H0235",
+        "H0288"
+      ],
+      [
+        "H0046",
+        "H0203",
+        "H0235",
+        "H0138"
+      ],
+      [
+        "H0046",
+        "H0203",
+        "H0361",
+        "H0302"
+      ],
+      [
+        "H0046",
+        "H0384",
+        "H0235",
+        "H0302"
+      ],
+      [
+        "H0046",
+        "H0138",
+        "H0144",
+        "H0200"
+      ]
+    ],
+    "decision_summary": "The most balanced prior quartet anchors four single-head substitutions to test delta, sigma, and REM alternatives while preserving complementary physiology. A fifth candidate revisits the highest-mean quartet with arousal continuity in place of sleep efficiency, testing whether its large direction gap narrows."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 17.868009082973003,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

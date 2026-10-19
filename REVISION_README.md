@@ -1,0 +1,60 @@
+# IEEE Access revision
+
+This folder preserves the original September searches and manuscript unchanged and adds an explicitly post hoc October 18 extension.
+
+The revised paper is `paper/paper.tex`. Generated tables and figures read the saved numerical results directly. The final source archive includes the official May 2026 IEEE Access class and fonts. Author-supplied ethics/data-use and prior-publication statements remain explicit placeholders.
+
+## What was completed
+
+- Reconstructed the 338-person cohort by site from historical extraction artifacts and matched it to the 1,103-person locally available labeled frame. Verified all cached labels and summary event/follow-up timing. Diagnosis-count requirements cannot be re-adjudicated from these summary fields.
+- Ran 30 matched pairs of ten-query searches. Both conditions share identical archived opening proposals and use contemporaneous `gpt-6-sol`, medium effort continuations; one receives source scores and the other does not. All 60 continuation calls were valid without repair or fallback. A separate all-arms manifest froze before new target scoring.
+- Reported participant and paired-run uncertainty separately, with 50,000 draws, and audited the sampling/age-pair behavior.
+- Evaluated fixed original selections at one-year and three-year age tolerances and conventional AUROC.
+- Matched the model developers' published reconstructed training/development manifests to the cohort, verified their checksums, and ran a target-only exclusion sensitivity.
+- Reframed taxonomy and 500-candidate comparisons, corrected the largest-pair site to S0001, and distinguished Luna's own final choices from its fixed-robust selections.
+- Built a journal manuscript with author names, affiliations, correspondence, biographies, funding/conflict declarations and AI assistance disclosure.
+
+## Main findings
+
+The matched feedback arm scores 0.612189 and no-feedback scores 0.618828. The difference is -0.006639, participant 95% interval [-0.029093, +0.014980], paired-run interval [-0.029306, +0.014971]. Feedback improves the selected minimum source AUROC by 0.017308 but does not establish a held-site advantage.
+
+The provenance audit identifies 87/128 S0001 participants in the reconstructed released-checkpoint training set, 74 exact evaluated-record matches, and 121/128 in the conservative development exclusion list. Only seven S0001 participants and four eligible pairs remain after the broader exclusion. Original full-cohort results cannot be presented as independent three-institution validation. The exact historical extraction checkpoint bytes are unavailable, so these are documented development-population matches rather than a complete historical execution ledger.
+
+## Reproduction
+
+Use a new virtual environment with `reproducibility/requirements.lock.txt`. The original project's `.venv` was not changed. Run from the KaggleData project root:
+
+```sh
+python3 -m agentic_search.ieee_access_revision.scripts.cohort_audit
+python3 -m agentic_search.ieee_access_revision.scripts.provenance_audit
+python3 -m agentic_search.ieee_access_revision.scripts.statistical_analysis sensitivity
+python3 -m agentic_search.ieee_access_revision.scripts.statistical_analysis feedback
+python3 -m agentic_search.ieee_access_revision.scripts.build_paper
+python3 -m pytest agentic_search/ieee_access_revision/tests -q
+```
+
+The first four operations require the authorized private historical data/feature inputs described in the scripts. `build_paper` uses released aggregate outputs only. Compile the multi-file journal source with **pdfLaTeX**, twice, from `paper/`. The official IEEE Access class uses pdfTeX spot-color primitives and does not compile unmodified with Tectonic/XeTeX. A temporary TinyTeX runtime was used for local verification; it is not part of the release or a change to the user's global TeX installation.
+
+To rerun controller generation, use a fresh output destination or an independent copy of this package. The archived extension refuses changed hashed inputs and resumes completed arms rather than silently rerolling them:
+
+```sh
+python3 -m agentic_search.ieee_access_revision.scripts.feedback_ablation freeze
+python3 -m agentic_search.ieee_access_revision.scripts.feedback_ablation propose --workers 4
+python3 -m agentic_search.ieee_access_revision.scripts.feedback_ablation source
+python3 -m agentic_search.ieee_access_revision.scripts.feedback_ablation target
+```
+
+Do not overwrite an existing result directory to obtain a different result. A new stochastic experiment must have a new protocol/output directory. Model sampling and immutable model builds were not controlled; recorded seeds do not imply identical repeat output.
+
+## Release boundary
+
+Patient-level outcomes, demographics, feature matrices, predictions and membership matches remain private. Public query logs contain quartet proposals, rationales and source aggregate scores only. The upstream overlap lists are referenced by URL and checksums; we do not redistribute them with linked outcomes. The release includes aggregate results, code, permitted head metadata and source-only trajectories. It cannot recreate missing historical extraction logs, source-population exclusions or historical checkpoint bytes.
+
+## Remaining author inputs
+
+- Replace the requested ethics/data-use placeholder with the actual applicable statement.
+- Replace the prior-publication/review-status placeholder and document any workshop-to-journal extension.
+- Review all revised text and findings, and supply ORCIDs for submission as applicable.
+- The unresolved model-development independence issue requires adequate untouched validation to support a stronger external-validation claim; manuscript formatting cannot resolve it.
+
+No journal submission has been made.

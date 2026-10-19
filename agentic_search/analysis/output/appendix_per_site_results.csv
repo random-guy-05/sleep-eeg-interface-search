@@ -1,0 +1,146 @@
+method,method_label,provider,model,budget,selector,held_site,n_trajectory_rows,n_unique_quartets,mean_target_auc,median_target_auc,p2_5_target_auc,p97_5_target_auc
+batch_semantic,Batch semantic,codex,gpt-6-sol,10,robust,I0002,10,10,0.675610,0.682927,0.488415,0.756098
+batch_semantic,Batch semantic,codex,gpt-6-sol,10,robust,I0006,10,10,0.586848,0.596372,0.439683,0.694558
+batch_semantic,Batch semantic,codex,gpt-6-sol,10,robust,S0001,10,10,0.572660,0.567118,0.520720,0.665640
+batch_semantic,Batch semantic,codex,gpt-6-sol,25,oracle,I0002,10,10,0.882927,0.878049,0.859146,0.921341
+batch_semantic,Batch semantic,codex,gpt-6-sol,25,oracle,I0006,10,10,0.722902,0.713152,0.680045,0.769444
+batch_semantic,Batch semantic,codex,gpt-6-sol,25,oracle,S0001,10,10,0.658867,0.656404,0.636977,0.680757
+batch_semantic,Batch semantic,codex,gpt-6-sol,25,robust,I0002,10,10,0.702439,0.719512,0.596341,0.756098
+batch_semantic,Batch semantic,codex,gpt-6-sol,25,robust,I0006,10,10,0.545125,0.558957,0.452778,0.629365
+batch_semantic,Batch semantic,codex,gpt-6-sol,25,robust,S0001,10,10,0.547783,0.556034,0.427771,0.608498
+batch_semantic,Batch semantic,codex,gpt-6-sol,25,source_mean,I0002,10,10,0.719512,0.731707,0.639634,0.756098
+batch_semantic,Batch semantic,codex,gpt-6-sol,25,source_mean,I0006,10,10,0.586848,0.602041,0.482029,0.629365
+batch_semantic,Batch semantic,codex,gpt-6-sol,25,source_mean,S0001,10,10,0.554926,0.552956,0.484575,0.622814
+batch_semantic,Batch semantic,codex,gpt-6-sol,50,robust,I0002,10,10,0.687805,0.682927,0.507317,0.793902
+batch_semantic,Batch semantic,codex,gpt-6-sol,50,robust,I0006,10,10,0.526984,0.518141,0.476190,0.641610
+batch_semantic,Batch semantic,codex,gpt-6-sol,50,robust,S0001,10,10,0.540764,0.550493,0.425092,0.622599
+evolutionary_robust,Evolutionary robust,,,10,oracle,I0002,20,20,0.801220,0.829268,0.682927,0.879268
+evolutionary_robust,Evolutionary robust,,,10,oracle,I0006,20,20,0.631633,0.634921,0.536224,0.712245
+evolutionary_robust,Evolutionary robust,,,10,oracle,S0001,20,20,0.629249,0.634236,0.583097,0.685160
+evolutionary_robust,Evolutionary robust,,,10,robust,I0002,20,20,0.613415,0.646341,0.276220,0.817683
+evolutionary_robust,Evolutionary robust,,,10,robust,I0006,20,20,0.479025,0.462585,0.398073,0.647506
+evolutionary_robust,Evolutionary robust,,,10,robust,S0001,20,20,0.558436,0.560345,0.500523,0.619304
+evolutionary_robust,Evolutionary robust,,,10,source_mean,I0002,20,20,0.623171,0.658537,0.276220,0.804878
+evolutionary_robust,Evolutionary robust,,,10,source_mean,I0006,20,20,0.514286,0.507937,0.408844,0.686395
+evolutionary_robust,Evolutionary robust,,,10,source_mean,S0001,20,20,0.555911,0.545567,0.500523,0.633898
+evolutionary_robust,Evolutionary robust,,,25,oracle,I0002,20,20,0.836585,0.829268,0.743293,0.902439
+evolutionary_robust,Evolutionary robust,,,25,oracle,I0006,20,20,0.695125,0.700680,0.607653,0.743878
+evolutionary_robust,Evolutionary robust,,,25,oracle,S0001,20,20,0.669027,0.663793,0.629187,0.726139
+evolutionary_robust,Evolutionary robust,,,25,robust,I0002,20,20,0.623171,0.609756,0.423780,0.780488
+evolutionary_robust,Evolutionary robust,,,25,robust,I0006,20,20,0.487188,0.470522,0.424887,0.625000
+evolutionary_robust,Evolutionary robust,,,25,robust,S0001,20,20,0.535714,0.547414,0.422568,0.649477
+evolutionary_robust,Evolutionary robust,,,25,source_mean,I0002,20,20,0.635366,0.621951,0.499390,0.780488
+evolutionary_robust,Evolutionary robust,,,25,source_mean,I0006,20,20,0.514399,0.493197,0.438492,0.659524
+evolutionary_robust,Evolutionary robust,,,25,source_mean,S0001,20,20,0.538916,0.549877,0.422568,0.627155
+evolutionary_robust,Evolutionary robust,,,50,oracle,I0002,20,20,0.852439,0.853659,0.792073,0.902439
+evolutionary_robust,Evolutionary robust,,,50,oracle,I0006,20,20,0.678798,0.667800,0.616553,0.751587
+evolutionary_robust,Evolutionary robust,,,50,oracle,S0001,20,20,0.669520,0.667488,0.624261,0.710252
+evolutionary_robust,Evolutionary robust,,,50,robust,I0002,20,20,0.664634,0.695122,0.459756,0.794512
+evolutionary_robust,Evolutionary robust,,,50,robust,I0006,20,20,0.481066,0.473923,0.418084,0.559467
+evolutionary_robust,Evolutionary robust,,,50,robust,S0001,20,20,0.529988,0.542488,0.401139,0.619581
+evolutionary_robust,Evolutionary robust,,,50,source_mean,I0002,20,20,0.680488,0.719512,0.485366,0.793293
+evolutionary_robust,Evolutionary robust,,,50,source_mean,I0006,20,20,0.484467,0.489796,0.420578,0.544785
+evolutionary_robust,Evolutionary robust,,,50,source_mean,S0001,20,20,0.515948,0.515394,0.410037,0.610683
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10,oracle,I0002,10,10,0.843902,0.853659,0.785976,0.878049
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10,oracle,I0006,10,6,0.693424,0.672336,0.659864,0.763322
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10,oracle,S0001,10,9,0.654680,0.659483,0.613116,0.679095
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10,robust,I0002,10,9,0.724390,0.719512,0.658537,0.850610
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10,robust,I0006,10,9,0.621088,0.616780,0.587812,0.674660
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10,robust,S0001,10,9,0.545074,0.553571,0.440887,0.649692
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10,source_mean,I0002,10,9,0.687805,0.695122,0.585366,0.756098
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10,source_mean,I0006,10,10,0.600907,0.597506,0.562132,0.651247
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10,source_mean,S0001,10,10,0.588916,0.602217,0.519766,0.631897
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25,oracle,I0002,10,9,0.841463,0.853659,0.753659,0.896951
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25,oracle,I0006,10,10,0.703401,0.700680,0.649320,0.754082
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25,oracle,S0001,10,10,0.638670,0.640394,0.625770,0.652956
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25,robust,I0002,10,7,0.675610,0.707317,0.558537,0.726220
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25,robust,I0006,10,9,0.595692,0.603175,0.466893,0.670408
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25,robust,S0001,10,10,0.563300,0.562192,0.498091,0.609544
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25,source_mean,I0002,10,8,0.680488,0.707317,0.564024,0.731707
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25,source_mean,I0006,10,10,0.604762,0.606576,0.549830,0.646995
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25,source_mean,S0001,10,9,0.561700,0.564655,0.487192,0.616164
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50,oracle,I0002,10,10,0.868293,0.865854,0.815854,0.921341
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50,oracle,I0006,10,10,0.708390,0.704082,0.655442,0.765873
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50,oracle,S0001,10,10,0.653325,0.646552,0.636022,0.692026
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50,robust,I0002,10,10,0.700000,0.707317,0.634146,0.756098
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50,robust,I0006,10,10,0.597959,0.602041,0.534807,0.641893
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50,robust,S0001,10,10,0.548645,0.547414,0.482112,0.599815
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50,source_mean,I0002,10,9,0.709756,0.719512,0.658537,0.756098
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50,source_mean,I0006,10,10,0.608390,0.616780,0.558107,0.641440
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50,source_mean,S0001,10,9,0.531527,0.531404,0.475739,0.589039
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,10,robust,I0002,10,10,0.663415,0.646341,0.547561,0.775000
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,10,robust,I0006,10,10,0.521088,0.494331,0.436395,0.675170
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,10,robust,S0001,10,10,0.566502,0.573276,0.490055,0.600954
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25,oracle,I0002,10,10,0.829268,0.829268,0.780488,0.878049
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25,oracle,I0006,10,10,0.643991,0.655329,0.525057,0.736054
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25,oracle,S0001,10,10,0.648276,0.647783,0.621921,0.680419
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25,robust,I0002,10,10,0.719512,0.731707,0.596341,0.799390
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25,robust,I0006,10,10,0.504535,0.487528,0.408730,0.629535
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25,robust,S0001,10,10,0.587685,0.580665,0.551201,0.644181
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25,source_mean,I0002,10,10,0.719512,0.731707,0.601829,0.799390
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25,source_mean,I0006,10,10,0.514059,0.500000,0.404308,0.634127
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25,source_mean,S0001,10,10,0.580542,0.571429,0.535899,0.638454
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,50,robust,I0002,8,8,0.652439,0.658537,0.520732,0.796341
+random_source_mean,Random + source mean,,,1,source_mean,I0002,100,92,0.619024,0.634146,0.304268,0.866463
+random_source_mean,Random + source mean,,,1,source_mean,I0006,100,92,0.510068,0.494331,0.399093,0.656633
+random_source_mean,Random + source mean,,,1,source_mean,S0001,100,92,0.536022,0.543103,0.402709,0.679926
+random_source_mean,Random + source mean,,,10,source_mean,I0002,100,68,0.663902,0.707317,0.414634,0.853659
+random_source_mean,Random + source mean,,,10,source_mean,I0006,100,64,0.510476,0.498866,0.412585,0.627268
+random_source_mean,Random + source mean,,,10,source_mean,S0001,100,68,0.540850,0.546798,0.425339,0.650369
+random_source_mean,Random + source mean,,,25,source_mean,I0002,100,38,0.652927,0.707317,0.426220,0.780488
+random_source_mean,Random + source mean,,,25,source_mean,I0006,100,43,0.512154,0.510204,0.412585,0.621315
+random_source_mean,Random + source mean,,,25,source_mean,S0001,100,42,0.539433,0.543103,0.422968,0.644089
+random_source_mean,Random + source mean,,,50,source_mean,I0002,100,25,0.670488,0.707317,0.414634,0.780488
+random_source_mean,Random + source mean,,,50,source_mean,I0006,100,28,0.523673,0.530612,0.412585,0.621315
+random_source_mean,Random + source mean,,,50,source_mean,S0001,100,25,0.551108,0.546798,0.439655,0.644089
+random_source_mean,Random + source mean,,,100,source_mean,I0002,100,16,0.671220,0.707317,0.414634,0.780488
+random_source_mean,Random + source mean,,,100,source_mean,I0006,100,17,0.537415,0.537415,0.456859,0.621315
+random_source_mean,Random + source mean,,,100,source_mean,S0001,100,16,0.541638,0.543103,0.501232,0.644089
+random_source_mean,Random + source mean,,,500,source_mean,I0002,100,1,0.731707,0.731707,0.731707,0.731707
+random_source_mean,Random + source mean,,,500,source_mean,I0006,100,1,0.537415,0.537415,0.537415,0.537415
+random_source_mean,Random + source mean,,,500,source_mean,S0001,100,1,0.501232,0.501232,0.501232,0.501232
+random_source_robust,Random + source robust,,,1,source_robust,I0002,100,92,0.619024,0.634146,0.304268,0.866463
+random_source_robust,Random + source robust,,,1,source_robust,I0006,100,92,0.510068,0.494331,0.399093,0.656633
+random_source_robust,Random + source robust,,,1,source_robust,S0001,100,92,0.536022,0.543103,0.402709,0.679926
+random_source_robust,Random + source robust,,,10,source_robust,I0002,100,69,0.644146,0.682927,0.401829,0.842073
+random_source_robust,Random + source robust,,,10,source_robust,I0006,100,65,0.507302,0.492063,0.418197,0.621315
+random_source_robust,Random + source robust,,,10,source_robust,S0001,100,68,0.541847,0.551724,0.417888,0.647783
+random_source_robust,Random + source robust,,,25,source_robust,I0002,100,42,0.654390,0.707317,0.414634,0.879268
+random_source_robust,Random + source robust,,,25,source_robust,I0006,100,43,0.513764,0.512472,0.433957,0.612245
+random_source_robust,Random + source robust,,,25,source_robust,S0001,100,46,0.535665,0.543719,0.384883,0.615363
+random_source_robust,Random + source robust,,,50,source_robust,I0002,100,24,0.658293,0.707317,0.414634,0.853659
+random_source_robust,Random + source robust,,,50,source_robust,I0006,100,26,0.515488,0.505669,0.440986,0.611168
+random_source_robust,Random + source robust,,,50,source_robust,S0001,100,26,0.537155,0.542488,0.384883,0.653941
+random_source_robust,Random + source robust,,,100,source_robust,I0002,100,17,0.655610,0.707317,0.414634,0.780488
+random_source_robust,Random + source robust,,,100,source_robust,I0006,100,15,0.510930,0.505669,0.442177,0.609977
+random_source_robust,Random + source robust,,,100,source_robust,S0001,100,15,0.526182,0.509852,0.410099,0.653941
+random_source_robust,Random + source robust,,,500,source_robust,I0002,100,1,0.731707,0.731707,0.731707,0.731707
+random_source_robust,Random + source robust,,,500,source_robust,I0006,100,1,0.442177,0.442177,0.442177,0.442177
+random_source_robust,Random + source robust,,,500,source_robust,S0001,100,1,0.509852,0.509852,0.509852,0.509852
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10,oracle,I0002,20,20,0.900000,0.902439,0.852439,0.939634
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10,oracle,I0006,20,20,0.669955,0.660998,0.622279,0.749660
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10,oracle,S0001,20,20,0.647414,0.636700,0.598861,0.714039
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10,robust,I0002,20,20,0.730488,0.719512,0.548171,0.915244
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10,robust,I0006,20,20,0.527778,0.528345,0.418311,0.667800
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10,robust,S0001,20,20,0.563608,0.562808,0.442672,0.660376
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10,source_mean,I0002,20,20,0.726829,0.719512,0.548171,0.915244
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10,source_mean,I0006,20,20,0.593764,0.616780,0.439853,0.675340
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10,source_mean,S0001,20,20,0.567980,0.562192,0.466071,0.660376
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25,oracle,I0002,20,20,0.904878,0.902439,0.840854,0.951220
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25,oracle,I0006,20,20,0.694671,0.697279,0.641610,0.747222
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25,oracle,S0001,20,20,0.656527,0.661330,0.606373,0.712223
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25,robust,I0002,20,20,0.710976,0.731707,0.399390,0.915244
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25,robust,I0006,20,20,0.543537,0.540816,0.431916,0.663889
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25,robust,S0001,20,20,0.559544,0.561576,0.480234,0.621644
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25,source_mean,I0002,20,20,0.703659,0.707317,0.499390,0.890854
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25,source_mean,I0006,20,20,0.597846,0.614512,0.496145,0.647562
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25,source_mean,S0001,20,20,0.561330,0.547414,0.522691,0.615948
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50,oracle,I0002,20,20,0.918293,0.914634,0.878049,0.951220
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50,oracle,I0006,20,20,0.708844,0.695011,0.665249,0.766667
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50,oracle,S0001,20,20,0.670813,0.667488,0.647537,0.709606
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50,robust,I0002,20,20,0.756098,0.768293,0.530488,0.878049
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50,robust,I0006,20,20,0.530159,0.520408,0.470351,0.638379
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50,robust,S0001,20,20,0.559975,0.563424,0.458590,0.646151
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50,source_mean,I0002,20,20,0.718293,0.731707,0.444512,0.866463
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50,source_mean,I0006,20,20,0.586848,0.597506,0.484694,0.653515
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50,source_mean,S0001,20,20,0.560099,0.563424,0.479372,0.617703

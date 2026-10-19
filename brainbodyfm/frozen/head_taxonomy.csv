@@ -1,0 +1,842 @@
+head_index,head_name,category,physiological_family,include_physiology_only,rationale,reviewer_1,reviewer_2,final_decision
+0,pred_classification_dx-tm-atrial_fibrillation,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+1,pred_classification_dx-tm-bipolar_disorder,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+2,pred_classification_dx-tm-dementia,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+3,pred_classification_dx-tm-depression,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+4,pred_classification_dx-tm-depression-bipolar_disorder,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+5,pred_classification_dx-tm-diabetesii,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+6,pred_classification_dx-tm-hypertension,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+7,pred_classification_dx-tm-mci,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+8,pred_classification_dx-tm-mci-dementia,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+9,pred_classification_dx-tm-myocardial_infarction,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+10,pred_classification_dx-tm-symptomatic,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+11,pred_regression_age_z,demographic_general,,False,demographic or anthropometric head,,,exclude
+12,pred_regression_cog_crystallized_fhs,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+13,pred_regression_cog_crystallized_koges,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+14,pred_regression_cog_crystallized_mgh-cog,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+15,pred_regression_cog_crystallized_mros,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+16,pred_regression_cog_crystallized_sof,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+17,pred_regression_cog_fluid_fhs,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+18,pred_regression_cog_fluid_koges,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+19,pred_regression_cog_fluid_mgh-cog,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+20,pred_regression_cog_fluid_mros,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+21,pred_regression_cog_fluid_sof,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+22,pred_regression_cog_total_fhs,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+23,pred_regression_cog_total_koges,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+24,pred_regression_cog_total_mesa,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+25,pred_regression_cog_total_mgh-cog,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+26,pred_regression_cog_total_mros,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+27,pred_regression_cog_total_sof,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+28,pred_regression_f_ahi,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+29,pred_regression_f_alpha-0-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+30,pred_regression_f_alpha-0-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+31,pred_regression_f_alpha-1-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+32,pred_regression_f_alpha-1-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+33,pred_regression_f_alpha-10-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+34,pred_regression_f_alpha-2-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+35,pred_regression_f_alpha-2-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+36,pred_regression_f_alpha-3-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+37,pred_regression_f_alpha-3-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+38,pred_regression_f_alpha-4-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+39,pred_regression_f_alpha-4-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+40,pred_regression_f_alpha-5-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+41,pred_regression_f_alpha-5-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+42,pred_regression_f_alpha-6-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+43,pred_regression_f_alpha-6-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+44,pred_regression_f_alpha-7-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+45,pred_regression_f_alpha-7-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+46,pred_regression_f_alpha-8-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+47,pred_regression_f_alpha-8-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+48,pred_regression_f_alpha-9-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+49,pred_regression_f_alpha_bandpower_kurtosis_c_n1,physiology,signal_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+50,pred_regression_f_alpha_bandpower_kurtosis_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+51,pred_regression_f_alpha_bandpower_kurtosis_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+52,pred_regression_f_alpha_bandpower_kurtosis_c_r,physiology,signal_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+53,pred_regression_f_alpha_bandpower_kurtosis_c_w,physiology,signal_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+54,pred_regression_f_alpha_bandpower_max_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+55,pred_regression_f_alpha_bandpower_max_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+56,pred_regression_f_alpha_bandpower_max_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+57,pred_regression_f_alpha_bandpower_max_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+58,pred_regression_f_alpha_bandpower_max_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+59,pred_regression_f_alpha_bandpower_mean_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+60,pred_regression_f_alpha_bandpower_mean_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+61,pred_regression_f_alpha_bandpower_mean_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+62,pred_regression_f_alpha_bandpower_mean_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+63,pred_regression_f_alpha_bandpower_mean_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+64,pred_regression_f_alpha_bandpower_min_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+65,pred_regression_f_alpha_bandpower_min_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+66,pred_regression_f_alpha_bandpower_min_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+67,pred_regression_f_alpha_bandpower_min_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+68,pred_regression_f_alpha_bandpower_min_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+69,pred_regression_f_alpha_bandpower_std_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+70,pred_regression_f_alpha_bandpower_std_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+71,pred_regression_f_alpha_bandpower_std_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+72,pred_regression_f_alpha_bandpower_std_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+73,pred_regression_f_alpha_bandpower_std_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+74,pred_regression_f_arousal_index,physiology,arousal_continuity,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+75,pred_regression_f_beta-0-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+76,pred_regression_f_beta-0-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+77,pred_regression_f_beta-1-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+78,pred_regression_f_beta-1-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+79,pred_regression_f_beta-10-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+80,pred_regression_f_beta-2-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+81,pred_regression_f_beta-2-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+82,pred_regression_f_beta-3-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+83,pred_regression_f_beta-3-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+84,pred_regression_f_beta-4-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+85,pred_regression_f_beta-4-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+86,pred_regression_f_beta-5-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+87,pred_regression_f_beta-5-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+88,pred_regression_f_beta-6-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+89,pred_regression_f_beta-6-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+90,pred_regression_f_beta-7-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+91,pred_regression_f_beta-7-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+92,pred_regression_f_beta-8-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+93,pred_regression_f_beta-8-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+94,pred_regression_f_beta-9-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+95,pred_regression_f_beta_bandpower_kurtosis_c_n1,physiology,signal_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+96,pred_regression_f_beta_bandpower_kurtosis_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+97,pred_regression_f_beta_bandpower_kurtosis_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+98,pred_regression_f_beta_bandpower_kurtosis_c_r,physiology,signal_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+99,pred_regression_f_beta_bandpower_kurtosis_c_w,physiology,signal_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+100,pred_regression_f_beta_bandpower_max_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+101,pred_regression_f_beta_bandpower_max_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+102,pred_regression_f_beta_bandpower_max_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+103,pred_regression_f_beta_bandpower_max_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+104,pred_regression_f_beta_bandpower_max_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+105,pred_regression_f_beta_bandpower_mean_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+106,pred_regression_f_beta_bandpower_mean_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+107,pred_regression_f_beta_bandpower_mean_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+108,pred_regression_f_beta_bandpower_mean_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+109,pred_regression_f_beta_bandpower_mean_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+110,pred_regression_f_beta_bandpower_min_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+111,pred_regression_f_beta_bandpower_min_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+112,pred_regression_f_beta_bandpower_min_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+113,pred_regression_f_beta_bandpower_min_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+114,pred_regression_f_beta_bandpower_min_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+115,pred_regression_f_beta_bandpower_std_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+116,pred_regression_f_beta_bandpower_std_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+117,pred_regression_f_beta_bandpower_std_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+118,pred_regression_f_beta_bandpower_std_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+119,pred_regression_f_beta_bandpower_std_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+120,pred_regression_f_cai,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+121,pred_regression_f_delta-0-mean,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+122,pred_regression_f_delta-0-std,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+123,pred_regression_f_delta-1-mean,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+124,pred_regression_f_delta-1-std,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+125,pred_regression_f_delta-10-std,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+126,pred_regression_f_delta-2-mean,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+127,pred_regression_f_delta-2-std,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+128,pred_regression_f_delta-3-mean,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+129,pred_regression_f_delta-3-std,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+130,pred_regression_f_delta-4-mean,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+131,pred_regression_f_delta-4-std,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+132,pred_regression_f_delta-5-mean,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+133,pred_regression_f_delta-5-std,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+134,pred_regression_f_delta-6-mean,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+135,pred_regression_f_delta-6-std,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+136,pred_regression_f_delta-7-mean,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+137,pred_regression_f_delta-7-std,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+138,pred_regression_f_delta-8-mean,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+139,pred_regression_f_delta-8-std,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+140,pred_regression_f_delta-9-std,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+141,pred_regression_f_delta/alpha_max_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+142,pred_regression_f_delta/alpha_max_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+143,pred_regression_f_delta/alpha_max_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+144,pred_regression_f_delta/alpha_max_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+145,pred_regression_f_delta/alpha_max_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+146,pred_regression_f_delta/alpha_mean_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+147,pred_regression_f_delta/alpha_mean_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+148,pred_regression_f_delta/alpha_mean_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+149,pred_regression_f_delta/alpha_mean_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+150,pred_regression_f_delta/alpha_mean_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+151,pred_regression_f_delta/alpha_min_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+152,pred_regression_f_delta/alpha_min_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+153,pred_regression_f_delta/alpha_min_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+154,pred_regression_f_delta/alpha_min_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+155,pred_regression_f_delta/alpha_min_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+156,pred_regression_f_delta/alpha_std_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+157,pred_regression_f_delta/alpha_std_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+158,pred_regression_f_delta/alpha_std_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+159,pred_regression_f_delta/alpha_std_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+160,pred_regression_f_delta/alpha_std_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+161,pred_regression_f_delta/theta_max_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+162,pred_regression_f_delta/theta_max_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+163,pred_regression_f_delta/theta_max_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+164,pred_regression_f_delta/theta_max_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+165,pred_regression_f_delta/theta_max_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+166,pred_regression_f_delta/theta_mean_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+167,pred_regression_f_delta/theta_mean_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+168,pred_regression_f_delta/theta_mean_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+169,pred_regression_f_delta/theta_mean_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+170,pred_regression_f_delta/theta_mean_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+171,pred_regression_f_delta/theta_min_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+172,pred_regression_f_delta/theta_min_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+173,pred_regression_f_delta/theta_min_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+174,pred_regression_f_delta/theta_min_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+175,pred_regression_f_delta/theta_min_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+176,pred_regression_f_delta/theta_std_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+177,pred_regression_f_delta/theta_std_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+178,pred_regression_f_delta/theta_std_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+179,pred_regression_f_delta/theta_std_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+180,pred_regression_f_delta/theta_std_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+181,pred_regression_f_delta_bandpower_kurtosis_c_n1,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+182,pred_regression_f_delta_bandpower_kurtosis_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+183,pred_regression_f_delta_bandpower_kurtosis_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+184,pred_regression_f_delta_bandpower_kurtosis_c_r,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+185,pred_regression_f_delta_bandpower_kurtosis_c_w,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+186,pred_regression_f_delta_bandpower_max_c_n1,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+187,pred_regression_f_delta_bandpower_max_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+188,pred_regression_f_delta_bandpower_max_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+189,pred_regression_f_delta_bandpower_max_c_r,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+190,pred_regression_f_delta_bandpower_max_c_w,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+191,pred_regression_f_delta_bandpower_mean_c_n1,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+192,pred_regression_f_delta_bandpower_mean_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+193,pred_regression_f_delta_bandpower_mean_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+194,pred_regression_f_delta_bandpower_mean_c_r,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+195,pred_regression_f_delta_bandpower_mean_c_w,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+196,pred_regression_f_delta_bandpower_min_c_n1,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+197,pred_regression_f_delta_bandpower_min_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+198,pred_regression_f_delta_bandpower_min_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+199,pred_regression_f_delta_bandpower_min_c_r,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+200,pred_regression_f_delta_bandpower_min_c_w,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+201,pred_regression_f_delta_bandpower_std_c_n1,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+202,pred_regression_f_delta_bandpower_std_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+203,pred_regression_f_delta_bandpower_std_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+204,pred_regression_f_delta_bandpower_std_c_r,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+205,pred_regression_f_delta_bandpower_std_c_w,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+206,pred_regression_f_delta_linear_b0,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+207,pred_regression_f_delta_linear_b1,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+208,pred_regression_f_first_rem_alpha_bandpower_mean_c,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+209,pred_regression_f_first_rem_duration,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+210,pred_regression_f_first_rem_fastband_bandpower_mean_c,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+211,pred_regression_f_first_rem_slowdelta_bandpower_mean_c,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+212,pred_regression_f_first_rem_theta_bandpower_mean_c,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+213,pred_regression_f_fs_amp_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+214,pred_regression_f_fs_chirp_c4m1,physiology,spindle_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+215,pred_regression_f_fs_coupl_angle_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+216,pred_regression_f_fs_coupl_mag_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+217,pred_regression_f_fs_coupl_overlap_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+218,pred_regression_f_fs_coupl_pv_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+219,pred_regression_f_fs_dens_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+220,pred_regression_f_fs_dispersion_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+221,pred_regression_f_fs_dispersion_p_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+222,pred_regression_f_fs_dur_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+223,pred_regression_f_fs_fft_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+224,pred_regression_f_fs_frq1_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+225,pred_regression_f_fs_frq2_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+226,pred_regression_f_fs_frq_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+227,pred_regression_f_fs_fwhm_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+228,pred_regression_f_fs_isa_m_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+229,pred_regression_f_fs_isa_s_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+230,pred_regression_f_fs_isa_t_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+231,pred_regression_f_fs_mins_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+232,pred_regression_f_fs_n01_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+233,pred_regression_f_fs_n02_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+234,pred_regression_f_fs_n_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+235,pred_regression_f_fs_nosc_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+236,pred_regression_f_fs_q_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+237,pred_regression_f_fs_symm2_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+238,pred_regression_f_fs_symm_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+239,pred_regression_f_gamma-0-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+240,pred_regression_f_gamma-0-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+241,pred_regression_f_gamma-1-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+242,pred_regression_f_gamma-1-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+243,pred_regression_f_gamma-10-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+244,pred_regression_f_gamma-2-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+245,pred_regression_f_gamma-2-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+246,pred_regression_f_gamma-3-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+247,pred_regression_f_gamma-3-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+248,pred_regression_f_gamma-4-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+249,pred_regression_f_gamma-4-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+250,pred_regression_f_gamma-5-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+251,pred_regression_f_gamma-5-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+252,pred_regression_f_gamma-6-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+253,pred_regression_f_gamma-6-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+254,pred_regression_f_gamma-7-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+255,pred_regression_f_gamma-7-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+256,pred_regression_f_gamma-8-mean,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+257,pred_regression_f_gamma-8-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+258,pred_regression_f_gamma-9-std,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+259,pred_regression_f_gamma_bandpower_kurtosis_c_n1,physiology,signal_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+260,pred_regression_f_gamma_bandpower_kurtosis_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+261,pred_regression_f_gamma_bandpower_kurtosis_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+262,pred_regression_f_gamma_bandpower_kurtosis_c_r,physiology,signal_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+263,pred_regression_f_gamma_bandpower_kurtosis_c_w,physiology,signal_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+264,pred_regression_f_gamma_bandpower_max_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+265,pred_regression_f_gamma_bandpower_max_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+266,pred_regression_f_gamma_bandpower_max_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+267,pred_regression_f_gamma_bandpower_max_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+268,pred_regression_f_gamma_bandpower_max_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+269,pred_regression_f_gamma_bandpower_mean_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+270,pred_regression_f_gamma_bandpower_mean_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+271,pred_regression_f_gamma_bandpower_mean_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+272,pred_regression_f_gamma_bandpower_mean_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+273,pred_regression_f_gamma_bandpower_mean_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+274,pred_regression_f_gamma_bandpower_min_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+275,pred_regression_f_gamma_bandpower_min_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+276,pred_regression_f_gamma_bandpower_min_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+277,pred_regression_f_gamma_bandpower_min_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+278,pred_regression_f_gamma_bandpower_min_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+279,pred_regression_f_gamma_bandpower_std_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+280,pred_regression_f_gamma_bandpower_std_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+281,pred_regression_f_gamma_bandpower_std_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+282,pred_regression_f_gamma_bandpower_std_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+283,pred_regression_f_gamma_bandpower_std_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+284,pred_regression_f_hours_psg,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+285,pred_regression_f_hours_sleep,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+286,pred_regression_f_hyi,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+287,pred_regression_f_hypoxia_burden,physiology,respiratory,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+288,pred_regression_f_kurtosis_c4-m1_n1,physiology,signal_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+289,pred_regression_f_kurtosis_c4-m1_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+290,pred_regression_f_kurtosis_c4-m1_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+291,pred_regression_f_kurtosis_c4-m1_r,physiology,signal_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+292,pred_regression_f_kurtosis_c4-m1_w,physiology,signal_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+293,pred_regression_f_lmi,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+294,pred_regression_f_mean_gradient_c4-m1_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+295,pred_regression_f_mean_gradient_c4-m1_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+296,pred_regression_f_mean_gradient_c4-m1_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+297,pred_regression_f_mean_gradient_c4-m1_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+298,pred_regression_f_mean_gradient_c4-m1_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+299,pred_regression_f_ms_amp_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+300,pred_regression_f_ms_chirp_c4m1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+301,pred_regression_f_ms_coupl_angle_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+302,pred_regression_f_ms_coupl_mag_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+303,pred_regression_f_ms_coupl_overlap_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+304,pred_regression_f_ms_coupl_pv_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+305,pred_regression_f_ms_dens_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+306,pred_regression_f_ms_dispersion_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+307,pred_regression_f_ms_dispersion_p_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+308,pred_regression_f_ms_dur_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+309,pred_regression_f_ms_fft_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+310,pred_regression_f_ms_frq1_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+311,pred_regression_f_ms_frq2_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+312,pred_regression_f_ms_frq_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+313,pred_regression_f_ms_fwhm_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+314,pred_regression_f_ms_isa_m_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+315,pred_regression_f_ms_isa_s_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+316,pred_regression_f_ms_isa_t_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+317,pred_regression_f_ms_mins_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+318,pred_regression_f_ms_n01_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+319,pred_regression_f_ms_n02_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+320,pred_regression_f_ms_n_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+321,pred_regression_f_ms_nosc_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+322,pred_regression_f_ms_q_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+323,pred_regression_f_ms_symm2_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+324,pred_regression_f_ms_symm_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+325,pred_regression_f_oai,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+326,pred_regression_f_perc_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+327,pred_regression_f_perc_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+328,pred_regression_f_perc_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+329,pred_regression_f_perc_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+330,pred_regression_f_plmi,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+331,pred_regression_f_r_latency,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+332,pred_regression_f_rdi,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+333,pred_regression_f_remaining_rem_alpha_bandpower_mean_c,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+334,pred_regression_f_remaining_rem_duration,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+335,pred_regression_f_remaining_rem_fastband_bandpower_mean_c,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+336,pred_regression_f_remaining_rem_slowdelta_bandpower_mean_c,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+337,pred_regression_f_remaining_rem_theta_bandpower_mean_c,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+338,pred_regression_f_rerai,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+339,pred_regression_f_sfi,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+340,pred_regression_f_sigma-0-mean,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+341,pred_regression_f_sigma-0-std,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+342,pred_regression_f_sigma-1-mean,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+343,pred_regression_f_sigma-1-std,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+344,pred_regression_f_sigma-10-std,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+345,pred_regression_f_sigma-2-mean,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+346,pred_regression_f_sigma-2-std,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+347,pred_regression_f_sigma-3-mean,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+348,pred_regression_f_sigma-3-std,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+349,pred_regression_f_sigma-4-mean,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+350,pred_regression_f_sigma-4-std,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+351,pred_regression_f_sigma-5-mean,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+352,pred_regression_f_sigma-5-std,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+353,pred_regression_f_sigma-6-mean,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+354,pred_regression_f_sigma-6-std,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+355,pred_regression_f_sigma-7-mean,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+356,pred_regression_f_sigma-7-std,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+357,pred_regression_f_sigma-8-mean,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+358,pred_regression_f_sigma-8-std,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+359,pred_regression_f_sigma-9-std,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+360,pred_regression_f_sigma_bandpower_kurtosis_c_n1,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+361,pred_regression_f_sigma_bandpower_kurtosis_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+362,pred_regression_f_sigma_bandpower_kurtosis_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+363,pred_regression_f_sigma_bandpower_kurtosis_c_r,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+364,pred_regression_f_sigma_bandpower_kurtosis_c_w,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+365,pred_regression_f_sigma_bandpower_max_c_n1,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+366,pred_regression_f_sigma_bandpower_max_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+367,pred_regression_f_sigma_bandpower_max_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+368,pred_regression_f_sigma_bandpower_max_c_r,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+369,pred_regression_f_sigma_bandpower_max_c_w,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+370,pred_regression_f_sigma_bandpower_mean_c_n1,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+371,pred_regression_f_sigma_bandpower_mean_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+372,pred_regression_f_sigma_bandpower_mean_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+373,pred_regression_f_sigma_bandpower_mean_c_r,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+374,pred_regression_f_sigma_bandpower_mean_c_w,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+375,pred_regression_f_sigma_bandpower_min_c_n1,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+376,pred_regression_f_sigma_bandpower_min_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+377,pred_regression_f_sigma_bandpower_min_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+378,pred_regression_f_sigma_bandpower_min_c_r,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+379,pred_regression_f_sigma_bandpower_min_c_w,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+380,pred_regression_f_sigma_bandpower_std_c_n1,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+381,pred_regression_f_sigma_bandpower_std_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+382,pred_regression_f_sigma_bandpower_std_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+383,pred_regression_f_sigma_bandpower_std_c_r,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+384,pred_regression_f_sigma_bandpower_std_c_w,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+385,pred_regression_f_sleep_efficiency,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+386,pred_regression_f_sleep_latency,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+387,pred_regression_f_slow/delta_max_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+388,pred_regression_f_slow/delta_max_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+389,pred_regression_f_slow/delta_max_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+390,pred_regression_f_slow/delta_max_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+391,pred_regression_f_slow/delta_max_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+392,pred_regression_f_slow/delta_mean_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+393,pred_regression_f_slow/delta_mean_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+394,pred_regression_f_slow/delta_mean_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+395,pred_regression_f_slow/delta_mean_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+396,pred_regression_f_slow/delta_mean_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+397,pred_regression_f_slow/delta_min_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+398,pred_regression_f_slow/delta_min_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+399,pred_regression_f_slow/delta_min_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+400,pred_regression_f_slow/delta_min_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+401,pred_regression_f_slow/delta_min_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+402,pred_regression_f_slow/delta_std_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+403,pred_regression_f_slow/delta_std_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+404,pred_regression_f_slow/delta_std_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+405,pred_regression_f_slow/delta_std_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+406,pred_regression_f_slow/delta_std_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+407,pred_regression_f_slow_bandpower_kurtosis_c_n1,physiology,signal_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+408,pred_regression_f_slow_bandpower_kurtosis_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+409,pred_regression_f_slow_bandpower_kurtosis_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+410,pred_regression_f_slow_bandpower_kurtosis_c_r,physiology,signal_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+411,pred_regression_f_slow_bandpower_kurtosis_c_w,physiology,signal_morphology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+412,pred_regression_f_slow_bandpower_max_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+413,pred_regression_f_slow_bandpower_max_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+414,pred_regression_f_slow_bandpower_max_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+415,pred_regression_f_slow_bandpower_max_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+416,pred_regression_f_slow_bandpower_max_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+417,pred_regression_f_slow_bandpower_mean_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+418,pred_regression_f_slow_bandpower_mean_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+419,pred_regression_f_slow_bandpower_mean_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+420,pred_regression_f_slow_bandpower_mean_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+421,pred_regression_f_slow_bandpower_mean_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+422,pred_regression_f_slow_bandpower_min_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+423,pred_regression_f_slow_bandpower_min_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+424,pred_regression_f_slow_bandpower_min_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+425,pred_regression_f_slow_bandpower_min_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+426,pred_regression_f_slow_bandpower_min_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+427,pred_regression_f_slow_bandpower_std_c_n1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+428,pred_regression_f_slow_bandpower_std_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+429,pred_regression_f_slow_bandpower_std_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+430,pred_regression_f_slow_bandpower_std_c_r,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+431,pred_regression_f_slow_bandpower_std_c_w,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+432,pred_regression_f_slowdelta/fast_max_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+433,pred_regression_f_slowdelta/fast_max_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+434,pred_regression_f_slowdelta/fast_max_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+435,pred_regression_f_slowdelta/fast_max_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+436,pred_regression_f_slowdelta/fast_max_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+437,pred_regression_f_slowdelta/fast_mean_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+438,pred_regression_f_slowdelta/fast_mean_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+439,pred_regression_f_slowdelta/fast_mean_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+440,pred_regression_f_slowdelta/fast_mean_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+441,pred_regression_f_slowdelta/fast_mean_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+442,pred_regression_f_slowdelta/fast_min_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+443,pred_regression_f_slowdelta/fast_min_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+444,pred_regression_f_slowdelta/fast_min_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+445,pred_regression_f_slowdelta/fast_min_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+446,pred_regression_f_slowdelta/fast_min_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+447,pred_regression_f_slowdelta/fast_std_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+448,pred_regression_f_slowdelta/fast_std_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+449,pred_regression_f_slowdelta/fast_std_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+450,pred_regression_f_slowdelta/fast_std_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+451,pred_regression_f_slowdelta/fast_std_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+452,pred_regression_f_slowdelta/thetaalpha_max_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+453,pred_regression_f_slowdelta/thetaalpha_max_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+454,pred_regression_f_slowdelta/thetaalpha_max_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+455,pred_regression_f_slowdelta/thetaalpha_max_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+456,pred_regression_f_slowdelta/thetaalpha_max_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+457,pred_regression_f_slowdelta/thetaalpha_mean_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+458,pred_regression_f_slowdelta/thetaalpha_mean_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+459,pred_regression_f_slowdelta/thetaalpha_mean_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+460,pred_regression_f_slowdelta/thetaalpha_mean_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+461,pred_regression_f_slowdelta/thetaalpha_mean_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+462,pred_regression_f_slowdelta/thetaalpha_min_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+463,pred_regression_f_slowdelta/thetaalpha_min_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+464,pred_regression_f_slowdelta/thetaalpha_min_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+465,pred_regression_f_slowdelta/thetaalpha_min_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+466,pred_regression_f_slowdelta/thetaalpha_min_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+467,pred_regression_f_slowdelta/thetaalpha_std_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+468,pred_regression_f_slowdelta/thetaalpha_std_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+469,pred_regression_f_slowdelta/thetaalpha_std_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+470,pred_regression_f_slowdelta/thetaalpha_std_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+471,pred_regression_f_slowdelta/thetaalpha_std_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+472,pred_regression_f_slowdelta_bandpower_4h,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+473,pred_regression_f_slowdelta_bandpower_kurtosis_c_n1,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+474,pred_regression_f_slowdelta_bandpower_kurtosis_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+475,pred_regression_f_slowdelta_bandpower_kurtosis_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+476,pred_regression_f_slowdelta_bandpower_kurtosis_c_r,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+477,pred_regression_f_slowdelta_bandpower_kurtosis_c_w,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+478,pred_regression_f_slowdelta_bandpower_max_c_n1,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+479,pred_regression_f_slowdelta_bandpower_max_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+480,pred_regression_f_slowdelta_bandpower_max_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+481,pred_regression_f_slowdelta_bandpower_max_c_r,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+482,pred_regression_f_slowdelta_bandpower_max_c_w,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+483,pred_regression_f_slowdelta_bandpower_mean_c_n1,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+484,pred_regression_f_slowdelta_bandpower_mean_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+485,pred_regression_f_slowdelta_bandpower_mean_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+486,pred_regression_f_slowdelta_bandpower_mean_c_r,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+487,pred_regression_f_slowdelta_bandpower_mean_c_w,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+488,pred_regression_f_slowdelta_bandpower_min_c_n1,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+489,pred_regression_f_slowdelta_bandpower_min_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+490,pred_regression_f_slowdelta_bandpower_min_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+491,pred_regression_f_slowdelta_bandpower_min_c_r,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+492,pred_regression_f_slowdelta_bandpower_min_c_w,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+493,pred_regression_f_slowdelta_bandpower_std_c_n1,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+494,pred_regression_f_slowdelta_bandpower_std_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+495,pred_regression_f_slowdelta_bandpower_std_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+496,pred_regression_f_slowdelta_bandpower_std_c_r,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+497,pred_regression_f_slowdelta_bandpower_std_c_w,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+498,pred_regression_f_slowdelta_bandpower_total,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+499,pred_regression_f_slowdelta_bandpower_until_rem,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+500,pred_regression_f_so-0-mean,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+501,pred_regression_f_so-0-std,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+502,pred_regression_f_so-1-mean,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+503,pred_regression_f_so-1-std,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+504,pred_regression_f_so-10-std,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+505,pred_regression_f_so-2-mean,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+506,pred_regression_f_so-2-std,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+507,pred_regression_f_so-3-mean,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+508,pred_regression_f_so-3-std,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+509,pred_regression_f_so-4-mean,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+510,pred_regression_f_so-4-std,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+511,pred_regression_f_so-5-mean,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+512,pred_regression_f_so-5-std,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+513,pred_regression_f_so-6-mean,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+514,pred_regression_f_so-6-std,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+515,pred_regression_f_so-7-mean,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+516,pred_regression_f_so-7-std,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+517,pred_regression_f_so-8-mean,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+518,pred_regression_f_so-8-std,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+519,pred_regression_f_so-9-std,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+520,pred_regression_f_so_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+521,pred_regression_f_so_dur_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+522,pred_regression_f_so_neg_amp_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+523,pred_regression_f_so_neg_dur_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+524,pred_regression_f_so_p2p_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+525,pred_regression_f_so_pos_amp_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+526,pred_regression_f_so_pos_dur_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+527,pred_regression_f_so_rate_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+528,pred_regression_f_so_slope_neg1_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+529,pred_regression_f_so_slope_neg2_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+530,pred_regression_f_so_slope_pos1_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+531,pred_regression_f_so_slope_pos2_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+532,pred_regression_f_so_trans_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+533,pred_regression_f_so_trans_freq_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+534,pred_regression_f_ss_amp_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+535,pred_regression_f_ss_chirp_c4m1,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+536,pred_regression_f_ss_coupl_angle_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+537,pred_regression_f_ss_coupl_mag_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+538,pred_regression_f_ss_coupl_overlap_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+539,pred_regression_f_ss_coupl_pv_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+540,pred_regression_f_ss_dens_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+541,pred_regression_f_ss_dispersion_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+542,pred_regression_f_ss_dispersion_p_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+543,pred_regression_f_ss_dur_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+544,pred_regression_f_ss_fft_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+545,pred_regression_f_ss_frq1_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+546,pred_regression_f_ss_frq2_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+547,pred_regression_f_ss_frq_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+548,pred_regression_f_ss_fwhm_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+549,pred_regression_f_ss_isa_m_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+550,pred_regression_f_ss_isa_s_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+551,pred_regression_f_ss_isa_t_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+552,pred_regression_f_ss_mins_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+553,pred_regression_f_ss_n01_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+554,pred_regression_f_ss_n02_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+555,pred_regression_f_ss_n_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+556,pred_regression_f_ss_nosc_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+557,pred_regression_f_ss_q_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+558,pred_regression_f_ss_symm2_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+559,pred_regression_f_ss_symm_c4m1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+560,pred_regression_f_t90burden,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+561,pred_regression_f_theta-0-mean,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+562,pred_regression_f_theta-0-std,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+563,pred_regression_f_theta-1-mean,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+564,pred_regression_f_theta-1-std,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+565,pred_regression_f_theta-10-std,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+566,pred_regression_f_theta-2-mean,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+567,pred_regression_f_theta-2-std,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+568,pred_regression_f_theta-3-mean,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+569,pred_regression_f_theta-3-std,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+570,pred_regression_f_theta-4-mean,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+571,pred_regression_f_theta-4-std,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+572,pred_regression_f_theta-5-mean,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+573,pred_regression_f_theta-5-std,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+574,pred_regression_f_theta-6-mean,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+575,pred_regression_f_theta-6-std,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+576,pred_regression_f_theta-7-mean,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+577,pred_regression_f_theta-7-std,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+578,pred_regression_f_theta-8-mean,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+579,pred_regression_f_theta-8-std,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+580,pred_regression_f_theta-9-std,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+581,pred_regression_f_theta/alpha_max_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+582,pred_regression_f_theta/alpha_max_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+583,pred_regression_f_theta/alpha_max_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+584,pred_regression_f_theta/alpha_max_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+585,pred_regression_f_theta/alpha_max_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+586,pred_regression_f_theta/alpha_mean_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+587,pred_regression_f_theta/alpha_mean_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+588,pred_regression_f_theta/alpha_mean_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+589,pred_regression_f_theta/alpha_mean_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+590,pred_regression_f_theta/alpha_mean_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+591,pred_regression_f_theta/alpha_min_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+592,pred_regression_f_theta/alpha_min_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+593,pred_regression_f_theta/alpha_min_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+594,pred_regression_f_theta/alpha_min_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+595,pred_regression_f_theta/alpha_min_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+596,pred_regression_f_theta/alpha_std_c_n1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+597,pred_regression_f_theta/alpha_std_c_n2,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+598,pred_regression_f_theta/alpha_std_c_n3,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+599,pred_regression_f_theta/alpha_std_c_r,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+600,pred_regression_f_theta/alpha_std_c_w,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+601,pred_regression_f_theta_bandpower_kurtosis_c_n1,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+602,pred_regression_f_theta_bandpower_kurtosis_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+603,pred_regression_f_theta_bandpower_kurtosis_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+604,pred_regression_f_theta_bandpower_kurtosis_c_r,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+605,pred_regression_f_theta_bandpower_kurtosis_c_w,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+606,pred_regression_f_theta_bandpower_max_c_n1,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+607,pred_regression_f_theta_bandpower_max_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+608,pred_regression_f_theta_bandpower_max_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+609,pred_regression_f_theta_bandpower_max_c_r,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+610,pred_regression_f_theta_bandpower_max_c_w,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+611,pred_regression_f_theta_bandpower_mean_c_n1,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+612,pred_regression_f_theta_bandpower_mean_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+613,pred_regression_f_theta_bandpower_mean_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+614,pred_regression_f_theta_bandpower_mean_c_r,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+615,pred_regression_f_theta_bandpower_mean_c_w,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+616,pred_regression_f_theta_bandpower_min_c_n1,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+617,pred_regression_f_theta_bandpower_min_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+618,pred_regression_f_theta_bandpower_min_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+619,pred_regression_f_theta_bandpower_min_c_r,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+620,pred_regression_f_theta_bandpower_min_c_w,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+621,pred_regression_f_theta_bandpower_std_c_n1,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+622,pred_regression_f_theta_bandpower_std_c_n2,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+623,pred_regression_f_theta_bandpower_std_c_n3,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+624,pred_regression_f_theta_bandpower_std_c_r,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+625,pred_regression_f_theta_bandpower_std_c_w,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+626,pred_regression_f_total_power_first_stable_nrem_abs_alpha,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+627,pred_regression_f_total_power_first_stable_nrem_abs_beta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+628,pred_regression_f_total_power_first_stable_nrem_abs_delta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+629,pred_regression_f_total_power_first_stable_nrem_abs_gamma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+630,pred_regression_f_total_power_first_stable_nrem_abs_sigma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+631,pred_regression_f_total_power_first_stable_nrem_abs_so,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+632,pred_regression_f_total_power_first_stable_nrem_abs_theta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+633,pred_regression_f_total_power_first_stable_nrem_rel_alpha,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+634,pred_regression_f_total_power_first_stable_nrem_rel_beta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+635,pred_regression_f_total_power_first_stable_nrem_rel_delta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+636,pred_regression_f_total_power_first_stable_nrem_rel_gamma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+637,pred_regression_f_total_power_first_stable_nrem_rel_sigma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+638,pred_regression_f_total_power_first_stable_nrem_rel_so,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+639,pred_regression_f_total_power_first_stable_nrem_rel_theta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+640,pred_regression_f_total_power_first_stable_nrem_rel_to_total_alpha,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+641,pred_regression_f_total_power_first_stable_nrem_rel_to_total_beta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+642,pred_regression_f_total_power_first_stable_nrem_rel_to_total_delta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+643,pred_regression_f_total_power_first_stable_nrem_rel_to_total_gamma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+644,pred_regression_f_total_power_first_stable_nrem_rel_to_total_sigma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+645,pred_regression_f_total_power_first_stable_nrem_rel_to_total_so,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+646,pred_regression_f_total_power_first_stable_nrem_rel_to_total_theta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+647,pred_regression_f_total_power_first_stable_rem_abs_alpha,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+648,pred_regression_f_total_power_first_stable_rem_abs_beta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+649,pred_regression_f_total_power_first_stable_rem_abs_delta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+650,pred_regression_f_total_power_first_stable_rem_abs_gamma,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+651,pred_regression_f_total_power_first_stable_rem_abs_sigma,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+652,pred_regression_f_total_power_first_stable_rem_abs_so,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+653,pred_regression_f_total_power_first_stable_rem_abs_theta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+654,pred_regression_f_total_power_first_stable_rem_rel_alpha,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+655,pred_regression_f_total_power_first_stable_rem_rel_beta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+656,pred_regression_f_total_power_first_stable_rem_rel_delta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+657,pred_regression_f_total_power_first_stable_rem_rel_gamma,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+658,pred_regression_f_total_power_first_stable_rem_rel_sigma,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+659,pred_regression_f_total_power_first_stable_rem_rel_so,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+660,pred_regression_f_total_power_first_stable_rem_rel_theta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+661,pred_regression_f_total_power_first_stable_rem_rel_to_total_alpha,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+662,pred_regression_f_total_power_first_stable_rem_rel_to_total_beta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+663,pred_regression_f_total_power_first_stable_rem_rel_to_total_delta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+664,pred_regression_f_total_power_first_stable_rem_rel_to_total_gamma,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+665,pred_regression_f_total_power_first_stable_rem_rel_to_total_sigma,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+666,pred_regression_f_total_power_first_stable_rem_rel_to_total_so,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+667,pred_regression_f_total_power_first_stable_rem_rel_to_total_theta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+668,pred_regression_f_total_power_full_sleep,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+669,pred_regression_f_total_power_full_sleep_abs_alpha,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+670,pred_regression_f_total_power_full_sleep_abs_beta,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+671,pred_regression_f_total_power_full_sleep_abs_delta,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+672,pred_regression_f_total_power_full_sleep_abs_gamma,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+673,pred_regression_f_total_power_full_sleep_abs_sigma,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+674,pred_regression_f_total_power_full_sleep_abs_so,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+675,pred_regression_f_total_power_full_sleep_abs_theta,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+676,pred_regression_f_total_power_full_sleep_rel_alpha,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+677,pred_regression_f_total_power_full_sleep_rel_beta,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+678,pred_regression_f_total_power_full_sleep_rel_delta,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+679,pred_regression_f_total_power_full_sleep_rel_gamma,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+680,pred_regression_f_total_power_full_sleep_rel_sigma,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+681,pred_regression_f_total_power_full_sleep_rel_so,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+682,pred_regression_f_total_power_full_sleep_rel_theta,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+683,pred_regression_f_total_power_full_sleep_rel_to_total_alpha,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+684,pred_regression_f_total_power_full_sleep_rel_to_total_beta,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+685,pred_regression_f_total_power_full_sleep_rel_to_total_delta,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+686,pred_regression_f_total_power_full_sleep_rel_to_total_gamma,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+687,pred_regression_f_total_power_full_sleep_rel_to_total_sigma,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+688,pred_regression_f_total_power_full_sleep_rel_to_total_so,physiology,sleep_architecture,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+689,pred_regression_f_total_power_full_sleep_rel_to_total_theta,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+690,pred_regression_f_total_power_n1_abs_alpha,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+691,pred_regression_f_total_power_n1_abs_beta,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+692,pred_regression_f_total_power_n1_abs_delta,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+693,pred_regression_f_total_power_n1_abs_gamma,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+694,pred_regression_f_total_power_n1_abs_sigma,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+695,pred_regression_f_total_power_n1_abs_so,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+696,pred_regression_f_total_power_n1_abs_theta,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+697,pred_regression_f_total_power_n1_rel_alpha,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+698,pred_regression_f_total_power_n1_rel_beta,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+699,pred_regression_f_total_power_n1_rel_delta,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+700,pred_regression_f_total_power_n1_rel_gamma,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+701,pred_regression_f_total_power_n1_rel_sigma,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+702,pred_regression_f_total_power_n1_rel_so,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+703,pred_regression_f_total_power_n1_rel_theta,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+704,pred_regression_f_total_power_n1_rel_to_total_alpha,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+705,pred_regression_f_total_power_n1_rel_to_total_beta,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+706,pred_regression_f_total_power_n1_rel_to_total_delta,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+707,pred_regression_f_total_power_n1_rel_to_total_gamma,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+708,pred_regression_f_total_power_n1_rel_to_total_sigma,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+709,pred_regression_f_total_power_n1_rel_to_total_so,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+710,pred_regression_f_total_power_n1_rel_to_total_theta,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+711,pred_regression_f_total_power_n2_abs_alpha,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+712,pred_regression_f_total_power_n2_abs_beta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+713,pred_regression_f_total_power_n2_abs_delta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+714,pred_regression_f_total_power_n2_abs_gamma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+715,pred_regression_f_total_power_n2_abs_sigma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+716,pred_regression_f_total_power_n2_abs_so,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+717,pred_regression_f_total_power_n2_abs_theta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+718,pred_regression_f_total_power_n2_rel_alpha,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+719,pred_regression_f_total_power_n2_rel_beta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+720,pred_regression_f_total_power_n2_rel_delta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+721,pred_regression_f_total_power_n2_rel_gamma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+722,pred_regression_f_total_power_n2_rel_sigma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+723,pred_regression_f_total_power_n2_rel_so,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+724,pred_regression_f_total_power_n2_rel_theta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+725,pred_regression_f_total_power_n2_rel_to_total_alpha,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+726,pred_regression_f_total_power_n2_rel_to_total_beta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+727,pred_regression_f_total_power_n2_rel_to_total_delta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+728,pred_regression_f_total_power_n2_rel_to_total_gamma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+729,pred_regression_f_total_power_n2_rel_to_total_sigma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+730,pred_regression_f_total_power_n2_rel_to_total_so,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+731,pred_regression_f_total_power_n2_rel_to_total_theta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+732,pred_regression_f_total_power_n3_abs_alpha,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+733,pred_regression_f_total_power_n3_abs_beta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+734,pred_regression_f_total_power_n3_abs_delta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+735,pred_regression_f_total_power_n3_abs_gamma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+736,pred_regression_f_total_power_n3_abs_sigma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+737,pred_regression_f_total_power_n3_abs_so,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+738,pred_regression_f_total_power_n3_abs_theta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+739,pred_regression_f_total_power_n3_rel_alpha,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+740,pred_regression_f_total_power_n3_rel_beta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+741,pred_regression_f_total_power_n3_rel_delta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+742,pred_regression_f_total_power_n3_rel_gamma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+743,pred_regression_f_total_power_n3_rel_sigma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+744,pred_regression_f_total_power_n3_rel_so,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+745,pred_regression_f_total_power_n3_rel_theta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+746,pred_regression_f_total_power_n3_rel_to_total_alpha,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+747,pred_regression_f_total_power_n3_rel_to_total_beta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+748,pred_regression_f_total_power_n3_rel_to_total_delta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+749,pred_regression_f_total_power_n3_rel_to_total_gamma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+750,pred_regression_f_total_power_n3_rel_to_total_sigma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+751,pred_regression_f_total_power_n3_rel_to_total_so,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+752,pred_regression_f_total_power_n3_rel_to_total_theta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+753,pred_regression_f_total_power_nrem_abs_alpha,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+754,pred_regression_f_total_power_nrem_abs_beta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+755,pred_regression_f_total_power_nrem_abs_delta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+756,pred_regression_f_total_power_nrem_abs_gamma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+757,pred_regression_f_total_power_nrem_abs_sigma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+758,pred_regression_f_total_power_nrem_abs_so,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+759,pred_regression_f_total_power_nrem_abs_theta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+760,pred_regression_f_total_power_nrem_rel_alpha,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+761,pred_regression_f_total_power_nrem_rel_beta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+762,pred_regression_f_total_power_nrem_rel_delta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+763,pred_regression_f_total_power_nrem_rel_gamma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+764,pred_regression_f_total_power_nrem_rel_sigma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+765,pred_regression_f_total_power_nrem_rel_so,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+766,pred_regression_f_total_power_nrem_rel_theta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+767,pred_regression_f_total_power_nrem_rel_to_total_alpha,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+768,pred_regression_f_total_power_nrem_rel_to_total_beta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+769,pred_regression_f_total_power_nrem_rel_to_total_delta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+770,pred_regression_f_total_power_nrem_rel_to_total_gamma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+771,pred_regression_f_total_power_nrem_rel_to_total_sigma,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+772,pred_regression_f_total_power_nrem_rel_to_total_so,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+773,pred_regression_f_total_power_nrem_rel_to_total_theta,physiology,NREM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+774,pred_regression_f_total_power_rem_abs_alpha,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+775,pred_regression_f_total_power_rem_abs_beta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+776,pred_regression_f_total_power_rem_abs_delta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+777,pred_regression_f_total_power_rem_abs_gamma,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+778,pred_regression_f_total_power_rem_abs_sigma,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+779,pred_regression_f_total_power_rem_abs_so,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+780,pred_regression_f_total_power_rem_abs_theta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+781,pred_regression_f_total_power_rem_rel_alpha,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+782,pred_regression_f_total_power_rem_rel_beta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+783,pred_regression_f_total_power_rem_rel_delta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+784,pred_regression_f_total_power_rem_rel_gamma,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+785,pred_regression_f_total_power_rem_rel_sigma,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+786,pred_regression_f_total_power_rem_rel_so,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+787,pred_regression_f_total_power_rem_rel_theta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+788,pred_regression_f_total_power_rem_rel_to_total_alpha,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+789,pred_regression_f_total_power_rem_rel_to_total_beta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+790,pred_regression_f_total_power_rem_rel_to_total_delta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+791,pred_regression_f_total_power_rem_rel_to_total_gamma,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+792,pred_regression_f_total_power_rem_rel_to_total_sigma,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+793,pred_regression_f_total_power_rem_rel_to_total_so,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+794,pred_regression_f_total_power_rem_rel_to_total_theta,physiology,REM_spectral,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+795,pred_regression_f_total_power_w_abs_alpha,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+796,pred_regression_f_total_power_w_abs_beta,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+797,pred_regression_f_total_power_w_abs_delta,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+798,pred_regression_f_total_power_w_abs_gamma,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+799,pred_regression_f_total_power_w_abs_sigma,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+800,pred_regression_f_total_power_w_abs_so,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+801,pred_regression_f_total_power_w_abs_theta,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+802,pred_regression_f_total_power_w_rel_alpha,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+803,pred_regression_f_total_power_w_rel_beta,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+804,pred_regression_f_total_power_w_rel_delta,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+805,pred_regression_f_total_power_w_rel_gamma,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+806,pred_regression_f_total_power_w_rel_sigma,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+807,pred_regression_f_total_power_w_rel_so,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+808,pred_regression_f_total_power_w_rel_theta,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+809,pred_regression_f_total_power_w_rel_to_total_alpha,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+810,pred_regression_f_total_power_w_rel_to_total_beta,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+811,pred_regression_f_total_power_w_rel_to_total_delta,physiology,delta_slow_wave,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+812,pred_regression_f_total_power_w_rel_to_total_gamma,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+813,pred_regression_f_total_power_w_rel_to_total_sigma,physiology,sigma_dynamics,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+814,pred_regression_f_total_power_w_rel_to_total_so,physiology,other_sleep_physiology,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+815,pred_regression_f_total_power_w_rel_to_total_theta,physiology,theta,True,"EEG, sleep, signal, respiratory, or autonomic physiology head",,,include
+816,pred_regression_f_waso,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+817,pred_regression_np_casi_visit1_z,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+818,pred_regression_np_dgtbck_visit1_z,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+819,pred_regression_np_dgtfor_visit1_z,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+820,pred_regression_np_dimensional,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+821,pred_regression_np_dsct_visit1_z,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+822,pred_regression_np_dvtmscor,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+823,pred_regression_np_k_ds1_tot,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+824,pred_regression_np_k_stroop1,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+825,pred_regression_np_k_tma_time,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+826,pred_regression_np_k_vrd_tot,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+827,pred_regression_np_lm_story,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+828,pred_regression_np_lmd,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+829,pred_regression_np_mgh-mmse-mmse,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+830,pred_regression_np_mmse-13,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+831,pred_regression_np_oralreadingrecognition,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+832,pred_regression_np_processingspeed,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+833,pred_regression_np_sequencememory,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+834,pred_regression_np_smmse,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+835,pred_regression_np_sof-mmse,target_proximal_clinical_cognitive,,False,target-proximal clinical/cognitive or outcome-related head,,,exclude
+836,pred_regression_np_tbsecon,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+837,pred_regression_np_tmmscore,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+838,pred_regression_np_tmnaming,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+839,pred_regression_np_trailsa,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude
+840,pred_regression_np_trlsb,ambiguous,,False,name is insufficiently specific for conservative inclusion,,,exclude

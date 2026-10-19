@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.45351473922902497,
+  "auc_source2_to_source1": 0.6585365853658537,
+  "cache_hit": true,
+  "completed_at_utc": "2026-09-27T03:02:29.424303+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "Selected four complementary, biologically interpretable measures spanning slow-wave burden, respiratory hypoxia, arousal continuity, and sleep efficiency to favor broad signal coverage without relying on redundant spectral summaries.",
+  "direction_gap": 0.20502184613682872,
+  "head_ids": [
+    "H0046",
+    "H0191",
+    "H0249",
+    "H0276"
+  ],
+  "head_names": [
+    "pred_regression_f_arousal_index",
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sleep_efficiency",
+    "pred_regression_f_slowdelta_bandpower_4h"
+  ],
+  "held_site": "S0001",
+  "mean_source_auc": 0.5560256622974393,
+  "min_source_auc": 0.45351473922902497,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 21.709841089090332,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0046|H0191|H0249|H0276",
+  "reasoning_effort_requested": "medium",
+  "seed": 1003,
+  "selected_C": 1.0,
+  "source_site_1": "I0002",
+  "source_site_2": "I0006"
+}

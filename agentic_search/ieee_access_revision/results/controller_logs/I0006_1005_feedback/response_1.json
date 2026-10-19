@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0138",
+        "H0144",
+        "H0200",
+        "H0359"
+      ],
+      [
+        "H0138",
+        "H0144",
+        "H0200",
+        "H0384"
+      ],
+      [
+        "H0138",
+        "H0144",
+        "H0200",
+        "H0046"
+      ],
+      [
+        "H0138",
+        "H0200",
+        "H0249",
+        "H0359"
+      ],
+      [
+        "H0144",
+        "H0191",
+        "H0200",
+        "H0249"
+      ]
+    ],
+    "decision_summary": "The strongest earlier quartet combined delta dynamics, spindle morphology, REM duration, and sleep efficiency. These proposals test nearby substitutions with normalized NREM power, REM theta, arousal, and respiratory burden to seek stronger performance in the weaker source direction."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 17.471085124998353,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

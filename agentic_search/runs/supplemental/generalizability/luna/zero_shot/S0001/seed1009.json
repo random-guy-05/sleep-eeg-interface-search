@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.5691609977324263,
+  "auc_source2_to_source1": 0.6829268292682927,
+  "cache_hit": false,
+  "completed_at_utc": "2026-09-27T03:04:01.813823+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "A complementary quartet spanning slow-wave activity, sigma dynamics, REM architecture, and arousal continuity offers biologically grounded coverage without relying on redundant spectral summaries.",
+  "direction_gap": 0.11376583153586639,
+  "head_ids": [
+    "H0046",
+    "H0092",
+    "H0140",
+    "H0204"
+  ],
+  "head_names": [
+    "pred_regression_f_arousal_index",
+    "pred_regression_f_delta-0-mean",
+    "pred_regression_f_first_rem_duration",
+    "pred_regression_f_sigma-0-mean"
+  ],
+  "held_site": "S0001",
+  "mean_source_auc": 0.6260439135003595,
+  "min_source_auc": 0.5691609977324263,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 67.63622951402795,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0046|H0092|H0140|H0204",
+  "reasoning_effort_requested": "medium",
+  "seed": 1009,
+  "selected_C": 100.0,
+  "source_site_1": "I0002",
+  "source_site_2": "I0006"
+}

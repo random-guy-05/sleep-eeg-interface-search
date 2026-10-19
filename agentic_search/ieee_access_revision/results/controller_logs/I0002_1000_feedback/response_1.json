@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0235",
+        "H0289",
+        "H0384"
+      ],
+      [
+        "H0046",
+        "H0235",
+        "H0288",
+        "H0511"
+      ],
+      [
+        "H0250",
+        "H0384",
+        "H0486",
+        "H0235"
+      ],
+      [
+        "H0046",
+        "H0384",
+        "H0486",
+        "H0488"
+      ],
+      [
+        "H0046",
+        "H0235",
+        "H0137",
+        "H0511"
+      ]
+    ],
+    "decision_summary": "The strongest source results combine NREM slow-wave and sigma measures with REM or sleep continuity. These five quartets test nearby substitutions and stage choices while retaining complementary physiology; the two source directions will show whether the gains are consistent."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 13.819194874959067,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

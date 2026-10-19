@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0249",
+        "H0444",
+        "H0446",
+        "H0384"
+      ],
+      [
+        "H0249",
+        "H0486",
+        "H0488",
+        "H0511"
+      ],
+      [
+        "H0249",
+        "H0359",
+        "H0361",
+        "H0384"
+      ],
+      [
+        "H0138",
+        "H0249",
+        "H0446",
+        "H0511"
+      ],
+      [
+        "H0191",
+        "H0249",
+        "H0446",
+        "H0511"
+      ]
+    ],
+    "decision_summary": "The most balanced prior quartet combined sleep efficiency with relative N2 delta, N2 sigma, and REM theta power. These proposals test related relative spectral summaries and whether REM timing, delta dynamics, or hypoxia adds complementary information while keeping performance across both source directions central."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 13.302723041037098,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

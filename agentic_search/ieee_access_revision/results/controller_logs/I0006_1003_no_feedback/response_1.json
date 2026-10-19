@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0359",
+        "H0361",
+        "H0384"
+      ],
+      [
+        "H0138",
+        "H0200",
+        "H0249",
+        "H0488"
+      ],
+      [
+        "H0191",
+        "H0235",
+        "H0288",
+        "H0507"
+      ],
+      [
+        "H0144",
+        "H0302",
+        "H0366",
+        "H0511"
+      ],
+      [
+        "H0203",
+        "H0245",
+        "H0486",
+        "H0509"
+      ]
+    ],
+    "decision_summary": "These quartets probe complementary NREM, REM, spindle, slow-wave, and sleep-continuity signals. Several use relative spectral measures that may be less sensitive to recording scale; others test whether architecture or morphology adds useful information. Source feedback is withheld, so no performance ranking is assumed."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 13.316501292050816,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

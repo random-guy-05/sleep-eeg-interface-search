@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0137",
+        "H0235",
+        "H0338",
+        "H0046"
+      ],
+      [
+        "H0249",
+        "H0359",
+        "H0488",
+        "H0511"
+      ],
+      [
+        "H0191",
+        "H0046",
+        "H0288",
+        "H0200"
+      ],
+      [
+        "H0144",
+        "H0138",
+        "H0335",
+        "H0203"
+      ],
+      [
+        "H0489",
+        "H0488",
+        "H0511",
+        "H0249"
+      ]
+    ],
+    "decision_summary": "These quartets combine complementary slow-wave, sigma, REM, sleep-continuity, and respiratory signals. Several use relative spectral measures that may be less sensitive to recording scale, while others test whether temporal dynamics add useful information. No source-performance feedback was available for this round."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 11.189943375065923,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

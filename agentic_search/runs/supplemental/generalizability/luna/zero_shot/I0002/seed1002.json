@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.5726600985221675,
+  "auc_source2_to_source1": 0.4308390022675737,
+  "cache_hit": false,
+  "completed_at_utc": "2026-09-27T03:00:28.594860+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "A biologically complementary quartet combining deep-sleep delta activity, sigma dynamics, NREM relative spectral power, and sleep efficiency for plausible cross-institution stability.",
+  "direction_gap": 0.14182109625459377,
+  "head_ids": [
+    "H0114",
+    "H0226",
+    "H0249",
+    "H0359"
+  ],
+  "head_names": [
+    "pred_regression_f_delta_bandpower_kurtosis_c_n3",
+    "pred_regression_f_sigma_bandpower_kurtosis_c_n3",
+    "pred_regression_f_sleep_efficiency",
+    "pred_regression_f_total_power_first_stable_nrem_rel_delta"
+  ],
+  "held_site": "I0002",
+  "mean_source_auc": 0.5017495503948706,
+  "min_source_auc": 0.4308390022675737,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 55.68135643599089,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0114|H0226|H0249|H0359",
+  "reasoning_effort_requested": "medium",
+  "seed": 1002,
+  "selected_C": 0.0001,
+  "source_site_1": "I0006",
+  "source_site_2": "S0001"
+}

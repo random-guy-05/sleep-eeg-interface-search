@@ -1,0 +1,460 @@
+{
+  "agent_choice_quartet_key": "H0046|H0138|H0203|H0235",
+  "agent_choice_quartet_real_head_ids": [
+    "H0046",
+    "H0138",
+    "H0203",
+    "H0235"
+  ],
+  "agent_choice_summary": "This quartet has the strongest minimum source AUROC (0.692) and a small directional gap (0.040), giving the best source-only evidence of consistent cross-institution performance.",
+  "agent_choice_valid": true,
+  "auto_repair": false,
+  "budget": 10,
+  "budget_used": 10,
+  "completed_at_utc": "2026-09-25T22:20:32.033122+00:00",
+  "experiment_id": "full_agent__codex-gpt-6-sol__S0001__B10__seed1008",
+  "held_site_internal": "S0001",
+  "history": [
+    {
+      "auc_source1_to_source2": 0.691609977324263,
+      "auc_source2_to_source1": 0.7317073170731707,
+      "auto_repair": false,
+      "batch_index": 1,
+      "direction_gap": 0.04009733974890772,
+      "head_ids": [
+        "H0046",
+        "H0138",
+        "H0203",
+        "H0235"
+      ],
+      "mean_source_auc": 0.7116586471987169,
+      "min_source_auc": 0.691609977324263,
+      "quartet_key": "H0046|H0138|H0203|H0235",
+      "real_head_ids": [
+        "H0046",
+        "H0138",
+        "H0203",
+        "H0235"
+      ],
+      "real_quartet_key": "H0046|H0138|H0203|H0235",
+      "round": 1,
+      "selected_C": 1.0
+    },
+    {
+      "auc_source1_to_source2": 0.4965986394557823,
+      "auc_source2_to_source1": 0.6097560975609756,
+      "auto_repair": false,
+      "batch_index": 2,
+      "direction_gap": 0.11315745810519329,
+      "head_ids": [
+        "H0249",
+        "H0276",
+        "H0361",
+        "H0384"
+      ],
+      "mean_source_auc": 0.553177368508379,
+      "min_source_auc": 0.4965986394557823,
+      "quartet_key": "H0249|H0276|H0361|H0384",
+      "real_head_ids": [
+        "H0249",
+        "H0276",
+        "H0361",
+        "H0384"
+      ],
+      "real_quartet_key": "H0249|H0276|H0361|H0384",
+      "round": 1,
+      "selected_C": 0.0001
+    },
+    {
+      "auc_source1_to_source2": 0.5895691609977324,
+      "auc_source2_to_source1": 0.7804878048780488,
+      "auto_repair": false,
+      "batch_index": 3,
+      "direction_gap": 0.19091864388031643,
+      "head_ids": [
+        "H0144",
+        "H0191",
+        "H0302",
+        "H0406"
+      ],
+      "mean_source_auc": 0.6850284829378905,
+      "min_source_auc": 0.5895691609977324,
+      "quartet_key": "H0144|H0191|H0302|H0406",
+      "real_head_ids": [
+        "H0144",
+        "H0191",
+        "H0302",
+        "H0406"
+      ],
+      "real_quartet_key": "H0144|H0191|H0302|H0406",
+      "round": 1,
+      "selected_C": 0.03162277660168379
+    },
+    {
+      "auc_source1_to_source2": 0.5555555555555556,
+      "auc_source2_to_source1": 0.7317073170731707,
+      "auto_repair": false,
+      "batch_index": 4,
+      "direction_gap": 0.17615176151761514,
+      "head_ids": [
+        "H0046",
+        "H0486",
+        "H0488",
+        "H0511"
+      ],
+      "mean_source_auc": 0.6436314363143631,
+      "min_source_auc": 0.5555555555555556,
+      "quartet_key": "H0046|H0486|H0488|H0511",
+      "real_head_ids": [
+        "H0046",
+        "H0486",
+        "H0488",
+        "H0511"
+      ],
+      "real_quartet_key": "H0046|H0486|H0488|H0511",
+      "round": 1,
+      "selected_C": 3.1622776601683795
+    },
+    {
+      "auc_source1_to_source2": 0.5963718820861678,
+      "auc_source2_to_source1": 0.9024390243902439,
+      "auto_repair": false,
+      "batch_index": 5,
+      "direction_gap": 0.30606714230407617,
+      "head_ids": [
+        "H0137",
+        "H0138",
+        "H0200",
+        "H0249"
+      ],
+      "mean_source_auc": 0.7494054532382058,
+      "min_source_auc": 0.5963718820861678,
+      "quartet_key": "H0137|H0138|H0200|H0249",
+      "real_head_ids": [
+        "H0137",
+        "H0138",
+        "H0200",
+        "H0249"
+      ],
+      "real_quartet_key": "H0137|H0138|H0200|H0249",
+      "round": 1,
+      "selected_C": 10.0
+    },
+    {
+      "auc_source1_to_source2": 0.5963718820861678,
+      "auc_source2_to_source1": 0.6829268292682927,
+      "auto_repair": false,
+      "batch_index": 1,
+      "direction_gap": 0.08655494718212497,
+      "head_ids": [
+        "H0046",
+        "H0137",
+        "H0203",
+        "H0235"
+      ],
+      "mean_source_auc": 0.6396493556772302,
+      "min_source_auc": 0.5963718820861678,
+      "quartet_key": "H0046|H0137|H0203|H0235",
+      "real_head_ids": [
+        "H0046",
+        "H0137",
+        "H0203",
+        "H0235"
+      ],
+      "real_quartet_key": "H0046|H0137|H0203|H0235",
+      "round": 2,
+      "selected_C": 0.0001
+    },
+    {
+      "auc_source1_to_source2": 0.5873015873015873,
+      "auc_source2_to_source1": 0.8780487804878049,
+      "auto_repair": false,
+      "batch_index": 2,
+      "direction_gap": 0.29074719318621756,
+      "head_ids": [
+        "H0046",
+        "H0138",
+        "H0200",
+        "H0235"
+      ],
+      "mean_source_auc": 0.7326751838946961,
+      "min_source_auc": 0.5873015873015873,
+      "quartet_key": "H0046|H0138|H0200|H0235",
+      "real_head_ids": [
+        "H0046",
+        "H0138",
+        "H0200",
+        "H0235"
+      ],
+      "real_quartet_key": "H0046|H0138|H0200|H0235",
+      "round": 2,
+      "selected_C": 0.0001
+    },
+    {
+      "auc_source1_to_source2": 0.655328798185941,
+      "auc_source2_to_source1": 0.8780487804878049,
+      "auto_repair": false,
+      "batch_index": 3,
+      "direction_gap": 0.22271998230186385,
+      "head_ids": [
+        "H0046",
+        "H0138",
+        "H0144",
+        "H0203"
+      ],
+      "mean_source_auc": 0.766688789336873,
+      "min_source_auc": 0.655328798185941,
+      "quartet_key": "H0046|H0138|H0144|H0203",
+      "real_head_ids": [
+        "H0046",
+        "H0138",
+        "H0144",
+        "H0203"
+      ],
+      "real_quartet_key": "H0046|H0138|H0144|H0203",
+      "round": 2,
+      "selected_C": 31.622776601683793
+    },
+    {
+      "auc_source1_to_source2": 0.47392290249433106,
+      "auc_source2_to_source1": 0.7073170731707317,
+      "auto_repair": false,
+      "batch_index": 4,
+      "direction_gap": 0.23339417067640061,
+      "head_ids": [
+        "H0046",
+        "H0138",
+        "H0191",
+        "H0203"
+      ],
+      "mean_source_auc": 0.5906199878325313,
+      "min_source_auc": 0.47392290249433106,
+      "quartet_key": "H0046|H0138|H0191|H0203",
+      "real_head_ids": [
+        "H0046",
+        "H0138",
+        "H0191",
+        "H0203"
+      ],
+      "real_quartet_key": "H0046|H0138|H0191|H0203",
+      "round": 2,
+      "selected_C": 10.0
+    },
+    {
+      "auc_source1_to_source2": 0.6417233560090703,
+      "auc_source2_to_source1": 0.6829268292682927,
+      "auto_repair": false,
+      "batch_index": 5,
+      "direction_gap": 0.04120347325922247,
+      "head_ids": [
+        "H0046",
+        "H0138",
+        "H0203",
+        "H0249"
+      ],
+      "mean_source_auc": 0.6623250926386814,
+      "min_source_auc": 0.6417233560090703,
+      "quartet_key": "H0046|H0138|H0203|H0249",
+      "real_head_ids": [
+        "H0046",
+        "H0138",
+        "H0203",
+        "H0249"
+      ],
+      "real_quartet_key": "H0046|H0138|H0203|H0249",
+      "round": 2,
+      "selected_C": 31.622776601683793
+    }
+  ],
+  "invalid_attempts": [],
+  "last_batch": [
+    {
+      "auc_source1_to_source2": 0.5963718820861678,
+      "auc_source2_to_source1": 0.6829268292682927,
+      "auto_repair": false,
+      "batch_index": 1,
+      "direction_gap": 0.08655494718212497,
+      "head_ids": [
+        "H0046",
+        "H0137",
+        "H0203",
+        "H0235"
+      ],
+      "mean_source_auc": 0.6396493556772302,
+      "min_source_auc": 0.5963718820861678,
+      "quartet_key": "H0046|H0137|H0203|H0235",
+      "real_head_ids": [
+        "H0046",
+        "H0137",
+        "H0203",
+        "H0235"
+      ],
+      "real_quartet_key": "H0046|H0137|H0203|H0235",
+      "round": 2,
+      "selected_C": 0.0001
+    },
+    {
+      "auc_source1_to_source2": 0.5873015873015873,
+      "auc_source2_to_source1": 0.8780487804878049,
+      "auto_repair": false,
+      "batch_index": 2,
+      "direction_gap": 0.29074719318621756,
+      "head_ids": [
+        "H0046",
+        "H0138",
+        "H0200",
+        "H0235"
+      ],
+      "mean_source_auc": 0.7326751838946961,
+      "min_source_auc": 0.5873015873015873,
+      "quartet_key": "H0046|H0138|H0200|H0235",
+      "real_head_ids": [
+        "H0046",
+        "H0138",
+        "H0200",
+        "H0235"
+      ],
+      "real_quartet_key": "H0046|H0138|H0200|H0235",
+      "round": 2,
+      "selected_C": 0.0001
+    },
+    {
+      "auc_source1_to_source2": 0.655328798185941,
+      "auc_source2_to_source1": 0.8780487804878049,
+      "auto_repair": false,
+      "batch_index": 3,
+      "direction_gap": 0.22271998230186385,
+      "head_ids": [
+        "H0046",
+        "H0138",
+        "H0144",
+        "H0203"
+      ],
+      "mean_source_auc": 0.766688789336873,
+      "min_source_auc": 0.655328798185941,
+      "quartet_key": "H0046|H0138|H0144|H0203",
+      "real_head_ids": [
+        "H0046",
+        "H0138",
+        "H0144",
+        "H0203"
+      ],
+      "real_quartet_key": "H0046|H0138|H0144|H0203",
+      "round": 2,
+      "selected_C": 31.622776601683793
+    },
+    {
+      "auc_source1_to_source2": 0.47392290249433106,
+      "auc_source2_to_source1": 0.7073170731707317,
+      "auto_repair": false,
+      "batch_index": 4,
+      "direction_gap": 0.23339417067640061,
+      "head_ids": [
+        "H0046",
+        "H0138",
+        "H0191",
+        "H0203"
+      ],
+      "mean_source_auc": 0.5906199878325313,
+      "min_source_auc": 0.47392290249433106,
+      "quartet_key": "H0046|H0138|H0191|H0203",
+      "real_head_ids": [
+        "H0046",
+        "H0138",
+        "H0191",
+        "H0203"
+      ],
+      "real_quartet_key": "H0046|H0138|H0191|H0203",
+      "round": 2,
+      "selected_C": 10.0
+    },
+    {
+      "auc_source1_to_source2": 0.6417233560090703,
+      "auc_source2_to_source1": 0.6829268292682927,
+      "auto_repair": false,
+      "batch_index": 5,
+      "direction_gap": 0.04120347325922247,
+      "head_ids": [
+        "H0046",
+        "H0138",
+        "H0203",
+        "H0249"
+      ],
+      "mean_source_auc": 0.6623250926386814,
+      "min_source_auc": 0.6417233560090703,
+      "quartet_key": "H0046|H0138|H0203|H0249",
+      "real_head_ids": [
+        "H0046",
+        "H0138",
+        "H0203",
+        "H0249"
+      ],
+      "real_quartet_key": "H0046|H0138|H0203|H0249",
+      "round": 2,
+      "selected_C": 31.622776601683793
+    }
+  ],
+  "last_decision_summary": "This quartet has the strongest minimum source AUROC (0.692) and a small directional gap (0.040), giving the best source-only evidence of consistent cross-institution performance.",
+  "last_provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "controller_proposal_calls": [
+      {
+        "cli_version": "codex-cli 0.155.1",
+        "elapsed_seconds": 26.39746587490663,
+        "model_reported": "gpt-6-sol",
+        "model_requested": "gpt-6-sol",
+        "provider": "codex",
+        "reasoning_effort": "medium",
+        "temperature_controlled": false
+      }
+    ],
+    "controller_repair_attempts": 0,
+    "final_choice_call": {
+      "cli_version": "codex-cli 0.155.1",
+      "elapsed_seconds": 6.94687777897343,
+      "model_reported": "gpt-6-sol",
+      "model_requested": "gpt-6-sol",
+      "provider": "codex",
+      "reasoning_effort": "medium",
+      "temperature_controlled": false
+    },
+    "mcp_tool_approval": "controller_only_source_evaluator",
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "source_evaluation_controller": "local evaluate_batch; target code is not exposed",
+    "temperature_controlled": false
+  },
+  "method": "full_agent",
+  "model_echo_matches_evaluate_batch": true,
+  "model_requested": "gpt-6-sol",
+  "prompt_sha256": "7760383feaef368ad4b7540e52bc73dab209bcace187bb330e5762c3594aeadc",
+  "protocol_sha256": "a7375b950cae5b33e495f823b711d1c6be0363734b0083743e8623530178ac40",
+  "provider": "codex",
+  "reasoning_effort": "medium",
+  "repair_attempts": 0,
+  "resume_count": 3,
+  "robust_selected_quartet_key": "H0046|H0138|H0203|H0235",
+  "robust_selected_real_head_ids": [
+    "H0046",
+    "H0138",
+    "H0203",
+    "H0235"
+  ],
+  "robust_selected_source_metrics": {
+    "direction_gap": 0.04009733974890772,
+    "mean_source_auc": 0.7116586471987169,
+    "min_source_auc": 0.691609977324263,
+    "selected_C": 1.0
+  },
+  "round": 2,
+  "round_evaluated": true,
+  "rounds_completed": 2,
+  "seed": 1008,
+  "started_at_utc": "2026-09-25T06:06:21.576673+00:00",
+  "temperature_applied": null,
+  "temperature_controlled": false,
+  "temperature_requested": 0.2,
+  "updated_at_utc": "2026-09-25T22:20:32.024722+00:00"
+}

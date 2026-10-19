@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.46551724137931033,
+  "auc_source2_to_source1": 0.5782312925170068,
+  "cache_hit": false,
+  "completed_at_utc": "2026-09-27T03:00:28.706127+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "Chosen for complementary respiratory burden, arousal continuity, sleep efficiency, and slow-wave spectral slope, combining clinically relevant signals with distinct physiological roles.",
+  "direction_gap": 0.11271405113769645,
+  "head_ids": [
+    "H0046",
+    "H0137",
+    "H0191",
+    "H0249"
+  ],
+  "head_names": [
+    "pred_regression_f_arousal_index",
+    "pred_regression_f_delta_linear_b0",
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sleep_efficiency"
+  ],
+  "held_site": "I0002",
+  "mean_source_auc": 0.5218742669481585,
+  "min_source_auc": 0.46551724137931033,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 55.83344860293437,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0046|H0137|H0191|H0249",
+  "reasoning_effort_requested": "medium",
+  "seed": 1000,
+  "selected_C": 0.0001,
+  "source_site_1": "I0006",
+  "source_site_2": "S0001"
+}

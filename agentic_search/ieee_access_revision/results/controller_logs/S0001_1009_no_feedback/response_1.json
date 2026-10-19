@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0137",
+        "H0203",
+        "H0235"
+      ],
+      [
+        "H0249",
+        "H0288",
+        "H0245",
+        "H0511"
+      ],
+      [
+        "H0191",
+        "H0402",
+        "H0404",
+        "H0505"
+      ],
+      [
+        "H0144",
+        "H0366",
+        "H0368",
+        "H0200"
+      ],
+      [
+        "H0190",
+        "H0302",
+        "H0336",
+        "H0384"
+      ]
+    ],
+    "decision_summary": "With source feedback withheld, these quartets sample complementary slow wave, sigma, REM, sleep continuity, and respiratory signals. Several use relative spectral measures that may be less sensitive to recording scale; the varied combinations allow the source selector to compare their consistency across directions."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 18.822970791952685,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

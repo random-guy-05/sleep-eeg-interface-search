@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0288",
+        "H0446",
+        "H0511"
+      ],
+      [
+        "H0249",
+        "H0366",
+        "H0368",
+        "H0384"
+      ],
+      [
+        "H0144",
+        "H0402",
+        "H0404",
+        "H0203"
+      ],
+      [
+        "H0190",
+        "H0235",
+        "H0338",
+        "H0486"
+      ],
+      [
+        "H0137",
+        "H0191",
+        "H0370",
+        "H0509"
+      ]
+    ],
+    "decision_summary": "With source feedback withheld, these quartets sample complementary slow-wave, sigma, theta, REM, and sleep-continuity signals. Several use relative power to reduce sensitivity to recording differences across institutions."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 8.925964333000593,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

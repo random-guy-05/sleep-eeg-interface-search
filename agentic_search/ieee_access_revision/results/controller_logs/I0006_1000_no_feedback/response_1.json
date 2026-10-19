@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0444",
+        "H0446",
+        "H0511",
+        "H0249"
+      ],
+      [
+        "H0138",
+        "H0144",
+        "H0046",
+        "H0200"
+      ],
+      [
+        "H0123",
+        "H0235",
+        "H0338",
+        "H0191"
+      ],
+      [
+        "H0276",
+        "H0214",
+        "H0203",
+        "H0249"
+      ],
+      [
+        "H0486",
+        "H0488",
+        "H0507",
+        "H0190"
+      ]
+    ],
+    "decision_summary": "These quartets sample complementary slow-wave, spindle, REM, sleep-continuity, and respiratory signals. They also compare stage-specific spectral measures with broader sleep measures. Source-performance feedback is withheld, so the proposals do not assume any earlier candidate performed better."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 23.59321874997113,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

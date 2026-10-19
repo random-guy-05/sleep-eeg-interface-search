@@ -1,0 +1,123 @@
+{
+  "arm": "feedback",
+  "calls": [
+    {
+      "answer": {
+        "candidates": [
+          [
+            "H0138",
+            "H0144",
+            "H0190",
+            "H0203"
+          ],
+          [
+            "H0138",
+            "H0144",
+            "H0249",
+            "H0338"
+          ],
+          [
+            "H0138",
+            "H0190",
+            "H0235",
+            "H0338"
+          ],
+          [
+            "H0144",
+            "H0190",
+            "H0276",
+            "H0338"
+          ],
+          [
+            "H0046",
+            "H0144",
+            "H0190",
+            "H0338"
+          ]
+        ],
+        "decision_summary": "The strongest prior quartet had a large direction gap, so these candidates test whether its performance persists when one head changes. The replacements probe related sleep architecture, delta, spindle, REM theta, and arousal physiology while retaining complementary signals."
+      },
+      "metadata": {
+        "cli_version": "codex-cli 0.158.0",
+        "elapsed_seconds": 17.088795499992557,
+        "model_reported": "gpt-6-sol",
+        "model_requested": "gpt-6-sol",
+        "provider": "codex",
+        "reasoning_effort": "medium",
+        "temperature_controlled": false
+      },
+      "validation_errors": []
+    }
+  ],
+  "completed_at_utc": "2026-10-19T03:15:03.048414+00:00",
+  "continuation_quartets": [
+    [
+      "H0138",
+      "H0144",
+      "H0190",
+      "H0203"
+    ],
+    [
+      "H0138",
+      "H0144",
+      "H0249",
+      "H0338"
+    ],
+    [
+      "H0138",
+      "H0190",
+      "H0235",
+      "H0338"
+    ],
+    [
+      "H0144",
+      "H0190",
+      "H0276",
+      "H0338"
+    ],
+    [
+      "H0046",
+      "H0144",
+      "H0190",
+      "H0338"
+    ]
+  ],
+  "n_fallback": 0,
+  "opening_quartets": [
+    [
+      "H0046",
+      "H0203",
+      "H0235",
+      "H0276"
+    ],
+    [
+      "H0200",
+      "H0249",
+      "H0486",
+      "H0488"
+    ],
+    [
+      "H0191",
+      "H0366",
+      "H0368",
+      "H0384"
+    ],
+    [
+      "H0138",
+      "H0144",
+      "H0190",
+      "H0338"
+    ],
+    [
+      "H0202",
+      "H0245",
+      "H0250",
+      "H0289"
+    ]
+  ],
+  "protocol_sha256": "bba8a38f6d7bf191bd728ecfaba5ff40571f33a53a1828b0dd9a44d4ebb9c543",
+  "seed": 1009,
+  "site": "S0001",
+  "system_sha256": "7760383feaef368ad4b7540e52bc73dab209bcace187bb330e5762c3594aeadc",
+  "user_sha256": "451ae558fd023b5f1fa1a09a4b76fbdfdc9598f857a4f834c3a63e737c8f1f87"
+}

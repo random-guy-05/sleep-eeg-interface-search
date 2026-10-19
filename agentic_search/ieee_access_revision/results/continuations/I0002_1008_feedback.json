@@ -1,0 +1,123 @@
+{
+  "arm": "feedback",
+  "calls": [
+    {
+      "answer": {
+        "candidates": [
+          [
+            "H0191",
+            "H0359",
+            "H0361",
+            "H0384"
+          ],
+          [
+            "H0046",
+            "H0200",
+            "H0359",
+            "H0361"
+          ],
+          [
+            "H0046",
+            "H0384",
+            "H0486",
+            "H0488"
+          ],
+          [
+            "H0144",
+            "H0191",
+            "H0200",
+            "H0359"
+          ],
+          [
+            "H0191",
+            "H0200",
+            "H0302",
+            "H0361"
+          ]
+        ],
+        "decision_summary": "The strongest prior quartet supports complementary NREM spectral, REM, and arousal heads, while the most directionally consistent quartet supports spindle, respiratory, REM duration, and slow wave physiology. These proposals vary those interfaces one or two heads at a time and include a full NREM spectral alternative to test consistency across source directions."
+      },
+      "metadata": {
+        "cli_version": "codex-cli 0.158.0",
+        "elapsed_seconds": 15.221742999972776,
+        "model_reported": "gpt-6-sol",
+        "model_requested": "gpt-6-sol",
+        "provider": "codex",
+        "reasoning_effort": "medium",
+        "temperature_controlled": false
+      },
+      "validation_errors": []
+    }
+  ],
+  "completed_at_utc": "2026-10-19T03:11:28.490871+00:00",
+  "continuation_quartets": [
+    [
+      "H0191",
+      "H0359",
+      "H0361",
+      "H0384"
+    ],
+    [
+      "H0046",
+      "H0200",
+      "H0359",
+      "H0361"
+    ],
+    [
+      "H0046",
+      "H0384",
+      "H0486",
+      "H0488"
+    ],
+    [
+      "H0144",
+      "H0191",
+      "H0200",
+      "H0359"
+    ],
+    [
+      "H0191",
+      "H0200",
+      "H0302",
+      "H0361"
+    ]
+  ],
+  "n_fallback": 0,
+  "opening_quartets": [
+    [
+      "H0046",
+      "H0137",
+      "H0211",
+      "H0336"
+    ],
+    [
+      "H0203",
+      "H0235",
+      "H0249",
+      "H0288"
+    ],
+    [
+      "H0046",
+      "H0359",
+      "H0361",
+      "H0384"
+    ],
+    [
+      "H0144",
+      "H0191",
+      "H0200",
+      "H0302"
+    ],
+    [
+      "H0124",
+      "H0190",
+      "H0245",
+      "H0338"
+    ]
+  ],
+  "protocol_sha256": "bba8a38f6d7bf191bd728ecfaba5ff40571f33a53a1828b0dd9a44d4ebb9c543",
+  "seed": 1008,
+  "site": "I0002",
+  "system_sha256": "7760383feaef368ad4b7540e52bc73dab209bcace187bb330e5762c3594aeadc",
+  "user_sha256": "c4d6e876cad4e8ef20425c8635c9b6b264fe11c2900c942c4c59573258f65a37"
+}

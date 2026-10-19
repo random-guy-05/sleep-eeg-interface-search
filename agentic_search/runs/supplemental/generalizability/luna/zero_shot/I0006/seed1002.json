@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.5369458128078818,
+  "auc_source2_to_source1": 0.6585365853658537,
+  "cache_hit": false,
+  "completed_at_utc": "2026-09-27T03:01:37.825176+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "A compact mix of hypoxia burden, sleep efficiency, overnight slow-delta burden, and stable-NREM slow-oscillation power covers respiratory, architectural, and core EEG physiology with limited redundancy.",
+  "direction_gap": 0.1215907725579719,
+  "head_ids": [
+    "H0191",
+    "H0249",
+    "H0276",
+    "H0355"
+  ],
+  "head_names": [
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sleep_efficiency",
+    "pred_regression_f_slowdelta_bandpower_4h",
+    "pred_regression_f_total_power_first_stable_nrem_abs_so"
+  ],
+  "held_site": "I0006",
+  "mean_source_auc": 0.5977411990868677,
+  "min_source_auc": 0.5369458128078818,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 21.09124628000427,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0191|H0249|H0276|H0355",
+  "reasoning_effort_requested": "medium",
+  "seed": 1002,
+  "selected_C": 316.22776601683796,
+  "source_site_1": "I0002",
+  "source_site_2": "S0001"
+}

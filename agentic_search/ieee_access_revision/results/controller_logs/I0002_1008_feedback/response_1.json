@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0191",
+        "H0359",
+        "H0361",
+        "H0384"
+      ],
+      [
+        "H0046",
+        "H0200",
+        "H0359",
+        "H0361"
+      ],
+      [
+        "H0046",
+        "H0384",
+        "H0486",
+        "H0488"
+      ],
+      [
+        "H0144",
+        "H0191",
+        "H0200",
+        "H0359"
+      ],
+      [
+        "H0191",
+        "H0200",
+        "H0302",
+        "H0361"
+      ]
+    ],
+    "decision_summary": "The strongest prior quartet supports complementary NREM spectral, REM, and arousal heads, while the most directionally consistent quartet supports spindle, respiratory, REM duration, and slow wave physiology. These proposals vary those interfaces one or two heads at a time and include a full NREM spectral alternative to test consistency across source directions."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 15.221742999972776,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0190",
+        "H0359",
+        "H0361",
+        "H0511"
+      ],
+      [
+        "H0190",
+        "H0359",
+        "H0361",
+        "H0143"
+      ],
+      [
+        "H0190",
+        "H0359",
+        "H0384",
+        "H0144"
+      ],
+      [
+        "H0143",
+        "H0144",
+        "H0191",
+        "H0359"
+      ],
+      [
+        "H0144",
+        "H0191",
+        "H0276",
+        "H0384"
+      ]
+    ],
+    "decision_summary": "The strongest prior quartet combined sleep duration, early NREM relative delta and sigma power, and REM theta power. These candidates test nearby REM measures and combine those NREM signals with the balanced prior quartet\u2019s spindle, slow delta, and respiratory heads. The choices emphasize complementary physiology and performance across both source directions."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 13.620022207964212,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

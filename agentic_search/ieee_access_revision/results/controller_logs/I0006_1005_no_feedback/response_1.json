@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0486",
+        "H0488",
+        "H0511"
+      ],
+      [
+        "H0249",
+        "H0288",
+        "H0235",
+        "H0507"
+      ],
+      [
+        "H0137",
+        "H0144",
+        "H0203",
+        "H0190"
+      ],
+      [
+        "H0191",
+        "H0302",
+        "H0404",
+        "H0406"
+      ],
+      [
+        "H0359",
+        "H0361",
+        "H0384",
+        "H0200"
+      ]
+    ],
+    "decision_summary": "The five quartets sample complementary slow-wave, spindle, REM, sleep continuity, and respiratory signals. They vary stage-specific and whole-sleep measures to give the source-only selector distinct plausible interfaces. Source-performance feedback is withheld, so no ranking is assumed."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 12.562466041999869,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

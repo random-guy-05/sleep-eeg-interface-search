@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.5443349753694581,
+  "auc_source2_to_source1": 0.4878048780487805,
+  "cache_hit": true,
+  "completed_at_utc": "2026-09-27T03:01:29.708968+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "A biologically diverse quartet spanning respiratory burden, sleep continuity, arousal, and slow-wave physiology offers complementary signals with plausible cross-institution relevance.",
+  "direction_gap": 0.0565300973206776,
+  "head_ids": [
+    "H0046",
+    "H0191",
+    "H0249",
+    "H0302"
+  ],
+  "head_names": [
+    "pred_regression_f_arousal_index",
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sleep_efficiency",
+    "pred_regression_f_slowdelta_bandpower_total"
+  ],
+  "held_site": "I0006",
+  "mean_source_auc": 0.5160699267091193,
+  "min_source_auc": 0.4878048780487805,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 19.724856392946094,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0046|H0191|H0249|H0302",
+  "reasoning_effort_requested": "medium",
+  "seed": 1003,
+  "selected_C": 0.03162277660168379,
+  "source_site_1": "I0002",
+  "source_site_2": "S0001"
+}

@@ -1,0 +1,123 @@
+{
+  "arm": "feedback",
+  "calls": [
+    {
+      "answer": {
+        "candidates": [
+          [
+            "H0046",
+            "H0123",
+            "H0235",
+            "H0203"
+          ],
+          [
+            "H0046",
+            "H0123",
+            "H0235",
+            "H0143"
+          ],
+          [
+            "H0046",
+            "H0138",
+            "H0144",
+            "H0338"
+          ],
+          [
+            "H0046",
+            "H0138",
+            "H0235",
+            "H0203"
+          ],
+          [
+            "H0143",
+            "H0204",
+            "H0250",
+            "H0123"
+          ]
+        ],
+        "decision_summary": "The strongest source results favor arousal paired with NREM delta and sigma measures, while REM and theta provide complementary signals. These candidates test targeted substitutions and one balanced architecture-based quartet, with attention to the weaker source direction and direction gap."
+      },
+      "metadata": {
+        "cli_version": "codex-cli 0.158.0",
+        "elapsed_seconds": 16.6190317919245,
+        "model_reported": "gpt-6-sol",
+        "model_requested": "gpt-6-sol",
+        "provider": "codex",
+        "reasoning_effort": "medium",
+        "temperature_controlled": false
+      },
+      "validation_errors": []
+    }
+  ],
+  "completed_at_utc": "2026-10-19T03:14:02.077176+00:00",
+  "continuation_quartets": [
+    [
+      "H0046",
+      "H0123",
+      "H0203",
+      "H0235"
+    ],
+    [
+      "H0046",
+      "H0123",
+      "H0143",
+      "H0235"
+    ],
+    [
+      "H0046",
+      "H0138",
+      "H0144",
+      "H0338"
+    ],
+    [
+      "H0046",
+      "H0138",
+      "H0203",
+      "H0235"
+    ],
+    [
+      "H0123",
+      "H0143",
+      "H0204",
+      "H0250"
+    ]
+  ],
+  "n_fallback": 0,
+  "opening_quartets": [
+    [
+      "H0046",
+      "H0123",
+      "H0235",
+      "H0338"
+    ],
+    [
+      "H0249",
+      "H0359",
+      "H0361",
+      "H0384"
+    ],
+    [
+      "H0046",
+      "H0138",
+      "H0144",
+      "H0203"
+    ],
+    [
+      "H0190",
+      "H0486",
+      "H0488",
+      "H0511"
+    ],
+    [
+      "H0143",
+      "H0204",
+      "H0250",
+      "H0302"
+    ]
+  ],
+  "protocol_sha256": "bba8a38f6d7bf191bd728ecfaba5ff40571f33a53a1828b0dd9a44d4ebb9c543",
+  "seed": 1002,
+  "site": "S0001",
+  "system_sha256": "7760383feaef368ad4b7540e52bc73dab209bcace187bb330e5762c3594aeadc",
+  "user_sha256": "151033c8170de9dc767924f8224e16114a354fef4ef7631ce6a8f32dacf14329"
+}

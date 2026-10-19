@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0190",
+        "H0366",
+        "H0368",
+        "H0384"
+      ],
+      [
+        "H0046",
+        "H0366",
+        "H0368",
+        "H0384"
+      ],
+      [
+        "H0249",
+        "H0366",
+        "H0368",
+        "H0511"
+      ],
+      [
+        "H0249",
+        "H0359",
+        "H0368",
+        "H0384"
+      ],
+      [
+        "H0249",
+        "H0366",
+        "H0368",
+        "H0144"
+      ]
+    ],
+    "decision_summary": "The most balanced prior quartet combined sleep efficiency, early NREM delta and sigma power, and REM theta power. These candidates change one head at a time to test sleep duration, arousal, alternate delta and REM measures, and spindle morphology while retaining the strongest source-supported core."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 16.948044375050813,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

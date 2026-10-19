@@ -1,0 +1,52 @@
+{
+  "status": "verified_recoverable_assembly",
+  "n": 338,
+  "n_positive": 83,
+  "n_negative": 255,
+  "checks": {
+    "unique_subjects": true,
+    "unique_records": true,
+    "exact_final_manifest_union": true,
+    "binary_label_identity": true,
+    "site_identity": true,
+    "finite_ages": true,
+    "all_final_rows_have_semantic_features": true
+  },
+  "mechanism": "Outcome-aware historical extraction: initial 73-record cache plus positive-only expansions, followed by 199 of 200 requested same-site age-matched negative records. Negative prioritization used positive-partner counts and site pair balance.",
+  "demographics_frame": {
+    "n_records": 1103,
+    "n_unique_subjects": 1103,
+    "not_selected": 765,
+    "scope": "Locally available labeled demographic frame; not the complete HSP source population."
+  },
+  "outcome_timing_check": {
+    "all_cached_labels_match_supplied_Cognitive_Impairment": true,
+    "positive_first_diagnosis_days_range": [
+      390.0,
+      2175.0
+    ],
+    "negative_last_encounter_min_days": 2192.0,
+    "two_diagnoses_at_least_week_apart_independently_verified": false
+  },
+  "unknowns": [
+    "Complete eligible HSP source-population denominator and initial extraction selection/failure log",
+    "Reasons for unrecovered batch1 and negative-extension records",
+    "Exact historical checkpoint bytes, extraction timestamp and inference commit",
+    "Two qualifying diagnoses separated by a week cannot be re-adjudicated from the available summary fields"
+  ],
+  "inference": "Conditional comparison on this selected benchmark; not population prevalence, calibration or prospective clinical validation.",
+  "inputs": {
+    "experiments/philosophers_stone/shard74_api_embeddings_73_valid.csv": "0dea8cf21888b8bbb2263e987bb0a3b7f4decd84fc77ed8b08660c750e1b863d",
+    "experiments/philosophers_stone/batch1/batch1_positives_manifest.csv": "07141d7c7bab00c04ad04559e51c8583a50ecca2240db8e367ff87b2adc00e77",
+    "experiments/philosophers_stone/batch1/embedding1/embeddings.csv": "59cfc36691ee8aab818a464dd6f679408c2ac998f9da41d3e0c49dd9973a5e94",
+    "experiments/philosophers_stone/batch1/embedding2/embeddings.csv": "6d58c4c5f58ead0cc96f6f83599dc73964b083bdf5e61f7f64f43ee32e68307f",
+    "experiments/philosophers_stone/batch2/batch2_positives_manifest.csv": "8de4cfee7d659131c3548d7ae2d7eae97be472f645bbf8c5dbbb3e19b2049365",
+    "experiments/philosophers_stone/batch2/embedding1/embeddings.csv": "171a98a85bfe4eac3ceffe87c0565e6f36857b427ede3e344908e81dfef36479",
+    "experiments/philosophers_stone/batch2/embedding2/embeddings.csv": "561011a989a9a125e91e9f1c251e3fce07644eabc634eca49911bb54944c7421",
+    "experiments/philosophers_stone/embeddings_expanded_c4m1fix.csv": "9b4bbfe50a0a19241b8ab6745eeb33d73c7ea7160e1a84075f0e05d37f176658",
+    "experiments/philosophers_stone/age_matched_negatives_top200_portable.csv": "76bca248905193b55acd52a0ecf2be069f8a7c34a195f56b0f72d41aede11289",
+    "experiments/philosophers_stone/negatives_balanced_v1/embeddings.csv": "ed2a45fcdcea1ec97978d5861f07b15103fe6ad6a26101e06bca3b8b8374ca79",
+    "brainbodyfm/cache/common_interface_manifest.csv": "f3acbd04603c3c21b850f27382bafefb72aa18c51e16fb7bbf97ec1a7ba033b7",
+    "demographics.csv": "2da2f66b2f0e0690a7899aca9e0e707aa60a2c472b0bf336ed231b44fce46458"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "arm": "feedback",
+  "calls": [
+    {
+      "answer": {
+        "candidates": [
+          [
+            "H0249",
+            "H0486",
+            "H0488",
+            "H0384"
+          ],
+          [
+            "H0190",
+            "H0486",
+            "H0488",
+            "H0511"
+          ],
+          [
+            "H0249",
+            "H0359",
+            "H0361",
+            "H0511"
+          ],
+          [
+            "H0249",
+            "H0444",
+            "H0446",
+            "H0511"
+          ],
+          [
+            "H0249",
+            "H0486",
+            "H0488",
+            "H0203"
+          ]
+        ],
+        "decision_summary": "The strongest balanced result paired sleep efficiency with NREM delta and sigma power and REM theta. These proposals test whether that pattern holds across REM theta measures, sleep duration, and NREM segments. Relative power may be less sensitive to recording differences across institutions."
+      },
+      "metadata": {
+        "cli_version": "codex-cli 0.158.0",
+        "elapsed_seconds": 14.463971625082195,
+        "model_reported": "gpt-6-sol",
+        "model_requested": "gpt-6-sol",
+        "provider": "codex",
+        "reasoning_effort": "medium",
+        "temperature_controlled": false
+      },
+      "validation_errors": []
+    }
+  ],
+  "completed_at_utc": "2026-10-19T03:10:58.762193+00:00",
+  "continuation_quartets": [
+    [
+      "H0249",
+      "H0384",
+      "H0486",
+      "H0488"
+    ],
+    [
+      "H0190",
+      "H0486",
+      "H0488",
+      "H0511"
+    ],
+    [
+      "H0249",
+      "H0359",
+      "H0361",
+      "H0511"
+    ],
+    [
+      "H0249",
+      "H0444",
+      "H0446",
+      "H0511"
+    ],
+    [
+      "H0203",
+      "H0249",
+      "H0486",
+      "H0488"
+    ]
+  ],
+  "n_fallback": 0,
+  "opening_quartets": [
+    [
+      "H0046",
+      "H0235",
+      "H0289",
+      "H0338"
+    ],
+    [
+      "H0249",
+      "H0486",
+      "H0488",
+      "H0511"
+    ],
+    [
+      "H0144",
+      "H0191",
+      "H0200",
+      "H0276"
+    ],
+    [
+      "H0190",
+      "H0359",
+      "H0361",
+      "H0384"
+    ],
+    [
+      "H0137",
+      "H0203",
+      "H0245",
+      "H0249"
+    ]
+  ],
+  "protocol_sha256": "bba8a38f6d7bf191bd728ecfaba5ff40571f33a53a1828b0dd9a44d4ebb9c543",
+  "seed": 1005,
+  "site": "I0002",
+  "system_sha256": "7760383feaef368ad4b7540e52bc73dab209bcace187bb330e5762c3594aeadc",
+  "user_sha256": "d7031ed04ba4625d929b2a41d978254e25765b736b870e61233520fc21d1850c"
+}

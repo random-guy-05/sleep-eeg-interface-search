@@ -1,0 +1,123 @@
+{
+  "arm": "feedback",
+  "calls": [
+    {
+      "answer": {
+        "candidates": [
+          [
+            "H0144",
+            "H0200",
+            "H0203",
+            "H0276"
+          ],
+          [
+            "H0144",
+            "H0190",
+            "H0235",
+            "H0276"
+          ],
+          [
+            "H0123",
+            "H0190",
+            "H0203",
+            "H0276"
+          ],
+          [
+            "H0144",
+            "H0190",
+            "H0276",
+            "H0338"
+          ],
+          [
+            "H0123",
+            "H0200",
+            "H0235",
+            "H0276"
+          ]
+        ],
+        "decision_summary": "The strongest prior quartet combines spindle morphology, sleep duration, REM theta, and early slow delta, though its source directions differ substantially. These proposals vary those components and test NREM delta and sigma alternatives to seek more consistent performance across directions."
+      },
+      "metadata": {
+        "cli_version": "codex-cli 0.158.0",
+        "elapsed_seconds": 13.08786558394786,
+        "model_reported": "gpt-6-sol",
+        "model_requested": "gpt-6-sol",
+        "provider": "codex",
+        "reasoning_effort": "medium",
+        "temperature_controlled": false
+      },
+      "validation_errors": []
+    }
+  ],
+  "completed_at_utc": "2026-10-19T03:12:38.499495+00:00",
+  "continuation_quartets": [
+    [
+      "H0144",
+      "H0200",
+      "H0203",
+      "H0276"
+    ],
+    [
+      "H0144",
+      "H0190",
+      "H0235",
+      "H0276"
+    ],
+    [
+      "H0123",
+      "H0190",
+      "H0203",
+      "H0276"
+    ],
+    [
+      "H0144",
+      "H0190",
+      "H0276",
+      "H0338"
+    ],
+    [
+      "H0123",
+      "H0200",
+      "H0235",
+      "H0276"
+    ]
+  ],
+  "n_fallback": 0,
+  "opening_quartets": [
+    [
+      "H0046",
+      "H0486",
+      "H0488",
+      "H0511"
+    ],
+    [
+      "H0249",
+      "H0359",
+      "H0361",
+      "H0384"
+    ],
+    [
+      "H0123",
+      "H0200",
+      "H0235",
+      "H0338"
+    ],
+    [
+      "H0144",
+      "H0190",
+      "H0203",
+      "H0276"
+    ],
+    [
+      "H0046",
+      "H0138",
+      "H0446",
+      "H0507"
+    ]
+  ],
+  "protocol_sha256": "bba8a38f6d7bf191bd728ecfaba5ff40571f33a53a1828b0dd9a44d4ebb9c543",
+  "seed": 1004,
+  "site": "I0006",
+  "system_sha256": "7760383feaef368ad4b7540e52bc73dab209bcace187bb330e5762c3594aeadc",
+  "user_sha256": "d78ada241283990fb90587c29cfbce76b0b969e42e0eb311558526ef5746dd60"
+}

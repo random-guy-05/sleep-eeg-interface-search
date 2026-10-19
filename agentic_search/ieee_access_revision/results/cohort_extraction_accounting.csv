@@ -1,0 +1,10 @@
+stage,site,requested,completed,not_recovered,reason
+positive_batch1,I0002,4,3,1,Not established by recovered artifacts
+positive_batch1,I0006,14,14,0,None
+positive_batch1,S0001,0,0,0,None
+positive_batch2,I0002,0,0,0,None
+positive_batch2,I0006,0,0,0,None
+positive_batch2,S0001,49,49,0,None
+negative_extension,I0002,20,20,0,None
+negative_extension,I0006,127,127,0,None
+negative_extension,S0001,53,52,1,Not established by recovered artifacts

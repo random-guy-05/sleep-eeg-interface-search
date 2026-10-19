@@ -1,0 +1,123 @@
+{
+  "arm": "feedback",
+  "calls": [
+    {
+      "answer": {
+        "candidates": [
+          [
+            "H0137",
+            "H0235",
+            "H0200",
+            "H0338"
+          ],
+          [
+            "H0137",
+            "H0144",
+            "H0249",
+            "H0338"
+          ],
+          [
+            "H0137",
+            "H0235",
+            "H0190",
+            "H0338"
+          ],
+          [
+            "H0144",
+            "H0235",
+            "H0200",
+            "H0288"
+          ],
+          [
+            "H0235",
+            "H0249",
+            "H0288",
+            "H0338"
+          ]
+        ],
+        "decision_summary": "The most balanced earlier quartet combines slow-wave dynamics, NREM sigma, sleep efficiency, and REM theta. These candidates test targeted substitutions from the high-mean quartet, including spindle chirp, REM duration, and NREM slow-delta power, while retaining complementary physiology and checking both source directions."
+      },
+      "metadata": {
+        "cli_version": "codex-cli 0.158.0",
+        "elapsed_seconds": 16.241621708963066,
+        "model_reported": "gpt-6-sol",
+        "model_requested": "gpt-6-sol",
+        "provider": "codex",
+        "reasoning_effort": "medium",
+        "temperature_controlled": false
+      },
+      "validation_errors": []
+    }
+  ],
+  "completed_at_utc": "2026-10-19T03:13:30.366764+00:00",
+  "continuation_quartets": [
+    [
+      "H0137",
+      "H0200",
+      "H0235",
+      "H0338"
+    ],
+    [
+      "H0137",
+      "H0144",
+      "H0249",
+      "H0338"
+    ],
+    [
+      "H0137",
+      "H0190",
+      "H0235",
+      "H0338"
+    ],
+    [
+      "H0144",
+      "H0200",
+      "H0235",
+      "H0288"
+    ],
+    [
+      "H0235",
+      "H0249",
+      "H0288",
+      "H0338"
+    ]
+  ],
+  "n_fallback": 0,
+  "opening_quartets": [
+    [
+      "H0137",
+      "H0235",
+      "H0249",
+      "H0338"
+    ],
+    [
+      "H0046",
+      "H0366",
+      "H0368",
+      "H0384"
+    ],
+    [
+      "H0144",
+      "H0190",
+      "H0200",
+      "H0288"
+    ],
+    [
+      "H0250",
+      "H0486",
+      "H0488",
+      "H0511"
+    ],
+    [
+      "H0191",
+      "H0203",
+      "H0204",
+      "H0302"
+    ]
+  ],
+  "protocol_sha256": "bba8a38f6d7bf191bd728ecfaba5ff40571f33a53a1828b0dd9a44d4ebb9c543",
+  "seed": 1009,
+  "site": "I0006",
+  "system_sha256": "7760383feaef368ad4b7540e52bc73dab209bcace187bb330e5762c3594aeadc",
+  "user_sha256": "6ef13e92c0cc37bcd25ec9dd2f215018afea0a72ef64052122c5a40fde98cb33"
+}

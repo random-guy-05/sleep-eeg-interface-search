@@ -1,0 +1,5 @@
+{
+  "algorithm": "numpy.default_rng(seed).shuffle(head_ids)",
+  "mapping_sha256": "ab7f7d7da3b266079d123e8e7f8c521f76e5f1d6a8c0bdba39a822e464e834b6",
+  "seed": 2026092403
+}

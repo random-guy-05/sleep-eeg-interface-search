@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0235",
+        "H0288",
+        "H0203"
+      ],
+      [
+        "H0249",
+        "H0486",
+        "H0488",
+        "H0200"
+      ],
+      [
+        "H0138",
+        "H0210",
+        "H0303",
+        "H0338"
+      ],
+      [
+        "H0359",
+        "H0361",
+        "H0379",
+        "H0384"
+      ],
+      [
+        "H0144",
+        "H0191",
+        "H0402",
+        "H0404"
+      ]
+    ],
+    "decision_summary": "With source feedback withheld, these quartets sample complementary sleep physiology: NREM delta and sigma activity, REM features, sleep continuity, temporal dynamics, and respiratory burden. The varied combinations give the source-only selector distinct transport hypotheses to compare without assuming unseen performance."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 17.160778666031547,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

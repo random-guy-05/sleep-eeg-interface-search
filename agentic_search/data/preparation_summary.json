@@ -1,0 +1,33 @@
+{
+  "n_participants": 338,
+  "n_heads": 539,
+  "n_historical_quartets": 501,
+  "n_stable4_overlap_with_random500": 0,
+  "sites": {
+    "S0001": {
+      "n": 128,
+      "n_positive": 56
+    },
+    "I0002": {
+      "n": 43,
+      "n_positive": 7
+    },
+    "I0006": {
+      "n": 167,
+      "n_positive": 20
+    }
+  },
+  "taxonomy_categories": {
+    "NREM_spectral": 166,
+    "REM_spectral": 53,
+    "arousal_continuity": 1,
+    "delta_slow_wave": 63,
+    "other_sleep_physiology": 135,
+    "respiratory": 1,
+    "sigma_dynamics": 44,
+    "signal_morphology": 15,
+    "sleep_architecture": 16,
+    "spindle_morphology": 1,
+    "theta": 44
+  }
+}

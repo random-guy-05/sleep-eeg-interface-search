@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.4396551724137931,
+  "auc_source2_to_source1": 0.3902439024390244,
+  "cache_hit": false,
+  "completed_at_utc": "2026-09-27T03:01:41.577573+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "A biologically complementary quartet combining respiratory hypoxia burden, sleep efficiency, cumulative slow-delta activity, and NREM sigma power for broad physiological coverage.",
+  "direction_gap": 0.04941126997476869,
+  "head_ids": [
+    "H0191",
+    "H0249",
+    "H0302",
+    "H0488"
+  ],
+  "head_names": [
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sleep_efficiency",
+    "pred_regression_f_slowdelta_bandpower_total",
+    "pred_regression_f_total_power_nrem_rel_sigma"
+  ],
+  "held_site": "I0006",
+  "mean_source_auc": 0.4149495374264087,
+  "min_source_auc": 0.3902439024390244,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 17.730802899925038,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0191|H0249|H0302|H0488",
+  "reasoning_effort_requested": "medium",
+  "seed": 1005,
+  "selected_C": 0.31622776601683794,
+  "source_site_1": "I0002",
+  "source_site_2": "S0001"
+}

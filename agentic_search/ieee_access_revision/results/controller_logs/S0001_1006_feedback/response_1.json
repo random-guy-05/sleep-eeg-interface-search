@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0144",
+        "H0199",
+        "H0249",
+        "H0276"
+      ],
+      [
+        "H0144",
+        "H0190",
+        "H0200",
+        "H0276"
+      ],
+      [
+        "H0190",
+        "H0199",
+        "H0235",
+        "H0276"
+      ],
+      [
+        "H0138",
+        "H0190",
+        "H0200",
+        "H0235"
+      ],
+      [
+        "H0138",
+        "H0200",
+        "H0249",
+        "H0276"
+      ]
+    ],
+    "decision_summary": "The strongest earlier quartet motivates three variants that change one physiological component at a time. Two variants build on the more balanced result by testing sleep duration and early slow delta power. Together, these probe complementary spindle, slow wave, REM, and sleep architecture signals across both source directions."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 14.47952441603411,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

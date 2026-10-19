@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0138",
+        "H0361",
+        "H0511"
+      ],
+      [
+        "H0200",
+        "H0235",
+        "H0249",
+        "H0288"
+      ],
+      [
+        "H0190",
+        "H0465",
+        "H0467",
+        "H0505"
+      ],
+      [
+        "H0144",
+        "H0302",
+        "H0384",
+        "H0249"
+      ],
+      [
+        "H0191",
+        "H0276",
+        "H0404",
+        "H0203"
+      ]
+    ],
+    "decision_summary": "With source feedback withheld, these quartets test complementary slow-wave, sigma, REM, arousal, and sleep-architecture signals. Relative-power and temporal heads provide alternatives to absolute bandpower, while distinct combinations leave the source-only selector several physiologically plausible options."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 14.334066667011939,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

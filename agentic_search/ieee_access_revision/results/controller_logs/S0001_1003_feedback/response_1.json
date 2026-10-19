@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0203",
+        "H0245",
+        "H0124"
+      ],
+      [
+        "H0046",
+        "H0203",
+        "H0235",
+        "H0289"
+      ],
+      [
+        "H0046",
+        "H0511",
+        "H0245",
+        "H0289"
+      ],
+      [
+        "H0191",
+        "H0203",
+        "H0245",
+        "H0289"
+      ],
+      [
+        "H0046",
+        "H0144",
+        "H0203",
+        "H0302"
+      ]
+    ],
+    "decision_summary": "The most balanced prior quartet combines arousal, REM theta, N2 sigma variability, and N3 slow delta power. Four proposals test one substitution at a time; the fifth tests a broader combination of arousal, spindle morphology, REM theta, and slow delta power."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 15.638749750098214,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

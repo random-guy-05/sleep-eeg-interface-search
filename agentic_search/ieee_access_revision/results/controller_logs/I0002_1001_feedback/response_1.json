@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0249",
+        "H0359",
+        "H0361",
+        "H0384"
+      ],
+      [
+        "H0190",
+        "H0486",
+        "H0488",
+        "H0511"
+      ],
+      [
+        "H0249",
+        "H0486",
+        "H0488",
+        "H0384"
+      ],
+      [
+        "H0249",
+        "H0359",
+        "H0361",
+        "H0511"
+      ],
+      [
+        "H0249",
+        "H0486",
+        "H0361",
+        "H0384"
+      ]
+    ],
+    "decision_summary": "The strongest earlier quartets combined sleep architecture with relative NREM and REM spectral measures. These proposals test nearby combinations of those signals, emphasizing the better balanced source result while checking whether first stable NREM or whole night NREM measures transport more consistently."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 16.55169554206077,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

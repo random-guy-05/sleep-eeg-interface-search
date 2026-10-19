@@ -1,0 +1,13 @@
+method,method_label,provider,model,budget,mean_unique_categories,min_unique_categories,candidate_count
+batch_semantic,Batch semantic,codex,gpt-6-sol,,3.5,1,750
+evolutionary_robust,Evolutionary robust,,,10.0,2.975,1,600
+evolutionary_robust,Evolutionary robust,,,25.0,2.997333333333333,1,1500
+evolutionary_robust,Evolutionary robust,,,50.0,3.026666666666667,1,3000
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10.0,3.44,2,300
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25.0,3.3373333333333335,2,750
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50.0,3.35,1,1500
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25.0,2.94,1,750
+prospective_random_bank,Prospective random bank,,,500.0,3.014,1,1500
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10.0,4.0,4,600
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25.0,4.0,4,1500
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50.0,4.0,4,3000

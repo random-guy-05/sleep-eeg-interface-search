@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.5238095238095238,
+  "auc_source2_to_source1": 0.7560975609756098,
+  "cache_hit": false,
+  "completed_at_utc": "2026-09-27T03:02:16.277921+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "A complementary quartet spanning slow-wave burden, sigma dynamics, REM architecture, and respiratory hypoxia offers biologically grounded coverage across distinct sleep processes.",
+  "direction_gap": 0.23228803716608593,
+  "head_ids": [
+    "H0140",
+    "H0191",
+    "H0204",
+    "H0276"
+  ],
+  "head_names": [
+    "pred_regression_f_first_rem_duration",
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sigma-0-mean",
+    "pred_regression_f_slowdelta_bandpower_4h"
+  ],
+  "held_site": "S0001",
+  "mean_source_auc": 0.6399535423925669,
+  "min_source_auc": 0.5238095238095238,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 15.383784400997683,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0140|H0191|H0204|H0276",
+  "reasoning_effort_requested": "medium",
+  "seed": 1000,
+  "selected_C": 0.0031622776601683794,
+  "source_site_1": "I0002",
+  "source_site_2": "I0006"
+}

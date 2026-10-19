@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.5073891625615764,
+  "auc_source2_to_source1": 0.47165532879818595,
+  "cache_hit": true,
+  "completed_at_utc": "2026-09-27T03:00:51.737060+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "A complementary quartet combining slow-wave activity, sigma dynamics, sleep efficiency, and respiratory burden offers biologically distinct signals with plausible relevance across institutions.",
+  "direction_gap": 0.035733833763390455,
+  "head_ids": [
+    "H0092",
+    "H0191",
+    "H0204",
+    "H0249"
+  ],
+  "head_names": [
+    "pred_regression_f_delta-0-mean",
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sigma-0-mean",
+    "pred_regression_f_sleep_efficiency"
+  ],
+  "held_site": "I0002",
+  "mean_source_auc": 0.4895222456798812,
+  "min_source_auc": 0.47165532879818595,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 22.61223140906077,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0092|H0191|H0204|H0249",
+  "reasoning_effort_requested": "medium",
+  "seed": 1007,
+  "selected_C": 0.0001,
+  "source_site_1": "I0006",
+  "source_site_2": "S0001"
+}

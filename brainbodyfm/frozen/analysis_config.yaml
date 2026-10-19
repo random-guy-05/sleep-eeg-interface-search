@@ -1,0 +1,77 @@
+primary_metric:
+  name: age_conditioned_auc
+  age_window: 2.0
+overall_summary:
+  type: unweighted_macro_site_mean
+sites:
+  - I0002
+  - I0006
+  - S0001
+outer_folds: leave_one_site_out
+inner_tuning: paired_source_transfer_A_to_B_and_B_to_A
+elastic_net:
+  alpha: 0.5
+  active_threshold: 1.0e-8
+  C_grid:
+    - 0.0001
+    - 0.0003162278
+    - 0.001
+    - 0.003162278
+    - 0.01
+    - 0.03162278
+    - 0.1
+    - 0.3162278
+    - 1.0
+    - 3.16227766
+    - 10.0
+    - 31.6227766
+    - 100.0
+    - 316.227766
+    - 1000.0
+    - 3162.27766
+    - 10000.0
+  max_iter: 20000
+ridge:
+  max_iter: 10000
+random_k:
+  values: [4, 8, 16, 32]
+  n_draws: 500
+  seed: 2026090401
+label_efficiency:
+  fractions: [0.25, 0.50, 0.75, 1.00]
+  repetitions: 30
+  seed: 2026090402
+selection_stability:
+  bootstraps_per_outer_fold: 200
+  seed: 2026090403
+headline_uncertainty:
+  bootstrap_replicates: 20000
+  seed: 2026090404
+hyperparameter_ties:
+  preference: stronger_regularization
+  tolerance: 1.0e-4
+models:
+  primary_sparse: physiology_elastic_net
+  dense_semantic: ridge_841
+  dense_latent: ridge_1024
+columns:
+  outcome: outcome
+  age: age
+  site: site
+  subject_id: subject_id
+missing_value_policy: training_median
+normalization_policy: training_mean_sd
+random_state: 2026090401
+stopping_rules:
+  no_post_hoc_grid_refinement: true
+  latent_runtime_failure: drop_latent_interface_if_reliable_cache_cannot_be_obtained
+  convergence: increase_max_iter_and_record_warning
+  prohibited_additions:
+    - AURORA_TRIAD
+    - new_neural_architecture
+    - new_foundation_model
+    - new_dataset
+    - new_k_values
+    - clinical_subgroup_fishing
+    - new_Stable4_coefficient_scheme
+    - threshold_classification

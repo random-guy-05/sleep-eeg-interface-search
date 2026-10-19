@@ -1,0 +1,4 @@
+budget,n_valid_choices,macro_target_auc,bootstrap_ci_2_5,bootstrap_ci_97_5,draws,invalid_resamples,design
+10,30,0.60038379,0.51391383,0.67877289,50000,0,paired participant bootstrap stratified by outcome within site; selected quartets fixed
+25,29,0.59866722,0.49713930,0.68109294,50000,0,paired participant bootstrap stratified by outcome within site; selected quartets fixed
+50,29,0.59166225,0.46782415,0.68888481,50000,0,paired participant bootstrap stratified by outcome within site; selected quartets fixed

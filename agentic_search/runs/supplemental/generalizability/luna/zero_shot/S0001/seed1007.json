@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.5124716553287982,
+  "auc_source2_to_source1": 0.7560975609756098,
+  "cache_hit": false,
+  "completed_at_utc": "2026-09-27T03:03:13.295570+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "A biologically complementary quartet spanning slow-wave activity, sigma dynamics, REM architecture, and respiratory burden should capture distinct sleep physiology with less redundancy.",
+  "direction_gap": 0.24362590564681152,
+  "head_ids": [
+    "H0092",
+    "H0140",
+    "H0191",
+    "H0204"
+  ],
+  "head_names": [
+    "pred_regression_f_delta-0-mean",
+    "pred_regression_f_first_rem_duration",
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sigma-0-mean"
+  ],
+  "held_site": "S0001",
+  "mean_source_auc": 0.634284608152204,
+  "min_source_auc": 0.5124716553287982,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 35.94307418097742,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0092|H0140|H0191|H0204",
+  "reasoning_effort_requested": "medium",
+  "seed": 1007,
+  "selected_C": 0.0001,
+  "source_site_1": "I0002",
+  "source_site_2": "I0006"
+}

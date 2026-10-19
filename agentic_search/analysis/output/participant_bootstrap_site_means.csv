@@ -1,0 +1,40 @@
+method,method_label,budget,held_site,n_fixed_selections,mean_target_auc,quartet_count
+full_agent,"Full agent, GPT-6 Sol",10,I0002,10,0.724390243902439,9
+full_agent,"Full agent, GPT-6 Sol",10,I0006,10,0.6210884353741497,9
+full_agent,"Full agent, GPT-6 Sol",10,S0001,10,0.5450738916256157,9
+random_source_robust,Random + source robust,10,I0002,100,0.6441463414634145,69
+random_source_robust,Random + source robust,10,I0006,100,0.5073015873015874,65
+random_source_robust,Random + source robust,10,S0001,100,0.541847290640394,68
+evolutionary_robust,Evolutionary robust,10,I0002,20,0.6134146341463416,20
+evolutionary_robust,Evolutionary robust,10,I0006,20,0.4790249433106576,20
+evolutionary_robust,Evolutionary robust,10,S0001,20,0.558435960591133,20
+taxonomy_diverse_robust,Taxonomy-diverse robust,10,I0002,20,0.7304878048780489,20
+taxonomy_diverse_robust,Taxonomy-diverse robust,10,I0006,20,0.5277777777777776,20
+taxonomy_diverse_robust,Taxonomy-diverse robust,10,S0001,20,0.5636083743842364,20
+full_agent,"Full agent, GPT-6 Sol",25,I0002,10,0.6756097560975609,7
+full_agent,"Full agent, GPT-6 Sol",25,I0006,10,0.5956916099773244,9
+full_agent,"Full agent, GPT-6 Sol",25,S0001,10,0.5633004926108375,10
+random_source_robust,Random + source robust,25,I0002,100,0.654390243902439,42
+random_source_robust,Random + source robust,25,I0006,100,0.5137641723356009,43
+random_source_robust,Random + source robust,25,S0001,100,0.5356650246305419,46
+evolutionary_robust,Evolutionary robust,25,I0002,20,0.6231707317073172,20
+evolutionary_robust,Evolutionary robust,25,I0006,20,0.48718820861678014,20
+evolutionary_robust,Evolutionary robust,25,S0001,20,0.5357142857142858,20
+taxonomy_diverse_robust,Taxonomy-diverse robust,25,I0002,20,0.7109756097560976,20
+taxonomy_diverse_robust,Taxonomy-diverse robust,25,I0006,20,0.5435374149659864,20
+taxonomy_diverse_robust,Taxonomy-diverse robust,25,S0001,20,0.5595443349753695,20
+full_agent,"Full agent, GPT-6 Sol",50,I0002,10,0.7,10
+full_agent,"Full agent, GPT-6 Sol",50,I0006,10,0.5979591836734695,10
+full_agent,"Full agent, GPT-6 Sol",50,S0001,10,0.5486453201970443,10
+random_source_robust,Random + source robust,50,I0002,100,0.6582926829268293,24
+random_source_robust,Random + source robust,50,I0006,100,0.5154875283446712,26
+random_source_robust,Random + source robust,50,S0001,100,0.5371551724137931,26
+evolutionary_robust,Evolutionary robust,50,I0002,20,0.6646341463414636,20
+evolutionary_robust,Evolutionary robust,50,I0006,20,0.4810657596371882,20
+evolutionary_robust,Evolutionary robust,50,S0001,20,0.529987684729064,20
+taxonomy_diverse_robust,Taxonomy-diverse robust,50,I0002,20,0.7560975609756098,20
+taxonomy_diverse_robust,Taxonomy-diverse robust,50,I0006,20,0.5301587301587302,20
+taxonomy_diverse_robust,Taxonomy-diverse robust,50,S0001,20,0.559975369458128,20
+random_source_robust,Random + source robust,500,I0002,100,0.7317073170731707,1
+random_source_robust,Random + source robust,500,I0006,100,0.4421768707482992,1
+random_source_robust,Random + source robust,500,S0001,100,0.5098522167487686,1

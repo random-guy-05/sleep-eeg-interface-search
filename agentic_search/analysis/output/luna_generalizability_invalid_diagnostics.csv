@@ -1,0 +1,145 @@
+held_site,budget,seed,round,event_index,validation_errors,rejected_quartet_contents_persisted,candidate_content_note
+I0002,10,1000,2,1,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,10,1002,1,1,candidate 5: unknown head IDs: H046,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,10,1002,2,2,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,10,1002,2,3,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,10,1003,2,1,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,10,1003,2,2,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,10,1004,2,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,10,1006,2,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,10,1007,2,1,candidate 5: unknown head IDs: H046,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,10,1008,2,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,25,1000,2,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,25,1000,4,2,candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,25,1000,5,3,candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,25,1001,4,1,candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,25,1001,5,2,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,25,1002,5,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,25,1003,5,1,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,25,1004,5,1,candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,25,1005,4,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,25,1005,4,2,candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,25,1005,5,3,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,25,1005,5,4,candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,25,1006,2,1,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,25,1007,1,1,candidate 4: unknown head IDs: H046,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,25,1009,4,1,candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1000,3,1,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1000,4,2,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1000,4,3,candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1000,5,4,candidate 1: already queried in this trajectory; candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1000,5,5,candidate 1: already queried in this trajectory; candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1000,7,6,candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1000,8,7,candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1001,10,1,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1002,5,1,candidate 4: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1002,10,2,candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1002,10,3,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1003,10,1,candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1004,1,1,candidate 3: unknown head IDs: H046,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1004,9,2,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1005,9,1,candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1005,10,2,candidate 1: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1006,9,1,candidate 1: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1006,9,2,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1007,4,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1007,4,2,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1007,5,3,candidate 1: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1007,8,4,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1008,7,1,candidate 2: duplicate within this batch; candidate 3: duplicate within this batch; candidate 4: duplicate within this batch; candidate 5: duplicate within this batch,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1008,10,2,candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1009,3,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1009,5,2,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1009,8,3,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1009,8,4,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1009,9,5,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0002,50,1009,10,6,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,10,1001,2,1,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,10,1002,2,1,candidate 5: unknown head IDs: H046,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,10,1002,2,2,candidate 1: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,10,1004,2,1,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,10,1005,1,1,candidate 1: unknown head IDs: H046,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,10,1009,1,1,candidate 4: unknown head IDs: H046,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,25,1000,4,1,candidate 1: already queried in this trajectory; candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,25,1003,3,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,25,1005,4,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,25,1006,2,1,candidate 5: unknown head IDs: H046,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,25,1006,4,2,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,25,1006,4,3,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,25,1006,5,4,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,25,1006,5,5,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,25,1007,4,1,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,25,1007,4,2,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1000,5,1,candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1000,6,2,candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1000,8,3,candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1000,9,4,candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1000,9,5,candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1000,10,6,candidate 1: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1000,10,7,candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1001,6,1,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1001,8,2,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1001,9,3,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1002,3,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1002,8,2,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1002,10,3,candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1003,3,1,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1003,4,2,candidate 1: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1003,6,3,candidate 1: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1003,9,4,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1004,8,1,candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1005,5,1,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1005,10,2,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1006,5,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1006,6,2,candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1006,10,3,candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1007,8,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1007,8,2,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1007,10,3,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1007,10,4,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1008,9,1,candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1009,4,1,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+I0006,50,1009,6,2,candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,10,1001,1,1,candidate 4: unknown head IDs: H046,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,10,1003,2,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,10,1006,1,1,candidate 4: unknown head IDs: H046,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,10,1007,2,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,25,1000,1,1,candidate 5: unknown head IDs: H046,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,25,1003,4,1,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,25,1003,4,2,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,25,1003,5,3,candidate 1: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,25,1003,5,4,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,25,1005,3,1,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,25,1006,2,1,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,25,1007,2,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,25,1009,5,1,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1000,4,1,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1000,6,2,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1000,7,3,candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1000,10,4,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1000,10,5,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1001,5,1,candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1001,6,2,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1001,6,3,candidate 1: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1001,10,4,candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1001,10,5,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1002,7,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1003,3,1,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1003,9,2,candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1003,9,3,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1003,10,4,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1004,3,1,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1004,9,2,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 3: already queried in this trajectory; candidate 4: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1005,9,1,candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1006,5,1,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1007,3,1,candidate 1: already queried in this trajectory; candidate 5: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1007,7,2,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1007,10,3,candidate 1: already queried in this trajectory; candidate 2: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1008,10,1,candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1008,10,2,candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1009,3,1,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1009,4,2,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1009,6,3,candidate 1: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1009,7,4,candidate 2: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1009,7,5,candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.
+S0001,50,1009,10,6,candidate 2: already queried in this trajectory; candidate 4: already queried in this trajectory,False,Original controller response for rejected batch was not retained in this run artifact.

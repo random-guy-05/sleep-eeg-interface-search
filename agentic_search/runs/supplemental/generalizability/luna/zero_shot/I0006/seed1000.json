@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.46798029556650245,
+  "auc_source2_to_source1": 0.7560975609756098,
+  "cache_hit": false,
+  "completed_at_utc": "2026-09-27T03:01:14.436766+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "A compact mix of relative delta and sigma power across stable NREM and the broader NREM period captures slow-wave depth and spindle-related physiology while favoring normalized measures that may be less sensitive to recording scale.",
+  "direction_gap": 0.2881172654091073,
+  "head_ids": [
+    "H0204",
+    "H0359",
+    "H0465",
+    "H0488"
+  ],
+  "head_names": [
+    "pred_regression_f_sigma-0-mean",
+    "pred_regression_f_total_power_first_stable_nrem_rel_delta",
+    "pred_regression_f_total_power_n3_rel_delta",
+    "pred_regression_f_total_power_nrem_rel_sigma"
+  ],
+  "held_site": "I0006",
+  "mean_source_auc": 0.6120389282710561,
+  "min_source_auc": 0.46798029556650245,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 18.51212933799252,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0204|H0359|H0465|H0488",
+  "reasoning_effort_requested": "medium",
+  "seed": 1000,
+  "selected_C": 0.03162277660168379,
+  "source_site_1": "I0002",
+  "source_site_2": "S0001"
+}

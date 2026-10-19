@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.4331065759637188,
+  "auc_source2_to_source1": 0.6097560975609756,
+  "cache_hit": true,
+  "completed_at_utc": "2026-09-27T03:02:50.809653+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "Choose a biologically complementary quartet spanning respiratory burden, sleep duration, sleep efficiency, and arousal continuity, favoring broad clinical physiology over redundant spectral summaries.",
+  "direction_gap": 0.17664952159725678,
+  "head_ids": [
+    "H0046",
+    "H0190",
+    "H0191",
+    "H0249"
+  ],
+  "head_names": [
+    "pred_regression_f_arousal_index",
+    "pred_regression_f_hours_sleep",
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sleep_efficiency"
+  ],
+  "held_site": "S0001",
+  "mean_source_auc": 0.5214313367623472,
+  "min_source_auc": 0.4331065759637188,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 20.857034537941217,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0046|H0190|H0191|H0249",
+  "reasoning_effort_requested": "medium",
+  "seed": 1006,
+  "selected_C": 0.31622776601683794,
+  "source_site_1": "I0002",
+  "source_site_2": "I0006"
+}

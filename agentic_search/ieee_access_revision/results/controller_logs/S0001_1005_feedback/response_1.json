@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0144",
+        "H0191",
+        "H0200",
+        "H0276"
+      ],
+      [
+        "H0144",
+        "H0249",
+        "H0200",
+        "H0276"
+      ],
+      [
+        "H0144",
+        "H0235",
+        "H0288",
+        "H0511"
+      ],
+      [
+        "H0144",
+        "H0046",
+        "H0359",
+        "H0384"
+      ],
+      [
+        "H0198",
+        "H0046",
+        "H0200",
+        "H0276"
+      ]
+    ],
+    "decision_summary": "The spindle chirp head appeared in both strongest source quartets, though both had large direction gaps. These candidates test complementary respiratory, sleep continuity, delta, and relative spectral heads around it, plus one alternate chirp quartet to probe whether the result depends on that specific spindle head."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 15.52142929204274,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

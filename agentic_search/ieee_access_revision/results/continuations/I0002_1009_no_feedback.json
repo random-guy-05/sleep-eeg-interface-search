@@ -1,0 +1,123 @@
+{
+  "arm": "no_feedback",
+  "calls": [
+    {
+      "answer": {
+        "candidates": [
+          [
+            "H0046",
+            "H0138",
+            "H0235",
+            "H0384"
+          ],
+          [
+            "H0249",
+            "H0359",
+            "H0361",
+            "H0391"
+          ],
+          [
+            "H0200",
+            "H0235",
+            "H0288",
+            "H0338"
+          ],
+          [
+            "H0046",
+            "H0191",
+            "H0249",
+            "H0490"
+          ],
+          [
+            "H0137",
+            "H0203",
+            "H0276",
+            "H0397"
+          ]
+        ],
+        "decision_summary": "With source performance withheld, these quartets sample complementary slow-wave, sigma, theta, REM, sleep-continuity, and respiratory signals. Stage-specific and relative-power variants offer different routes to cross-institution consistency without relying on unavailable feedback."
+      },
+      "metadata": {
+        "cli_version": "codex-cli 0.158.0",
+        "elapsed_seconds": 16.667511207982898,
+        "model_reported": "gpt-6-sol",
+        "model_requested": "gpt-6-sol",
+        "provider": "codex",
+        "reasoning_effort": "medium",
+        "temperature_controlled": false
+      },
+      "validation_errors": []
+    }
+  ],
+  "completed_at_utc": "2026-10-19T03:11:50.147973+00:00",
+  "continuation_quartets": [
+    [
+      "H0046",
+      "H0138",
+      "H0235",
+      "H0384"
+    ],
+    [
+      "H0249",
+      "H0359",
+      "H0361",
+      "H0391"
+    ],
+    [
+      "H0200",
+      "H0235",
+      "H0288",
+      "H0338"
+    ],
+    [
+      "H0046",
+      "H0191",
+      "H0249",
+      "H0490"
+    ],
+    [
+      "H0137",
+      "H0203",
+      "H0276",
+      "H0397"
+    ]
+  ],
+  "n_fallback": 0,
+  "opening_quartets": [
+    [
+      "H0046",
+      "H0138",
+      "H0204",
+      "H0384"
+    ],
+    [
+      "H0235",
+      "H0249",
+      "H0288",
+      "H0338"
+    ],
+    [
+      "H0191",
+      "H0359",
+      "H0361",
+      "H0384"
+    ],
+    [
+      "H0144",
+      "H0486",
+      "H0488",
+      "H0511"
+    ],
+    [
+      "H0046",
+      "H0200",
+      "H0249",
+      "H0302"
+    ]
+  ],
+  "protocol_sha256": "bba8a38f6d7bf191bd728ecfaba5ff40571f33a53a1828b0dd9a44d4ebb9c543",
+  "seed": 1009,
+  "site": "I0002",
+  "system_sha256": "7760383feaef368ad4b7540e52bc73dab209bcace187bb330e5762c3594aeadc",
+  "user_sha256": "f7b7e00f55cf2884de385ee61aa942544c6c62803c378d7d3a82e51f5944c8f5"
+}

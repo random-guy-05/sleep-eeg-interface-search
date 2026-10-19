@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.4839901477832512,
+  "auc_source2_to_source1": 0.5736961451247166,
+  "cache_hit": false,
+  "completed_at_utc": "2026-09-27T03:01:09.129578+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "A biologically complementary quartet spanning slow-wave activity, sigma dynamics, stable NREM delta power, and respiratory burden, with stage-specific and clinical signals that may generalize across institutions.",
+  "direction_gap": 0.08970599734146534,
+  "head_ids": [
+    "H0092",
+    "H0191",
+    "H0204",
+    "H0352"
+  ],
+  "head_names": [
+    "pred_regression_f_delta-0-mean",
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sigma-0-mean",
+    "pred_regression_f_total_power_first_stable_nrem_abs_delta"
+  ],
+  "held_site": "I0002",
+  "mean_source_auc": 0.5288431464539839,
+  "min_source_auc": 0.4839901477832512,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 20.520439759013243,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0092|H0191|H0204|H0352",
+  "reasoning_effort_requested": "medium",
+  "seed": 1008,
+  "selected_C": 0.0031622776601683794,
+  "source_site_1": "I0006",
+  "source_site_2": "S0001"
+}

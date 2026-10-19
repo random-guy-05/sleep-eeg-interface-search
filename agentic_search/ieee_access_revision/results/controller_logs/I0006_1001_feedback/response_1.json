@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0138",
+        "H0144",
+        "H0191",
+        "H0140"
+      ],
+      [
+        "H0138",
+        "H0144",
+        "H0191",
+        "H0046"
+      ],
+      [
+        "H0138",
+        "H0144",
+        "H0200",
+        "H0302"
+      ],
+      [
+        "H0138",
+        "H0191",
+        "H0200",
+        "H0235"
+      ],
+      [
+        "H0137",
+        "H0144",
+        "H0191",
+        "H0200"
+      ]
+    ],
+    "decision_summary": "The strongest prior quartet combined delta dynamics, spindle morphology, hypoxia, and REM duration. These proposals retain most of that combination while testing closely related measures and complementary sleep physiology. The source direction gap also warrants comparing alternatives rather than relying on its mean AUROC alone."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 20.446795791969635,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

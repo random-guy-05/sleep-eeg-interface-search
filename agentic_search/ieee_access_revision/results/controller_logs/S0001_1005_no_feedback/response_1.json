@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0486",
+        "H0488",
+        "H0511"
+      ],
+      [
+        "H0249",
+        "H0288",
+        "H0235",
+        "H0200"
+      ],
+      [
+        "H0191",
+        "H0046",
+        "H0488",
+        "H0486"
+      ],
+      [
+        "H0190",
+        "H0359",
+        "H0361",
+        "H0384"
+      ],
+      [
+        "H0144",
+        "H0486",
+        "H0203",
+        "H0249"
+      ]
+    ],
+    "decision_summary": "These quartets combine sleep continuity, NREM slow wave and sigma activity, REM physiology, and selected arousal or respiratory measures. They vary stage specificity and measurement type to probe complementary signals. Source feedback is withheld, so no performance or direction consistency is assumed."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 16.804191582952626,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

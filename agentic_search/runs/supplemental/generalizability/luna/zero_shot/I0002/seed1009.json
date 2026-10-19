@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.4876847290640394,
+  "auc_source2_to_source1": 0.5079365079365079,
+  "cache_hit": true,
+  "completed_at_utc": "2026-09-27T03:01:08.051436+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "Selected complementary respiratory burden, arousal continuity, sleep efficiency, and cumulative slow-delta physiology for broad, biologically grounded coverage.",
+  "direction_gap": 0.020251778872468484,
+  "head_ids": [
+    "H0046",
+    "H0191",
+    "H0249",
+    "H0302"
+  ],
+  "head_names": [
+    "pred_regression_f_arousal_index",
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sleep_efficiency",
+    "pred_regression_f_slowdelta_bandpower_total"
+  ],
+  "held_site": "I0002",
+  "mean_source_auc": 0.49781061850027364,
+  "min_source_auc": 0.4876847290640394,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 19.365185454953462,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0046|H0191|H0249|H0302",
+  "reasoning_effort_requested": "medium",
+  "seed": 1009,
+  "selected_C": 0.1,
+  "source_site_1": "I0006",
+  "source_site_2": "S0001"
+}

@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.5221674876847291,
+  "auc_source2_to_source1": 0.46485260770975056,
+  "cache_hit": true,
+  "completed_at_utc": "2026-09-27T03:00:48.297964+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "A biologically complementary quartet spanning slow-delta burden, sigma dynamics, respiratory hypoxia, and sleep efficiency favors broad sleep-disorder signal over redundant spectral summaries.",
+  "direction_gap": 0.05731487997497853,
+  "head_ids": [
+    "H0191",
+    "H0204",
+    "H0249",
+    "H0276"
+  ],
+  "head_names": [
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sigma-0-mean",
+    "pred_regression_f_sleep_efficiency",
+    "pred_regression_f_slowdelta_bandpower_4h"
+  ],
+  "held_site": "I0002",
+  "mean_source_auc": 0.49351004769723983,
+  "min_source_auc": 0.46485260770975056,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 19.05739132198505,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0191|H0204|H0249|H0276",
+  "reasoning_effort_requested": "medium",
+  "seed": 1006,
+  "selected_C": 0.01,
+  "source_site_1": "I0006",
+  "source_site_2": "S0001"
+}

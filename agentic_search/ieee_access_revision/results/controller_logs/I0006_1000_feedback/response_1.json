@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0123",
+        "H0144",
+        "H0488"
+      ],
+      [
+        "H0046",
+        "H0123",
+        "H0235",
+        "H0336"
+      ],
+      [
+        "H0046",
+        "H0144",
+        "H0235",
+        "H0486"
+      ],
+      [
+        "H0046",
+        "H0123",
+        "H0235",
+        "H0511"
+      ],
+      [
+        "H0191",
+        "H0123",
+        "H0144",
+        "H0235"
+      ]
+    ],
+    "decision_summary": "The strongest prior quartet pairs arousal, NREM delta, spindle morphology, and NREM sigma, though its source directions differ. These candidates test nearby substitutions and complementary theta, REM, and respiratory signals to look for more consistent source performance."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 14.55663274996914,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

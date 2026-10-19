@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0249",
+        "H0245",
+        "H0288",
+        "H0338"
+      ],
+      [
+        "H0200",
+        "H0235",
+        "H0288",
+        "H0338"
+      ],
+      [
+        "H0200",
+        "H0245",
+        "H0123",
+        "H0338"
+      ],
+      [
+        "H0200",
+        "H0245",
+        "H0288",
+        "H0203"
+      ],
+      [
+        "H0200",
+        "H0245",
+        "H0288",
+        "H0046"
+      ]
+    ],
+    "decision_summary": "The strongest prior quartet combined REM duration, N2 sigma variability, N2 slow delta power, and REM theta power. These candidates retain three of those heads at a time while testing plausible substitutes from sleep architecture, N2 spectral physiology, REM theta, and arousal continuity. This focuses the remaining evaluations on whether its source performance and directional consistency improve."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 15.059338291059248,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

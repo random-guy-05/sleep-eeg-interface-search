@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.46921182266009853,
+  "auc_source2_to_source1": 0.5609756097560976,
+  "cache_hit": false,
+  "completed_at_utc": "2026-09-27T03:01:55.434392+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "A physiology-diverse quartet spanning respiratory burden, sleep continuity and latency, and whole-night spectral power offers complementary signals with plausible cross-institution relevance.",
+  "direction_gap": 0.09176378709599908,
+  "head_ids": [
+    "H0191",
+    "H0249",
+    "H0250",
+    "H0392"
+  ],
+  "head_names": [
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sleep_efficiency",
+    "pred_regression_f_sleep_latency",
+    "pred_regression_f_total_power_full_sleep"
+  ],
+  "held_site": "I0006",
+  "mean_source_auc": 0.5150937162080981,
+  "min_source_auc": 0.46921182266009853,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 20.455290679936297,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0191|H0249|H0250|H0392",
+  "reasoning_effort_requested": "medium",
+  "seed": 1006,
+  "selected_C": 10.0,
+  "source_site_1": "I0002",
+  "source_site_2": "S0001"
+}

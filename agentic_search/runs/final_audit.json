@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "source_bank_rows": 1500,
+  "primary_agent_trajectories": 120,
+  "manifest_candidates": 15128,
+  "target_scored": true,
+  "agent_source_files_scanned": 5,
+  "source_only_logs_scanned": 240
+}

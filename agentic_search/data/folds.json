@@ -1,0 +1,31 @@
+{
+  "site_order": [
+    "I0002",
+    "I0006",
+    "S0001"
+  ],
+  "age_window_years": 2.0,
+  "folds": {
+    "I0002": {
+      "source_sites": [
+        "I0006",
+        "S0001"
+      ],
+      "held_site": "I0002"
+    },
+    "I0006": {
+      "source_sites": [
+        "I0002",
+        "S0001"
+      ],
+      "held_site": "I0006"
+    },
+    "S0001": {
+      "source_sites": [
+        "I0002",
+        "I0006"
+      ],
+      "held_site": "S0001"
+    }
+  }
+}

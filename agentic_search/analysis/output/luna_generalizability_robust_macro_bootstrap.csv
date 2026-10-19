@@ -1,0 +1,4 @@
+budget,n_valid_choices,macro_target_auc,bootstrap_ci_2_5,bootstrap_ci_97_5,draws,design
+10,30,0.60209555,0.51421957,0.68102261,50000,participant bootstrap stratified by outcome within site; robust choices fixed
+25,30,0.59632441,0.48794034,0.68382147,50000,participant bootstrap stratified by outcome within site; robust choices fixed
+50,30,0.59811968,0.46894773,0.69644931,50000,participant bootstrap stratified by outcome within site; robust choices fixed

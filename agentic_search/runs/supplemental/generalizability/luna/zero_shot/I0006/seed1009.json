@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.5492610837438424,
+  "auc_source2_to_source1": 0.5853658536585366,
+  "cache_hit": false,
+  "completed_at_utc": "2026-09-27T03:02:06.819980+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "Selected slow-delta burden, sleep duration, hypoxia burden, and sleep efficiency as complementary, interpretable measures spanning EEG physiology, respiration, and sleep architecture.",
+  "direction_gap": 0.036104769914694135,
+  "head_ids": [
+    "H0190",
+    "H0191",
+    "H0249",
+    "H0276"
+  ],
+  "head_names": [
+    "pred_regression_f_hours_sleep",
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sleep_efficiency",
+    "pred_regression_f_slowdelta_bandpower_4h"
+  ],
+  "held_site": "I0006",
+  "mean_source_auc": 0.5673134687011895,
+  "min_source_auc": 0.5492610837438424,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 18.7670972320484,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0190|H0191|H0249|H0276",
+  "reasoning_effort_requested": "medium",
+  "seed": 1009,
+  "selected_C": 0.001,
+  "source_site_1": "I0002",
+  "source_site_2": "S0001"
+}

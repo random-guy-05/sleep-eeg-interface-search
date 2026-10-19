@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0359",
+        "H0361",
+        "H0384",
+        "H0144"
+      ],
+      [
+        "H0486",
+        "H0488",
+        "H0511",
+        "H0046"
+      ],
+      [
+        "H0124",
+        "H0235",
+        "H0203",
+        "H0249"
+      ],
+      [
+        "H0138",
+        "H0144",
+        "H0511",
+        "H0249"
+      ],
+      [
+        "H0402",
+        "H0404",
+        "H0511",
+        "H0046"
+      ]
+    ],
+    "decision_summary": "These quartets test complementary age-related signals across NREM slow waves, sigma activity, REM theta, spindle morphology, and sleep continuity. Several use relative power to reduce sensitivity to recording scale. With source feedback withheld, the batch balances close variants of earlier proposals with distinct physiological combinations."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 17.62739124998916,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

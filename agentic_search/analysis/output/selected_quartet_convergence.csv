@@ -1,0 +1,34 @@
+method,method_label,provider,model,budget,held_site,n_pairs,mean_jaccard_selected_heads
+batch_semantic,Batch semantic,codex,gpt-6-sol,25,I0002,45,0.09375661375661377
+batch_semantic,Batch semantic,codex,gpt-6-sol,25,I0006,45,0.034920634920634915
+batch_semantic,Batch semantic,codex,gpt-6-sol,25,S0001,45,0.019047619047619042
+evolutionary_robust,Evolutionary robust,,,10,I0002,190,0.0022556390977443606
+evolutionary_robust,Evolutionary robust,,,10,I0006,190,0.003759398496240601
+evolutionary_robust,Evolutionary robust,,,10,S0001,190,0.009273182957393482
+evolutionary_robust,Evolutionary robust,,,25,I0002,190,0.010526315789473684
+evolutionary_robust,Evolutionary robust,,,25,I0006,190,0.015789473684210527
+evolutionary_robust,Evolutionary robust,,,25,S0001,190,0.012030075187969924
+evolutionary_robust,Evolutionary robust,,,50,I0002,190,0.012781954887218044
+evolutionary_robust,Evolutionary robust,,,50,I0006,190,0.008270676691729323
+evolutionary_robust,Evolutionary robust,,,50,S0001,190,0.014536340852130326
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10,I0002,45,0.1614814814814815
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10,I0006,45,0.22285714285714286
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10,S0001,45,0.22433862433862437
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25,I0002,45,0.37820105820105826
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25,I0006,45,0.2383068783068783
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25,S0001,45,0.1595767195767196
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50,I0002,45,0.2698412698412698
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50,I0006,45,0.2222222222222222
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50,S0001,45,0.15195767195767193
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25,I0002,45,0.06243386243386243
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25,I0006,45,0.013756613756613757
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25,S0001,45,0.06772486772486773
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10,I0002,190,0.0724310776942356
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10,I0006,190,0.06641604010025062
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10,S0001,190,0.08721804511278194
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25,I0002,190,0.08711779448621552
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25,I0006,190,0.04461152882205514
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25,S0001,190,0.07142857142857142
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50,I0002,190,0.07518796992481201
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50,I0006,190,0.04385964912280702
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50,S0001,190,0.03483709273182957

@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0250",
+        "H0366",
+        "H0368",
+        "H0511"
+      ],
+      [
+        "H0250",
+        "H0366",
+        "H0235",
+        "H0384"
+      ],
+      [
+        "H0250",
+        "H0288",
+        "H0368",
+        "H0384"
+      ],
+      [
+        "H0046",
+        "H0366",
+        "H0368",
+        "H0384"
+      ],
+      [
+        "H0046",
+        "H0235",
+        "H0288",
+        "H0384"
+      ]
+    ],
+    "decision_summary": "The strongest prior quartet was also relatively consistent across source directions. These candidates retain much of its sleep latency, early NREM spectral, and REM coverage while testing substitutions from the other promising quartet. They probe whether arousal, N2 sigma, N2 slow delta, or whole-REM theta improves consistency."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 16.04635166702792,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

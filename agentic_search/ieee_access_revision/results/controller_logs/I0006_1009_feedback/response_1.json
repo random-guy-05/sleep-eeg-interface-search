@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0137",
+        "H0235",
+        "H0200",
+        "H0338"
+      ],
+      [
+        "H0137",
+        "H0144",
+        "H0249",
+        "H0338"
+      ],
+      [
+        "H0137",
+        "H0235",
+        "H0190",
+        "H0338"
+      ],
+      [
+        "H0144",
+        "H0235",
+        "H0200",
+        "H0288"
+      ],
+      [
+        "H0235",
+        "H0249",
+        "H0288",
+        "H0338"
+      ]
+    ],
+    "decision_summary": "The most balanced earlier quartet combines slow-wave dynamics, NREM sigma, sleep efficiency, and REM theta. These candidates test targeted substitutions from the high-mean quartet, including spindle chirp, REM duration, and NREM slow-delta power, while retaining complementary physiology and checking both source directions."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 16.241621708963066,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

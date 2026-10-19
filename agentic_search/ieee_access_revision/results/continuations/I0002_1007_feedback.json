@@ -1,0 +1,123 @@
+{
+  "arm": "feedback",
+  "calls": [
+    {
+      "answer": {
+        "candidates": [
+          [
+            "H0249",
+            "H0444",
+            "H0446",
+            "H0384"
+          ],
+          [
+            "H0249",
+            "H0486",
+            "H0488",
+            "H0511"
+          ],
+          [
+            "H0249",
+            "H0359",
+            "H0361",
+            "H0384"
+          ],
+          [
+            "H0138",
+            "H0249",
+            "H0446",
+            "H0511"
+          ],
+          [
+            "H0191",
+            "H0249",
+            "H0446",
+            "H0511"
+          ]
+        ],
+        "decision_summary": "The most balanced prior quartet combined sleep efficiency with relative N2 delta, N2 sigma, and REM theta power. These proposals test related relative spectral summaries and whether REM timing, delta dynamics, or hypoxia adds complementary information while keeping performance across both source directions central."
+      },
+      "metadata": {
+        "cli_version": "codex-cli 0.158.0",
+        "elapsed_seconds": 13.302723041037098,
+        "model_reported": "gpt-6-sol",
+        "model_requested": "gpt-6-sol",
+        "provider": "codex",
+        "reasoning_effort": "medium",
+        "temperature_controlled": false
+      },
+      "validation_errors": []
+    }
+  ],
+  "completed_at_utc": "2026-10-19T03:11:18.061138+00:00",
+  "continuation_quartets": [
+    [
+      "H0249",
+      "H0384",
+      "H0444",
+      "H0446"
+    ],
+    [
+      "H0249",
+      "H0486",
+      "H0488",
+      "H0511"
+    ],
+    [
+      "H0249",
+      "H0359",
+      "H0361",
+      "H0384"
+    ],
+    [
+      "H0138",
+      "H0249",
+      "H0446",
+      "H0511"
+    ],
+    [
+      "H0191",
+      "H0249",
+      "H0446",
+      "H0511"
+    ]
+  ],
+  "n_fallback": 0,
+  "opening_quartets": [
+    [
+      "H0046",
+      "H0203",
+      "H0235",
+      "H0288"
+    ],
+    [
+      "H0249",
+      "H0444",
+      "H0446",
+      "H0511"
+    ],
+    [
+      "H0046",
+      "H0144",
+      "H0200",
+      "H0276"
+    ],
+    [
+      "H0138",
+      "H0245",
+      "H0249",
+      "H0384"
+    ],
+    [
+      "H0191",
+      "H0236",
+      "H0302",
+      "H0338"
+    ]
+  ],
+  "protocol_sha256": "bba8a38f6d7bf191bd728ecfaba5ff40571f33a53a1828b0dd9a44d4ebb9c543",
+  "seed": 1007,
+  "site": "I0002",
+  "system_sha256": "7760383feaef368ad4b7540e52bc73dab209bcace187bb330e5762c3594aeadc",
+  "user_sha256": "044ca92d7183f93af2c947d8d4fab720ca482a16d858ec8968c3f06b8eea9977"
+}

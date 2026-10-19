@@ -1,0 +1,48 @@
+{
+  "status": "overlap_detected",
+  "published_checksums_verified": true,
+  "model_manifest_checkpoint_sha256": "b2a9b8dab3ae8543241d613a80cd6a85a6dfca15573f897a1096861b3915af87",
+  "historical_extraction_checkpoint_identity_verified": false,
+  "scope": "The upstream lists reconstruct exposure for the released checkpoint. They establish identifier overlap with the model-development population; historical extraction checkpoint bytes are unavailable.",
+  "source": "https://github.com/bdsp-core/philosophers-stone/blob/master/paper/provenance/README.md",
+  "interpretation": "Search-controller target blindness remains a distinct verified property. Foundation-model development independence is not established for the original S0001 fold. Zero I0002/I0006 matches do not exclude cross-hospital identity or unrecorded development exposure.",
+  "site_summary": [
+    {
+      "site": "I0002",
+      "n": 43,
+      "training_subject_matches": 0,
+      "training_record_matches": 0,
+      "development_subject_matches": 0,
+      "retained": 43,
+      "retained_positive": 7,
+      "retained_negative": 36,
+      "retained_age_pairs": 41
+    },
+    {
+      "site": "I0006",
+      "n": 167,
+      "training_subject_matches": 0,
+      "training_record_matches": 0,
+      "development_subject_matches": 0,
+      "retained": 167,
+      "retained_positive": 20,
+      "retained_negative": 147,
+      "retained_age_pairs": 441
+    },
+    {
+      "site": "S0001",
+      "n": 128,
+      "training_subject_matches": 87,
+      "training_record_matches": 74,
+      "development_subject_matches": 121,
+      "retained": 7,
+      "retained_positive": 3,
+      "retained_negative": 4,
+      "retained_age_pairs": 4
+    }
+  ],
+  "checksums": {
+    "s0001_released_checkpoint_training_recordings.csv": "3522a510a2b88ff24b85b05b802dd0dd42ec366109e232db312179e42373d4b7",
+    "s0001_conservative_development_subject_exclusions.csv": "29cd446b5ccd58fd9199d889dcce32674c40679148a42ca0c5570ccd657fbbbb"
+  }
+}

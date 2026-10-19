@@ -1,0 +1,123 @@
+{
+  "arm": "no_feedback",
+  "calls": [
+    {
+      "answer": {
+        "candidates": [
+          [
+            "H0046",
+            "H0123",
+            "H0235",
+            "H0511"
+          ],
+          [
+            "H0249",
+            "H0137",
+            "H0203",
+            "H0361"
+          ],
+          [
+            "H0191",
+            "H0144",
+            "H0276",
+            "H0406"
+          ],
+          [
+            "H0359",
+            "H0361",
+            "H0384",
+            "H0249"
+          ],
+          [
+            "H0138",
+            "H0200",
+            "H0235",
+            "H0490"
+          ]
+        ],
+        "decision_summary": "With source feedback withheld, these quartets test complementary sleep architecture, slow wave activity, spindle or sigma dynamics, REM physiology, and arousal or respiratory burden. Stage specific relative power may reduce sensitivity to recording differences."
+      },
+      "metadata": {
+        "cli_version": "codex-cli 0.158.0",
+        "elapsed_seconds": 12.978017332963645,
+        "model_reported": "gpt-6-sol",
+        "model_requested": "gpt-6-sol",
+        "provider": "codex",
+        "reasoning_effort": "medium",
+        "temperature_controlled": false
+      },
+      "validation_errors": []
+    }
+  ],
+  "completed_at_utc": "2026-10-19T03:14:50.137449+00:00",
+  "continuation_quartets": [
+    [
+      "H0046",
+      "H0123",
+      "H0235",
+      "H0511"
+    ],
+    [
+      "H0137",
+      "H0203",
+      "H0249",
+      "H0361"
+    ],
+    [
+      "H0144",
+      "H0191",
+      "H0276",
+      "H0406"
+    ],
+    [
+      "H0249",
+      "H0359",
+      "H0361",
+      "H0384"
+    ],
+    [
+      "H0138",
+      "H0200",
+      "H0235",
+      "H0490"
+    ]
+  ],
+  "n_fallback": 0,
+  "opening_quartets": [
+    [
+      "H0046",
+      "H0138",
+      "H0203",
+      "H0235"
+    ],
+    [
+      "H0249",
+      "H0276",
+      "H0361",
+      "H0384"
+    ],
+    [
+      "H0144",
+      "H0191",
+      "H0302",
+      "H0406"
+    ],
+    [
+      "H0046",
+      "H0486",
+      "H0488",
+      "H0511"
+    ],
+    [
+      "H0137",
+      "H0138",
+      "H0200",
+      "H0249"
+    ]
+  ],
+  "protocol_sha256": "bba8a38f6d7bf191bd728ecfaba5ff40571f33a53a1828b0dd9a44d4ebb9c543",
+  "seed": 1008,
+  "site": "S0001",
+  "system_sha256": "7760383feaef368ad4b7540e52bc73dab209bcace187bb330e5762c3594aeadc",
+  "user_sha256": "94c0560ba5fe3847324c046348f5803d64f06a90b6ae6b159080d71db735b0ce"
+}

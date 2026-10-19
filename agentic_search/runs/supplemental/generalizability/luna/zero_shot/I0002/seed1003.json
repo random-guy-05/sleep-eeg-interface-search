@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.5874384236453202,
+  "auc_source2_to_source1": 0.6099773242630385,
+  "cache_hit": true,
+  "completed_at_utc": "2026-09-27T03:00:20.419913+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "A complementary quartet spanning slow-wave slope, spindle morphology, respiratory burden, and sleep efficiency offers distinct physiological signals with plausible cross-institution relevance.",
+  "direction_gap": 0.02253890061771835,
+  "head_ids": [
+    "H0137",
+    "H0144",
+    "H0191",
+    "H0249"
+  ],
+  "head_names": [
+    "pred_regression_f_delta_linear_b0",
+    "pred_regression_f_fs_chirp_c4m1",
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sleep_efficiency"
+  ],
+  "held_site": "I0002",
+  "mean_source_auc": 0.5987078739541793,
+  "min_source_auc": 0.5874384236453202,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 56.08301441394724,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0137|H0144|H0191|H0249",
+  "reasoning_effort_requested": "medium",
+  "seed": 1003,
+  "selected_C": 0.1,
+  "source_site_1": "I0006",
+  "source_site_2": "S0001"
+}

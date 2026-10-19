@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0486",
+        "H0488",
+        "H0511"
+      ],
+      [
+        "H0138",
+        "H0200",
+        "H0211",
+        "H0249"
+      ],
+      [
+        "H0046",
+        "H0144",
+        "H0302",
+        "H0336"
+      ],
+      [
+        "H0203",
+        "H0405",
+        "H0411",
+        "H0413"
+      ],
+      [
+        "H0123",
+        "H0190",
+        "H0236",
+        "H0338"
+      ]
+    ],
+    "decision_summary": "These quartets sample complementary slow-wave, spindle, theta, arousal, REM, and sleep-architecture signals. They also compare stage-specific measures with relative spectral power, which may be less sensitive to recording differences across institutions. With source feedback withheld, the proposals diversify plausible interfaces without assuming performance."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 21.574222291936167,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0235",
+        "H0288",
+        "H0511"
+      ],
+      [
+        "H0144",
+        "H0249",
+        "H0359",
+        "H0384"
+      ],
+      [
+        "H0137",
+        "H0236",
+        "H0302",
+        "H0406"
+      ],
+      [
+        "H0190",
+        "H0446",
+        "H0486",
+        "H0505"
+      ],
+      [
+        "H0191",
+        "H0289",
+        "H0338",
+        "H0361"
+      ]
+    ],
+    "decision_summary": "With source feedback withheld, these quartets test complementary slow-wave, spindle, REM, arousal, and sleep-architecture signals. Several use relative spectral measures that may be less sensitive to recording differences across institutions. No performance metrics are assumed."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 14.374562542070635,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

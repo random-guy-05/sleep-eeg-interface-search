@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0486",
+        "H0488",
+        "H0511"
+      ],
+      [
+        "H0249",
+        "H0276",
+        "H0361",
+        "H0384"
+      ],
+      [
+        "H0138",
+        "H0235",
+        "H0289",
+        "H0203"
+      ],
+      [
+        "H0191",
+        "H0144",
+        "H0490",
+        "H0200"
+      ],
+      [
+        "H0190",
+        "H0493",
+        "H0495",
+        "H0518"
+      ]
+    ],
+    "decision_summary": "With source feedback withheld, these quartets cover complementary sleep architecture, arousal, slow wave, spindle, REM, and respiratory physiology. Several use relative spectral power to reduce sensitivity to recording scale across institutions."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 22.148317790939473,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

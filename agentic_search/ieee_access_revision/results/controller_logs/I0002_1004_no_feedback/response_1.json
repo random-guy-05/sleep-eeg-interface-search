@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0359",
+        "H0361",
+        "H0384"
+      ],
+      [
+        "H0249",
+        "H0288",
+        "H0235",
+        "H0203"
+      ],
+      [
+        "H0137",
+        "H0144",
+        "H0200",
+        "H0276"
+      ],
+      [
+        "H0402",
+        "H0404",
+        "H0406",
+        "H0190"
+      ],
+      [
+        "H0191",
+        "H0444",
+        "H0446",
+        "H0511"
+      ]
+    ],
+    "decision_summary": "With source feedback withheld, these quartets cover complementary sleep physiology: normalized NREM and REM spectra, stage-specific power, slow-wave and spindle dynamics, sleep architecture, and respiratory burden. The varied combinations give the source-only selector distinct options to compare across institutions."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 203.8184196249349,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

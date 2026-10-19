@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.5332512315270936,
+  "auc_source2_to_source1": 0.5365853658536586,
+  "cache_hit": false,
+  "completed_at_utc": "2026-09-27T03:01:15.680137+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "A biologically diverse quartet: delta slope, sigma dynamics, first REM duration, and hypoxia burden span slow-wave, spindle-range, REM architecture, and respiratory physiology.",
+  "direction_gap": 0.0033341343265649304,
+  "head_ids": [
+    "H0137",
+    "H0140",
+    "H0191",
+    "H0204"
+  ],
+  "head_names": [
+    "pred_regression_f_delta_linear_b0",
+    "pred_regression_f_first_rem_duration",
+    "pred_regression_f_hypoxia_burden",
+    "pred_regression_f_sigma-0-mean"
+  ],
+  "held_site": "I0006",
+  "mean_source_auc": 0.5349182986903761,
+  "min_source_auc": 0.5332512315270936,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 17.548165698884986,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0137|H0140|H0191|H0204",
+  "reasoning_effort_requested": "medium",
+  "seed": 1001,
+  "selected_C": 10.0,
+  "source_site_1": "I0002",
+  "source_site_2": "S0001"
+}

@@ -1,0 +1,126 @@
+method,method_label,provider,model,budget,taxonomy_category,head_occurrences
+batch_semantic,Batch semantic,codex,gpt-6-sol,,NREM_spectral,843
+batch_semantic,Batch semantic,codex,gpt-6-sol,,REM_spectral,628
+batch_semantic,Batch semantic,codex,gpt-6-sol,,arousal_continuity,114
+batch_semantic,Batch semantic,codex,gpt-6-sol,,delta_slow_wave,353
+batch_semantic,Batch semantic,codex,gpt-6-sol,,other_sleep_physiology,66
+batch_semantic,Batch semantic,codex,gpt-6-sol,,respiratory,123
+batch_semantic,Batch semantic,codex,gpt-6-sol,,sigma_dynamics,247
+batch_semantic,Batch semantic,codex,gpt-6-sol,,signal_morphology,94
+batch_semantic,Batch semantic,codex,gpt-6-sol,,sleep_architecture,335
+batch_semantic,Batch semantic,codex,gpt-6-sol,,spindle_morphology,48
+batch_semantic,Batch semantic,codex,gpt-6-sol,,theta,149
+evolutionary_robust,Evolutionary robust,,,10.0,NREM_spectral,762
+evolutionary_robust,Evolutionary robust,,,10.0,REM_spectral,256
+evolutionary_robust,Evolutionary robust,,,10.0,delta_slow_wave,296
+evolutionary_robust,Evolutionary robust,,,10.0,other_sleep_physiology,579
+evolutionary_robust,Evolutionary robust,,,10.0,respiratory,10
+evolutionary_robust,Evolutionary robust,,,10.0,sigma_dynamics,175
+evolutionary_robust,Evolutionary robust,,,10.0,signal_morphology,61
+evolutionary_robust,Evolutionary robust,,,10.0,sleep_architecture,67
+evolutionary_robust,Evolutionary robust,,,10.0,spindle_morphology,4
+evolutionary_robust,Evolutionary robust,,,10.0,theta,190
+evolutionary_robust,Evolutionary robust,,,25.0,NREM_spectral,1812
+evolutionary_robust,Evolutionary robust,,,25.0,REM_spectral,600
+evolutionary_robust,Evolutionary robust,,,25.0,arousal_continuity,16
+evolutionary_robust,Evolutionary robust,,,25.0,delta_slow_wave,633
+evolutionary_robust,Evolutionary robust,,,25.0,other_sleep_physiology,1433
+evolutionary_robust,Evolutionary robust,,,25.0,respiratory,4
+evolutionary_robust,Evolutionary robust,,,25.0,sigma_dynamics,557
+evolutionary_robust,Evolutionary robust,,,25.0,signal_morphology,169
+evolutionary_robust,Evolutionary robust,,,25.0,sleep_architecture,154
+evolutionary_robust,Evolutionary robust,,,25.0,spindle_morphology,10
+evolutionary_robust,Evolutionary robust,,,25.0,theta,612
+evolutionary_robust,Evolutionary robust,,,50.0,NREM_spectral,3808
+evolutionary_robust,Evolutionary robust,,,50.0,REM_spectral,1421
+evolutionary_robust,Evolutionary robust,,,50.0,arousal_continuity,10
+evolutionary_robust,Evolutionary robust,,,50.0,delta_slow_wave,1119
+evolutionary_robust,Evolutionary robust,,,50.0,other_sleep_physiology,2875
+evolutionary_robust,Evolutionary robust,,,50.0,respiratory,24
+evolutionary_robust,Evolutionary robust,,,50.0,sigma_dynamics,893
+evolutionary_robust,Evolutionary robust,,,50.0,signal_morphology,324
+evolutionary_robust,Evolutionary robust,,,50.0,sleep_architecture,252
+evolutionary_robust,Evolutionary robust,,,50.0,spindle_morphology,21
+evolutionary_robust,Evolutionary robust,,,50.0,theta,1253
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10.0,NREM_spectral,384
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10.0,REM_spectral,228
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10.0,arousal_continuity,84
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10.0,delta_slow_wave,146
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10.0,respiratory,53
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10.0,sigma_dynamics,14
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10.0,sleep_architecture,154
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10.0,spindle_morphology,89
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,10.0,theta,48
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25.0,NREM_spectral,977
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25.0,REM_spectral,589
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25.0,arousal_continuity,146
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25.0,delta_slow_wave,310
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25.0,other_sleep_physiology,10
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25.0,respiratory,114
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25.0,sigma_dynamics,27
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25.0,sleep_architecture,411
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25.0,spindle_morphology,255
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,25.0,theta,161
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50.0,NREM_spectral,1770
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50.0,REM_spectral,1126
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50.0,arousal_continuity,330
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50.0,delta_slow_wave,629
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50.0,other_sleep_physiology,135
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50.0,respiratory,324
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50.0,sigma_dynamics,71
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50.0,sleep_architecture,731
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50.0,spindle_morphology,501
+full_agent,"Agent A (OpenAI GPT-6 Sol, medium reasoning)",codex,gpt-6-sol,50.0,theta,383
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25.0,NREM_spectral,954
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25.0,REM_spectral,317
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25.0,delta_slow_wave,279
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25.0,other_sleep_physiology,566
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25.0,respiratory,12
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25.0,sigma_dynamics,180
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25.0,signal_morphology,100
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25.0,sleep_architecture,40
+opaque_iterative,Opaque iterative,codex,gpt-6-sol,25.0,theta,552
+prospective_random_bank,Prospective random bank,,,500.0,NREM_spectral,1842
+prospective_random_bank,Prospective random bank,,,500.0,REM_spectral,600
+prospective_random_bank,Prospective random bank,,,500.0,arousal_continuity,6
+prospective_random_bank,Prospective random bank,,,500.0,delta_slow_wave,627
+prospective_random_bank,Prospective random bank,,,500.0,other_sleep_physiology,1521
+prospective_random_bank,Prospective random bank,,,500.0,respiratory,3
+prospective_random_bank,Prospective random bank,,,500.0,sigma_dynamics,504
+prospective_random_bank,Prospective random bank,,,500.0,signal_morphology,162
+prospective_random_bank,Prospective random bank,,,500.0,sleep_architecture,207
+prospective_random_bank,Prospective random bank,,,500.0,spindle_morphology,15
+prospective_random_bank,Prospective random bank,,,500.0,theta,513
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10.0,NREM_spectral,202
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10.0,REM_spectral,231
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10.0,arousal_continuity,222
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10.0,delta_slow_wave,210
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10.0,other_sleep_physiology,215
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10.0,respiratory,216
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10.0,sigma_dynamics,221
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10.0,signal_morphology,205
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10.0,sleep_architecture,227
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10.0,spindle_morphology,227
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,10.0,theta,224
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25.0,NREM_spectral,540
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25.0,REM_spectral,556
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25.0,arousal_continuity,544
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25.0,delta_slow_wave,546
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25.0,other_sleep_physiology,522
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25.0,respiratory,560
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25.0,sigma_dynamics,552
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25.0,signal_morphology,536
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25.0,sleep_architecture,555
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25.0,spindle_morphology,546
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,25.0,theta,543
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50.0,NREM_spectral,1129
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50.0,REM_spectral,1095
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50.0,arousal_continuity,1047
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50.0,delta_slow_wave,1121
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50.0,other_sleep_physiology,1056
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50.0,respiratory,1063
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50.0,sigma_dynamics,1096
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50.0,signal_morphology,1076
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50.0,sleep_architecture,1120
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50.0,spindle_morphology,1097
+taxonomy_diverse_robust,Taxonomy-diverse robust,,,50.0,theta,1100

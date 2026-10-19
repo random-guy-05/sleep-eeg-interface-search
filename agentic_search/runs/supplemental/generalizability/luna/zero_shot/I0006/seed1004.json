@@ -1,0 +1,43 @@
+{
+  "auc_source1_to_source2": 0.646551724137931,
+  "auc_source2_to_source1": 0.7804878048780488,
+  "cache_hit": false,
+  "completed_at_utc": "2026-09-27T03:01:39.796055+00:00",
+  "condition": "zero_shot",
+  "decision_summary": "A complementary quartet spanning slow-wave burden, sigma dynamics, faster beta activity, and REM duration favors broad sleep physiology over redundant summaries from one band or state.",
+  "direction_gap": 0.13393608074011776,
+  "head_ids": [
+    "H0049",
+    "H0140",
+    "H0204",
+    "H0276"
+  ],
+  "head_names": [
+    "pred_regression_f_beta-1-mean",
+    "pred_regression_f_first_rem_duration",
+    "pred_regression_f_sigma-0-mean",
+    "pred_regression_f_slowdelta_bandpower_4h"
+  ],
+  "held_site": "I0006",
+  "mean_source_auc": 0.7135197645079899,
+  "min_source_auc": 0.646551724137931,
+  "model": "luna",
+  "model_reported": "gpt-6-luna",
+  "model_requested": "gpt-6-luna",
+  "provider": "codex",
+  "provider_metadata": {
+    "cli_version": "codex-cli 0.155.1",
+    "elapsed_seconds": 17.11906555807218,
+    "model_reported": "gpt-6-luna",
+    "model_requested": "gpt-6-luna",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "quartet_key": "H0049|H0140|H0204|H0276",
+  "reasoning_effort_requested": "medium",
+  "seed": 1004,
+  "selected_C": 0.1,
+  "source_site_1": "I0002",
+  "source_site_2": "S0001"
+}

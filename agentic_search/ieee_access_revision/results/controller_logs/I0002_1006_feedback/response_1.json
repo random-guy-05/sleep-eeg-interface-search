@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0249",
+        "H0444",
+        "H0446",
+        "H0384"
+      ],
+      [
+        "H0190",
+        "H0444",
+        "H0446",
+        "H0384"
+      ],
+      [
+        "H0249",
+        "H0366",
+        "H0368",
+        "H0511"
+      ],
+      [
+        "H0249",
+        "H0444",
+        "H0368",
+        "H0511"
+      ],
+      [
+        "H0190",
+        "H0249",
+        "H0444",
+        "H0446"
+      ]
+    ],
+    "decision_summary": "The strongest prior quartets paired NREM delta and sigma measures with sleep architecture and REM theta, with small direction gaps. These candidates test combinations of those heads and whether REM theta or a second architecture measure improves consistency."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 18.490827208035626,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

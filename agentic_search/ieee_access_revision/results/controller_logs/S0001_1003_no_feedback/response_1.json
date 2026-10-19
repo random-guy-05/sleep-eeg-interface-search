@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0046",
+        "H0486",
+        "H0488",
+        "H0511"
+      ],
+      [
+        "H0203",
+        "H0235",
+        "H0249",
+        "H0288"
+      ],
+      [
+        "H0137",
+        "H0144",
+        "H0191",
+        "H0200"
+      ],
+      [
+        "H0250",
+        "H0368",
+        "H0369",
+        "H0384"
+      ],
+      [
+        "H0138",
+        "H0245",
+        "H0303",
+        "H0509"
+      ]
+    ],
+    "decision_summary": "These quartets sample complementary slow-wave, sigma or spindle, REM, and sleep-continuity signals. They vary stage-specific and relative-power heads to explore interfaces that may be less sensitive to recording differences. Source feedback is withheld, so no performance ranking is assumed."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 13.89813787501771,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

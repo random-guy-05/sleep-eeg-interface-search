@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0249",
+        "H0486",
+        "H0488",
+        "H0384"
+      ],
+      [
+        "H0190",
+        "H0486",
+        "H0488",
+        "H0511"
+      ],
+      [
+        "H0249",
+        "H0359",
+        "H0361",
+        "H0511"
+      ],
+      [
+        "H0249",
+        "H0444",
+        "H0446",
+        "H0511"
+      ],
+      [
+        "H0249",
+        "H0486",
+        "H0488",
+        "H0203"
+      ]
+    ],
+    "decision_summary": "The strongest balanced result paired sleep efficiency with NREM delta and sigma power and REM theta. These proposals test whether that pattern holds across REM theta measures, sleep duration, and NREM segments. Relative power may be less sensitive to recording differences across institutions."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 14.463971625082195,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}

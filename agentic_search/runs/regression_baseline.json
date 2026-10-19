@@ -1,0 +1,16 @@
+{
+  "B1_source_macro": 0.5667585361403696,
+  "B1_target_macro": 0.5558301182355009,
+  "B500_source_macro_refit": 0.7800614031240007,
+  "B500_target_macro_refit": 0.5785938055252005,
+  "fresh_refits": "three source-selected historical B=500 candidates, one per held site",
+  "historical_summary_recovered_from_frozen_500_candidate_outputs": true,
+  "interpretation": "B=1 is recovered from the frozen 100-ordering historical analysis; B=500 winners and their site scores are independently refit.",
+  "site_target_scores": {
+    "I0002": 0.7804878048780488,
+    "I0006": 0.5328798185941043,
+    "S0001": 0.4224137931034483
+  },
+  "status": "passed",
+  "tolerance_absolute": 5e-09
+}

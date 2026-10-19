@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "candidates": [
+      [
+        "H0191",
+        "H0138",
+        "H0203",
+        "H0235"
+      ],
+      [
+        "H0046",
+        "H0137",
+        "H0203",
+        "H0235"
+      ],
+      [
+        "H0046",
+        "H0138",
+        "H0200",
+        "H0235"
+      ],
+      [
+        "H0046",
+        "H0138",
+        "H0203",
+        "H0245"
+      ],
+      [
+        "H0046",
+        "H0138",
+        "H0203",
+        "H0249"
+      ]
+    ],
+    "decision_summary": "The most balanced prior quartet combined arousal, delta dynamics, REM theta, and N2 sigma. These candidates test one change at a time to identify which signals support consistency across source directions, including alternatives suggested by the other evaluated quartets."
+  },
+  "metadata": {
+    "cli_version": "codex-cli 0.158.0",
+    "elapsed_seconds": 17.57633870909922,
+    "model_reported": "gpt-6-sol",
+    "model_requested": "gpt-6-sol",
+    "provider": "codex",
+    "reasoning_effort": "medium",
+    "temperature_controlled": false
+  },
+  "validation_errors": []
+}
