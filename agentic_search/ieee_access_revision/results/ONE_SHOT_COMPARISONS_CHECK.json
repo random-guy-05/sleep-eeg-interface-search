@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-19",
+  "same_50000_joint_draws_verified_array_equal": true,
+  "prior_contrasts_unchanged": true,
+  "new_comparisons": [
+    {
+      "left": "llm_zero_evaluation",
+      "right": "l1_top4",
+      "difference": 0.0140615474299242,
+      "ci_low": -0.1237670114643928,
+      "ci_high": 0.1360252156573615,
+      "participant_ci_low": -0.1089861818874988,
+      "participant_ci_high": 0.1307044927446602
+    },
+    {
+      "left": "llm_zero_evaluation",
+      "right": "greedy_forward4",
+      "difference": 0.0152995905398884,
+      "ci_low": -0.1224490517898998,
+      "ci_high": 0.1365629623520776,
+      "participant_ci_low": -0.1079932321476897,
+      "participant_ci_high": 0.1305360593916432
+    },
+    {
+      "left": "llm_zero_evaluation",
+      "right": "univariate_top4",
+      "difference": 0.0439344628609317,
+      "ci_low": -0.1133605900639875,
+      "ci_high": 0.1887111823527975,
+      "participant_ci_low": -0.1005762864889282,
+      "participant_ci_high": 0.1809093913106398
+    }
+  ],
+  "feature_union_size": 29,
+  "random_expected_overlap_positions": 2.1521335807050095,
+  "H0191_distinct_one_shot_quartets": 8,
+  "H0191_original_selected_quartets": 4,
+  "retained_macro_moved_to_supplement": true,
+  "source_fits_and_selections_unchanged": true,
+  "joint_exclusion_rejected_S0001": 3675,
+  "author_photos": "No author photos supplied; existing biographies retained."
+}

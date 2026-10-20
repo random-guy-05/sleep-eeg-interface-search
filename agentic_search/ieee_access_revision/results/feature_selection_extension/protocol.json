@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-20T01:34:31.419404+00:00",
+  "designation": "post_hoc_after_original_results",
+  "source_only_selection": true,
+  "features": 4,
+  "univariate": "Rank single-feature L2 probes by minimum directional source age-AUROC; C selected by directional mean, same 17-value grid; joint top four then retuned/refit with L2.",
+  "greedy": "At each of four steps evaluate every unused-feature extension; select highest minimum directional source AUROC, tie by sorted IDs. Tune C by directional mean for every subset. 539+538+537+536=2150 subset evaluations per fold, 34 directional fits each; no restarts.",
+  "l1": "Pooled-source standardized L1 logistic path, 161 ascending C values logspace(-4,4). Stop at first model with >=4 absolute coefficients above 1e-8. If support jumps past four, keep four largest absolute coefficients (ID ties). Selected quartet then retuned/refit with the common L2 probe. Report actual support size, C and path fit count. No test tuning.",
+  "zero_evaluation_llm": "Ten independent tool-free gpt-6-sol medium requests, feature names/categories and task description only. Each request selects one quartet, applied to all three folds. Zero evaluated candidates used to choose the quartet; subsequent C tuning costs 34 source fits per fold plus final refit. Same run index shared across folds. One format-only repair, no random replacement.",
+  "historical_quartet_policy": "Classical deterministic selectors use all 539 eligible features; no target scores or historical-bank membership in their selection. LLM receives no historical scores or exclusion list. Any coincidental historical overlap is recorded after choices, not used to alter choices.",
+  "bootstrap": "50000 crossed run-and-participant draws. Resample runs within hospital for original independent searches, participants by hospital/outcome once per draw shared by every run/method; shared one-shot run index across hospitals; paired continuation/opening indices shared for feedback/original repeat comparisons. No refitting/reselection on resampled source data; fixed hospitals, original source data. Percentile exploratory intervals.",
+  "hashes": {
+    "ieee_access_revision/scripts/feature_selection_extension.py": "71935d8b5d9a99a26dd8b931d42a400b63af75f1fb4d468a9a39bf2e9b6febc7",
+    "data/heads.csv": "a9a8e13957b7e74929ee5ea296adb73c217da073242398a8d322e2240ed112bd",
+    "data/source_folds/I0002.parquet": "4ae1b78a1e46d4cbfb844776ef12e051b2ced2a99b13c1412350d2944d836521",
+    "data/source_folds/I0006.parquet": "ffe3e9fb13b40b6ca7db95a9194ad638ef34baab126c5ee112ba1d8cae980326",
+    "data/source_folds/S0001.parquet": "b20cb019d897582819799f0c9c4aed81e5d66490458cb0b4d2f35a74e89f7cb2"
+  }
+}

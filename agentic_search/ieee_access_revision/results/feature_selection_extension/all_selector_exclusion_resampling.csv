@@ -1,0 +1,4 @@
+site,n_retained,eligible_pairs,accepted,rejected_zero_pair_draws
+I0002,43,41,50000,0
+I0006,167,441,50000,0
+S0001,7,4,50000,3675

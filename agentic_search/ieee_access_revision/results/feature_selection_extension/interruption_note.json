@@ -1,0 +1,4 @@
+{
+  "reason": "A source-worker destination variable was shadowed by a proposal loop variable, overwriting the final proposal log before target scoring. Code fixed. All computed source subset scores retained and reused.",
+  "replacement": "Regenerate only proposal run 9 before any new target scoring; original target scores never accessed for this choice."
+}

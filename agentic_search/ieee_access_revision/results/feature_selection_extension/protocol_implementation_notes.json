@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-19",
+  "notes": [
+    "Source-worker path bug corrected; previously computed source scores reused without target-informed changes. See interruption_note.json.",
+    "Run bootstrap preserves common random-bank orderings across hospitals and nested budgets, in addition to paired opening batches and one-shot quartets.",
+    "Sparse eligible-pair calculation and deduplicated win surfaces preserve run multiplicities. All source fitting and baseline choices preceded new target scoring."
+  ],
+  "final_script_sha256": {
+    "feature_selection_extension.py": "bfc77fae516255a23d10dc156fcf8a23f3a9f9e52d919c002ad494d438e21818",
+    "joint_uncertainty.py": "9b669600a60a9cc92b80a4f68886a0c1283a4997750902562971802b34fae3d4",
+    "render_feature_selection_extension.py": "ff1ef4439a5c4949305529cf7f61c80eb90d4daa7a4d8929995f34117fb28fc2"
+  }
+}

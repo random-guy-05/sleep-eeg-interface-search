@@ -1,0 +1,16 @@
+{
+  "n_calls": 10,
+  "n_distinct_quartets": 9,
+  "original_B10_selected_quartets": 30,
+  "original_B10_distinct_quartets": 26,
+  "one_shot_positions_overlapping_B10_feature_union": 38,
+  "total_one_shot_feature_positions": 40,
+  "one_shot_calls_with_exact_B10_quartet_match": 0,
+  "mean_cross_set_jaccard": 0.08266666666666667,
+  "interpretation": "Descriptive recurrence of feature choices, not proof of a mechanism or independent biological validation.",
+  "original_B10_feature_union_size": 29,
+  "expected_union_positions_uniform_random": 2.1521335807050095,
+  "H0191_original_selected_quartets": 4,
+  "H0191_distinct_one_shot_quartets": 8,
+  "H0191_one_shot_calls": 9
+}

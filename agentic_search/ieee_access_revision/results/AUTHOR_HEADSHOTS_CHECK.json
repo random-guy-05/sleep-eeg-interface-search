@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-19",
+  "author_photo_assets": {
+    "arnav_mana.png": "bd23c166b00cdfcf92bae51c43848d453cddde5e1d3c69dbaa693608929abf12",
+    "ivan_habib.png": "f1c31382f0f356c6b471e38ae7d1aeffccab7edaadafdce2891736274903f79b",
+    "ivan_habib_original.webp": "8b4fc3712149c5948733d3cc9ddcb975f2deceb344cda5b23ac4f84c034f9b9a"
+  },
+  "photo_display": "LaTeX viewport crop in standard 1in x 1.25in IEEEbiography layout",
+  "ivan_original_format": "WebP despite supplied .jpg extension; lossless PNG conversion has identical decoded RGB pixels",
+  "arnav_original_image_bytes_preserved": true,
+  "biography_text_unchanged": true,
+  "first_photo_assignment": "Ivan Habib, inferred from the two-author context; second image explicitly named Arnav Mana",
+  "manuscript_prose_and_results_unchanged": true,
+  "prose_before_biographies_verified_identical": true,
+  "manuscript_pages": 8,
+  "final_page_both_biographies": true,
+  "figure_height_inches": 4.1,
+  "biography_separation_pt": 8,
+  "standard_photos_inches": [
+    1,
+    1.25
+  ]
+}

@@ -1,3 +1,5 @@
+> Historical revision log. For the current October 19 selectors and joint bootstrap, see the root README and `agentic_search/ieee_access_revision/BASELINE_AND_UNCERTAINTY_REPORT.md`. Statements below describe the draft at each recorded stage.
+
 # Revision outcome
 
 The requested work has been implemented as a separate journal revision, preserving the original paper and frozen searches. The main paper now leads with query-efficient candidate generation, physiological structure and a reproducible evaluation framework. Detailed protocols and full tables are in the standalone supplement; every material negative finding remains explicit in the main paper. The results do **not** support the original causal claim that feedback explains the held-site gain, or a claim that all three evaluation sites are independent of foundation-model development.

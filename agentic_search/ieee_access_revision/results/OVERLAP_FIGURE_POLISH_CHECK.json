@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-19",
+  "main_text_overlap_positions": 38,
+  "total_one_shot_positions": 40,
+  "selected_feature_union": 29,
+  "uniform_random_expected": 2.1521335807050095,
+  "figure_2b_one_shot_contrasts": 3,
+  "figure_2b_search_contrasts": 7,
+  "analysis_estimates_unchanged": true,
+  "mechanism_claim_added": false,
+  "aggregate_csv_files_unchanged": 22
+}

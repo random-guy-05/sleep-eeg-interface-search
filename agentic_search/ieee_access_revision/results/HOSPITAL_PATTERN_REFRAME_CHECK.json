@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-19",
+  "title": "Language-Model Feature Selection for a Sleep-EEG Foundation Model: A Multihospital Comparison",
+  "abstract_words": 182,
+  "new_references": [
+    "opro",
+    "funsearch",
+    "caafe",
+    "guyon",
+    "lasso",
+    "spindles"
+  ],
+  "one_shot_distinct_quartets_corrected": 9,
+  "per_site_ordering": "descriptive, not causal or a formal interaction finding",
+  "exclusion": "new selectors rescored on existing predictions; source fits/features unchanged",
+  "feedback_rounding_verified": {
+    "participant": [
+      -0.029093290724725312,
+      0.014979705925028898
+    ],
+    "run": [
+      -0.029305674353658856,
+      0.014971303702305141
+    ]
+  },
+  "AI_disclosure_unchanged": true,
+  "biographies_unchanged": true
+}

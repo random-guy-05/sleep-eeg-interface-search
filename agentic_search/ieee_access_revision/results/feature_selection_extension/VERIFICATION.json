@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "date": "2026-10-19",
+  "new_baseline_choices": 39,
+  "one_shot_runs": 10,
+  "distinct_one_shot_quartets": 9,
+  "greedy_evaluations_per_hospital": 2150,
+  "univariate_evaluations_per_hospital": 539,
+  "target_scoring_gate_hash_matches": true,
+  "selection_uses_test_data": false,
+  "all_macro_estimates_recomputed": true,
+  "all_contrast_estimates_recomputed": true,
+  "bootstrap_draws": 50000,
+  "meaningful_tests_passed": 10,
+  "core_historical_scientific_files_unchanged": 20,
+  "source_evaluator_validation": "Three archived quartets at each hospital matched both directional AUROCs and selected C to 1e-10. Six additional singleton/two-feature subsets matched the original tuner at 1e-10.",
+  "posthoc": true,
+  "final_scripts_sha256": {
+    "feature_selection_extension.py": "bfc77fae516255a23d10dc156fcf8a23f3a9f9e52d919c002ad494d438e21818",
+    "joint_uncertainty.py": "8bfd149ca36eda8f9da810137ce0a7921516f7a59f0d7eae1492e540e4da7c86",
+    "render_feature_selection_extension.py": "df7e11cfec1cf3ae0eef1eb598891f6a0b682431c231a398c01b7e3d32fae9be",
+    "extension_exclusion_and_overlap.py": "c82f51e6a5c7a659264489769e4225640b9d57ca0e251570333a44a595c77395"
+  },
+  "shared_random_ordering_indices_preserved": true,
+  "all_selector_exclusion_recomputed": true,
+  "exclusion_retained_S0001_participants": 7,
+  "exclusion_retained_S0001_pairs": 4,
+  "one_shot_classical_contrasts": 3,
+  "original_joint_draws_preserved": true,
+  "previous_contrasts_unchanged": true,
+  "figure_2b_comparisons": 10
+}

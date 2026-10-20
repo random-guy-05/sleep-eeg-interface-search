@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-19",
+  "release_tag": "ieee-access-v1",
+  "public_text_files_screened": 1378,
+  "participant_ID_and_credential_screen": "pass",
+  "individual_data_files": "absent",
+  "unit_tests_passed": 10,
+  "public_joint_contrasts_verified": 26,
+  "saved_draws_per_method": 50000,
+  "one_shot_calls": 10,
+  "distinct_one_shot_quartets": 9,
+  "public_only_renderer_and_matching_tables": "pass",
+  "manuscript_pdf_sha256": "855afc0d57de42e5511b1436a67f203fb8b7d7e0acf8f4d2deb246f36160fe0a",
+  "supplement_pdf_sha256": "4e2cd1f63eb83feae8427ab8f3b344757d4cd9dff35ba562c63d8dae3a1f2bc0"
+}

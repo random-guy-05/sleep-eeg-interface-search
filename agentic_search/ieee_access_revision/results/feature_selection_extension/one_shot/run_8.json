@@ -1,0 +1,33 @@
+{
+  "run": 8,
+  "head_ids": [
+    "H0046",
+    "H0191",
+    "H0302",
+    "H0446"
+  ],
+  "quartet_key": "H0046|H0191|H0302|H0446",
+  "completed_utc": "2026-10-20T01:34:50.650138+00:00",
+  "candidate_evaluations_for_selection": 0,
+  "calls": [
+    {
+      "answer": {
+        "head_ids": [
+          "H0302",
+          "H0446",
+          "H0191",
+          "H0046"
+        ]
+      },
+      "metadata": {
+        "provider": "codex",
+        "model_requested": "gpt-6-sol",
+        "model_reported": "gpt-6-sol",
+        "elapsed_seconds": 5.246066291001625,
+        "reasoning_effort": "medium",
+        "temperature_controlled": false,
+        "cli_version": "codex-cli 0.158.0"
+      }
+    }
+  ]
+}

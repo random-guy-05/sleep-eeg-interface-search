@@ -1,0 +1,24 @@
+{
+  "seed": 2026101907,
+  "draws": 50000,
+  "sites": [
+    {
+      "site": "I0002",
+      "accepted": 50000,
+      "rejected_zero_pair_draws": 0
+    },
+    {
+      "site": "I0006",
+      "accepted": 50000,
+      "rejected_zero_pair_draws": 0
+    },
+    {
+      "site": "S0001",
+      "accepted": 50000,
+      "rejected_zero_pair_draws": 0
+    }
+  ],
+  "method": "Crossed run/participant bootstrap; hospitals fixed.",
+  "dependence": "Participants shared across methods/runs; original opening indices shared with both continuations; one-shot quartets and random-bank orderings shared across hospitals; random orderings shared across nested budgets.",
+  "limitations": "Conditional on observed source cohort, fitted models and empirical run distributions. Source cohort uncertainty, future model-version drift and hospital sampling uncertainty are not estimated."
+}
