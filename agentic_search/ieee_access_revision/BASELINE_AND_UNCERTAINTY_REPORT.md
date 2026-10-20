@@ -22,7 +22,7 @@ No participant-level data or predictions are included in the deliverable/code ar
 
 ## Hospital comparison and revised framing
 
-The manuscript is now titled “Language-Model Feature Selection for a Sleep-EEG Foundation Model: A Multihospital Comparison.” It leads with one-shot selection: feature descriptions yielded macro AUROC 0.619 without performance evaluations to choose features. It does not claim equivalence or a demonstrated feedback advantage.
+The manuscript is now titled “Language-Model Feature Selection for a Sleep-EEG Foundation Model: A Multihospital Comparison.” It leads with one-shot selection: feature names and category labels yielded macro AUROC 0.619 without performance evaluations to choose features. It does not claim equivalence or a demonstrated feedback advantage.
 
 All eight methods now appear in the hospital/development-exclusion comparison. On the retained S0001 test set (seven participants, four eligible pairs), L1, univariate and greedy selection each score 0.750, and one-shot selection scores 0.575. Features and source fits are unchanged. The three-hospital means become 0.651, 0.618, 0.665 and 0.615, respectively. The joint exclusion bootstrap retained 50,000 draws per hospital; 3,675 S0001 draws lacked eligible pairs and were rejected. This is separate from the earlier participant-only exclusion bootstrap and its 3,715 rejections.
 

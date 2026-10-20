@@ -88,7 +88,7 @@
   "agentic_search/freeze_protocol.py": "41b3d37bcd3fddfff1b645a5738193a0b0c08042785e030c3cf9a3179a97a357",
   "agentic_search/generate_opaque_mapping.py": "020701f240ee23ecaaa5c29f677c0acfff1da7517539b88e999f30d38b46732b",
   "agentic_search/generate_prospective_bank.py": "40aadcfbe8539ff537f9959759685c457703568edaa3650e2bfe19a7a3114699",
-  "agentic_search/ieee_access_revision/BASELINE_AND_UNCERTAINTY_REPORT.md": "b13abafac07d593734db68ee938bbd86b0015080c568d3fa11eb12cb45ef2a34",
+  "agentic_search/ieee_access_revision/BASELINE_AND_UNCERTAINTY_REPORT.md": "5bee513b2e7d3d07fc0ef7dc982aa37d833535325e918ed005b6d08ec7b7fb86",
   "agentic_search/ieee_access_revision/REFERENCE_AUDIT.md": "0966977af6eef9babf201a1da8426cb380445aa27c1f5b47eb361b545506c719",
   "agentic_search/ieee_access_revision/reproducibility/checks/verify_category_and_supplement.py": "77ec775b6f5f4aed6403d53e21f3088f7fb97d6cb8920acfe1b90c491660e224",
   "agentic_search/ieee_access_revision/reproducibility/checks/verify_current_results.py": "431a2b4582b5435a597e853cd7a959be4b1332511d69135adf2de397e27b23dd",
