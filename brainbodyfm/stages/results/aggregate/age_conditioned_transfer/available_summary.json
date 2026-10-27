@@ -1,0 +1,913 @@
+{
+  "primary_status": "not_computed_missing_original_source_normalizer",
+  "random_specificity_status": "not_computed_missing_source_scales_for_full_candidate_bank",
+  "source_artifact": null,
+  "freeze": {
+    "commit": "b7a357d95d532fe6c01b2cd825f36be456866f64",
+    "files": {
+      "age_conditioned_transfer.py": "bc8f6d70dee314b0cb5ecd5e77892de42cc25d1f0b6fbcff320219dcf6908c80",
+      "test_age_conditioned_transfer.py": "848613f081c8875c5422432208684173bc5d1334eba4aad089ce6ed561db4bb1",
+      "AGE_CONDITIONED_TRANSFER_PLAN.md": "8ccede9625e44f8c4d7e2680860661c73506bcf68d3857e85ee1c30ca1a33668",
+      "amendment_05_age_conditioned.json": "959af4eb33e6fd21e3882252d2fdbcfc7b0809f709c7ed9bec13f1fbe6df382f",
+      "data/age_conditioned_random_weights.json": "5b851db199c81f1fad0b020d59547695cd4f4792ddcc08da41ac359467d7a7b8"
+    },
+    "execution_started_utc": "2026-10-27T22:34:05.519240+00:00"
+  },
+  "analyses": {
+    "composite_threshold_-1": {
+      "n": 588,
+      "counts": {
+        "Geisinger": {
+          "n": 34,
+          "cases": 8,
+          "noncases": 26,
+          "eligible_pairs": 15
+        },
+        "MedSleep": {
+          "n": 305,
+          "cases": 60,
+          "noncases": 245,
+          "eligible_pairs": 1666
+        },
+        "St_Lukes": {
+          "n": 50,
+          "cases": 9,
+          "noncases": 41,
+          "eligible_pairs": 28
+        },
+        "Stanford": {
+          "n": 199,
+          "cases": 26,
+          "noncases": 173,
+          "eligible_pairs": 484
+        }
+      },
+      "estimates": {
+        "negated_brain_health": 0.5189238486092111,
+        "stable4_center_normalization_sensitivity": 0.5339717282261742,
+        "negated_brain_health__Geisinger": 0.9333333333333333,
+        "stable4_center_normalization_sensitivity__Geisinger": 0.6,
+        "negated_brain_health__MedSleep": 0.5,
+        "stable4_center_normalization_sensitivity__MedSleep": 0.5294117647058824,
+        "negated_brain_health__St_Lukes": 0.7142857142857143,
+        "stable4_center_normalization_sensitivity__St_Lukes": 0.6071428571428571,
+        "negated_brain_health__Stanford": 0.5599173553719008,
+        "stable4_center_normalization_sensitivity__Stanford": 0.5433884297520661,
+        "negated_brain_health__equal_center": 0.6768841007477371,
+        "stable4_center_normalization_sensitivity__equal_center": 0.5699857629002014,
+        "negated_brain_health__continuous_concordance": 0.5100350430073272,
+        "stable4_center_normalization_sensitivity__continuous_concordance": 0.5092386110226187
+      },
+      "intervals": {
+        "negated_brain_health": {
+          "ci_low": 0.4332809425155926,
+          "ci_high": 0.6064089855852204,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity": {
+          "ci_low": 0.4488776454919031,
+          "ci_high": 0.6153167078973382,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__Geisinger": {
+          "ci_low": 0.5492424242424242,
+          "ci_high": 1.0,
+          "valid_replicates": 1976,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__Geisinger": {
+          "ci_low": 0.0,
+          "ci_high": 1.0,
+          "valid_replicates": 1976,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__MedSleep": {
+          "ci_low": 0.39538837254032627,
+          "ci_high": 0.605906182896863,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__MedSleep": {
+          "ci_low": 0.42178394456214513,
+          "ci_high": 0.6267068953290768,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__St_Lukes": {
+          "ci_low": 0.3055253623188406,
+          "ci_high": 1.0,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__St_Lukes": {
+          "ci_low": 0.13333333333333333,
+          "ci_high": 0.95,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__Stanford": {
+          "ci_low": 0.3950601562572751,
+          "ci_high": 0.6991333974025279,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__Stanford": {
+          "ci_low": 0.38797470529607864,
+          "ci_high": 0.6936289164197863,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__equal_center": {
+          "ci_low": 0.5371293398688721,
+          "ci_high": 0.7762420557803813,
+          "valid_replicates": 1976,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__equal_center": {
+          "ci_low": 0.3715836175496163,
+          "ci_high": 0.729297690269088,
+          "valid_replicates": 1976,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__continuous_concordance": {
+          "ci_low": 0.4662299435974918,
+          "ci_high": 0.5495881616220996,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__continuous_concordance": {
+          "ci_low": 0.4669262689310228,
+          "ci_high": 0.5523839492736479,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        }
+      },
+      "permutation_p_one_sided": {
+        "negated_brain_health": 0.31366863313668636,
+        "stable4_center_normalization_sensitivity": 0.1872812718728127
+      },
+      "permutation_draws": 10000
+    },
+    "composite_threshold_-1.5": {
+      "n": 588,
+      "counts": {
+        "Geisinger": {
+          "n": 34,
+          "cases": 3,
+          "noncases": 31,
+          "eligible_pairs": 8
+        },
+        "MedSleep": {
+          "n": 305,
+          "cases": 21,
+          "noncases": 284,
+          "eligible_pairs": 709
+        },
+        "St_Lukes": {
+          "n": 50,
+          "cases": 3,
+          "noncases": 47,
+          "eligible_pairs": 7
+        },
+        "Stanford": {
+          "n": 199,
+          "cases": 15,
+          "noncases": 184,
+          "eligible_pairs": 285
+        }
+      },
+      "estimates": {
+        "negated_brain_health": 0.49355797819623387,
+        "stable4_center_normalization_sensitivity": 0.5877106045589693,
+        "negated_brain_health__Geisinger": 1.0,
+        "stable4_center_normalization_sensitivity__Geisinger": 0.625,
+        "negated_brain_health__MedSleep": 0.4682651622002821,
+        "stable4_center_normalization_sensitivity__MedSleep": 0.5768688293370945,
+        "negated_brain_health__St_Lukes": 0.5714285714285714,
+        "stable4_center_normalization_sensitivity__St_Lukes": 0.5714285714285714,
+        "negated_brain_health__Stanford": 0.5403508771929825,
+        "stable4_center_normalization_sensitivity__Stanford": 0.6140350877192983,
+        "negated_brain_health__equal_center": 0.645011152705459,
+        "stable4_center_normalization_sensitivity__equal_center": 0.5968331221212411,
+        "negated_brain_health__continuous_concordance": 0.5100350430073272,
+        "stable4_center_normalization_sensitivity__continuous_concordance": 0.5092386110226187
+      },
+      "intervals": {
+        "negated_brain_health": {
+          "ci_low": 0.3693351018266698,
+          "ci_high": 0.6217108343189435,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity": {
+          "ci_low": 0.43401728934817174,
+          "ci_high": 0.6925482518025656,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__Geisinger": {
+          "ci_low": 1.0,
+          "ci_high": 1.0,
+          "valid_replicates": 1578,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__Geisinger": {
+          "ci_low": 0.0,
+          "ci_high": 1.0,
+          "valid_replicates": 1578,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__MedSleep": {
+          "ci_low": 0.2972753794062519,
+          "ci_high": 0.627830457951941,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__MedSleep": {
+          "ci_low": 0.40195976320026816,
+          "ci_high": 0.7287406158901182,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__St_Lukes": {
+          "ci_low": 0.0,
+          "ci_high": 1.0,
+          "valid_replicates": 1893,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__St_Lukes": {
+          "ci_low": 0.0,
+          "ci_high": 1.0,
+          "valid_replicates": 1893,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__Stanford": {
+          "ci_low": 0.38247983870967744,
+          "ci_high": 0.7438492232540964,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__Stanford": {
+          "ci_low": 0.3254211229946524,
+          "ci_high": 0.7698307436182019,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__equal_center": {
+          "ci_low": 0.48668718977002723,
+          "ci_high": 0.7910803368465573,
+          "valid_replicates": 1491,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__equal_center": {
+          "ci_low": 0.2881446071536258,
+          "ci_high": 0.8060812760424877,
+          "valid_replicates": 1491,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__continuous_concordance": {
+          "ci_low": 0.46949517880555974,
+          "ci_high": 0.5505979689014239,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__continuous_concordance": {
+          "ci_low": 0.4685895985157117,
+          "ci_high": 0.5530453959544515,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        }
+      },
+      "permutation_p_one_sided": {
+        "negated_brain_health": 0.5435456454354565,
+        "stable4_center_normalization_sensitivity": 0.05749425057494251
+      },
+      "permutation_draws": 10000
+    },
+    "composite_threshold_-0.5": {
+      "n": 588,
+      "counts": {
+        "Geisinger": {
+          "n": 34,
+          "cases": 13,
+          "noncases": 21,
+          "eligible_pairs": 20
+        },
+        "MedSleep": {
+          "n": 305,
+          "cases": 98,
+          "noncases": 207,
+          "eligible_pairs": 2196
+        },
+        "St_Lukes": {
+          "n": 50,
+          "cases": 16,
+          "noncases": 34,
+          "eligible_pairs": 41
+        },
+        "Stanford": {
+          "n": 199,
+          "cases": 54,
+          "noncases": 145,
+          "eligible_pairs": 879
+        }
+      },
+      "estimates": {
+        "negated_brain_health": 0.5207270408163265,
+        "stable4_center_normalization_sensitivity": 0.5060586734693877,
+        "negated_brain_health__Geisinger": 0.7,
+        "stable4_center_normalization_sensitivity__Geisinger": 0.65,
+        "negated_brain_health__MedSleep": 0.517304189435337,
+        "stable4_center_normalization_sensitivity__MedSleep": 0.5022768670309654,
+        "negated_brain_health__St_Lukes": 0.6585365853658537,
+        "stable4_center_normalization_sensitivity__St_Lukes": 0.36585365853658536,
+        "negated_brain_health__Stanford": 0.5187713310580204,
+        "stable4_center_normalization_sensitivity__Stanford": 0.5187713310580204,
+        "negated_brain_health__equal_center": 0.5986530264648027,
+        "stable4_center_normalization_sensitivity__equal_center": 0.5092254641563927,
+        "negated_brain_health__continuous_concordance": 0.5100350430073272,
+        "stable4_center_normalization_sensitivity__continuous_concordance": 0.5092386110226187
+      },
+      "intervals": {
+        "negated_brain_health": {
+          "ci_low": 0.44304101031897897,
+          "ci_high": 0.5823865990214266,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity": {
+          "ci_low": 0.4468124511072822,
+          "ci_high": 0.578123185844125,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__Geisinger": {
+          "ci_low": 0.3333333333333333,
+          "ci_high": 1.0,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__Geisinger": {
+          "ci_low": 0.08325,
+          "ci_high": 1.0,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__MedSleep": {
+          "ci_low": 0.42586949347284014,
+          "ci_high": 0.6021560606108339,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__MedSleep": {
+          "ci_low": 0.42277563768334053,
+          "ci_high": 0.5863119056829017,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__St_Lukes": {
+          "ci_low": 0.291633064516129,
+          "ci_high": 0.9130434782608695,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__St_Lukes": {
+          "ci_low": 0.10808397683397684,
+          "ci_high": 0.7391521739130433,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__Stanford": {
+          "ci_low": 0.38638345601078056,
+          "ci_high": 0.6246843275442571,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__Stanford": {
+          "ci_low": 0.4291829575890396,
+          "ci_high": 0.6519188936467424,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__equal_center": {
+          "ci_low": 0.4646107480891521,
+          "ci_high": 0.7121323277119226,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__equal_center": {
+          "ci_low": 0.35355383118461786,
+          "ci_high": 0.6364316450209626,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__continuous_concordance": {
+          "ci_low": 0.46887278260400966,
+          "ci_high": 0.5503423882204919,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__continuous_concordance": {
+          "ci_low": 0.4682604720744681,
+          "ci_high": 0.55494959449933,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        }
+      },
+      "permutation_p_one_sided": {
+        "negated_brain_health": 0.2518748125187481,
+        "stable4_center_normalization_sensitivity": 0.4243575642435756
+      },
+      "permutation_draws": 10000
+    },
+    "executive_function": {
+      "n": 590,
+      "counts": {
+        "Geisinger": {
+          "n": 34,
+          "cases": 7,
+          "noncases": 27,
+          "eligible_pairs": 11
+        },
+        "MedSleep": {
+          "n": 306,
+          "cases": 71,
+          "noncases": 235,
+          "eligible_pairs": 1872
+        },
+        "St_Lukes": {
+          "n": 50,
+          "cases": 9,
+          "noncases": 41,
+          "eligible_pairs": 32
+        },
+        "Stanford": {
+          "n": 200,
+          "cases": 41,
+          "noncases": 159,
+          "eligible_pairs": 745
+        }
+      },
+      "estimates": {
+        "negated_brain_health": 0.4988721804511278,
+        "stable4_center_normalization_sensitivity": 0.4924812030075188,
+        "negated_brain_health__Geisinger": 0.8181818181818182,
+        "stable4_center_normalization_sensitivity__Geisinger": 0.5454545454545454,
+        "negated_brain_health__MedSleep": 0.4722222222222222,
+        "stable4_center_normalization_sensitivity__MedSleep": 0.47596153846153844,
+        "negated_brain_health__St_Lukes": 0.53125,
+        "stable4_center_normalization_sensitivity__St_Lukes": 0.3125,
+        "negated_brain_health__Stanford": 0.5597315436241611,
+        "stable4_center_normalization_sensitivity__Stanford": 0.5409395973154363,
+        "negated_brain_health__equal_center": 0.5953463960070504,
+        "stable4_center_normalization_sensitivity__equal_center": 0.46871392030788,
+        "negated_brain_health__continuous_concordance": 0.5134646962233169,
+        "stable4_center_normalization_sensitivity__continuous_concordance": 0.49770114942528737
+      },
+      "intervals": {
+        "negated_brain_health": {
+          "ci_low": 0.40206512429329183,
+          "ci_high": 0.5652542233538089,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity": {
+          "ci_low": 0.42835686957662883,
+          "ci_high": 0.5771314711904065,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__Geisinger": {
+          "ci_low": 0.375,
+          "ci_high": 1.0,
+          "valid_replicates": 1989,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__Geisinger": {
+          "ci_low": 0.0,
+          "ci_high": 1.0,
+          "valid_replicates": 1989,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__MedSleep": {
+          "ci_low": 0.3450270168919495,
+          "ci_high": 0.5598660370037273,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__MedSleep": {
+          "ci_low": 0.3995145471639792,
+          "ci_high": 0.5801371172767492,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__St_Lukes": {
+          "ci_low": 0.1943452380952381,
+          "ci_high": 0.840052631578947,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__St_Lukes": {
+          "ci_low": 0.05551801801801802,
+          "ci_high": 0.8,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__Stanford": {
+          "ci_low": 0.43332402234636874,
+          "ci_high": 0.6742281180732009,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__Stanford": {
+          "ci_low": 0.4111236231156316,
+          "ci_high": 0.6671607085840343,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__equal_center": {
+          "ci_low": 0.4454227093338462,
+          "ci_high": 0.7043726277728408,
+          "valid_replicates": 1989,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__equal_center": {
+          "ci_low": 0.32294341513830416,
+          "ci_high": 0.6477269717446567,
+          "valid_replicates": 1989,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__continuous_concordance": {
+          "ci_low": 0.4714304503802764,
+          "ci_high": 0.5529662232199227,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__continuous_concordance": {
+          "ci_low": 0.4555956563555265,
+          "ci_high": 0.5413071826941342,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        }
+      },
+      "permutation_p_one_sided": {
+        "negated_brain_health": 0.5106489351064893,
+        "stable4_center_normalization_sensitivity": 0.5938406159384062
+      },
+      "permutation_draws": 10000
+    },
+    "face_memory": {
+      "n": 588,
+      "counts": {
+        "Geisinger": {
+          "n": 34,
+          "cases": 6,
+          "noncases": 28,
+          "eligible_pairs": 16
+        },
+        "MedSleep": {
+          "n": 305,
+          "cases": 50,
+          "noncases": 255,
+          "eligible_pairs": 1422
+        },
+        "St_Lukes": {
+          "n": 50,
+          "cases": 8,
+          "noncases": 42,
+          "eligible_pairs": 21
+        },
+        "Stanford": {
+          "n": 199,
+          "cases": 29,
+          "noncases": 170,
+          "eligible_pairs": 393
+        }
+      },
+      "estimates": {
+        "negated_brain_health": 0.4708423326133909,
+        "stable4_center_normalization_sensitivity": 0.5442764578833693,
+        "negated_brain_health__Geisinger": 0.8125,
+        "stable4_center_normalization_sensitivity__Geisinger": 0.4375,
+        "negated_brain_health__MedSleep": 0.45850914205344584,
+        "stable4_center_normalization_sensitivity__MedSleep": 0.5654008438818565,
+        "negated_brain_health__St_Lukes": 0.7142857142857143,
+        "stable4_center_normalization_sensitivity__St_Lukes": 0.42857142857142855,
+        "negated_brain_health__Stanford": 0.48854961832061067,
+        "stable4_center_normalization_sensitivity__Stanford": 0.47837150127226463,
+        "negated_brain_health__equal_center": 0.6184611186649427,
+        "stable4_center_normalization_sensitivity__equal_center": 0.47746094343138745,
+        "negated_brain_health__continuous_concordance": 0.5065996228786926,
+        "stable4_center_normalization_sensitivity__continuous_concordance": 0.5183846637335009
+      },
+      "intervals": {
+        "negated_brain_health": {
+          "ci_low": 0.4151917957925958,
+          "ci_high": 0.5937794166970006,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity": {
+          "ci_low": 0.46057800224466894,
+          "ci_high": 0.6307205661822459,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__Geisinger": {
+          "ci_low": 0.3333333333333333,
+          "ci_high": 1.0,
+          "valid_replicates": 1991,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__Geisinger": {
+          "ci_low": 0.0,
+          "ci_high": 1.0,
+          "valid_replicates": 1991,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__MedSleep": {
+          "ci_low": 0.3849311699977543,
+          "ci_high": 0.6055464345032562,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__MedSleep": {
+          "ci_low": 0.46071788023022686,
+          "ci_high": 0.6606866925994853,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__St_Lukes": {
+          "ci_low": 0.09662058371735792,
+          "ci_high": 1.0,
+          "valid_replicates": 1997,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__St_Lukes": {
+          "ci_low": 0.0,
+          "ci_high": 0.8802352941176469,
+          "valid_replicates": 1997,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__Stanford": {
+          "ci_low": 0.370111540424291,
+          "ci_high": 0.6637049975739931,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__Stanford": {
+          "ci_low": 0.3569093270823316,
+          "ci_high": 0.6580779569892472,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__equal_center": {
+          "ci_low": 0.437393200782989,
+          "ci_high": 0.7632403449785508,
+          "valid_replicates": 1988,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__equal_center": {
+          "ci_low": 0.2856083358900767,
+          "ci_high": 0.676294568737642,
+          "valid_replicates": 1988,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__continuous_concordance": {
+          "ci_low": 0.46706410633495377,
+          "ci_high": 0.5477020483889887,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__continuous_concordance": {
+          "ci_low": 0.4763180931454726,
+          "ci_high": 0.5633838782898517,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        }
+      },
+      "permutation_p_one_sided": {
+        "negated_brain_health": 0.774022597740226,
+        "stable4_center_normalization_sensitivity": 0.12288771122887711
+      },
+      "permutation_draws": 10000
+    },
+    "vigilance": {
+      "n": 590,
+      "counts": {
+        "Geisinger": {
+          "n": 34,
+          "cases": 6,
+          "noncases": 28,
+          "eligible_pairs": 13
+        },
+        "MedSleep": {
+          "n": 306,
+          "cases": 27,
+          "noncases": 279,
+          "eligible_pairs": 894
+        },
+        "St_Lukes": {
+          "n": 50,
+          "cases": 3,
+          "noncases": 47,
+          "eligible_pairs": 15
+        },
+        "Stanford": {
+          "n": 200,
+          "cases": 24,
+          "noncases": 176,
+          "eligible_pairs": 450
+        }
+      },
+      "estimates": {
+        "negated_brain_health": 0.510932944606414,
+        "stable4_center_normalization_sensitivity": 0.5750728862973761,
+        "negated_brain_health__Geisinger": 0.6153846153846154,
+        "stable4_center_normalization_sensitivity__Geisinger": 0.5384615384615384,
+        "negated_brain_health__MedSleep": 0.5111856823266219,
+        "stable4_center_normalization_sensitivity__MedSleep": 0.5559284116331096,
+        "negated_brain_health__St_Lukes": 0.6,
+        "stable4_center_normalization_sensitivity__St_Lukes": 0.8,
+        "negated_brain_health__Stanford": 0.5044444444444445,
+        "stable4_center_normalization_sensitivity__Stanford": 0.6066666666666667,
+        "negated_brain_health__equal_center": 0.5577536855389205,
+        "stable4_center_normalization_sensitivity__equal_center": 0.6252641541903287,
+        "negated_brain_health__continuous_concordance": 0.47837064467261403,
+        "stable4_center_normalization_sensitivity__continuous_concordance": 0.5327385961959266
+      },
+      "intervals": {
+        "negated_brain_health": {
+          "ci_low": 0.3802401998951914,
+          "ci_high": 0.6004462173730029,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity": {
+          "ci_low": 0.4550484287025324,
+          "ci_high": 0.6888579968467531,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__Geisinger": {
+          "ci_low": 0.14285714285714285,
+          "ci_high": 1.0,
+          "valid_replicates": 1976,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__Geisinger": {
+          "ci_low": 0.0,
+          "ci_high": 1.0,
+          "valid_replicates": 1976,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__MedSleep": {
+          "ci_low": 0.35242537617469716,
+          "ci_high": 0.6475042098445595,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__MedSleep": {
+          "ci_low": 0.4056486590613756,
+          "ci_high": 0.7137541043563068,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__St_Lukes": {
+          "ci_low": 0.0,
+          "ci_high": 1.0,
+          "valid_replicates": 1933,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__St_Lukes": {
+          "ci_low": 0.3333333333333333,
+          "ci_high": 1.0,
+          "valid_replicates": 1933,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__Stanford": {
+          "ci_low": 0.3090095493766319,
+          "ci_high": 0.6209088486140724,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__Stanford": {
+          "ci_low": 0.43774472891566263,
+          "ci_high": 0.752637628554144,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__equal_center": {
+          "ci_low": 0.3365904363500504,
+          "ci_high": 0.7133882414671846,
+          "valid_replicates": 1910,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__equal_center": {
+          "ci_low": 0.4159060522138326,
+          "ci_high": 0.7589231265591467,
+          "valid_replicates": 1910,
+          "requested_replicates": 2000
+        },
+        "negated_brain_health__continuous_concordance": {
+          "ci_low": 0.43615874249058567,
+          "ci_high": 0.5218648671197226,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "stable4_center_normalization_sensitivity__continuous_concordance": {
+          "ci_low": 0.4866890876738753,
+          "ci_high": 0.5771598839883813,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        }
+      },
+      "permutation_p_one_sided": {
+        "negated_brain_health": 0.41325867413258677,
+        "stable4_center_normalization_sensitivity": 0.056694330566943306
+      },
+      "permutation_draws": 10000
+    },
+    "ahi_pipeline": {
+      "n": 572,
+      "counts": {
+        "Geisinger": {
+          "n": 33,
+          "cases": 5,
+          "noncases": 28,
+          "eligible_pairs": 13
+        },
+        "MedSleep": {
+          "n": 301,
+          "cases": 109,
+          "noncases": 192,
+          "eligible_pairs": 2288
+        },
+        "St_Lukes": {
+          "n": 50,
+          "cases": 11,
+          "noncases": 39,
+          "eligible_pairs": 41
+        },
+        "Stanford": {
+          "n": 188,
+          "cases": 41,
+          "noncases": 147,
+          "eligible_pairs": 598
+        }
+      },
+      "estimates": {
+        "model_ahi": 0.7608843537414965,
+        "model_ahi__Geisinger": 0.5384615384615384,
+        "model_ahi__MedSleep": 0.7945804195804196,
+        "model_ahi__St_Lukes": 0.4878048780487805,
+        "model_ahi__Stanford": 0.6555183946488294,
+        "model_ahi__equal_center": 0.619091307684892
+      },
+      "intervals": {
+        "model_ahi": {
+          "ci_low": 0.7044489705926693,
+          "ci_high": 0.811772458163318,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "model_ahi__Geisinger": {
+          "ci_low": 0.0,
+          "ci_high": 1.0,
+          "valid_replicates": 1961,
+          "requested_replicates": 2000
+        },
+        "model_ahi__MedSleep": {
+          "ci_low": 0.7317099897976148,
+          "ci_high": 0.8544929103241151,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "model_ahi__St_Lukes": {
+          "ci_low": 0.2,
+          "ci_high": 0.7857142857142857,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "model_ahi__Stanford": {
+          "ci_low": 0.5355031446540881,
+          "ci_high": 0.771433833201789,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "model_ahi__equal_center": {
+          "ci_low": 0.47783609448575015,
+          "ci_high": 0.7763024388645996,
+          "valid_replicates": 1961,
+          "requested_replicates": 2000
+        }
+      },
+      "permutation_p_one_sided": {
+        "model_ahi": 9.999000099990002e-05
+      },
+      "permutation_draws": 10000
+    }
+  }
+}

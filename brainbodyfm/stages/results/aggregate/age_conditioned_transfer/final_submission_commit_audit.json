@@ -1,0 +1,51 @@
+{
+  "repository": "https://github.com/i-habib/phys-26-large-new",
+  "commit": "76a36e54251cfce85889a3b2390018ffc23329ee",
+  "source": "existing local Git checkout; exact commit supplied by corresponding author",
+  "files": {
+    "Dockerfile": {
+      "sha256": "c038476ffa3293dd3b33015bbf11cb2cf2aff837532f90eb29900f573fc84b65",
+      "working_file_matches_commit": true
+    },
+    "README.md": {
+      "sha256": "1d7f4a01ad8ff9c04e513cb7083a1cec6215d6da238f7b687b8f58a0494f5506",
+      "working_file_matches_commit": true
+    },
+    "team_code.py": {
+      "sha256": "2a8e46b77af5b75dbf2cc0d7b9b46e61184b79c713774afe3071c8914ffc6d17",
+      "working_file_matches_commit": true
+    },
+    "phi_challenge/downstream.py": {
+      "sha256": "2e8e9c966da9f5a646607eab83006e634f3157d74b40a0e91b0c0533f112817d",
+      "working_file_matches_commit": true
+    },
+    "phi_challenge/cohort.py": {
+      "sha256": "9ee90d6c01639368ae38537b7ae56beb16f71e1101abcd9572eb987ee03afc6e",
+      "working_file_matches_commit": true
+    },
+    "SUBMISSION_VARIANT.txt": {
+      "sha256": "9bfce334a37bd1bc1d36b0370195b31fe9a9389dd43d0873891a3544ef1140a1",
+      "working_file_matches_commit": true
+    }
+  },
+  "user_confirmed_submission_status": "final submission; this organizer email is validation/large, entry 6 of 10",
+  "validation_receipt": {
+    "reward": -0.033,
+    "age_conditioned_auroc": 0.723,
+    "age_weighted_auroc": 0.776,
+    "auroc": 0.738,
+    "auprc": 0.318,
+    "accuracy": 0.332,
+    "f_measure": 0.155
+  },
+  "trained_artifact_filename": "model.sav",
+  "serialization": "joblib",
+  "normalizer_location": "payload.downstream.stable4.feat_mean and feat_scale",
+  "primary_source_constants_recovered": false,
+  "possible_deployment_branches": [
+    "source-normalized standalone Stable4 if accepted",
+    "gated target-normalized Stable4 plus 20% recording-date rank",
+    "other guarded fallback if Stable4 gate failed"
+  ],
+  "actual_organizer_selected_branch": "not recoverable from source code or scalar validation metrics alone"
+}
