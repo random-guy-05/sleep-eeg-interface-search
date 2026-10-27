@@ -25,3 +25,6 @@ brainbodyfm/cache/
 
 # Local fixed-interface extension caches and participant predictions
 /brainbodyfm/stages/results/stable4_extension/
+
+# Restricted age-conditioned analysis working files and patient bootstrap draws
+/brainbodyfm/stages/results/age_conditioned_transfer/

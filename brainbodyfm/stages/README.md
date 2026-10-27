@@ -59,3 +59,38 @@ Executive-function equal-center MAE is 0.7635 for the intercept, 0.7492 for demo
 The [official Challenge results](https://moody-challenge.physionet.org/2026/results/) verify age-conditioned validation/test scores of 0.723/0.622 for the selected entry. The [accepted CinC abstract](https://cinc.org/2026/Program/accepted/581.html) identifies Stable4 and both authors. These prior diagnosis-task results are separate from the new concurrent cognitive-task analysis.
 
 Run synthetic safeguards from this folder with `python -m unittest test_analysis.py test_fixed_interface.py`. With the original authorized cohort/manifests/caches restored, use `python stable4_extension.py --bootstrap 2000 --workers 4` and `python stable4_supporting.py`. Scripts write local working results to the ignored `results/stable4_extension/`; released aggregate copies live under `results/aggregate/stable4_extension/`. The original private inventory and gates remain necessary; these commands are not a full public raw-data rerun.
+
+## Age-conditioned analysis added after continuous outcomes
+
+`AGE_CONDITIONED_TRANSFER_PLAN.md` and `amendment_05_age_conditioned.json` freeze
+the additional rank analysis before its STAGES results. The original primary
+search-gap endpoint and continuous results remain intact. The signed four-head
+score's primary rank endpoint requires the original organizer-trained source
+normalizer for Challenge submission 2593. That artifact was not recovered in
+local, Drive, or accessible GitHub searches; target moments or development-cache
+moments are not substitutes. The entry repository's current deployment profile
+also requires provenance verification before attribution to its historical
+organizer score. There is no OSF registration at this stage.
+
+`age_conditioned_transfer.py` implements the Challenge win/tie rule with
+within-center age gaps <=2 years, outcome-only spline/sex/education/center
+adjustment, composite cases, center-stratified bootstrap adjustment refits,
+within-center label permutations, and the prespecified available comparator and
+sensitivity analyses. It verifies that plan/code bytes match the current Git
+commit before execution. Primary execution is locked pending recovery of the
+original source artifact and the frozen realized-design power stage. An
+explicit partial run never produces or substitutes a primary result:
+
+```bash
+python -m unittest test_age_conditioned_transfer.py
+python age_conditioned_transfer.py --available-only \
+  --data-root /path/to/authorized/stages --bootstrap 2000 --permutations 10000
+```
+
+The random weights in `data/age_conditioned_random_weights.json` were drawn
+before the new metrics; primary-normalized random specificity also needs the
+original source scales for every candidate head. Local participant working
+files and bootstrap caches belong in ignored `results/age_conditioned_transfer/`.
+Only reviewed aggregate summaries can be released. All available-only outputs
+must identify the unavailable primary, and within-center normalization remains
+an explicitly labeled sensitivity analysis.

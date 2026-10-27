@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-27",
+  "timing": "after all original continuous STAGES analyses; before any added STAGES rank endpoint",
+  "original_primary_endpoint": "unchanged",
+  "added_primary_endpoint": "Stable4 original-source-normalized pooled within-center age-conditioned AUROC for adjusted executive-plus-memory composite <= -1.0 SD",
+  "age_window_years_inclusive": 2.0,
+  "bootstrap_replicates": 2000,
+  "permutation_replicates": 10000,
+  "primary_normalization": "original organizer-trained submission 2593 source moments only",
+  "original_trained_normalization_available_at_freeze": false,
+  "missing_artifact_policy": "primary unavailable; no target or 338-record development scales substituted",
+  "available_only_execution": "prespecified secondary scores with explicit unavailable primary and source-normalized specificity",
+  "random_weight_seed": 2026102721,
+  "bootstrap_seed": 2026102722,
+  "permutation_seed": 2026102723,
+  "osf_registration": "not completed",
+  "plan": "AGE_CONDITIONED_TRANSFER_PLAN.md",
+  "primary_unlock_requires": ["original-artifact provenance and deployment-branch review", "frozen realized-design power implementation and results before primary score computation"]
+}
