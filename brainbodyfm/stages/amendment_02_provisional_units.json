@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-25",
+  "timing": "before_any_STAGES_EEG_cognition_association_or_prediction_accuracy_was_computed",
+  "reason": "The full header audit found 587 records with a central EEG route but blank voltage dimensions, one missing the required route, and five with explicit uV. Supplied and public documentation did not establish the missing dimensions; the user has no export notes. Continue a separately labeled provisional analysis under an explicit uV assignment and test conversion sensitivity. Preserve the original strict analysis as non-estimable unless documented units become available.",
+  "primary_strict_protocol_changed": false,
+  "provisional_policy": "assign_uV_only_to_empty_EDF_voltage_dimensions_in_memory; preserve_original_EDFs; record_every_assignment; do_not_override_existing_dimensions",
+  "tested_alternative_unit_factors": [1,1000,1000000],
+  "unit_sensitivity_gate": {"one_outcome_blind_pilot_per_available_center": true,"maximum_latent_relative_L2_difference":0.001,"maximum_semantic_head_absolute_difference":0.005},
+  "interpretation": "Results conditional on inferred voltage units; sensitivity to common uV/mV/V conversion factors does not confirm physical units or independence from all possible scaling errors.",
+  "no_outcome_dependent_scale_selection": true,
+  "numerical_and_clinical_protocol": "unchanged_from_v1_and_amendment01",
+  "full_run_eligible_before_signal_QC":592
+}

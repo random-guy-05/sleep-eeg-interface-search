@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-26",
+  "timing": "after completion and inspection of STAGES outcome analyses",
+  "type": "provenance confirmation",
+  "user_confirmation": "I checked. voltage units are correct.",
+  "accepted_interpretation": "The completed microvolt assignment to blank EEG voltage dimension fields is correct, as confirmed by the user.",
+  "effect_on_estimates": "None; the confirmation supports the voltage interpretation already used.",
+  "original_run_metadata": "Preserved; the provisional flags describe the information available when the computation was run.",
+  "current_manuscript_status": "Do not retain unconfirmed voltage units as an unresolved limitation. Attribute confirmation accurately to the user's check."
+}

@@ -1,0 +1,4506 @@
+{
+  "source": "brainbodyfm/results/probe_search/candidate_panel_progress.csv",
+  "source_sha256": "00be3b155b28f5f25ec1022c8ca04de8d705f16de036409b81a797c11326c30a",
+  "candidates": [
+    {
+      "draw": 0,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_kurtosis_c_n3",
+        "pred_regression_f_beta_bandpower_std_c_n2",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_alpha",
+        "pred_regression_f_total_power_nrem_abs_gamma"
+      ]
+    },
+    {
+      "draw": 1,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_w",
+        "pred_regression_f_sigma-3-mean",
+        "pred_regression_f_theta-8-mean",
+        "pred_regression_f_total_power_n3_rel_delta"
+      ]
+    },
+    {
+      "draw": 2,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_n1",
+        "pred_regression_f_delta_bandpower_std_c_n2",
+        "pred_regression_f_sleep_latency",
+        "pred_regression_f_total_power_n2_abs_beta"
+      ]
+    },
+    {
+      "draw": 3,
+      "heads": [
+        "pred_regression_f_beta-2-std",
+        "pred_regression_f_slow_bandpower_max_c_w",
+        "pred_regression_f_total_power_n2_abs_theta",
+        "pred_regression_f_total_power_rem_rel_beta"
+      ]
+    },
+    {
+      "draw": 4,
+      "heads": [
+        "pred_regression_f_delta_bandpower_max_c_r",
+        "pred_regression_f_slow_bandpower_max_c_r",
+        "pred_regression_f_total_power_full_sleep_rel_gamma",
+        "pred_regression_f_total_power_n2_rel_alpha"
+      ]
+    },
+    {
+      "draw": 5,
+      "heads": [
+        "pred_regression_f_beta-6-mean",
+        "pred_regression_f_gamma-5-std",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_alpha",
+        "pred_regression_f_total_power_n1_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 6,
+      "heads": [
+        "pred_regression_f_beta-3-std",
+        "pred_regression_f_delta-5-std",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_gamma",
+        "pred_regression_f_total_power_n2_rel_to_total_alpha"
+      ]
+    },
+    {
+      "draw": 7,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_r",
+        "pred_regression_f_sigma_bandpower_max_c_n3",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_w",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 8,
+      "heads": [
+        "pred_regression_f_delta-6-std",
+        "pred_regression_f_gamma_bandpower_std_c_n1",
+        "pred_regression_f_total_power_first_stable_rem_rel_so",
+        "pred_regression_f_total_power_nrem_abs_delta"
+      ]
+    },
+    {
+      "draw": 9,
+      "heads": [
+        "pred_regression_f_alpha-4-mean",
+        "pred_regression_f_gamma-5-std",
+        "pred_regression_f_sigma_bandpower_max_c_n2",
+        "pred_regression_f_theta_bandpower_min_c_n3"
+      ]
+    },
+    {
+      "draw": 10,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_w",
+        "pred_regression_f_delta-9-std",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n1",
+        "pred_regression_f_total_power_w_abs_gamma"
+      ]
+    },
+    {
+      "draw": 11,
+      "heads": [
+        "pred_regression_f_gamma-5-mean",
+        "pred_regression_f_slowdelta_bandpower_max_c_n1",
+        "pred_regression_f_total_power_nrem_rel_gamma",
+        "pred_regression_f_total_power_w_abs_sigma"
+      ]
+    },
+    {
+      "draw": 12,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_mean_c_n3",
+        "pred_regression_f_kurtosis_c4-m1_w",
+        "pred_regression_f_theta_bandpower_max_c_n1",
+        "pred_regression_f_total_power_w_rel_so"
+      ]
+    },
+    {
+      "draw": 13,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_r",
+        "pred_regression_f_delta_bandpower_mean_c_n3",
+        "pred_regression_f_theta-0-mean",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 14,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_r",
+        "pred_regression_f_beta_bandpower_mean_c_r",
+        "pred_regression_f_beta_bandpower_std_c_n2",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n3"
+      ]
+    },
+    {
+      "draw": 15,
+      "heads": [
+        "pred_regression_f_alpha-7-std",
+        "pred_regression_f_slow_bandpower_min_c_n3",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_sigma",
+        "pred_regression_f_total_power_full_sleep_rel_delta"
+      ]
+    },
+    {
+      "draw": 16,
+      "heads": [
+        "pred_regression_f_delta-7-mean",
+        "pred_regression_f_slow_bandpower_max_c_w",
+        "pred_regression_f_slowdelta_bandpower_max_c_r",
+        "pred_regression_f_total_power_full_sleep_rel_beta"
+      ]
+    },
+    {
+      "draw": 17,
+      "heads": [
+        "pred_regression_f_total_power_n1_abs_delta",
+        "pred_regression_f_total_power_n1_rel_gamma",
+        "pred_regression_f_total_power_n3_rel_so",
+        "pred_regression_f_total_power_nrem_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 18,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_mean_c_n1",
+        "pred_regression_f_sigma_bandpower_min_c_n1",
+        "pred_regression_f_slow_bandpower_kurtosis_c_r",
+        "pred_regression_f_theta-6-mean"
+      ]
+    },
+    {
+      "draw": 19,
+      "heads": [
+        "pred_regression_f_beta-2-std",
+        "pred_regression_f_beta_bandpower_std_c_n2",
+        "pred_regression_f_first_rem_alpha_bandpower_mean_c",
+        "pred_regression_f_sigma-0-mean"
+      ]
+    },
+    {
+      "draw": 20,
+      "heads": [
+        "pred_regression_f_alpha-8-mean",
+        "pred_regression_f_gamma-10-std",
+        "pred_regression_f_sigma_bandpower_mean_c_r",
+        "pred_regression_f_total_power_w_abs_delta"
+      ]
+    },
+    {
+      "draw": 21,
+      "heads": [
+        "pred_regression_f_alpha-5-std",
+        "pred_regression_f_delta-6-mean",
+        "pred_regression_f_total_power_first_stable_rem_rel_beta",
+        "pred_regression_f_total_power_rem_abs_so"
+      ]
+    },
+    {
+      "draw": 22,
+      "heads": [
+        "pred_regression_f_gamma-7-std",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_alpha",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_theta",
+        "pred_regression_f_total_power_n1_abs_so"
+      ]
+    },
+    {
+      "draw": 23,
+      "heads": [
+        "pred_regression_f_sleep_efficiency",
+        "pred_regression_f_theta_bandpower_mean_c_r",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_delta",
+        "pred_regression_f_total_power_first_stable_rem_rel_beta"
+      ]
+    },
+    {
+      "draw": 24,
+      "heads": [
+        "pred_regression_f_remaining_rem_fastband_bandpower_mean_c",
+        "pred_regression_f_total_power_first_stable_rem_rel_theta",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_theta",
+        "pred_regression_f_total_power_n3_rel_sigma"
+      ]
+    },
+    {
+      "draw": 25,
+      "heads": [
+        "pred_regression_f_total_power_first_stable_rem_abs_delta",
+        "pred_regression_f_total_power_full_sleep",
+        "pred_regression_f_total_power_n1_rel_beta",
+        "pred_regression_f_total_power_rem_abs_alpha"
+      ]
+    },
+    {
+      "draw": 26,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_n2",
+        "pred_regression_f_sigma_bandpower_std_c_n3",
+        "pred_regression_f_slow_bandpower_mean_c_n2",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 27,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_n2",
+        "pred_regression_f_delta_bandpower_max_c_n3",
+        "pred_regression_f_sigma-0-mean",
+        "pred_regression_f_slowdelta_bandpower_mean_c_n1"
+      ]
+    },
+    {
+      "draw": 28,
+      "heads": [
+        "pred_regression_f_beta_bandpower_kurtosis_c_w",
+        "pred_regression_f_first_rem_alpha_bandpower_mean_c",
+        "pred_regression_f_sigma_bandpower_max_c_n1",
+        "pred_regression_f_total_power_full_sleep_rel_theta"
+      ]
+    },
+    {
+      "draw": 29,
+      "heads": [
+        "pred_regression_f_slow_bandpower_max_c_r",
+        "pred_regression_f_theta-2-std",
+        "pred_regression_f_total_power_full_sleep_abs_delta",
+        "pred_regression_f_total_power_nrem_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 30,
+      "heads": [
+        "pred_regression_f_delta-2-mean",
+        "pred_regression_f_gamma_bandpower_std_c_n1",
+        "pred_regression_f_total_power_first_stable_rem_rel_gamma",
+        "pred_regression_f_total_power_n2_rel_delta"
+      ]
+    },
+    {
+      "draw": 31,
+      "heads": [
+        "pred_regression_f_slow_bandpower_mean_c_n1",
+        "pred_regression_f_theta_bandpower_mean_c_n1",
+        "pred_regression_f_total_power_n3_rel_to_total_so",
+        "pred_regression_f_total_power_rem_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 32,
+      "heads": [
+        "pred_regression_f_theta_bandpower_std_c_n3",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_sigma",
+        "pred_regression_f_total_power_full_sleep_abs_beta",
+        "pred_regression_f_total_power_n1_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 33,
+      "heads": [
+        "pred_regression_f_gamma-2-std",
+        "pred_regression_f_slow_bandpower_kurtosis_c_n3",
+        "pred_regression_f_slow_bandpower_min_c_r",
+        "pred_regression_f_total_power_n2_abs_theta"
+      ]
+    },
+    {
+      "draw": 34,
+      "heads": [
+        "pred_regression_f_delta-7-std",
+        "pred_regression_f_gamma-5-std",
+        "pred_regression_f_sigma_bandpower_max_c_n3",
+        "pred_regression_f_total_power_w_abs_delta"
+      ]
+    },
+    {
+      "draw": 35,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_std_c_n3",
+        "pred_regression_f_sigma-6-mean",
+        "pred_regression_f_theta-2-mean",
+        "pred_regression_f_total_power_nrem_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 36,
+      "heads": [
+        "pred_regression_f_delta_linear_b0",
+        "pred_regression_f_slowdelta_bandpower_std_c_n1",
+        "pred_regression_f_total_power_n1_rel_sigma",
+        "pred_regression_f_total_power_rem_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 37,
+      "heads": [
+        "pred_regression_f_slow_bandpower_kurtosis_c_n1",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_delta",
+        "pred_regression_f_total_power_full_sleep_rel_delta",
+        "pred_regression_f_total_power_rem_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 38,
+      "heads": [
+        "pred_regression_f_beta_bandpower_kurtosis_c_w",
+        "pred_regression_f_sleep_latency",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_w",
+        "pred_regression_f_total_power_w_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 39,
+      "heads": [
+        "pred_regression_f_delta_bandpower_max_c_r",
+        "pred_regression_f_delta_bandpower_mean_c_r",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_n2",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_alpha"
+      ]
+    },
+    {
+      "draw": 40,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_n1",
+        "pred_regression_f_beta_bandpower_min_c_w",
+        "pred_regression_f_slow_bandpower_min_c_n2",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 41,
+      "heads": [
+        "pred_regression_f_delta-10-std",
+        "pred_regression_f_total_power_n2_rel_gamma",
+        "pred_regression_f_total_power_n2_rel_to_total_sigma",
+        "pred_regression_f_total_power_w_rel_alpha"
+      ]
+    },
+    {
+      "draw": 42,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_n1",
+        "pred_regression_f_theta-3-std",
+        "pred_regression_f_theta-4-mean",
+        "pred_regression_f_total_power_rem_rel_gamma"
+      ]
+    },
+    {
+      "draw": 43,
+      "heads": [
+        "pred_regression_f_delta_bandpower_max_c_n3",
+        "pred_regression_f_slowdelta_bandpower_max_c_n1",
+        "pred_regression_f_total_power_n3_abs_sigma",
+        "pred_regression_f_total_power_nrem_rel_gamma"
+      ]
+    },
+    {
+      "draw": 44,
+      "heads": [
+        "pred_regression_f_beta_bandpower_min_c_n1",
+        "pred_regression_f_delta-3-std",
+        "pred_regression_f_total_power_full_sleep_rel_alpha",
+        "pred_regression_f_total_power_n3_abs_theta"
+      ]
+    },
+    {
+      "draw": 45,
+      "heads": [
+        "pred_regression_f_sigma-3-std",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_r",
+        "pred_regression_f_total_power_n3_abs_sigma",
+        "pred_regression_f_total_power_nrem_abs_alpha"
+      ]
+    },
+    {
+      "draw": 46,
+      "heads": [
+        "pred_regression_f_beta_bandpower_kurtosis_c_n2",
+        "pred_regression_f_sigma-9-std",
+        "pred_regression_f_theta-3-mean",
+        "pred_regression_f_total_power_w_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 47,
+      "heads": [
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_beta",
+        "pred_regression_f_total_power_full_sleep_rel_alpha",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_delta",
+        "pred_regression_f_total_power_w_abs_beta"
+      ]
+    },
+    {
+      "draw": 48,
+      "heads": [
+        "pred_regression_f_gamma-5-std",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_w",
+        "pred_regression_f_theta_bandpower_max_c_w",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 49,
+      "heads": [
+        "pred_regression_f_delta_bandpower_max_c_n2",
+        "pred_regression_f_theta_bandpower_kurtosis_c_n2",
+        "pred_regression_f_total_power_n2_rel_to_total_theta",
+        "pred_regression_f_total_power_nrem_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 50,
+      "heads": [
+        "pred_regression_f_beta_bandpower_mean_c_n1",
+        "pred_regression_f_delta-3-mean",
+        "pred_regression_f_sigma-8-mean",
+        "pred_regression_f_total_power_full_sleep_abs_so"
+      ]
+    },
+    {
+      "draw": 51,
+      "heads": [
+        "pred_regression_f_total_power_first_stable_nrem_abs_so",
+        "pred_regression_f_total_power_first_stable_rem_abs_delta",
+        "pred_regression_f_total_power_nrem_abs_sigma",
+        "pred_regression_f_total_power_w_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 52,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_std_c_n3",
+        "pred_regression_f_delta-9-std",
+        "pred_regression_f_slow_bandpower_std_c_n2",
+        "pred_regression_f_total_power_n3_rel_gamma"
+      ]
+    },
+    {
+      "draw": 53,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_mean_c_n2",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n3",
+        "pred_regression_f_theta-7-mean",
+        "pred_regression_f_total_power_n1_rel_alpha"
+      ]
+    },
+    {
+      "draw": 54,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_std_c_n3",
+        "pred_regression_f_beta_bandpower_max_c_n3",
+        "pred_regression_f_beta_bandpower_mean_c_w",
+        "pred_regression_f_sigma_bandpower_min_c_r"
+      ]
+    },
+    {
+      "draw": 55,
+      "heads": [
+        "pred_regression_f_beta-4-mean",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_n3",
+        "pred_regression_f_total_power_n3_abs_theta",
+        "pred_regression_f_total_power_nrem_rel_so"
+      ]
+    },
+    {
+      "draw": 56,
+      "heads": [
+        "pred_regression_f_gamma-8-mean",
+        "pred_regression_f_remaining_rem_duration",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_alpha",
+        "pred_regression_f_total_power_w_rel_so"
+      ]
+    },
+    {
+      "draw": 57,
+      "heads": [
+        "pred_regression_f_delta_bandpower_kurtosis_c_n1",
+        "pred_regression_f_delta_bandpower_max_c_n1",
+        "pred_regression_f_first_rem_theta_bandpower_mean_c",
+        "pred_regression_f_sigma-3-mean"
+      ]
+    },
+    {
+      "draw": 58,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_n1",
+        "pred_regression_f_kurtosis_c4-m1_n2",
+        "pred_regression_f_slow_bandpower_std_c_n2",
+        "pred_regression_f_total_power_n2_rel_gamma"
+      ]
+    },
+    {
+      "draw": 59,
+      "heads": [
+        "pred_regression_f_delta-3-mean",
+        "pred_regression_f_total_power_n1_abs_so",
+        "pred_regression_f_total_power_w_abs_so",
+        "pred_regression_f_total_power_w_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 60,
+      "heads": [
+        "pred_regression_f_gamma-4-mean",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_n3",
+        "pred_regression_f_theta-10-std",
+        "pred_regression_f_total_power_n2_rel_alpha"
+      ]
+    },
+    {
+      "draw": 61,
+      "heads": [
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n1",
+        "pred_regression_f_theta-3-std",
+        "pred_regression_f_total_power_n1_rel_to_total_beta",
+        "pred_regression_f_total_power_nrem_rel_beta"
+      ]
+    },
+    {
+      "draw": 62,
+      "heads": [
+        "pred_regression_f_sigma-2-std",
+        "pred_regression_f_total_power_nrem_rel_to_total_beta",
+        "pred_regression_f_total_power_w_abs_gamma",
+        "pred_regression_f_total_power_w_rel_so"
+      ]
+    },
+    {
+      "draw": 63,
+      "heads": [
+        "pred_regression_f_total_power_full_sleep_abs_gamma",
+        "pred_regression_f_total_power_n1_rel_beta",
+        "pred_regression_f_total_power_n1_rel_so",
+        "pred_regression_f_total_power_n2_rel_to_total_alpha"
+      ]
+    },
+    {
+      "draw": 64,
+      "heads": [
+        "pred_regression_f_beta-1-std",
+        "pred_regression_f_delta-0-mean",
+        "pred_regression_f_sigma_bandpower_min_c_r",
+        "pred_regression_f_slow_bandpower_std_c_n1"
+      ]
+    },
+    {
+      "draw": 65,
+      "heads": [
+        "pred_regression_f_delta-8-mean",
+        "pred_regression_f_total_power_first_stable_nrem_rel_gamma",
+        "pred_regression_f_total_power_n2_rel_to_total_sigma",
+        "pred_regression_f_total_power_rem_rel_sigma"
+      ]
+    },
+    {
+      "draw": 66,
+      "heads": [
+        "pred_regression_f_alpha-0-mean",
+        "pred_regression_f_beta-8-mean",
+        "pred_regression_f_delta-9-std",
+        "pred_regression_f_total_power_full_sleep_abs_so"
+      ]
+    },
+    {
+      "draw": 67,
+      "heads": [
+        "pred_regression_f_beta_bandpower_mean_c_r",
+        "pred_regression_f_slow_bandpower_kurtosis_c_r",
+        "pred_regression_f_theta_bandpower_min_c_r",
+        "pred_regression_f_total_power_nrem_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 68,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_std_c_n1",
+        "pred_regression_f_beta_bandpower_std_c_r",
+        "pred_regression_f_delta-9-std",
+        "pred_regression_f_gamma-4-mean"
+      ]
+    },
+    {
+      "draw": 69,
+      "heads": [
+        "pred_regression_f_beta-3-mean",
+        "pred_regression_f_total_power_first_stable_rem_abs_so",
+        "pred_regression_f_total_power_n2_abs_theta",
+        "pred_regression_f_total_power_n3_rel_delta"
+      ]
+    },
+    {
+      "draw": 70,
+      "heads": [
+        "pred_regression_f_sigma-2-mean",
+        "pred_regression_f_sigma-4-mean",
+        "pred_regression_f_slowdelta_bandpower_std_c_r",
+        "pred_regression_f_total_power_n1_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 71,
+      "heads": [
+        "pred_regression_f_slowdelta_bandpower_min_c_r",
+        "pred_regression_f_theta_bandpower_mean_c_n3",
+        "pred_regression_f_total_power_n1_abs_alpha",
+        "pred_regression_f_total_power_nrem_abs_beta"
+      ]
+    },
+    {
+      "draw": 72,
+      "heads": [
+        "pred_regression_f_alpha-10-std",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_sigma",
+        "pred_regression_f_total_power_n2_abs_gamma",
+        "pred_regression_f_total_power_n2_rel_so"
+      ]
+    },
+    {
+      "draw": 73,
+      "heads": [
+        "pred_regression_f_delta_bandpower_max_c_w",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_w",
+        "pred_regression_f_theta_bandpower_max_c_w",
+        "pred_regression_f_total_power_n1_rel_sigma"
+      ]
+    },
+    {
+      "draw": 74,
+      "heads": [
+        "pred_regression_f_delta-3-mean",
+        "pred_regression_f_gamma_bandpower_kurtosis_c_n2",
+        "pred_regression_f_theta_bandpower_mean_c_w",
+        "pred_regression_f_total_power_w_abs_sigma"
+      ]
+    },
+    {
+      "draw": 75,
+      "heads": [
+        "pred_regression_f_sigma-1-std",
+        "pred_regression_f_slow_bandpower_min_c_n2",
+        "pred_regression_f_total_power_n2_abs_so",
+        "pred_regression_f_total_power_w_abs_theta"
+      ]
+    },
+    {
+      "draw": 76,
+      "heads": [
+        "pred_regression_f_alpha-3-std",
+        "pred_regression_f_theta-2-std",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_alpha",
+        "pred_regression_f_total_power_n3_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 77,
+      "heads": [
+        "pred_regression_f_beta-7-std",
+        "pred_regression_f_beta_bandpower_max_c_n1",
+        "pred_regression_f_gamma-0-std",
+        "pred_regression_f_total_power_w_abs_delta"
+      ]
+    },
+    {
+      "draw": 78,
+      "heads": [
+        "pred_regression_f_kurtosis_c4-m1_w",
+        "pred_regression_f_slowdelta_bandpower_max_c_n3",
+        "pred_regression_f_theta_bandpower_kurtosis_c_n1",
+        "pred_regression_f_total_power_rem_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 79,
+      "heads": [
+        "pred_regression_f_fs_chirp_c4m1",
+        "pred_regression_f_sigma-3-mean",
+        "pred_regression_f_theta_bandpower_kurtosis_c_n2",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 80,
+      "heads": [
+        "pred_regression_f_delta_bandpower_kurtosis_c_w",
+        "pred_regression_f_sigma_bandpower_mean_c_n1",
+        "pred_regression_f_slow_bandpower_mean_c_n1",
+        "pred_regression_f_slowdelta_bandpower_min_c_r"
+      ]
+    },
+    {
+      "draw": 81,
+      "heads": [
+        "pred_regression_f_delta_bandpower_min_c_n1",
+        "pred_regression_f_delta_linear_b1",
+        "pred_regression_f_gamma_bandpower_mean_c_n1",
+        "pred_regression_f_sigma-4-mean"
+      ]
+    },
+    {
+      "draw": 82,
+      "heads": [
+        "pred_regression_f_beta-7-std",
+        "pred_regression_f_total_power_n1_abs_sigma",
+        "pred_regression_f_total_power_n1_rel_to_total_theta",
+        "pred_regression_f_total_power_nrem_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 83,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_n1",
+        "pred_regression_f_beta_bandpower_max_c_w",
+        "pred_regression_f_theta-1-std",
+        "pred_regression_f_theta-4-mean"
+      ]
+    },
+    {
+      "draw": 84,
+      "heads": [
+        "pred_regression_f_alpha-3-mean",
+        "pred_regression_f_beta_bandpower_kurtosis_c_r",
+        "pred_regression_f_theta-5-mean",
+        "pred_regression_f_total_power_nrem_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 85,
+      "heads": [
+        "pred_regression_f_delta_bandpower_mean_c_w",
+        "pred_regression_f_slowdelta_bandpower_max_c_n3",
+        "pred_regression_f_total_power_first_stable_nrem_abs_theta",
+        "pred_regression_f_total_power_first_stable_rem_abs_delta"
+      ]
+    },
+    {
+      "draw": 86,
+      "heads": [
+        "pred_regression_f_beta-1-mean",
+        "pred_regression_f_beta-7-std",
+        "pred_regression_f_theta_bandpower_kurtosis_c_r",
+        "pred_regression_f_total_power_full_sleep_abs_so"
+      ]
+    },
+    {
+      "draw": 87,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_r",
+        "pred_regression_f_gamma_bandpower_min_c_w",
+        "pred_regression_f_slowdelta_bandpower_max_c_n2",
+        "pred_regression_f_slowdelta_bandpower_std_c_n1"
+      ]
+    },
+    {
+      "draw": 88,
+      "heads": [
+        "pred_regression_f_delta_bandpower_std_c_w",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_theta",
+        "pred_regression_f_total_power_n1_rel_so",
+        "pred_regression_f_total_power_n3_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 89,
+      "heads": [
+        "pred_regression_f_beta_bandpower_kurtosis_c_n2",
+        "pred_regression_f_slow_bandpower_kurtosis_c_r",
+        "pred_regression_f_total_power_full_sleep_rel_delta",
+        "pred_regression_f_total_power_n3_abs_sigma"
+      ]
+    },
+    {
+      "draw": 90,
+      "heads": [
+        "pred_regression_f_alpha-6-mean",
+        "pred_regression_f_alpha_bandpower_std_c_n3",
+        "pred_regression_f_slowdelta_bandpower_max_c_n1",
+        "pred_regression_f_total_power_first_stable_rem_abs_gamma"
+      ]
+    },
+    {
+      "draw": 91,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_kurtosis_c_r",
+        "pred_regression_f_gamma_bandpower_max_c_n3",
+        "pred_regression_f_remaining_rem_theta_bandpower_mean_c",
+        "pred_regression_f_total_power_n2_abs_so"
+      ]
+    },
+    {
+      "draw": 92,
+      "heads": [
+        "pred_regression_f_gamma-3-mean",
+        "pred_regression_f_gamma_bandpower_kurtosis_c_n2",
+        "pred_regression_f_gamma_bandpower_mean_c_w",
+        "pred_regression_f_total_power_first_stable_nrem_rel_theta"
+      ]
+    },
+    {
+      "draw": 93,
+      "heads": [
+        "pred_regression_f_delta_bandpower_mean_c_n2",
+        "pred_regression_f_gamma-3-mean",
+        "pred_regression_f_total_power_n2_rel_alpha",
+        "pred_regression_f_total_power_w_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 94,
+      "heads": [
+        "pred_regression_f_delta_bandpower_kurtosis_c_n3",
+        "pred_regression_f_delta_linear_b1",
+        "pred_regression_f_sigma_bandpower_mean_c_n2",
+        "pred_regression_f_theta_bandpower_std_c_n1"
+      ]
+    },
+    {
+      "draw": 95,
+      "heads": [
+        "pred_regression_f_beta-4-mean",
+        "pred_regression_f_delta_bandpower_std_c_n3",
+        "pred_regression_f_theta-7-mean",
+        "pred_regression_f_total_power_w_rel_alpha"
+      ]
+    },
+    {
+      "draw": 96,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_w",
+        "pred_regression_f_alpha_bandpower_min_c_n3",
+        "pred_regression_f_beta-8-std",
+        "pred_regression_f_theta-3-mean"
+      ]
+    },
+    {
+      "draw": 97,
+      "heads": [
+        "pred_regression_f_gamma-10-std",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_w",
+        "pred_regression_f_slowdelta_bandpower_max_c_n1",
+        "pred_regression_f_theta_bandpower_std_c_n1"
+      ]
+    },
+    {
+      "draw": 98,
+      "heads": [
+        "pred_regression_f_beta-7-std",
+        "pred_regression_f_delta-0-mean",
+        "pred_regression_f_total_power_n2_abs_delta",
+        "pred_regression_f_total_power_nrem_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 99,
+      "heads": [
+        "pred_regression_f_beta-1-mean",
+        "pred_regression_f_delta_bandpower_kurtosis_c_n2",
+        "pred_regression_f_lmi",
+        "pred_regression_f_total_power_n3_abs_so"
+      ]
+    },
+    {
+      "draw": 100,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_std_c_n3",
+        "pred_regression_f_sigma_bandpower_mean_c_n3",
+        "pred_regression_f_total_power_n1_rel_delta",
+        "pred_regression_f_total_power_rem_rel_theta"
+      ]
+    },
+    {
+      "draw": 101,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_n3",
+        "pred_regression_f_sigma-3-mean",
+        "pred_regression_f_sigma_bandpower_min_c_n2",
+        "pred_regression_f_slow_bandpower_min_c_r"
+      ]
+    },
+    {
+      "draw": 102,
+      "heads": [
+        "pred_regression_f_slowdelta_bandpower_max_c_n1",
+        "pred_regression_f_theta-3-mean",
+        "pred_regression_f_total_power_first_stable_rem_rel_so",
+        "pred_regression_f_total_power_nrem_abs_gamma"
+      ]
+    },
+    {
+      "draw": 103,
+      "heads": [
+        "pred_regression_f_alpha-3-mean",
+        "pred_regression_f_delta_bandpower_max_c_n3",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_sigma",
+        "pred_regression_f_total_power_n3_rel_delta"
+      ]
+    },
+    {
+      "draw": 104,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_std_c_n3",
+        "pred_regression_f_delta_bandpower_min_c_w",
+        "pred_regression_f_theta_bandpower_std_c_n3",
+        "pred_regression_f_total_power_w_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 105,
+      "heads": [
+        "pred_regression_f_alpha-0-std",
+        "pred_regression_f_sigma-1-mean",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_w",
+        "pred_regression_f_theta_bandpower_kurtosis_c_n1"
+      ]
+    },
+    {
+      "draw": 106,
+      "heads": [
+        "pred_regression_f_beta_bandpower_kurtosis_c_r",
+        "pred_regression_f_lmi",
+        "pred_regression_f_slow_bandpower_kurtosis_c_r",
+        "pred_regression_f_total_power_w_rel_sigma"
+      ]
+    },
+    {
+      "draw": 107,
+      "heads": [
+        "pred_regression_f_sigma-8-mean",
+        "pred_regression_f_slowdelta_bandpower_min_c_r",
+        "pred_regression_f_theta-7-std",
+        "pred_regression_f_theta-9-std"
+      ]
+    },
+    {
+      "draw": 108,
+      "heads": [
+        "pred_regression_f_beta_bandpower_std_c_n3",
+        "pred_regression_f_sigma-8-mean",
+        "pred_regression_f_slowdelta_bandpower_std_c_r",
+        "pred_regression_f_total_power_n3_rel_delta"
+      ]
+    },
+    {
+      "draw": 109,
+      "heads": [
+        "pred_regression_f_delta_bandpower_kurtosis_c_n1",
+        "pred_regression_f_gamma-0-std",
+        "pred_regression_f_gamma_bandpower_max_c_r",
+        "pred_regression_f_total_power_full_sleep_abs_sigma"
+      ]
+    },
+    {
+      "draw": 110,
+      "heads": [
+        "pred_regression_f_beta-4-mean",
+        "pred_regression_f_gamma_bandpower_kurtosis_c_w",
+        "pred_regression_f_sigma-7-std",
+        "pred_regression_f_total_power_nrem_abs_so"
+      ]
+    },
+    {
+      "draw": 111,
+      "heads": [
+        "pred_regression_f_slow_bandpower_max_c_n1",
+        "pred_regression_f_total_power_n1_abs_gamma",
+        "pred_regression_f_total_power_n1_rel_to_total_so",
+        "pred_regression_f_total_power_n3_abs_delta"
+      ]
+    },
+    {
+      "draw": 112,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_std_c_w",
+        "pred_regression_f_total_power_n2_rel_to_total_beta",
+        "pred_regression_f_total_power_n3_rel_sigma",
+        "pred_regression_f_total_power_nrem_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 113,
+      "heads": [
+        "pred_regression_f_delta_bandpower_std_c_w",
+        "pred_regression_f_slowdelta_bandpower_max_c_r",
+        "pred_regression_f_theta-8-std",
+        "pred_regression_f_total_power_w_abs_beta"
+      ]
+    },
+    {
+      "draw": 114,
+      "heads": [
+        "pred_regression_f_beta_bandpower_min_c_r",
+        "pred_regression_f_sigma-4-std",
+        "pred_regression_f_total_power_n1_abs_beta",
+        "pred_regression_f_total_power_w_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 115,
+      "heads": [
+        "pred_regression_f_gamma-0-std",
+        "pred_regression_f_sigma-7-std",
+        "pred_regression_f_theta_bandpower_min_c_r",
+        "pred_regression_f_total_power_full_sleep_abs_gamma"
+      ]
+    },
+    {
+      "draw": 116,
+      "heads": [
+        "pred_regression_f_gamma-4-std",
+        "pred_regression_f_sigma-0-mean",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_theta",
+        "pred_regression_f_total_power_nrem_abs_so"
+      ]
+    },
+    {
+      "draw": 117,
+      "heads": [
+        "pred_regression_f_alpha-2-std",
+        "pred_regression_f_kurtosis_c4-m1_n2",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_so",
+        "pred_regression_f_total_power_w_abs_theta"
+      ]
+    },
+    {
+      "draw": 118,
+      "heads": [
+        "pred_regression_f_remaining_rem_duration",
+        "pred_regression_f_sigma-9-std",
+        "pred_regression_f_total_power_nrem_rel_to_total_alpha",
+        "pred_regression_f_total_power_w_rel_so"
+      ]
+    },
+    {
+      "draw": 119,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_mean_c_w",
+        "pred_regression_f_ss_chirp_c4m1",
+        "pred_regression_f_total_power_n1_abs_sigma",
+        "pred_regression_f_total_power_n3_abs_theta"
+      ]
+    },
+    {
+      "draw": 120,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_min_c_n2",
+        "pred_regression_f_slowdelta_bandpower_min_c_n3",
+        "pred_regression_f_theta-10-std",
+        "pred_regression_f_total_power_n1_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 121,
+      "heads": [
+        "pred_regression_f_beta-9-std",
+        "pred_regression_f_gamma-5-std",
+        "pred_regression_f_kurtosis_c4-m1_n2",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 122,
+      "heads": [
+        "pred_regression_f_delta-2-mean",
+        "pred_regression_f_gamma_bandpower_kurtosis_c_n3",
+        "pred_regression_f_slowdelta_bandpower_std_c_n1",
+        "pred_regression_f_total_power_nrem_rel_theta"
+      ]
+    },
+    {
+      "draw": 123,
+      "heads": [
+        "pred_regression_f_hours_sleep",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n1",
+        "pred_regression_f_slow_bandpower_std_c_n2",
+        "pred_regression_f_total_power_full_sleep_rel_sigma"
+      ]
+    },
+    {
+      "draw": 124,
+      "heads": [
+        "pred_regression_f_delta_bandpower_kurtosis_c_n2",
+        "pred_regression_f_sigma_bandpower_max_c_n1",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_w",
+        "pred_regression_f_total_power_w_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 125,
+      "heads": [
+        "pred_regression_f_alpha-4-mean",
+        "pred_regression_f_beta_bandpower_kurtosis_c_w",
+        "pred_regression_f_delta_linear_b0",
+        "pred_regression_f_first_rem_duration"
+      ]
+    },
+    {
+      "draw": 126,
+      "heads": [
+        "pred_regression_f_delta-5-std",
+        "pred_regression_f_kurtosis_c4-m1_n3",
+        "pred_regression_f_sigma_bandpower_max_c_n2",
+        "pred_regression_f_slow_bandpower_min_c_w"
+      ]
+    },
+    {
+      "draw": 127,
+      "heads": [
+        "pred_regression_f_arousal_index",
+        "pred_regression_f_sigma-6-std",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_n1",
+        "pred_regression_f_theta_bandpower_std_c_n3"
+      ]
+    },
+    {
+      "draw": 128,
+      "heads": [
+        "pred_regression_f_slow_bandpower_min_c_n1",
+        "pred_regression_f_theta_bandpower_mean_c_n2",
+        "pred_regression_f_total_power_n1_abs_delta",
+        "pred_regression_f_total_power_n1_rel_theta"
+      ]
+    },
+    {
+      "draw": 129,
+      "heads": [
+        "pred_regression_f_alpha-10-std",
+        "pred_regression_f_alpha_bandpower_mean_c_r",
+        "pred_regression_f_gamma-2-std",
+        "pred_regression_f_sigma_bandpower_max_c_n3"
+      ]
+    },
+    {
+      "draw": 130,
+      "heads": [
+        "pred_regression_f_beta-0-mean",
+        "pred_regression_f_gamma_bandpower_mean_c_n1",
+        "pred_regression_f_total_power_n3_rel_sigma",
+        "pred_regression_f_total_power_rem_rel_alpha"
+      ]
+    },
+    {
+      "draw": 131,
+      "heads": [
+        "pred_regression_f_beta_bandpower_kurtosis_c_r",
+        "pred_regression_f_sigma_bandpower_mean_c_n1",
+        "pred_regression_f_theta-7-std",
+        "pred_regression_f_total_power_rem_abs_gamma"
+      ]
+    },
+    {
+      "draw": 132,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_n2",
+        "pred_regression_f_beta-2-std",
+        "pred_regression_f_delta_bandpower_max_c_r",
+        "pred_regression_f_delta_bandpower_std_c_w"
+      ]
+    },
+    {
+      "draw": 133,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_n3",
+        "pred_regression_f_alpha_bandpower_mean_c_n3",
+        "pred_regression_f_total_power_n1_rel_to_total_alpha",
+        "pred_regression_f_total_power_w_abs_gamma"
+      ]
+    },
+    {
+      "draw": 134,
+      "heads": [
+        "pred_regression_f_beta_bandpower_std_c_n1",
+        "pred_regression_f_total_power_first_stable_rem_abs_alpha",
+        "pred_regression_f_total_power_n1_rel_so",
+        "pred_regression_f_total_power_n3_rel_gamma"
+      ]
+    },
+    {
+      "draw": 135,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_kurtosis_c_r",
+        "pred_regression_f_sigma-2-std",
+        "pred_regression_f_theta-8-mean",
+        "pred_regression_f_total_power_n1_rel_so"
+      ]
+    },
+    {
+      "draw": 136,
+      "heads": [
+        "pred_regression_f_beta-10-std",
+        "pred_regression_f_ms_chirp_c4m1",
+        "pred_regression_f_total_power_n1_rel_alpha",
+        "pred_regression_f_total_power_nrem_abs_alpha"
+      ]
+    },
+    {
+      "draw": 137,
+      "heads": [
+        "pred_regression_f_beta_bandpower_mean_c_r",
+        "pred_regression_f_remaining_rem_duration",
+        "pred_regression_f_remaining_rem_fastband_bandpower_mean_c",
+        "pred_regression_f_theta_bandpower_max_c_n1"
+      ]
+    },
+    {
+      "draw": 138,
+      "heads": [
+        "pred_regression_f_ms_chirp_c4m1",
+        "pred_regression_f_remaining_rem_fastband_bandpower_mean_c",
+        "pred_regression_f_slow_bandpower_std_c_n1",
+        "pred_regression_f_total_power_first_stable_rem_abs_theta"
+      ]
+    },
+    {
+      "draw": 139,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_r",
+        "pred_regression_f_delta-9-std",
+        "pred_regression_f_total_power_first_stable_nrem_abs_gamma",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 140,
+      "heads": [
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n2",
+        "pred_regression_f_slow_bandpower_mean_c_r",
+        "pred_regression_f_total_power_full_sleep_rel_beta",
+        "pred_regression_f_total_power_n3_abs_gamma"
+      ]
+    },
+    {
+      "draw": 141,
+      "heads": [
+        "pred_regression_f_beta-5-std",
+        "pred_regression_f_beta-7-std",
+        "pred_regression_f_delta_bandpower_mean_c_n1",
+        "pred_regression_f_gamma-10-std"
+      ]
+    },
+    {
+      "draw": 142,
+      "heads": [
+        "pred_regression_f_gamma-9-std",
+        "pred_regression_f_slow_bandpower_min_c_n3",
+        "pred_regression_f_total_power_n1_rel_to_total_beta",
+        "pred_regression_f_total_power_n2_abs_beta"
+      ]
+    },
+    {
+      "draw": 143,
+      "heads": [
+        "pred_regression_f_total_power_n1_rel_gamma",
+        "pred_regression_f_total_power_n2_rel_alpha",
+        "pred_regression_f_total_power_nrem_abs_so",
+        "pred_regression_f_total_power_nrem_rel_so"
+      ]
+    },
+    {
+      "draw": 144,
+      "heads": [
+        "pred_regression_f_gamma-1-mean",
+        "pred_regression_f_sigma_bandpower_mean_c_w",
+        "pred_regression_f_total_power_first_stable_nrem_rel_alpha",
+        "pred_regression_f_total_power_first_stable_rem_rel_gamma"
+      ]
+    },
+    {
+      "draw": 145,
+      "heads": [
+        "pred_regression_f_delta_bandpower_std_c_w",
+        "pred_regression_f_sigma-1-mean",
+        "pred_regression_f_theta_bandpower_kurtosis_c_n1",
+        "pred_regression_f_total_power_rem_rel_beta"
+      ]
+    },
+    {
+      "draw": 146,
+      "heads": [
+        "pred_regression_f_slowdelta_bandpower_total",
+        "pred_regression_f_theta-7-mean",
+        "pred_regression_f_total_power_first_stable_rem_rel_theta",
+        "pred_regression_f_total_power_n2_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 147,
+      "heads": [
+        "pred_regression_f_beta_bandpower_std_c_n1",
+        "pred_regression_f_total_power_n1_abs_alpha",
+        "pred_regression_f_total_power_rem_rel_so",
+        "pred_regression_f_total_power_w_rel_so"
+      ]
+    },
+    {
+      "draw": 148,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_kurtosis_c_n2",
+        "pred_regression_f_delta_bandpower_mean_c_n1",
+        "pred_regression_f_gamma_bandpower_mean_c_r",
+        "pred_regression_f_sleep_latency"
+      ]
+    },
+    {
+      "draw": 149,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_kurtosis_c_n1",
+        "pred_regression_f_gamma_bandpower_std_c_n3",
+        "pred_regression_f_total_power_first_stable_rem_abs_sigma",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 150,
+      "heads": [
+        "pred_regression_f_gamma-4-std",
+        "pred_regression_f_gamma_bandpower_mean_c_w",
+        "pred_regression_f_sigma-8-mean",
+        "pred_regression_f_theta_bandpower_max_c_n2"
+      ]
+    },
+    {
+      "draw": 151,
+      "heads": [
+        "pred_regression_f_beta_bandpower_min_c_n3",
+        "pred_regression_f_total_power_first_stable_rem_rel_so",
+        "pred_regression_f_total_power_full_sleep_abs_beta",
+        "pred_regression_f_total_power_nrem_rel_delta"
+      ]
+    },
+    {
+      "draw": 152,
+      "heads": [
+        "pred_regression_f_theta-4-std",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_theta",
+        "pred_regression_f_total_power_n1_abs_theta",
+        "pred_regression_f_total_power_n2_abs_alpha"
+      ]
+    },
+    {
+      "draw": 153,
+      "heads": [
+        "pred_regression_f_gamma-10-std",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_w",
+        "pred_regression_f_total_power_n1_rel_delta",
+        "pred_regression_f_total_power_n3_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 154,
+      "heads": [
+        "pred_regression_f_alpha-10-std",
+        "pred_regression_f_total_power_first_stable_nrem_abs_theta",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_so",
+        "pred_regression_f_total_power_nrem_rel_to_total_alpha"
+      ]
+    },
+    {
+      "draw": 155,
+      "heads": [
+        "pred_regression_f_beta-0-mean",
+        "pred_regression_f_beta_bandpower_kurtosis_c_n1",
+        "pred_regression_f_total_power_n1_rel_alpha",
+        "pred_regression_f_total_power_n3_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 156,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_n1",
+        "pred_regression_f_delta-5-std",
+        "pred_regression_f_sigma-2-mean",
+        "pred_regression_f_slowdelta_bandpower_std_c_n2"
+      ]
+    },
+    {
+      "draw": 157,
+      "heads": [
+        "pred_regression_f_gamma-6-std",
+        "pred_regression_f_sigma_bandpower_min_c_n2",
+        "pred_regression_f_slow_bandpower_min_c_r",
+        "pred_regression_f_theta-4-mean"
+      ]
+    },
+    {
+      "draw": 158,
+      "heads": [
+        "pred_regression_f_total_power_full_sleep_rel_gamma",
+        "pred_regression_f_total_power_n2_rel_so",
+        "pred_regression_f_total_power_n3_abs_so",
+        "pred_regression_f_total_power_w_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 159,
+      "heads": [
+        "pred_regression_f_sigma_bandpower_std_c_n3",
+        "pred_regression_f_ss_chirp_c4m1",
+        "pred_regression_f_total_power_first_stable_rem_rel_alpha",
+        "pred_regression_f_total_power_n1_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 160,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_std_c_w",
+        "pred_regression_f_beta_bandpower_max_c_n3",
+        "pred_regression_f_beta_bandpower_std_c_n1",
+        "pred_regression_f_total_power_n1_rel_gamma"
+      ]
+    },
+    {
+      "draw": 161,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_n2",
+        "pred_regression_f_beta_bandpower_mean_c_w",
+        "pred_regression_f_sigma_bandpower_mean_c_w",
+        "pred_regression_f_total_power_full_sleep_abs_alpha"
+      ]
+    },
+    {
+      "draw": 162,
+      "heads": [
+        "pred_regression_f_alpha-10-std",
+        "pred_regression_f_alpha-2-mean",
+        "pred_regression_f_delta-2-mean",
+        "pred_regression_f_delta-8-std"
+      ]
+    },
+    {
+      "draw": 163,
+      "heads": [
+        "pred_regression_f_sigma_bandpower_max_c_r",
+        "pred_regression_f_theta_bandpower_min_c_n1",
+        "pred_regression_f_total_power_nrem_abs_beta",
+        "pred_regression_f_total_power_rem_rel_alpha"
+      ]
+    },
+    {
+      "draw": 164,
+      "heads": [
+        "pred_regression_f_delta_bandpower_mean_c_w",
+        "pred_regression_f_ms_chirp_c4m1",
+        "pred_regression_f_total_power_n3_rel_theta",
+        "pred_regression_f_total_power_w_abs_beta"
+      ]
+    },
+    {
+      "draw": 165,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_kurtosis_c_n3",
+        "pred_regression_f_gamma_bandpower_max_c_n1",
+        "pred_regression_f_slow_bandpower_kurtosis_c_w",
+        "pred_regression_f_slowdelta_bandpower_mean_c_n3"
+      ]
+    },
+    {
+      "draw": 166,
+      "heads": [
+        "pred_regression_f_beta-5-mean",
+        "pred_regression_f_theta-1-std",
+        "pred_regression_f_total_power_full_sleep_abs_delta",
+        "pred_regression_f_total_power_n3_rel_to_total_alpha"
+      ]
+    },
+    {
+      "draw": 167,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_n3",
+        "pred_regression_f_beta_bandpower_min_c_n2",
+        "pred_regression_f_gamma_bandpower_std_c_n3",
+        "pred_regression_f_total_power_n3_abs_sigma"
+      ]
+    },
+    {
+      "draw": 168,
+      "heads": [
+        "pred_regression_f_beta-5-std",
+        "pred_regression_f_beta_bandpower_max_c_r",
+        "pred_regression_f_sigma_bandpower_mean_c_n1",
+        "pred_regression_f_slow_bandpower_mean_c_n3"
+      ]
+    },
+    {
+      "draw": 169,
+      "heads": [
+        "pred_regression_f_alpha-3-std",
+        "pred_regression_f_delta-4-std",
+        "pred_regression_f_kurtosis_c4-m1_w",
+        "pred_regression_f_total_power_n1_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 170,
+      "heads": [
+        "pred_regression_f_delta-7-mean",
+        "pred_regression_f_gamma_bandpower_kurtosis_c_r",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_n3",
+        "pred_regression_f_total_power_n2_abs_sigma"
+      ]
+    },
+    {
+      "draw": 171,
+      "heads": [
+        "pred_regression_f_sigma-10-std",
+        "pred_regression_f_total_power_n3_abs_delta",
+        "pred_regression_f_total_power_rem_abs_theta",
+        "pred_regression_f_total_power_rem_rel_sigma"
+      ]
+    },
+    {
+      "draw": 172,
+      "heads": [
+        "pred_regression_f_sigma-8-mean",
+        "pred_regression_f_total_power_first_stable_nrem_abs_delta",
+        "pred_regression_f_total_power_n1_abs_gamma",
+        "pred_regression_f_total_power_w_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 173,
+      "heads": [
+        "pred_regression_f_delta_bandpower_mean_c_n3",
+        "pred_regression_f_sigma_bandpower_std_c_n2",
+        "pred_regression_f_theta-1-mean",
+        "pred_regression_f_total_power_n2_abs_alpha"
+      ]
+    },
+    {
+      "draw": 174,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_mean_c_w",
+        "pred_regression_f_theta-10-std",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_so",
+        "pred_regression_f_total_power_w_abs_theta"
+      ]
+    },
+    {
+      "draw": 175,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_mean_c_r",
+        "pred_regression_f_slowdelta_bandpower_std_c_n2",
+        "pred_regression_f_theta_bandpower_max_c_r",
+        "pred_regression_f_total_power_n2_rel_beta"
+      ]
+    },
+    {
+      "draw": 176,
+      "heads": [
+        "pred_regression_f_beta_bandpower_kurtosis_c_n2",
+        "pred_regression_f_delta_bandpower_mean_c_r",
+        "pred_regression_f_total_power_n1_abs_beta",
+        "pred_regression_f_total_power_nrem_rel_to_total_alpha"
+      ]
+    },
+    {
+      "draw": 177,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_kurtosis_c_n1",
+        "pred_regression_f_total_power_n1_rel_beta",
+        "pred_regression_f_total_power_nrem_rel_to_total_sigma",
+        "pred_regression_f_total_power_rem_abs_gamma"
+      ]
+    },
+    {
+      "draw": 178,
+      "heads": [
+        "pred_regression_f_delta-1-mean",
+        "pred_regression_f_theta_bandpower_mean_c_n2",
+        "pred_regression_f_theta_bandpower_std_c_n1",
+        "pred_regression_f_total_power_rem_abs_so"
+      ]
+    },
+    {
+      "draw": 179,
+      "heads": [
+        "pred_regression_f_delta-5-std",
+        "pred_regression_f_sigma_bandpower_mean_c_n1",
+        "pred_regression_f_slow_bandpower_mean_c_n1",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_r"
+      ]
+    },
+    {
+      "draw": 180,
+      "heads": [
+        "pred_regression_f_beta_bandpower_mean_c_n3",
+        "pred_regression_f_delta_bandpower_mean_c_n2",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n1",
+        "pred_regression_f_slowdelta_bandpower_std_c_r"
+      ]
+    },
+    {
+      "draw": 181,
+      "heads": [
+        "pred_regression_f_slowdelta_bandpower_std_c_n2",
+        "pred_regression_f_total_power_first_stable_nrem_abs_sigma",
+        "pred_regression_f_total_power_rem_abs_so",
+        "pred_regression_f_total_power_w_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 182,
+      "heads": [
+        "pred_regression_f_sigma_bandpower_mean_c_w",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_r",
+        "pred_regression_f_theta_bandpower_kurtosis_c_n2",
+        "pred_regression_f_total_power_first_stable_rem_rel_theta"
+      ]
+    },
+    {
+      "draw": 183,
+      "heads": [
+        "pred_regression_f_beta_bandpower_kurtosis_c_w",
+        "pred_regression_f_beta_bandpower_max_c_n2",
+        "pred_regression_f_delta-10-std",
+        "pred_regression_f_kurtosis_c4-m1_n1"
+      ]
+    },
+    {
+      "draw": 184,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_std_c_w",
+        "pred_regression_f_kurtosis_c4-m1_n3",
+        "pred_regression_f_total_power_first_stable_rem_abs_gamma",
+        "pred_regression_f_total_power_full_sleep_rel_gamma"
+      ]
+    },
+    {
+      "draw": 185,
+      "heads": [
+        "pred_regression_f_gamma-9-std",
+        "pred_regression_f_sigma_bandpower_std_c_n2",
+        "pred_regression_f_slowdelta_bandpower_mean_c_r",
+        "pred_regression_f_theta_bandpower_kurtosis_c_n2"
+      ]
+    },
+    {
+      "draw": 186,
+      "heads": [
+        "pred_regression_f_gamma-9-std",
+        "pred_regression_f_lmi",
+        "pred_regression_f_theta-7-mean",
+        "pred_regression_f_total_power_n3_rel_theta"
+      ]
+    },
+    {
+      "draw": 187,
+      "heads": [
+        "pred_regression_f_beta-7-mean",
+        "pred_regression_f_sigma-3-mean",
+        "pred_regression_f_total_power_n1_rel_to_total_beta",
+        "pred_regression_f_total_power_nrem_rel_sigma"
+      ]
+    },
+    {
+      "draw": 188,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_w",
+        "pred_regression_f_beta-4-std",
+        "pred_regression_f_slow_bandpower_kurtosis_c_w",
+        "pred_regression_f_total_power_rem_rel_gamma"
+      ]
+    },
+    {
+      "draw": 189,
+      "heads": [
+        "pred_regression_f_delta-4-std",
+        "pred_regression_f_total_power_full_sleep_rel_delta",
+        "pred_regression_f_total_power_n2_abs_so",
+        "pred_regression_f_total_power_nrem_abs_alpha"
+      ]
+    },
+    {
+      "draw": 190,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_w",
+        "pred_regression_f_sigma-0-mean",
+        "pred_regression_f_sigma_bandpower_min_c_n3",
+        "pred_regression_f_total_power_n1_abs_so"
+      ]
+    },
+    {
+      "draw": 191,
+      "heads": [
+        "pred_regression_f_remaining_rem_slowdelta_bandpower_mean_c",
+        "pred_regression_f_total_power_nrem_abs_so",
+        "pred_regression_f_total_power_nrem_rel_to_total_sigma",
+        "pred_regression_f_total_power_w_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 192,
+      "heads": [
+        "pred_regression_f_sigma-8-mean",
+        "pred_regression_f_theta_bandpower_mean_c_r",
+        "pred_regression_f_total_power_n1_rel_to_total_theta",
+        "pred_regression_f_total_power_w_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 193,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_n1",
+        "pred_regression_f_beta_bandpower_min_c_n2",
+        "pred_regression_f_slowdelta_bandpower_max_c_w",
+        "pred_regression_f_total_power_w_abs_theta"
+      ]
+    },
+    {
+      "draw": 194,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_n1",
+        "pred_regression_f_sigma-0-std",
+        "pred_regression_f_sigma_bandpower_mean_c_r",
+        "pred_regression_f_sigma_bandpower_std_c_n3"
+      ]
+    },
+    {
+      "draw": 195,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_n1",
+        "pred_regression_f_total_power_n3_rel_sigma",
+        "pred_regression_f_total_power_nrem_abs_so",
+        "pred_regression_f_total_power_nrem_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 196,
+      "heads": [
+        "pred_regression_f_alpha-5-std",
+        "pred_regression_f_remaining_rem_slowdelta_bandpower_mean_c",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n1",
+        "pred_regression_f_theta-1-mean"
+      ]
+    },
+    {
+      "draw": 197,
+      "heads": [
+        "pred_regression_f_beta_bandpower_std_c_n2",
+        "pred_regression_f_gamma_bandpower_kurtosis_c_n3",
+        "pred_regression_f_total_power_full_sleep_abs_sigma",
+        "pred_regression_f_total_power_n3_abs_gamma"
+      ]
+    },
+    {
+      "draw": 198,
+      "heads": [
+        "pred_regression_f_slowdelta_bandpower_std_c_r",
+        "pred_regression_f_theta_bandpower_std_c_n1",
+        "pred_regression_f_total_power_n1_rel_sigma",
+        "pred_regression_f_total_power_n3_abs_beta"
+      ]
+    },
+    {
+      "draw": 199,
+      "heads": [
+        "pred_regression_f_beta-5-std",
+        "pred_regression_f_gamma_bandpower_kurtosis_c_w",
+        "pred_regression_f_theta_bandpower_max_c_n3",
+        "pred_regression_f_total_power_full_sleep_abs_so"
+      ]
+    },
+    {
+      "draw": 200,
+      "heads": [
+        "pred_regression_f_ms_chirp_c4m1",
+        "pred_regression_f_sigma-5-std",
+        "pred_regression_f_sigma-7-std",
+        "pred_regression_f_theta_bandpower_kurtosis_c_n1"
+      ]
+    },
+    {
+      "draw": 201,
+      "heads": [
+        "pred_regression_f_alpha-3-mean",
+        "pred_regression_f_alpha_bandpower_kurtosis_c_n1",
+        "pred_regression_f_slowdelta_bandpower_std_c_n1",
+        "pred_regression_f_total_power_n1_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 202,
+      "heads": [
+        "pred_regression_f_delta_bandpower_max_c_w",
+        "pred_regression_f_ss_chirp_c4m1",
+        "pred_regression_f_theta_bandpower_std_c_n3",
+        "pred_regression_f_total_power_first_stable_rem_rel_so"
+      ]
+    },
+    {
+      "draw": 203,
+      "heads": [
+        "pred_regression_f_gamma-4-std",
+        "pred_regression_f_theta_bandpower_max_c_n3",
+        "pred_regression_f_total_power_n3_abs_sigma",
+        "pred_regression_f_total_power_w_abs_so"
+      ]
+    },
+    {
+      "draw": 204,
+      "heads": [
+        "pred_regression_f_sigma_bandpower_std_c_n3",
+        "pred_regression_f_total_power_first_stable_rem_rel_gamma",
+        "pred_regression_f_total_power_n2_rel_to_total_gamma",
+        "pred_regression_f_total_power_rem_rel_sigma"
+      ]
+    },
+    {
+      "draw": 205,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_n2",
+        "pred_regression_f_total_power_first_stable_nrem_rel_beta",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_theta",
+        "pred_regression_f_total_power_n3_abs_delta"
+      ]
+    },
+    {
+      "draw": 206,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_kurtosis_c_w",
+        "pred_regression_f_delta_bandpower_max_c_n3",
+        "pred_regression_f_first_rem_alpha_bandpower_mean_c",
+        "pred_regression_f_kurtosis_c4-m1_n3"
+      ]
+    },
+    {
+      "draw": 207,
+      "heads": [
+        "pred_regression_f_beta-5-mean",
+        "pred_regression_f_beta-6-mean",
+        "pred_regression_f_theta_bandpower_max_c_w",
+        "pred_regression_f_total_power_n1_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 208,
+      "heads": [
+        "pred_regression_f_beta-6-std",
+        "pred_regression_f_beta_bandpower_max_c_n2",
+        "pred_regression_f_total_power_n2_rel_beta",
+        "pred_regression_f_total_power_n2_rel_theta"
+      ]
+    },
+    {
+      "draw": 209,
+      "heads": [
+        "pred_regression_f_kurtosis_c4-m1_n1",
+        "pred_regression_f_theta-0-std",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_beta",
+        "pred_regression_f_total_power_nrem_abs_theta"
+      ]
+    },
+    {
+      "draw": 210,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_r",
+        "pred_regression_f_beta-5-std",
+        "pred_regression_f_delta-8-std",
+        "pred_regression_f_total_power_nrem_rel_delta"
+      ]
+    },
+    {
+      "draw": 211,
+      "heads": [
+        "pred_regression_f_delta-0-std",
+        "pred_regression_f_delta_bandpower_min_c_n1",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n1",
+        "pred_regression_f_theta-6-std"
+      ]
+    },
+    {
+      "draw": 212,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_n1",
+        "pred_regression_f_theta_bandpower_min_c_n2",
+        "pred_regression_f_total_power_first_stable_rem_abs_gamma",
+        "pred_regression_f_total_power_w_rel_so"
+      ]
+    },
+    {
+      "draw": 213,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_n1",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_w",
+        "pred_regression_f_total_power_full_sleep_rel_theta",
+        "pred_regression_f_total_power_n3_rel_gamma"
+      ]
+    },
+    {
+      "draw": 214,
+      "heads": [
+        "pred_regression_f_alpha-0-mean",
+        "pred_regression_f_alpha_bandpower_std_c_n3",
+        "pred_regression_f_total_power_full_sleep_rel_sigma",
+        "pred_regression_f_total_power_n2_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 215,
+      "heads": [
+        "pred_regression_f_beta-8-mean",
+        "pred_regression_f_gamma_bandpower_mean_c_r",
+        "pred_regression_f_total_power_n2_rel_sigma",
+        "pred_regression_f_total_power_n3_abs_beta"
+      ]
+    },
+    {
+      "draw": 216,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_std_c_r",
+        "pred_regression_f_theta_bandpower_mean_c_n3",
+        "pred_regression_f_total_power_full_sleep",
+        "pred_regression_f_total_power_n2_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 217,
+      "heads": [
+        "pred_regression_f_delta-2-mean",
+        "pred_regression_f_total_power_n3_rel_to_total_alpha",
+        "pred_regression_f_total_power_n3_rel_to_total_beta",
+        "pred_regression_f_total_power_nrem_rel_theta"
+      ]
+    },
+    {
+      "draw": 218,
+      "heads": [
+        "pred_regression_f_beta-0-std",
+        "pred_regression_f_beta-3-std",
+        "pred_regression_f_ms_chirp_c4m1",
+        "pred_regression_f_total_power_rem_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 219,
+      "heads": [
+        "pred_regression_f_delta_bandpower_mean_c_n2",
+        "pred_regression_f_sleep_efficiency",
+        "pred_regression_f_total_power_full_sleep_rel_sigma",
+        "pred_regression_f_total_power_nrem_rel_alpha"
+      ]
+    },
+    {
+      "draw": 220,
+      "heads": [
+        "pred_regression_f_alpha-5-mean",
+        "pred_regression_f_alpha_bandpower_min_c_n1",
+        "pred_regression_f_theta-0-std",
+        "pred_regression_f_total_power_w_abs_gamma"
+      ]
+    },
+    {
+      "draw": 221,
+      "heads": [
+        "pred_regression_f_alpha-8-std",
+        "pred_regression_f_beta-1-std",
+        "pred_regression_f_slow_bandpower_min_c_n3",
+        "pred_regression_f_total_power_first_stable_nrem_rel_delta"
+      ]
+    },
+    {
+      "draw": 222,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_kurtosis_c_n2",
+        "pred_regression_f_first_rem_duration",
+        "pred_regression_f_sigma-4-std",
+        "pred_regression_f_theta-9-std"
+      ]
+    },
+    {
+      "draw": 223,
+      "heads": [
+        "pred_regression_f_alpha-8-std",
+        "pred_regression_f_delta_bandpower_max_c_r",
+        "pred_regression_f_slow_bandpower_min_c_n3",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 224,
+      "heads": [
+        "pred_regression_f_alpha-10-std",
+        "pred_regression_f_alpha_bandpower_mean_c_w",
+        "pred_regression_f_sigma-9-std",
+        "pred_regression_f_theta_bandpower_max_c_n2"
+      ]
+    },
+    {
+      "draw": 225,
+      "heads": [
+        "pred_regression_f_delta_linear_b0",
+        "pred_regression_f_sigma-7-mean",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_w",
+        "pred_regression_f_total_power_rem_abs_sigma"
+      ]
+    },
+    {
+      "draw": 226,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_max_c_n1",
+        "pred_regression_f_theta_bandpower_max_c_n2",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_sigma",
+        "pred_regression_f_total_power_rem_abs_delta"
+      ]
+    },
+    {
+      "draw": 227,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_n3",
+        "pred_regression_f_gamma_bandpower_min_c_n2",
+        "pred_regression_f_total_power_n3_rel_gamma",
+        "pred_regression_f_total_power_nrem_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 228,
+      "heads": [
+        "pred_regression_f_sigma-5-std",
+        "pred_regression_f_slow_bandpower_min_c_n2",
+        "pred_regression_f_theta_bandpower_max_c_w",
+        "pred_regression_f_total_power_nrem_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 229,
+      "heads": [
+        "pred_regression_f_slowdelta_bandpower_4h",
+        "pred_regression_f_slowdelta_bandpower_max_c_r",
+        "pred_regression_f_total_power_first_stable_nrem_abs_theta",
+        "pred_regression_f_total_power_nrem_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 230,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_n1",
+        "pred_regression_f_total_power_full_sleep_rel_alpha",
+        "pred_regression_f_total_power_n3_rel_theta",
+        "pred_regression_f_total_power_rem_abs_delta"
+      ]
+    },
+    {
+      "draw": 231,
+      "heads": [
+        "pred_regression_f_beta-1-std",
+        "pred_regression_f_gamma_bandpower_kurtosis_c_n2",
+        "pred_regression_f_theta_bandpower_kurtosis_c_n3",
+        "pred_regression_f_theta_bandpower_std_c_r"
+      ]
+    },
+    {
+      "draw": 232,
+      "heads": [
+        "pred_regression_f_beta-5-std",
+        "pred_regression_f_gamma-5-std",
+        "pred_regression_f_slow_bandpower_min_c_n1",
+        "pred_regression_f_total_power_first_stable_nrem_rel_alpha"
+      ]
+    },
+    {
+      "draw": 233,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_n1",
+        "pred_regression_f_delta_bandpower_mean_c_r",
+        "pred_regression_f_theta_bandpower_max_c_n3",
+        "pred_regression_f_theta_bandpower_std_c_n3"
+      ]
+    },
+    {
+      "draw": 234,
+      "heads": [
+        "pred_regression_f_gamma-8-std",
+        "pred_regression_f_slow_bandpower_max_c_w",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_theta",
+        "pred_regression_f_total_power_n3_abs_alpha"
+      ]
+    },
+    {
+      "draw": 235,
+      "heads": [
+        "pred_regression_f_total_power_full_sleep_rel_beta",
+        "pred_regression_f_total_power_n1_rel_to_total_sigma",
+        "pred_regression_f_total_power_n2_rel_alpha",
+        "pred_regression_f_total_power_n3_rel_alpha"
+      ]
+    },
+    {
+      "draw": 236,
+      "heads": [
+        "pred_regression_f_gamma-6-std",
+        "pred_regression_f_sigma-4-mean",
+        "pred_regression_f_theta_bandpower_std_c_w",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 237,
+      "heads": [
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n2",
+        "pred_regression_f_total_power_first_stable_rem_abs_sigma",
+        "pred_regression_f_total_power_full_sleep_abs_delta",
+        "pred_regression_f_total_power_n3_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 238,
+      "heads": [
+        "pred_regression_f_slow_bandpower_min_c_n3",
+        "pred_regression_f_theta-5-std",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_gamma",
+        "pred_regression_f_total_power_w_abs_theta"
+      ]
+    },
+    {
+      "draw": 239,
+      "heads": [
+        "pred_regression_f_beta_bandpower_mean_c_n2",
+        "pred_regression_f_gamma-1-mean",
+        "pred_regression_f_gamma_bandpower_std_c_n3",
+        "pred_regression_f_total_power_n3_rel_so"
+      ]
+    },
+    {
+      "draw": 240,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_n2",
+        "pred_regression_f_beta-2-mean",
+        "pred_regression_f_kurtosis_c4-m1_n1",
+        "pred_regression_f_theta_bandpower_std_c_w"
+      ]
+    },
+    {
+      "draw": 241,
+      "heads": [
+        "pred_regression_f_sigma-7-std",
+        "pred_regression_f_slow_bandpower_std_c_n1",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_n3",
+        "pred_regression_f_slowdelta_bandpower_std_c_n1"
+      ]
+    },
+    {
+      "draw": 242,
+      "heads": [
+        "pred_regression_f_beta-3-mean",
+        "pred_regression_f_total_power_full_sleep_rel_beta",
+        "pred_regression_f_total_power_nrem_rel_to_total_gamma",
+        "pred_regression_f_total_power_w_abs_so"
+      ]
+    },
+    {
+      "draw": 243,
+      "heads": [
+        "pred_regression_f_sigma-7-std",
+        "pred_regression_f_sigma_bandpower_mean_c_n1",
+        "pred_regression_f_slow_bandpower_min_c_n3",
+        "pred_regression_f_slowdelta_bandpower_std_c_r"
+      ]
+    },
+    {
+      "draw": 244,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_w",
+        "pred_regression_f_sigma_bandpower_max_c_n1",
+        "pred_regression_f_theta-1-std",
+        "pred_regression_f_total_power_w_rel_alpha"
+      ]
+    },
+    {
+      "draw": 245,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_r",
+        "pred_regression_f_delta_bandpower_min_c_n3",
+        "pred_regression_f_slow_bandpower_mean_c_n3",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 246,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_kurtosis_c_n2",
+        "pred_regression_f_sigma-7-std",
+        "pred_regression_f_total_power_n2_rel_to_total_sigma",
+        "pred_regression_f_total_power_rem_abs_theta"
+      ]
+    },
+    {
+      "draw": 247,
+      "heads": [
+        "pred_regression_f_arousal_index",
+        "pred_regression_f_slowdelta_bandpower_4h",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_delta",
+        "pred_regression_f_total_power_n1_rel_sigma"
+      ]
+    },
+    {
+      "draw": 248,
+      "heads": [
+        "pred_regression_f_remaining_rem_fastband_bandpower_mean_c",
+        "pred_regression_f_slow_bandpower_max_c_n3",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_gamma",
+        "pred_regression_f_total_power_n2_abs_gamma"
+      ]
+    },
+    {
+      "draw": 249,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_n1",
+        "pred_regression_f_hypoxia_burden",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_n3",
+        "pred_regression_f_total_power_n2_abs_sigma"
+      ]
+    },
+    {
+      "draw": 250,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_n1",
+        "pred_regression_f_delta_bandpower_mean_c_r",
+        "pred_regression_f_sigma-7-std",
+        "pred_regression_f_slowdelta_bandpower_min_c_n2"
+      ]
+    },
+    {
+      "draw": 251,
+      "heads": [
+        "pred_regression_f_remaining_rem_duration",
+        "pred_regression_f_slow_bandpower_kurtosis_c_n3",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_theta",
+        "pred_regression_f_total_power_rem_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 252,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_n1",
+        "pred_regression_f_delta_bandpower_std_c_n2",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_alpha",
+        "pred_regression_f_total_power_w_rel_delta"
+      ]
+    },
+    {
+      "draw": 253,
+      "heads": [
+        "pred_regression_f_slow_bandpower_std_c_n2",
+        "pred_regression_f_slowdelta_bandpower_std_c_n3",
+        "pred_regression_f_theta-9-std",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 254,
+      "heads": [
+        "pred_regression_f_beta-4-std",
+        "pred_regression_f_delta-7-std",
+        "pred_regression_f_theta-9-std",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 255,
+      "heads": [
+        "pred_regression_f_theta_bandpower_max_c_n1",
+        "pred_regression_f_theta_bandpower_mean_c_n3",
+        "pred_regression_f_total_power_full_sleep_rel_beta",
+        "pred_regression_f_total_power_w_rel_so"
+      ]
+    },
+    {
+      "draw": 256,
+      "heads": [
+        "pred_regression_f_alpha-4-std",
+        "pred_regression_f_delta_linear_b0",
+        "pred_regression_f_sleep_latency",
+        "pred_regression_f_slowdelta_bandpower_max_c_w"
+      ]
+    },
+    {
+      "draw": 257,
+      "heads": [
+        "pred_regression_f_beta-1-std",
+        "pred_regression_f_beta-3-std",
+        "pred_regression_f_total_power_first_stable_nrem_rel_gamma",
+        "pred_regression_f_total_power_rem_abs_theta"
+      ]
+    },
+    {
+      "draw": 258,
+      "heads": [
+        "pred_regression_f_delta_bandpower_max_c_n3",
+        "pred_regression_f_gamma_bandpower_mean_c_w",
+        "pred_regression_f_total_power_n2_rel_to_total_so",
+        "pred_regression_f_total_power_nrem_rel_gamma"
+      ]
+    },
+    {
+      "draw": 259,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_n3",
+        "pred_regression_f_total_power_first_stable_nrem_rel_gamma",
+        "pred_regression_f_total_power_full_sleep",
+        "pred_regression_f_total_power_full_sleep_rel_delta"
+      ]
+    },
+    {
+      "draw": 260,
+      "heads": [
+        "pred_regression_f_beta-9-std",
+        "pred_regression_f_delta_bandpower_kurtosis_c_w",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_n1",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 261,
+      "heads": [
+        "pred_regression_f_beta-6-std",
+        "pred_regression_f_delta_bandpower_mean_c_w",
+        "pred_regression_f_total_power_first_stable_nrem_rel_sigma",
+        "pred_regression_f_total_power_w_rel_so"
+      ]
+    },
+    {
+      "draw": 262,
+      "heads": [
+        "pred_regression_f_sigma-2-std",
+        "pred_regression_f_slowdelta_bandpower_std_c_n2",
+        "pred_regression_f_theta_bandpower_std_c_n2",
+        "pred_regression_f_total_power_rem_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 263,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_n3",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n2",
+        "pred_regression_f_total_power_first_stable_rem_rel_gamma",
+        "pred_regression_f_total_power_rem_rel_beta"
+      ]
+    },
+    {
+      "draw": 264,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_w",
+        "pred_regression_f_delta-3-mean",
+        "pred_regression_f_sigma-4-std",
+        "pred_regression_f_total_power_w_rel_beta"
+      ]
+    },
+    {
+      "draw": 265,
+      "heads": [
+        "pred_regression_f_delta-6-mean",
+        "pred_regression_f_delta_bandpower_mean_c_n3",
+        "pred_regression_f_sigma-2-mean",
+        "pred_regression_f_slow_bandpower_mean_c_n3"
+      ]
+    },
+    {
+      "draw": 266,
+      "heads": [
+        "pred_regression_f_delta_bandpower_kurtosis_c_n2",
+        "pred_regression_f_slowdelta_bandpower_mean_c_n1",
+        "pred_regression_f_theta-3-mean",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 267,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_n2",
+        "pred_regression_f_theta_bandpower_std_c_w",
+        "pred_regression_f_total_power_n1_abs_theta",
+        "pred_regression_f_total_power_nrem_abs_theta"
+      ]
+    },
+    {
+      "draw": 268,
+      "heads": [
+        "pred_regression_f_sigma-4-std",
+        "pred_regression_f_theta-0-mean",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_theta",
+        "pred_regression_f_total_power_rem_abs_gamma"
+      ]
+    },
+    {
+      "draw": 269,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_max_c_n2",
+        "pred_regression_f_slowdelta_bandpower_mean_c_n2",
+        "pred_regression_f_theta_bandpower_std_c_n1",
+        "pred_regression_f_total_power_n2_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 270,
+      "heads": [
+        "pred_regression_f_beta_bandpower_min_c_n3",
+        "pred_regression_f_delta-9-std",
+        "pred_regression_f_sigma-2-mean",
+        "pred_regression_f_total_power_rem_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 271,
+      "heads": [
+        "pred_regression_f_gamma-5-std",
+        "pred_regression_f_gamma-6-std",
+        "pred_regression_f_total_power_n1_abs_delta",
+        "pred_regression_f_total_power_n2_abs_alpha"
+      ]
+    },
+    {
+      "draw": 272,
+      "heads": [
+        "pred_regression_f_beta_bandpower_min_c_n2",
+        "pred_regression_f_gamma-4-mean",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_beta",
+        "pred_regression_f_total_power_n1_rel_alpha"
+      ]
+    },
+    {
+      "draw": 273,
+      "heads": [
+        "pred_regression_f_alpha-8-std",
+        "pred_regression_f_beta-7-mean",
+        "pred_regression_f_delta-3-std",
+        "pred_regression_f_total_power_first_stable_rem_abs_so"
+      ]
+    },
+    {
+      "draw": 274,
+      "heads": [
+        "pred_regression_f_delta-7-std",
+        "pred_regression_f_slow_bandpower_kurtosis_c_n1",
+        "pred_regression_f_total_power_full_sleep_rel_so",
+        "pred_regression_f_total_power_nrem_rel_so"
+      ]
+    },
+    {
+      "draw": 275,
+      "heads": [
+        "pred_regression_f_alpha-1-std",
+        "pred_regression_f_alpha_bandpower_kurtosis_c_w",
+        "pred_regression_f_sigma-2-std",
+        "pred_regression_f_total_power_first_stable_nrem_rel_theta"
+      ]
+    },
+    {
+      "draw": 276,
+      "heads": [
+        "pred_regression_f_sigma_bandpower_kurtosis_c_w",
+        "pred_regression_f_theta_bandpower_kurtosis_c_r",
+        "pred_regression_f_theta_bandpower_max_c_n2",
+        "pred_regression_f_total_power_n3_rel_so"
+      ]
+    },
+    {
+      "draw": 277,
+      "heads": [
+        "pred_regression_f_beta_bandpower_std_c_n1",
+        "pred_regression_f_delta_bandpower_mean_c_n3",
+        "pred_regression_f_gamma-7-mean",
+        "pred_regression_f_total_power_w_abs_sigma"
+      ]
+    },
+    {
+      "draw": 278,
+      "heads": [
+        "pred_regression_f_alpha-7-mean",
+        "pred_regression_f_beta-5-mean",
+        "pred_regression_f_beta_bandpower_kurtosis_c_n1",
+        "pred_regression_f_delta_bandpower_kurtosis_c_n3"
+      ]
+    },
+    {
+      "draw": 279,
+      "heads": [
+        "pred_regression_f_beta_bandpower_kurtosis_c_w",
+        "pred_regression_f_gamma-2-std",
+        "pred_regression_f_gamma-8-mean",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 280,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_min_c_w",
+        "pred_regression_f_total_power_full_sleep_rel_so",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_sigma",
+        "pred_regression_f_total_power_w_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 281,
+      "heads": [
+        "pred_regression_f_first_rem_alpha_bandpower_mean_c",
+        "pred_regression_f_sigma_bandpower_max_c_w",
+        "pred_regression_f_slowdelta_bandpower_std_c_r",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 282,
+      "heads": [
+        "pred_regression_f_delta-5-std",
+        "pred_regression_f_gamma-6-mean",
+        "pred_regression_f_sigma-8-std",
+        "pred_regression_f_total_power_n1_abs_beta"
+      ]
+    },
+    {
+      "draw": 283,
+      "heads": [
+        "pred_regression_f_delta_bandpower_min_c_n1",
+        "pred_regression_f_gamma-10-std",
+        "pred_regression_f_total_power_rem_rel_beta",
+        "pred_regression_f_total_power_w_rel_sigma"
+      ]
+    },
+    {
+      "draw": 284,
+      "heads": [
+        "pred_regression_f_delta_bandpower_min_c_w",
+        "pred_regression_f_slowdelta_bandpower_max_c_r",
+        "pred_regression_f_theta-2-std",
+        "pred_regression_f_total_power_nrem_rel_so"
+      ]
+    },
+    {
+      "draw": 285,
+      "heads": [
+        "pred_regression_f_beta_bandpower_kurtosis_c_r",
+        "pred_regression_f_beta_bandpower_min_c_r",
+        "pred_regression_f_total_power_full_sleep_abs_sigma",
+        "pred_regression_f_total_power_n2_rel_gamma"
+      ]
+    },
+    {
+      "draw": 286,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_n1",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_n2",
+        "pred_regression_f_total_power_n3_rel_sigma",
+        "pred_regression_f_total_power_nrem_abs_sigma"
+      ]
+    },
+    {
+      "draw": 287,
+      "heads": [
+        "pred_regression_f_theta-8-mean",
+        "pred_regression_f_total_power_nrem_rel_gamma",
+        "pred_regression_f_total_power_rem_abs_gamma",
+        "pred_regression_f_total_power_w_rel_beta"
+      ]
+    },
+    {
+      "draw": 288,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_std_c_n1",
+        "pred_regression_f_gamma-2-mean",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_gamma",
+        "pred_regression_f_total_power_nrem_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 289,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_n3",
+        "pred_regression_f_ms_chirp_c4m1",
+        "pred_regression_f_theta_bandpower_mean_c_r",
+        "pred_regression_f_total_power_full_sleep_abs_beta"
+      ]
+    },
+    {
+      "draw": 290,
+      "heads": [
+        "pred_regression_f_theta-1-mean",
+        "pred_regression_f_theta-2-mean",
+        "pred_regression_f_total_power_nrem_rel_delta",
+        "pred_regression_f_total_power_rem_rel_delta"
+      ]
+    },
+    {
+      "draw": 291,
+      "heads": [
+        "pred_regression_f_beta_bandpower_kurtosis_c_n3",
+        "pred_regression_f_delta-5-mean",
+        "pred_regression_f_slowdelta_bandpower_min_c_n1",
+        "pred_regression_f_total_power_full_sleep_rel_alpha"
+      ]
+    },
+    {
+      "draw": 292,
+      "heads": [
+        "pred_regression_f_beta-1-mean",
+        "pred_regression_f_slowdelta_bandpower_min_c_r",
+        "pred_regression_f_theta_bandpower_mean_c_n2",
+        "pred_regression_f_total_power_n1_rel_so"
+      ]
+    },
+    {
+      "draw": 293,
+      "heads": [
+        "pred_regression_f_slow_bandpower_mean_c_r",
+        "pred_regression_f_ss_chirp_c4m1",
+        "pred_regression_f_theta_bandpower_max_c_r",
+        "pred_regression_f_total_power_n2_rel_gamma"
+      ]
+    },
+    {
+      "draw": 294,
+      "heads": [
+        "pred_regression_f_delta-6-std",
+        "pred_regression_f_delta_bandpower_std_c_n1",
+        "pred_regression_f_theta-6-std",
+        "pred_regression_f_total_power_first_stable_nrem_rel_sigma"
+      ]
+    },
+    {
+      "draw": 295,
+      "heads": [
+        "pred_regression_f_beta_bandpower_min_c_n1",
+        "pred_regression_f_delta_bandpower_kurtosis_c_n1",
+        "pred_regression_f_delta_bandpower_kurtosis_c_n3",
+        "pred_regression_f_sleep_latency"
+      ]
+    },
+    {
+      "draw": 296,
+      "heads": [
+        "pred_regression_f_alpha-6-std",
+        "pred_regression_f_alpha_bandpower_kurtosis_c_n3",
+        "pred_regression_f_sigma_bandpower_mean_c_w",
+        "pred_regression_f_total_power_rem_rel_to_total_alpha"
+      ]
+    },
+    {
+      "draw": 297,
+      "heads": [
+        "pred_regression_f_beta-6-mean",
+        "pred_regression_f_delta_bandpower_min_c_n1",
+        "pred_regression_f_total_power_n1_abs_beta",
+        "pred_regression_f_total_power_n1_abs_so"
+      ]
+    },
+    {
+      "draw": 298,
+      "heads": [
+        "pred_regression_f_delta_bandpower_max_c_n1",
+        "pred_regression_f_sigma-3-mean",
+        "pred_regression_f_sigma_bandpower_std_c_n1",
+        "pred_regression_f_slow_bandpower_kurtosis_c_n1"
+      ]
+    },
+    {
+      "draw": 299,
+      "heads": [
+        "pred_regression_f_beta-5-mean",
+        "pred_regression_f_total_power_nrem_abs_theta",
+        "pred_regression_f_total_power_rem_rel_to_total_theta",
+        "pred_regression_f_total_power_w_rel_theta"
+      ]
+    },
+    {
+      "draw": 300,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_n2",
+        "pred_regression_f_kurtosis_c4-m1_n2",
+        "pred_regression_f_sigma_bandpower_mean_c_w",
+        "pred_regression_f_slow_bandpower_min_c_n3"
+      ]
+    },
+    {
+      "draw": 301,
+      "heads": [
+        "pred_regression_f_alpha-7-mean",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_so",
+        "pred_regression_f_total_power_w_abs_so",
+        "pred_regression_f_total_power_w_rel_beta"
+      ]
+    },
+    {
+      "draw": 302,
+      "heads": [
+        "pred_regression_f_delta-0-std",
+        "pred_regression_f_gamma_bandpower_std_c_w",
+        "pred_regression_f_total_power_n3_rel_to_total_theta",
+        "pred_regression_f_total_power_nrem_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 303,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_n1",
+        "pred_regression_f_delta-5-mean",
+        "pred_regression_f_delta_bandpower_std_c_w",
+        "pred_regression_f_sigma-5-mean"
+      ]
+    },
+    {
+      "draw": 304,
+      "heads": [
+        "pred_regression_f_delta-5-mean",
+        "pred_regression_f_delta_bandpower_min_c_w",
+        "pred_regression_f_sigma-2-mean",
+        "pred_regression_f_total_power_first_stable_rem_rel_alpha"
+      ]
+    },
+    {
+      "draw": 305,
+      "heads": [
+        "pred_regression_f_delta-2-mean",
+        "pred_regression_f_sigma-1-std",
+        "pred_regression_f_theta-3-std",
+        "pred_regression_f_total_power_rem_rel_sigma"
+      ]
+    },
+    {
+      "draw": 306,
+      "heads": [
+        "pred_regression_f_alpha-0-mean",
+        "pred_regression_f_theta-0-mean",
+        "pred_regression_f_total_power_first_stable_rem_abs_alpha",
+        "pred_regression_f_total_power_w_rel_theta"
+      ]
+    },
+    {
+      "draw": 307,
+      "heads": [
+        "pred_regression_f_delta_bandpower_std_c_r",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n2",
+        "pred_regression_f_theta-6-std",
+        "pred_regression_f_total_power_n1_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 308,
+      "heads": [
+        "pred_regression_f_slow_bandpower_std_c_n3",
+        "pred_regression_f_total_power_full_sleep_rel_theta",
+        "pred_regression_f_total_power_n3_rel_beta",
+        "pred_regression_f_total_power_nrem_rel_alpha"
+      ]
+    },
+    {
+      "draw": 309,
+      "heads": [
+        "pred_regression_f_kurtosis_c4-m1_n1",
+        "pred_regression_f_theta-4-std",
+        "pred_regression_f_total_power_n2_rel_to_total_alpha",
+        "pred_regression_f_total_power_rem_rel_theta"
+      ]
+    },
+    {
+      "draw": 310,
+      "heads": [
+        "pred_regression_f_beta-10-std",
+        "pred_regression_f_gamma_bandpower_kurtosis_c_w",
+        "pred_regression_f_total_power_first_stable_nrem_abs_beta",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 311,
+      "heads": [
+        "pred_regression_f_beta_bandpower_mean_c_w",
+        "pred_regression_f_delta-5-mean",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_alpha",
+        "pred_regression_f_total_power_nrem_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 312,
+      "heads": [
+        "pred_regression_f_alpha-2-mean",
+        "pred_regression_f_gamma-4-mean",
+        "pred_regression_f_total_power_full_sleep_rel_delta",
+        "pred_regression_f_total_power_n3_abs_beta"
+      ]
+    },
+    {
+      "draw": 313,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_r",
+        "pred_regression_f_slow_bandpower_std_c_n2",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_n3",
+        "pred_regression_f_total_power_n3_abs_theta"
+      ]
+    },
+    {
+      "draw": 314,
+      "heads": [
+        "pred_regression_f_alpha-5-std",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n3",
+        "pred_regression_f_theta-5-mean",
+        "pred_regression_f_total_power_rem_abs_gamma"
+      ]
+    },
+    {
+      "draw": 315,
+      "heads": [
+        "pred_regression_f_slowdelta_bandpower_min_c_n1",
+        "pred_regression_f_total_power_first_stable_nrem_abs_alpha",
+        "pred_regression_f_total_power_full_sleep_abs_theta",
+        "pred_regression_f_total_power_full_sleep_rel_theta"
+      ]
+    },
+    {
+      "draw": 316,
+      "heads": [
+        "pred_regression_f_ms_chirp_c4m1",
+        "pred_regression_f_remaining_rem_fastband_bandpower_mean_c",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n2",
+        "pred_regression_f_total_power_w_abs_so"
+      ]
+    },
+    {
+      "draw": 317,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_r",
+        "pred_regression_f_slow_bandpower_max_c_n2",
+        "pred_regression_f_slowdelta_bandpower_min_c_n1",
+        "pred_regression_f_total_power_rem_rel_theta"
+      ]
+    },
+    {
+      "draw": 318,
+      "heads": [
+        "pred_regression_f_delta_bandpower_std_c_n2",
+        "pred_regression_f_first_rem_theta_bandpower_mean_c",
+        "pred_regression_f_sigma_bandpower_min_c_n3",
+        "pred_regression_f_total_power_n1_abs_theta"
+      ]
+    },
+    {
+      "draw": 319,
+      "heads": [
+        "pred_regression_f_beta_bandpower_min_c_n2",
+        "pred_regression_f_gamma_bandpower_kurtosis_c_r",
+        "pred_regression_f_sigma_bandpower_mean_c_w",
+        "pred_regression_f_theta_bandpower_mean_c_n3"
+      ]
+    },
+    {
+      "draw": 320,
+      "heads": [
+        "pred_regression_f_gamma-1-std",
+        "pred_regression_f_total_power_first_stable_nrem_rel_gamma",
+        "pred_regression_f_total_power_nrem_abs_so",
+        "pred_regression_f_total_power_w_rel_beta"
+      ]
+    },
+    {
+      "draw": 321,
+      "heads": [
+        "pred_regression_f_delta_linear_b1",
+        "pred_regression_f_gamma-0-mean",
+        "pred_regression_f_total_power_n1_rel_to_total_alpha",
+        "pred_regression_f_total_power_n2_rel_to_total_alpha"
+      ]
+    },
+    {
+      "draw": 322,
+      "heads": [
+        "pred_regression_f_alpha-5-std",
+        "pred_regression_f_kurtosis_c4-m1_r",
+        "pred_regression_f_theta_bandpower_max_c_n1",
+        "pred_regression_f_theta_bandpower_mean_c_n1"
+      ]
+    },
+    {
+      "draw": 323,
+      "heads": [
+        "pred_regression_f_alpha-2-mean",
+        "pred_regression_f_alpha_bandpower_mean_c_n3",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n1",
+        "pred_regression_f_total_power_w_rel_beta"
+      ]
+    },
+    {
+      "draw": 324,
+      "heads": [
+        "pred_regression_f_beta-4-std",
+        "pred_regression_f_sigma_bandpower_max_c_n2",
+        "pred_regression_f_theta-8-mean",
+        "pred_regression_f_theta-8-std"
+      ]
+    },
+    {
+      "draw": 325,
+      "heads": [
+        "pred_regression_f_beta_bandpower_mean_c_w",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_so",
+        "pred_regression_f_total_power_n2_rel_so",
+        "pred_regression_f_total_power_nrem_abs_gamma"
+      ]
+    },
+    {
+      "draw": 326,
+      "heads": [
+        "pred_regression_f_alpha-1-std",
+        "pred_regression_f_alpha_bandpower_kurtosis_c_n2",
+        "pred_regression_f_beta-8-mean",
+        "pred_regression_f_total_power_rem_rel_to_total_alpha"
+      ]
+    },
+    {
+      "draw": 327,
+      "heads": [
+        "pred_regression_f_beta-5-mean",
+        "pred_regression_f_delta_bandpower_min_c_n3",
+        "pred_regression_f_slow_bandpower_min_c_n3",
+        "pred_regression_f_total_power_first_stable_rem_abs_gamma"
+      ]
+    },
+    {
+      "draw": 328,
+      "heads": [
+        "pred_regression_f_gamma-7-std",
+        "pred_regression_f_sigma_bandpower_max_c_n3",
+        "pred_regression_f_total_power_first_stable_rem_abs_beta",
+        "pred_regression_f_total_power_n1_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 329,
+      "heads": [
+        "pred_regression_f_alpha-0-std",
+        "pred_regression_f_alpha-3-std",
+        "pred_regression_f_delta-6-std",
+        "pred_regression_f_gamma-8-mean"
+      ]
+    },
+    {
+      "draw": 330,
+      "heads": [
+        "pred_regression_f_alpha-9-std",
+        "pred_regression_f_delta_linear_b1",
+        "pred_regression_f_total_power_first_stable_rem_rel_gamma",
+        "pred_regression_f_total_power_w_rel_so"
+      ]
+    },
+    {
+      "draw": 331,
+      "heads": [
+        "pred_regression_f_beta-1-std",
+        "pred_regression_f_gamma_bandpower_kurtosis_c_w",
+        "pred_regression_f_total_power_n1_abs_theta",
+        "pred_regression_f_total_power_n3_rel_gamma"
+      ]
+    },
+    {
+      "draw": 332,
+      "heads": [
+        "pred_regression_f_beta-5-std",
+        "pred_regression_f_gamma-9-std",
+        "pred_regression_f_gamma_bandpower_max_c_w",
+        "pred_regression_f_total_power_n1_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 333,
+      "heads": [
+        "pred_regression_f_beta_bandpower_min_c_r",
+        "pred_regression_f_sigma_bandpower_min_c_n2",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_sigma",
+        "pred_regression_f_total_power_nrem_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 334,
+      "heads": [
+        "pred_regression_f_kurtosis_c4-m1_n2",
+        "pred_regression_f_slow_bandpower_min_c_n3",
+        "pred_regression_f_theta_bandpower_max_c_n1",
+        "pred_regression_f_total_power_n1_rel_so"
+      ]
+    },
+    {
+      "draw": 335,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_n1",
+        "pred_regression_f_beta_bandpower_mean_c_r",
+        "pred_regression_f_remaining_rem_alpha_bandpower_mean_c",
+        "pred_regression_f_total_power_full_sleep_abs_delta"
+      ]
+    },
+    {
+      "draw": 336,
+      "heads": [
+        "pred_regression_f_arousal_index",
+        "pred_regression_f_delta_linear_b0",
+        "pred_regression_f_slowdelta_bandpower_max_c_n1",
+        "pred_regression_f_theta_bandpower_min_c_n2"
+      ]
+    },
+    {
+      "draw": 337,
+      "heads": [
+        "pred_regression_f_beta_bandpower_kurtosis_c_n2",
+        "pred_regression_f_gamma_bandpower_mean_c_n2",
+        "pred_regression_f_slow_bandpower_max_c_n2",
+        "pred_regression_f_total_power_n3_abs_theta"
+      ]
+    },
+    {
+      "draw": 338,
+      "heads": [
+        "pred_regression_f_beta-1-mean",
+        "pred_regression_f_beta_bandpower_kurtosis_c_n2",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_n1",
+        "pred_regression_f_total_power_n3_rel_theta"
+      ]
+    },
+    {
+      "draw": 339,
+      "heads": [
+        "pred_regression_f_theta_bandpower_kurtosis_c_n3",
+        "pred_regression_f_total_power_n1_rel_to_total_gamma",
+        "pred_regression_f_total_power_n2_rel_to_total_beta",
+        "pred_regression_f_total_power_n3_abs_beta"
+      ]
+    },
+    {
+      "draw": 340,
+      "heads": [
+        "pred_regression_f_delta-5-mean",
+        "pred_regression_f_theta-8-mean",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_alpha",
+        "pred_regression_f_total_power_n1_rel_to_total_alpha"
+      ]
+    },
+    {
+      "draw": 341,
+      "heads": [
+        "pred_regression_f_alpha-5-mean",
+        "pred_regression_f_total_power_first_stable_rem_abs_sigma",
+        "pred_regression_f_total_power_n3_rel_beta",
+        "pred_regression_f_total_power_n3_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 342,
+      "heads": [
+        "pred_regression_f_delta_bandpower_kurtosis_c_r",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n3",
+        "pred_regression_f_total_power_n3_rel_to_total_gamma",
+        "pred_regression_f_total_power_rem_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 343,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_mean_c_n3",
+        "pred_regression_f_gamma_bandpower_std_c_n2",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_sigma",
+        "pred_regression_f_total_power_n3_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 344,
+      "heads": [
+        "pred_regression_f_delta-3-std",
+        "pred_regression_f_slow_bandpower_mean_c_r",
+        "pred_regression_f_total_power_first_stable_rem_rel_theta",
+        "pred_regression_f_total_power_n2_rel_theta"
+      ]
+    },
+    {
+      "draw": 345,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_kurtosis_c_n1",
+        "pred_regression_f_delta-5-mean",
+        "pred_regression_f_total_power_full_sleep_abs_gamma",
+        "pred_regression_f_total_power_w_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 346,
+      "heads": [
+        "pred_regression_f_beta-3-mean",
+        "pred_regression_f_beta_bandpower_std_c_n2",
+        "pred_regression_f_theta-10-std",
+        "pred_regression_f_theta-3-std"
+      ]
+    },
+    {
+      "draw": 347,
+      "heads": [
+        "pred_regression_f_slowdelta_bandpower_mean_c_r",
+        "pred_regression_f_theta-6-std",
+        "pred_regression_f_total_power_n3_rel_to_total_so",
+        "pred_regression_f_total_power_w_abs_alpha"
+      ]
+    },
+    {
+      "draw": 348,
+      "heads": [
+        "pred_regression_f_arousal_index",
+        "pred_regression_f_total_power_first_stable_nrem_abs_sigma",
+        "pred_regression_f_total_power_n2_abs_theta",
+        "pred_regression_f_total_power_rem_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 349,
+      "heads": [
+        "pred_regression_f_sigma-7-std",
+        "pred_regression_f_theta_bandpower_kurtosis_c_n1",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_sigma",
+        "pred_regression_f_total_power_w_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 350,
+      "heads": [
+        "pred_regression_f_beta-4-std",
+        "pred_regression_f_sigma-8-std",
+        "pred_regression_f_total_power_n1_abs_theta",
+        "pred_regression_f_total_power_n2_rel_gamma"
+      ]
+    },
+    {
+      "draw": 351,
+      "heads": [
+        "pred_regression_f_hypoxia_burden",
+        "pred_regression_f_sigma-2-std",
+        "pred_regression_f_total_power_first_stable_nrem_rel_gamma",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 352,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_w",
+        "pred_regression_f_delta-8-std",
+        "pred_regression_f_sigma-4-std",
+        "pred_regression_f_theta-5-std"
+      ]
+    },
+    {
+      "draw": 353,
+      "heads": [
+        "pred_regression_f_delta_bandpower_min_c_n3",
+        "pred_regression_f_slow_bandpower_mean_c_w",
+        "pred_regression_f_theta_bandpower_max_c_w",
+        "pred_regression_f_total_power_n1_abs_sigma"
+      ]
+    },
+    {
+      "draw": 354,
+      "heads": [
+        "pred_regression_f_beta-7-std",
+        "pred_regression_f_theta_bandpower_mean_c_n2",
+        "pred_regression_f_total_power_first_stable_nrem_abs_sigma",
+        "pred_regression_f_total_power_n1_abs_beta"
+      ]
+    },
+    {
+      "draw": 355,
+      "heads": [
+        "pred_regression_f_beta_bandpower_min_c_n2",
+        "pred_regression_f_sigma_bandpower_std_c_n3",
+        "pred_regression_f_total_power_n1_rel_alpha",
+        "pred_regression_f_total_power_w_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 356,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_min_c_w",
+        "pred_regression_f_theta_bandpower_mean_c_n1",
+        "pred_regression_f_total_power_rem_rel_to_total_delta",
+        "pred_regression_f_total_power_w_rel_beta"
+      ]
+    },
+    {
+      "draw": 357,
+      "heads": [
+        "pred_regression_f_sigma_bandpower_mean_c_w",
+        "pred_regression_f_slow_bandpower_kurtosis_c_n2",
+        "pred_regression_f_total_power_n3_rel_to_total_delta",
+        "pred_regression_f_total_power_rem_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 358,
+      "heads": [
+        "pred_regression_f_sigma-5-std",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_beta",
+        "pred_regression_f_total_power_first_stable_rem_rel_beta",
+        "pred_regression_f_total_power_rem_rel_gamma"
+      ]
+    },
+    {
+      "draw": 359,
+      "heads": [
+        "pred_regression_f_sigma-9-std",
+        "pred_regression_f_slowdelta_bandpower_min_c_r",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_so",
+        "pred_regression_f_total_power_nrem_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 360,
+      "heads": [
+        "pred_regression_f_kurtosis_c4-m1_n1",
+        "pred_regression_f_sigma-3-mean",
+        "pred_regression_f_slowdelta_bandpower_mean_c_n2",
+        "pred_regression_f_ss_chirp_c4m1"
+      ]
+    },
+    {
+      "draw": 361,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_n1",
+        "pred_regression_f_gamma-0-std",
+        "pred_regression_f_total_power_first_stable_nrem_abs_beta",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 362,
+      "heads": [
+        "pred_regression_f_sigma_bandpower_kurtosis_c_w",
+        "pred_regression_f_theta-0-std",
+        "pred_regression_f_total_power_first_stable_nrem_abs_alpha",
+        "pred_regression_f_total_power_first_stable_rem_abs_alpha"
+      ]
+    },
+    {
+      "draw": 363,
+      "heads": [
+        "pred_regression_f_delta_bandpower_max_c_n3",
+        "pred_regression_f_gamma_bandpower_mean_c_w",
+        "pred_regression_f_total_power_w_rel_to_total_so",
+        "pred_regression_f_total_power_w_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 364,
+      "heads": [
+        "pred_regression_f_delta_bandpower_min_c_r",
+        "pred_regression_f_hours_sleep",
+        "pred_regression_f_theta-1-mean",
+        "pred_regression_f_total_power_first_stable_rem_rel_alpha"
+      ]
+    },
+    {
+      "draw": 365,
+      "heads": [
+        "pred_regression_f_gamma-5-std",
+        "pred_regression_f_gamma_bandpower_min_c_r",
+        "pred_regression_f_gamma_bandpower_std_c_r",
+        "pred_regression_f_total_power_full_sleep_rel_gamma"
+      ]
+    },
+    {
+      "draw": 366,
+      "heads": [
+        "pred_regression_f_theta-4-mean",
+        "pred_regression_f_theta_bandpower_min_c_n3",
+        "pred_regression_f_total_power_full_sleep_abs_gamma",
+        "pred_regression_f_total_power_n3_rel_gamma"
+      ]
+    },
+    {
+      "draw": 367,
+      "heads": [
+        "pred_regression_f_theta_bandpower_max_c_n3",
+        "pred_regression_f_total_power_first_stable_rem_abs_alpha",
+        "pred_regression_f_total_power_n1_rel_to_total_alpha",
+        "pred_regression_f_total_power_n3_abs_sigma"
+      ]
+    },
+    {
+      "draw": 368,
+      "heads": [
+        "pred_regression_f_beta-3-std",
+        "pred_regression_f_first_rem_alpha_bandpower_mean_c",
+        "pred_regression_f_theta_bandpower_max_c_n2",
+        "pred_regression_f_total_power_nrem_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 369,
+      "heads": [
+        "pred_regression_f_alpha-5-std",
+        "pred_regression_f_beta-4-mean",
+        "pred_regression_f_total_power_first_stable_rem_rel_gamma",
+        "pred_regression_f_total_power_nrem_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 370,
+      "heads": [
+        "pred_regression_f_beta_bandpower_min_c_n3",
+        "pred_regression_f_sigma-7-mean",
+        "pred_regression_f_sigma_bandpower_max_c_n1",
+        "pred_regression_f_total_power_first_stable_nrem_rel_alpha"
+      ]
+    },
+    {
+      "draw": 371,
+      "heads": [
+        "pred_regression_f_alpha-2-mean",
+        "pred_regression_f_sigma_bandpower_std_c_n3",
+        "pred_regression_f_theta_bandpower_mean_c_n1",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_alpha"
+      ]
+    },
+    {
+      "draw": 372,
+      "heads": [
+        "pred_regression_f_delta-9-std",
+        "pred_regression_f_sigma-0-mean",
+        "pred_regression_f_theta-8-mean",
+        "pred_regression_f_theta_bandpower_std_c_n1"
+      ]
+    },
+    {
+      "draw": 373,
+      "heads": [
+        "pred_regression_f_beta_bandpower_min_c_w",
+        "pred_regression_f_sigma_bandpower_min_c_w",
+        "pred_regression_f_theta_bandpower_min_c_w",
+        "pred_regression_f_total_power_rem_rel_to_total_alpha"
+      ]
+    },
+    {
+      "draw": 374,
+      "heads": [
+        "pred_regression_f_beta_bandpower_mean_c_n2",
+        "pred_regression_f_theta-3-mean",
+        "pred_regression_f_theta_bandpower_mean_c_n1",
+        "pred_regression_f_total_power_n3_abs_sigma"
+      ]
+    },
+    {
+      "draw": 375,
+      "heads": [
+        "pred_regression_f_delta-10-std",
+        "pred_regression_f_gamma-3-std",
+        "pred_regression_f_sigma-0-mean",
+        "pred_regression_f_slowdelta_bandpower_mean_c_n2"
+      ]
+    },
+    {
+      "draw": 376,
+      "heads": [
+        "pred_regression_f_beta-0-mean",
+        "pred_regression_f_beta-2-std",
+        "pred_regression_f_gamma-4-mean",
+        "pred_regression_f_total_power_w_rel_beta"
+      ]
+    },
+    {
+      "draw": 377,
+      "heads": [
+        "pred_regression_f_gamma-5-mean",
+        "pred_regression_f_total_power_n1_rel_to_total_delta",
+        "pred_regression_f_total_power_n3_rel_to_total_theta",
+        "pred_regression_f_total_power_rem_abs_beta"
+      ]
+    },
+    {
+      "draw": 378,
+      "heads": [
+        "pred_regression_f_alpha-1-std",
+        "pred_regression_f_delta_bandpower_std_c_n3",
+        "pred_regression_f_gamma-6-mean",
+        "pred_regression_f_theta-5-mean"
+      ]
+    },
+    {
+      "draw": 379,
+      "heads": [
+        "pred_regression_f_beta-6-mean",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n1",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_n1",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 380,
+      "heads": [
+        "pred_regression_f_sigma-5-mean",
+        "pred_regression_f_sigma-5-std",
+        "pred_regression_f_theta-4-std",
+        "pred_regression_f_total_power_full_sleep_abs_beta"
+      ]
+    },
+    {
+      "draw": 381,
+      "heads": [
+        "pred_regression_f_alpha-8-mean",
+        "pred_regression_f_alpha_bandpower_min_c_r",
+        "pred_regression_f_gamma_bandpower_mean_c_n3",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 382,
+      "heads": [
+        "pred_regression_f_beta-1-std",
+        "pred_regression_f_fs_chirp_c4m1",
+        "pred_regression_f_sigma_bandpower_std_c_n2",
+        "pred_regression_f_total_power_n1_rel_alpha"
+      ]
+    },
+    {
+      "draw": 383,
+      "heads": [
+        "pred_regression_f_alpha-1-mean",
+        "pred_regression_f_total_power_full_sleep_abs_gamma",
+        "pred_regression_f_total_power_full_sleep_abs_theta",
+        "pred_regression_f_total_power_n2_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 384,
+      "heads": [
+        "pred_regression_f_beta_bandpower_mean_c_n2",
+        "pred_regression_f_total_power_rem_abs_sigma",
+        "pred_regression_f_total_power_rem_rel_to_total_alpha",
+        "pred_regression_f_total_power_w_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 385,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_n3",
+        "pred_regression_f_total_power_first_stable_nrem_rel_so",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_delta",
+        "pred_regression_f_total_power_full_sleep_abs_so"
+      ]
+    },
+    {
+      "draw": 386,
+      "heads": [
+        "pred_regression_f_alpha-3-mean",
+        "pred_regression_f_alpha-3-std",
+        "pred_regression_f_alpha_bandpower_mean_c_n3",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 387,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_mean_c_n1",
+        "pred_regression_f_total_power_n3_abs_alpha",
+        "pred_regression_f_total_power_nrem_rel_delta",
+        "pred_regression_f_total_power_w_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 388,
+      "heads": [
+        "pred_regression_f_beta-9-std",
+        "pred_regression_f_total_power_n1_rel_to_total_gamma",
+        "pred_regression_f_total_power_nrem_rel_theta",
+        "pred_regression_f_total_power_w_abs_sigma"
+      ]
+    },
+    {
+      "draw": 389,
+      "heads": [
+        "pred_regression_f_beta-7-mean",
+        "pred_regression_f_delta_bandpower_std_c_n2",
+        "pred_regression_f_sigma-5-std",
+        "pred_regression_f_total_power_w_abs_gamma"
+      ]
+    },
+    {
+      "draw": 390,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_std_c_n1",
+        "pred_regression_f_gamma_bandpower_max_c_n3",
+        "pred_regression_f_sigma_bandpower_std_c_w",
+        "pred_regression_f_total_power_n1_rel_gamma"
+      ]
+    },
+    {
+      "draw": 391,
+      "heads": [
+        "pred_regression_f_slowdelta_bandpower_min_c_n1",
+        "pred_regression_f_total_power_full_sleep_rel_theta",
+        "pred_regression_f_total_power_n1_rel_to_total_alpha",
+        "pred_regression_f_total_power_rem_rel_theta"
+      ]
+    },
+    {
+      "draw": 392,
+      "heads": [
+        "pred_regression_f_alpha-1-mean",
+        "pred_regression_f_delta_bandpower_mean_c_w",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_alpha",
+        "pred_regression_f_total_power_n3_abs_so"
+      ]
+    },
+    {
+      "draw": 393,
+      "heads": [
+        "pred_regression_f_delta-10-std",
+        "pred_regression_f_total_power_full_sleep_rel_so",
+        "pred_regression_f_total_power_nrem_rel_gamma",
+        "pred_regression_f_total_power_rem_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 394,
+      "heads": [
+        "pred_regression_f_slowdelta_bandpower_min_c_n1",
+        "pred_regression_f_theta_bandpower_std_c_n3",
+        "pred_regression_f_total_power_first_stable_rem_abs_theta",
+        "pred_regression_f_total_power_n2_abs_delta"
+      ]
+    },
+    {
+      "draw": 395,
+      "heads": [
+        "pred_regression_f_slow_bandpower_max_c_n3",
+        "pred_regression_f_slowdelta_bandpower_mean_c_n1",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_theta",
+        "pred_regression_f_total_power_first_stable_rem_rel_delta"
+      ]
+    },
+    {
+      "draw": 396,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_max_c_w",
+        "pred_regression_f_slow_bandpower_mean_c_w",
+        "pred_regression_f_slow_bandpower_std_c_r",
+        "pred_regression_f_total_power_nrem_rel_to_total_so"
+      ]
+    },
+    {
+      "draw": 397,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_min_c_w",
+        "pred_regression_f_sigma_bandpower_std_c_n2",
+        "pred_regression_f_slow_bandpower_std_c_r",
+        "pred_regression_f_total_power_n1_rel_so"
+      ]
+    },
+    {
+      "draw": 398,
+      "heads": [
+        "pred_regression_f_alpha-0-mean",
+        "pred_regression_f_delta_bandpower_min_c_n1",
+        "pred_regression_f_sigma-3-std",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_n2"
+      ]
+    },
+    {
+      "draw": 399,
+      "heads": [
+        "pred_regression_f_gamma-5-std",
+        "pred_regression_f_slow_bandpower_min_c_n2",
+        "pred_regression_f_total_power_first_stable_nrem_abs_sigma",
+        "pred_regression_f_total_power_n3_rel_so"
+      ]
+    },
+    {
+      "draw": 400,
+      "heads": [
+        "pred_regression_f_alpha-3-std",
+        "pred_regression_f_beta_bandpower_min_c_r",
+        "pred_regression_f_slowdelta_bandpower_std_c_n1",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 401,
+      "heads": [
+        "pred_regression_f_beta_bandpower_kurtosis_c_w",
+        "pred_regression_f_slowdelta_bandpower_max_c_w",
+        "pred_regression_f_theta_bandpower_std_c_r",
+        "pred_regression_f_total_power_rem_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 402,
+      "heads": [
+        "pred_regression_f_gamma-5-mean",
+        "pred_regression_f_sigma_bandpower_std_c_w",
+        "pred_regression_f_total_power_full_sleep_abs_so",
+        "pred_regression_f_total_power_nrem_abs_gamma"
+      ]
+    },
+    {
+      "draw": 403,
+      "heads": [
+        "pred_regression_f_sleep_latency",
+        "pred_regression_f_slow_bandpower_mean_c_w",
+        "pred_regression_f_theta-2-mean",
+        "pred_regression_f_theta_bandpower_std_c_n2"
+      ]
+    },
+    {
+      "draw": 404,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_w",
+        "pred_regression_f_sigma_bandpower_max_c_n2",
+        "pred_regression_f_total_power_first_stable_rem_rel_alpha",
+        "pred_regression_f_total_power_full_sleep"
+      ]
+    },
+    {
+      "draw": 405,
+      "heads": [
+        "pred_regression_f_delta-3-std",
+        "pred_regression_f_delta_bandpower_max_c_n1",
+        "pred_regression_f_gamma-6-mean",
+        "pred_regression_f_total_power_n1_abs_gamma"
+      ]
+    },
+    {
+      "draw": 406,
+      "heads": [
+        "pred_regression_f_beta_bandpower_min_c_n3",
+        "pred_regression_f_delta-1-mean",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_so",
+        "pred_regression_f_total_power_rem_rel_theta"
+      ]
+    },
+    {
+      "draw": 407,
+      "heads": [
+        "pred_regression_f_gamma-1-std",
+        "pred_regression_f_gamma_bandpower_min_c_w",
+        "pred_regression_f_total_power_n2_abs_so",
+        "pred_regression_f_total_power_nrem_rel_so"
+      ]
+    },
+    {
+      "draw": 408,
+      "heads": [
+        "pred_regression_f_alpha-1-mean",
+        "pred_regression_f_delta-8-std",
+        "pred_regression_f_slowdelta_bandpower_mean_c_w",
+        "pred_regression_f_total_power_w_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 409,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_kurtosis_c_n1",
+        "pred_regression_f_beta_bandpower_kurtosis_c_w",
+        "pred_regression_f_gamma_bandpower_max_c_n1",
+        "pred_regression_f_total_power_n3_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 410,
+      "heads": [
+        "pred_regression_f_beta_bandpower_mean_c_n3",
+        "pred_regression_f_gamma-1-mean",
+        "pred_regression_f_sigma-5-std",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 411,
+      "heads": [
+        "pred_regression_f_delta-8-std",
+        "pred_regression_f_slow_bandpower_mean_c_n3",
+        "pred_regression_f_slowdelta_bandpower_min_c_w",
+        "pred_regression_f_total_power_n1_rel_gamma"
+      ]
+    },
+    {
+      "draw": 412,
+      "heads": [
+        "pred_regression_f_beta-10-std",
+        "pred_regression_f_beta_bandpower_min_c_w",
+        "pred_regression_f_slow_bandpower_std_c_n3",
+        "pred_regression_f_total_power_n3_rel_beta"
+      ]
+    },
+    {
+      "draw": 413,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_std_c_n3",
+        "pred_regression_f_slowdelta_bandpower_max_c_n2",
+        "pred_regression_f_slowdelta_bandpower_std_c_w",
+        "pred_regression_f_theta_bandpower_std_c_w"
+      ]
+    },
+    {
+      "draw": 414,
+      "heads": [
+        "pred_regression_f_kurtosis_c4-m1_n1",
+        "pred_regression_f_theta_bandpower_std_c_n3",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_so",
+        "pred_regression_f_total_power_w_abs_delta"
+      ]
+    },
+    {
+      "draw": 415,
+      "heads": [
+        "pred_regression_f_gamma-7-mean",
+        "pred_regression_f_gamma_bandpower_mean_c_n3",
+        "pred_regression_f_total_power_first_stable_nrem_abs_theta",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 416,
+      "heads": [
+        "pred_regression_f_beta_bandpower_min_c_n1",
+        "pred_regression_f_delta_bandpower_kurtosis_c_n2",
+        "pred_regression_f_slowdelta_bandpower_until_rem",
+        "pred_regression_f_total_power_rem_rel_alpha"
+      ]
+    },
+    {
+      "draw": 417,
+      "heads": [
+        "pred_regression_f_beta_bandpower_std_c_n3",
+        "pred_regression_f_delta_bandpower_kurtosis_c_w",
+        "pred_regression_f_sigma-3-std",
+        "pred_regression_f_slow_bandpower_max_c_n1"
+      ]
+    },
+    {
+      "draw": 418,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_n2",
+        "pred_regression_f_gamma-0-mean",
+        "pred_regression_f_sigma_bandpower_std_c_n1",
+        "pred_regression_f_total_power_n3_rel_beta"
+      ]
+    },
+    {
+      "draw": 419,
+      "heads": [
+        "pred_regression_f_delta-10-std",
+        "pred_regression_f_delta-7-mean",
+        "pred_regression_f_theta_bandpower_mean_c_n1",
+        "pred_regression_f_total_power_n1_abs_so"
+      ]
+    },
+    {
+      "draw": 420,
+      "heads": [
+        "pred_regression_f_alpha-5-mean",
+        "pred_regression_f_alpha-5-std",
+        "pred_regression_f_alpha_bandpower_mean_c_w",
+        "pred_regression_f_alpha_bandpower_std_c_r"
+      ]
+    },
+    {
+      "draw": 421,
+      "heads": [
+        "pred_regression_f_delta-3-std",
+        "pred_regression_f_gamma_bandpower_std_c_n1",
+        "pred_regression_f_sigma-0-mean",
+        "pred_regression_f_total_power_rem_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 422,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_kurtosis_c_n3",
+        "pred_regression_f_delta-1-std",
+        "pred_regression_f_theta_bandpower_mean_c_r",
+        "pred_regression_f_total_power_rem_rel_alpha"
+      ]
+    },
+    {
+      "draw": 423,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_n1",
+        "pred_regression_f_delta-2-mean",
+        "pred_regression_f_sigma-2-std",
+        "pred_regression_f_total_power_nrem_rel_theta"
+      ]
+    },
+    {
+      "draw": 424,
+      "heads": [
+        "pred_regression_f_ms_chirp_c4m1",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_r",
+        "pred_regression_f_sigma_bandpower_std_c_r",
+        "pred_regression_f_total_power_nrem_abs_theta"
+      ]
+    },
+    {
+      "draw": 425,
+      "heads": [
+        "pred_regression_f_alpha-7-mean",
+        "pred_regression_f_delta_bandpower_max_c_n2",
+        "pred_regression_f_theta-7-mean",
+        "pred_regression_f_total_power_first_stable_rem_rel_theta"
+      ]
+    },
+    {
+      "draw": 426,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_n2",
+        "pred_regression_f_delta_bandpower_std_c_r",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_w",
+        "pred_regression_f_total_power_n3_rel_delta"
+      ]
+    },
+    {
+      "draw": 427,
+      "heads": [
+        "pred_regression_f_beta-7-mean",
+        "pred_regression_f_sigma_bandpower_max_c_n3",
+        "pred_regression_f_total_power_first_stable_nrem_abs_alpha",
+        "pred_regression_f_total_power_n2_abs_delta"
+      ]
+    },
+    {
+      "draw": 428,
+      "heads": [
+        "pred_regression_f_alpha-4-std",
+        "pred_regression_f_sigma_bandpower_max_c_n2",
+        "pred_regression_f_sigma_bandpower_mean_c_n1",
+        "pred_regression_f_theta_bandpower_mean_c_n1"
+      ]
+    },
+    {
+      "draw": 429,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_w",
+        "pred_regression_f_gamma_bandpower_mean_c_n2",
+        "pred_regression_f_total_power_n3_abs_delta",
+        "pred_regression_f_total_power_nrem_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 430,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_r",
+        "pred_regression_f_beta-7-mean",
+        "pred_regression_f_sigma-0-mean",
+        "pred_regression_f_total_power_w_abs_theta"
+      ]
+    },
+    {
+      "draw": 431,
+      "heads": [
+        "pred_regression_f_slowdelta_bandpower_min_c_n3",
+        "pred_regression_f_total_power_first_stable_nrem_abs_theta",
+        "pred_regression_f_total_power_first_stable_nrem_rel_beta",
+        "pred_regression_f_total_power_n1_abs_sigma"
+      ]
+    },
+    {
+      "draw": 432,
+      "heads": [
+        "pred_regression_f_ms_chirp_c4m1",
+        "pred_regression_f_remaining_rem_slowdelta_bandpower_mean_c",
+        "pred_regression_f_total_power_n2_rel_to_total_gamma",
+        "pred_regression_f_total_power_nrem_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 433,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_min_c_n2",
+        "pred_regression_f_sigma-6-mean",
+        "pred_regression_f_slowdelta_bandpower_max_c_r",
+        "pred_regression_f_theta-3-std"
+      ]
+    },
+    {
+      "draw": 434,
+      "heads": [
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_w",
+        "pred_regression_f_theta-5-mean",
+        "pred_regression_f_total_power_n1_rel_gamma",
+        "pred_regression_f_total_power_n3_rel_theta"
+      ]
+    },
+    {
+      "draw": 435,
+      "heads": [
+        "pred_regression_f_slow_bandpower_min_c_n1",
+        "pred_regression_f_total_power_first_stable_nrem_rel_theta",
+        "pred_regression_f_total_power_n2_rel_so",
+        "pred_regression_f_total_power_rem_abs_delta"
+      ]
+    },
+    {
+      "draw": 436,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_n1",
+        "pred_regression_f_total_power_n1_rel_to_total_so",
+        "pred_regression_f_total_power_n2_abs_delta",
+        "pred_regression_f_total_power_n3_rel_to_total_sigma"
+      ]
+    },
+    {
+      "draw": 437,
+      "heads": [
+        "pred_regression_f_first_rem_duration",
+        "pred_regression_f_sigma-10-std",
+        "pred_regression_f_sleep_efficiency",
+        "pred_regression_f_slowdelta_bandpower_std_c_w"
+      ]
+    },
+    {
+      "draw": 438,
+      "heads": [
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n2",
+        "pred_regression_f_slow_bandpower_mean_c_n3",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_gamma",
+        "pred_regression_f_total_power_rem_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 439,
+      "heads": [
+        "pred_regression_f_delta_linear_b0",
+        "pred_regression_f_ms_chirp_c4m1",
+        "pred_regression_f_sigma-4-mean",
+        "pred_regression_f_sigma_bandpower_min_c_n3"
+      ]
+    },
+    {
+      "draw": 440,
+      "heads": [
+        "pred_regression_f_gamma-5-mean",
+        "pred_regression_f_sigma_bandpower_std_c_n2",
+        "pred_regression_f_slowdelta_bandpower_mean_c_n2",
+        "pred_regression_f_total_power_first_stable_nrem_abs_theta"
+      ]
+    },
+    {
+      "draw": 441,
+      "heads": [
+        "pred_regression_f_alpha-6-mean",
+        "pred_regression_f_gamma-8-std",
+        "pred_regression_f_gamma_bandpower_min_c_w",
+        "pred_regression_f_total_power_rem_abs_sigma"
+      ]
+    },
+    {
+      "draw": 442,
+      "heads": [
+        "pred_regression_f_beta-9-std",
+        "pred_regression_f_slow_bandpower_kurtosis_c_r",
+        "pred_regression_f_total_power_first_stable_nrem_abs_alpha",
+        "pred_regression_f_total_power_w_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 443,
+      "heads": [
+        "pred_regression_f_alpha-3-mean",
+        "pred_regression_f_ms_chirp_c4m1",
+        "pred_regression_f_slow_bandpower_mean_c_n2",
+        "pred_regression_f_total_power_first_stable_nrem_abs_alpha"
+      ]
+    },
+    {
+      "draw": 444,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_std_c_w",
+        "pred_regression_f_beta-10-std",
+        "pred_regression_f_theta-7-mean",
+        "pred_regression_f_total_power_nrem_abs_alpha"
+      ]
+    },
+    {
+      "draw": 445,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_std_c_n1",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_beta",
+        "pred_regression_f_total_power_n3_rel_to_total_sigma",
+        "pred_regression_f_total_power_nrem_rel_sigma"
+      ]
+    },
+    {
+      "draw": 446,
+      "heads": [
+        "pred_regression_f_delta_bandpower_max_c_w",
+        "pred_regression_f_slowdelta_bandpower_until_rem",
+        "pred_regression_f_theta-7-std",
+        "pred_regression_f_total_power_first_stable_rem_rel_delta"
+      ]
+    },
+    {
+      "draw": 447,
+      "heads": [
+        "pred_regression_f_sigma-1-std",
+        "pred_regression_f_total_power_first_stable_nrem_rel_theta",
+        "pred_regression_f_total_power_nrem_rel_to_total_delta",
+        "pred_regression_f_total_power_rem_abs_gamma"
+      ]
+    },
+    {
+      "draw": 448,
+      "heads": [
+        "pred_regression_f_beta-0-mean",
+        "pred_regression_f_delta_bandpower_std_c_n3",
+        "pred_regression_f_gamma_bandpower_mean_c_r",
+        "pred_regression_f_total_power_rem_abs_sigma"
+      ]
+    },
+    {
+      "draw": 449,
+      "heads": [
+        "pred_regression_f_gamma_bandpower_mean_c_n1",
+        "pred_regression_f_slow_bandpower_max_c_w",
+        "pred_regression_f_slow_bandpower_min_c_n3",
+        "pred_regression_f_total_power_w_abs_alpha"
+      ]
+    },
+    {
+      "draw": 450,
+      "heads": [
+        "pred_regression_f_sigma_bandpower_kurtosis_c_r",
+        "pred_regression_f_total_power_first_stable_nrem_abs_so",
+        "pred_regression_f_total_power_n1_rel_to_total_so",
+        "pred_regression_f_total_power_nrem_abs_alpha"
+      ]
+    },
+    {
+      "draw": 451,
+      "heads": [
+        "pred_regression_f_delta_bandpower_min_c_w",
+        "pred_regression_f_slowdelta_bandpower_min_c_n2",
+        "pred_regression_f_total_power_first_stable_rem_rel_gamma",
+        "pred_regression_f_total_power_rem_rel_gamma"
+      ]
+    },
+    {
+      "draw": 452,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_n2",
+        "pred_regression_f_alpha_bandpower_min_c_w",
+        "pred_regression_f_delta_bandpower_kurtosis_c_w",
+        "pred_regression_f_total_power_first_stable_nrem_rel_theta"
+      ]
+    },
+    {
+      "draw": 453,
+      "heads": [
+        "pred_regression_f_remaining_rem_duration",
+        "pred_regression_f_total_power_first_stable_rem_abs_sigma",
+        "pred_regression_f_total_power_n2_rel_to_total_alpha",
+        "pred_regression_f_total_power_rem_rel_so"
+      ]
+    },
+    {
+      "draw": 454,
+      "heads": [
+        "pred_regression_f_delta-3-std",
+        "pred_regression_f_delta-7-std",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_r",
+        "pred_regression_f_total_power_n3_abs_beta"
+      ]
+    },
+    {
+      "draw": 455,
+      "heads": [
+        "pred_regression_f_alpha-3-mean",
+        "pred_regression_f_beta-7-mean",
+        "pred_regression_f_beta_bandpower_min_c_w",
+        "pred_regression_f_gamma_bandpower_kurtosis_c_r"
+      ]
+    },
+    {
+      "draw": 456,
+      "heads": [
+        "pred_regression_f_delta-6-std",
+        "pred_regression_f_gamma_bandpower_std_c_w",
+        "pred_regression_f_sigma_bandpower_std_c_r",
+        "pred_regression_f_total_power_first_stable_nrem_rel_theta"
+      ]
+    },
+    {
+      "draw": 457,
+      "heads": [
+        "pred_regression_f_beta-1-std",
+        "pred_regression_f_delta_bandpower_min_c_n1",
+        "pred_regression_f_total_power_rem_rel_to_total_so",
+        "pred_regression_f_total_power_w_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 458,
+      "heads": [
+        "pred_regression_f_delta_bandpower_min_c_n1",
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_n1",
+        "pred_regression_f_slowdelta_bandpower_std_c_n1",
+        "pred_regression_f_total_power_rem_abs_so"
+      ]
+    },
+    {
+      "draw": 459,
+      "heads": [
+        "pred_regression_f_beta-2-std",
+        "pred_regression_f_beta_bandpower_mean_c_n2",
+        "pred_regression_f_kurtosis_c4-m1_r",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 460,
+      "heads": [
+        "pred_regression_f_sigma-7-std",
+        "pred_regression_f_theta_bandpower_std_c_n1",
+        "pred_regression_f_total_power_n1_rel_to_total_theta",
+        "pred_regression_f_total_power_rem_abs_so"
+      ]
+    },
+    {
+      "draw": 461,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_n2",
+        "pred_regression_f_delta_bandpower_kurtosis_c_n3",
+        "pred_regression_f_sigma-2-std",
+        "pred_regression_f_slowdelta_bandpower_mean_c_n3"
+      ]
+    },
+    {
+      "draw": 462,
+      "heads": [
+        "pred_regression_f_beta_bandpower_mean_c_r",
+        "pred_regression_f_sigma-5-std",
+        "pred_regression_f_slowdelta_bandpower_std_c_n2",
+        "pred_regression_f_total_power_n1_abs_alpha"
+      ]
+    },
+    {
+      "draw": 463,
+      "heads": [
+        "pred_regression_f_slow_bandpower_min_c_n2",
+        "pred_regression_f_slow_bandpower_std_c_n3",
+        "pred_regression_f_total_power_n2_rel_sigma",
+        "pred_regression_f_total_power_rem_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 464,
+      "heads": [
+        "pred_regression_f_gamma-1-mean",
+        "pred_regression_f_gamma_bandpower_max_c_n3",
+        "pred_regression_f_total_power_first_stable_rem_rel_alpha",
+        "pred_regression_f_total_power_first_stable_rem_rel_gamma"
+      ]
+    },
+    {
+      "draw": 465,
+      "heads": [
+        "pred_regression_f_delta_linear_b1",
+        "pred_regression_f_slow_bandpower_mean_c_w",
+        "pred_regression_f_theta_bandpower_max_c_n2",
+        "pred_regression_f_total_power_nrem_rel_theta"
+      ]
+    },
+    {
+      "draw": 466,
+      "heads": [
+        "pred_regression_f_beta_bandpower_kurtosis_c_n1",
+        "pred_regression_f_sigma_bandpower_max_c_n1",
+        "pred_regression_f_total_power_first_stable_nrem_rel_to_total_so",
+        "pred_regression_f_total_power_rem_rel_to_total_beta"
+      ]
+    },
+    {
+      "draw": 467,
+      "heads": [
+        "pred_regression_f_delta-7-mean",
+        "pred_regression_f_delta_bandpower_mean_c_n2",
+        "pred_regression_f_gamma_bandpower_max_c_n2",
+        "pred_regression_f_theta-4-mean"
+      ]
+    },
+    {
+      "draw": 468,
+      "heads": [
+        "pred_regression_f_alpha-5-std",
+        "pred_regression_f_beta-4-mean",
+        "pred_regression_f_slow_bandpower_max_c_r",
+        "pred_regression_f_slow_bandpower_mean_c_w"
+      ]
+    },
+    {
+      "draw": 469,
+      "heads": [
+        "pred_regression_f_total_power_n1_abs_gamma",
+        "pred_regression_f_total_power_n3_rel_beta",
+        "pred_regression_f_total_power_nrem_rel_to_total_gamma",
+        "pred_regression_f_total_power_rem_abs_delta"
+      ]
+    },
+    {
+      "draw": 470,
+      "heads": [
+        "pred_regression_f_alpha-6-std",
+        "pred_regression_f_beta_bandpower_std_c_w",
+        "pred_regression_f_sigma_bandpower_mean_c_n1",
+        "pred_regression_f_theta_bandpower_mean_c_r"
+      ]
+    },
+    {
+      "draw": 471,
+      "heads": [
+        "pred_regression_f_sigma_bandpower_min_c_n2",
+        "pred_regression_f_slow_bandpower_max_c_n2",
+        "pred_regression_f_total_power_first_stable_nrem_abs_gamma",
+        "pred_regression_f_total_power_n3_rel_to_total_theta"
+      ]
+    },
+    {
+      "draw": 472,
+      "heads": [
+        "pred_regression_f_beta-9-std",
+        "pred_regression_f_beta_bandpower_mean_c_n3",
+        "pred_regression_f_total_power_full_sleep_abs_delta",
+        "pred_regression_f_total_power_nrem_abs_theta"
+      ]
+    },
+    {
+      "draw": 473,
+      "heads": [
+        "pred_regression_f_delta-7-mean",
+        "pred_regression_f_gamma-9-std",
+        "pred_regression_f_sigma_bandpower_mean_c_r",
+        "pred_regression_f_total_power_full_sleep_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 474,
+      "heads": [
+        "pred_regression_f_delta_bandpower_kurtosis_c_r",
+        "pred_regression_f_delta_bandpower_max_c_r",
+        "pred_regression_f_total_power_n1_rel_alpha",
+        "pred_regression_f_total_power_nrem_rel_alpha"
+      ]
+    },
+    {
+      "draw": 475,
+      "heads": [
+        "pred_regression_f_slow_bandpower_mean_c_r",
+        "pred_regression_f_slowdelta_bandpower_mean_c_n2",
+        "pred_regression_f_total_power_first_stable_rem_abs_so",
+        "pred_regression_f_total_power_full_sleep_rel_gamma"
+      ]
+    },
+    {
+      "draw": 476,
+      "heads": [
+        "pred_regression_f_delta-2-mean",
+        "pred_regression_f_delta-7-mean",
+        "pred_regression_f_total_power_n1_rel_to_total_delta",
+        "pred_regression_f_total_power_n3_abs_gamma"
+      ]
+    },
+    {
+      "draw": 477,
+      "heads": [
+        "pred_regression_f_beta_bandpower_mean_c_r",
+        "pred_regression_f_gamma_bandpower_max_c_n3",
+        "pred_regression_f_sigma_bandpower_min_c_n1",
+        "pred_regression_f_theta-8-mean"
+      ]
+    },
+    {
+      "draw": 478,
+      "heads": [
+        "pred_regression_f_delta_bandpower_max_c_n2",
+        "pred_regression_f_gamma_bandpower_min_c_n3",
+        "pred_regression_f_sigma-0-mean",
+        "pred_regression_f_sigma-6-std"
+      ]
+    },
+    {
+      "draw": 479,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_min_c_n2",
+        "pred_regression_f_gamma_bandpower_mean_c_n2",
+        "pred_regression_f_slow_bandpower_kurtosis_c_r",
+        "pred_regression_f_total_power_full_sleep_rel_theta"
+      ]
+    },
+    {
+      "draw": 480,
+      "heads": [
+        "pred_regression_f_slow_bandpower_mean_c_n2",
+        "pred_regression_f_theta_bandpower_std_c_w",
+        "pred_regression_f_total_power_rem_abs_alpha",
+        "pred_regression_f_total_power_w_abs_beta"
+      ]
+    },
+    {
+      "draw": 481,
+      "heads": [
+        "pred_regression_f_delta_bandpower_mean_c_r",
+        "pred_regression_f_total_power_n3_abs_sigma",
+        "pred_regression_f_total_power_rem_abs_alpha",
+        "pred_regression_f_total_power_w_rel_so"
+      ]
+    },
+    {
+      "draw": 482,
+      "heads": [
+        "pred_regression_f_alpha-4-mean",
+        "pred_regression_f_gamma_bandpower_kurtosis_c_n3",
+        "pred_regression_f_total_power_n3_rel_alpha",
+        "pred_regression_f_total_power_n3_rel_beta"
+      ]
+    },
+    {
+      "draw": 483,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_max_c_w",
+        "pred_regression_f_total_power_n3_rel_to_total_beta",
+        "pred_regression_f_total_power_nrem_abs_gamma",
+        "pred_regression_f_total_power_nrem_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 484,
+      "heads": [
+        "pred_regression_f_gamma-6-std",
+        "pred_regression_f_sigma-1-std",
+        "pred_regression_f_theta_bandpower_min_c_r",
+        "pred_regression_f_total_power_w_rel_alpha"
+      ]
+    },
+    {
+      "draw": 485,
+      "heads": [
+        "pred_regression_f_alpha-1-mean",
+        "pred_regression_f_delta_bandpower_std_c_w",
+        "pred_regression_f_total_power_first_stable_rem_abs_alpha",
+        "pred_regression_f_total_power_n2_abs_gamma"
+      ]
+    },
+    {
+      "draw": 486,
+      "heads": [
+        "pred_regression_f_alpha-7-mean",
+        "pred_regression_f_gamma_bandpower_kurtosis_c_n1",
+        "pred_regression_f_total_power_full_sleep_rel_beta",
+        "pred_regression_f_total_power_n3_abs_theta"
+      ]
+    },
+    {
+      "draw": 487,
+      "heads": [
+        "pred_regression_f_beta_bandpower_min_c_w",
+        "pred_regression_f_theta-1-std",
+        "pred_regression_f_theta_bandpower_mean_c_n2",
+        "pred_regression_f_total_power_n1_abs_so"
+      ]
+    },
+    {
+      "draw": 488,
+      "heads": [
+        "pred_regression_f_fs_chirp_c4m1",
+        "pred_regression_f_sigma_bandpower_max_c_r",
+        "pred_regression_f_total_power_n3_abs_so",
+        "pred_regression_f_total_power_nrem_abs_so"
+      ]
+    },
+    {
+      "draw": 489,
+      "heads": [
+        "pred_regression_f_beta_bandpower_max_c_w",
+        "pred_regression_f_slow_bandpower_max_c_r",
+        "pred_regression_f_slow_bandpower_mean_c_n2",
+        "pred_regression_f_total_power_nrem_rel_to_total_delta"
+      ]
+    },
+    {
+      "draw": 490,
+      "heads": [
+        "pred_regression_f_delta-6-mean",
+        "pred_regression_f_delta_bandpower_min_c_r",
+        "pred_regression_f_total_power_first_stable_rem_abs_sigma",
+        "pred_regression_f_total_power_n2_rel_delta"
+      ]
+    },
+    {
+      "draw": 491,
+      "heads": [
+        "pred_regression_f_beta_bandpower_min_c_n3",
+        "pred_regression_f_sigma-0-mean",
+        "pred_regression_f_slowdelta_bandpower_std_c_n2",
+        "pred_regression_f_total_power_nrem_rel_gamma"
+      ]
+    },
+    {
+      "draw": 492,
+      "heads": [
+        "pred_regression_f_delta_bandpower_min_c_w",
+        "pred_regression_f_delta_bandpower_std_c_n3",
+        "pred_regression_f_sleep_efficiency",
+        "pred_regression_f_total_power_first_stable_rem_abs_gamma"
+      ]
+    },
+    {
+      "draw": 493,
+      "heads": [
+        "pred_regression_f_beta_bandpower_std_c_n3",
+        "pred_regression_f_sigma_bandpower_max_c_r",
+        "pred_regression_f_total_power_n3_abs_so",
+        "pred_regression_f_total_power_w_rel_to_total_gamma"
+      ]
+    },
+    {
+      "draw": 494,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_r",
+        "pred_regression_f_sigma-4-mean",
+        "pred_regression_f_theta-8-std",
+        "pred_regression_f_total_power_rem_abs_so"
+      ]
+    },
+    {
+      "draw": 495,
+      "heads": [
+        "pred_regression_f_delta-7-std",
+        "pred_regression_f_gamma-8-mean",
+        "pred_regression_f_slowdelta_bandpower_std_c_n2",
+        "pred_regression_f_total_power_w_rel_sigma"
+      ]
+    },
+    {
+      "draw": 496,
+      "heads": [
+        "pred_regression_f_slowdelta_bandpower_kurtosis_c_w",
+        "pred_regression_f_theta-3-mean",
+        "pred_regression_f_theta-9-std",
+        "pred_regression_f_total_power_nrem_rel_delta"
+      ]
+    },
+    {
+      "draw": 497,
+      "heads": [
+        "pred_regression_f_alpha_bandpower_mean_c_n1",
+        "pred_regression_f_beta_bandpower_std_c_n3",
+        "pred_regression_f_gamma-9-std",
+        "pred_regression_f_theta_bandpower_mean_c_r"
+      ]
+    },
+    {
+      "draw": 498,
+      "heads": [
+        "pred_regression_f_slowdelta_bandpower_until_rem",
+        "pred_regression_f_total_power_first_stable_nrem_rel_so",
+        "pred_regression_f_total_power_first_stable_rem_rel_to_total_alpha",
+        "pred_regression_f_total_power_n3_rel_to_total_alpha"
+      ]
+    },
+    {
+      "draw": 499,
+      "heads": [
+        "pred_regression_f_gamma-3-mean",
+        "pred_regression_f_sigma_bandpower_min_c_r",
+        "pred_regression_f_slow_bandpower_kurtosis_c_r",
+        "pred_regression_f_slowdelta_bandpower_mean_c_r"
+      ]
+    }
+  ]
+}

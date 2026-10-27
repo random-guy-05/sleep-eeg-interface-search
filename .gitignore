@@ -7,3 +7,16 @@ agentic_search/data/source_folds/
 agentic_search/data/participants.parquet
 agentic_search/sealed/
 brainbodyfm/cache/
+
+# STAGES private data, derived predictions, and local runtime artifacts
+/brainbodyfm/stages/data/source/
+/brainbodyfm/stages/data/*queue*.csv
+/brainbodyfm/stages/data/cohort*.csv
+/brainbodyfm/stages/data/*inventory*.json
+/brainbodyfm/stages/cache/
+/brainbodyfm/stages/results/assumed_uv*
+/brainbodyfm/stages/results/provisional_assumed_uv/
+/brainbodyfm/stages/results/*.jsonl
+/brainbodyfm/stages/results/*.log
+/brainbodyfm/stages/results/*.pid
+/brainbodyfm/stages/results/*.lock

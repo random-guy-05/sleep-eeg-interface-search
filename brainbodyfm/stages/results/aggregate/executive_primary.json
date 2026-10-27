@@ -1,0 +1,16 @@
+{
+  "outcome": "pcet_accuracy2",
+  "n": 590,
+  "primary_delta_gap_MAE_500_minus1": 0.00994420300437475,
+  "conditional_patient_bootstrap_95CI": [
+    -0.00019839093671151088,
+    0.019931939534287946
+  ],
+  "bootstrap_replicates": 2000,
+  "by_center": {
+    "Geisinger": 34,
+    "MedSleep": 306,
+    "St_Lukes": 50,
+    "Stanford": 200
+  }
+}

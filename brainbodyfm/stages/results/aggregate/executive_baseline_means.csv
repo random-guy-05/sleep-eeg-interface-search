@@ -1,0 +1,8 @@
+interface,target_mae
+clinical,0.7510986279215401
+clinical_plus_frozen_BHS,0.749502959160625
+clinical_plus_historical_Stable4_descriptive,0.7418012130282101
+clinical_plus_latent_ridge,0.7512208458873387
+clinical_plus_physiology_ridge,0.7577884225329932
+clinical_plus_training_only_PCA8,0.753450142833805
+demographics,0.7491973250416253

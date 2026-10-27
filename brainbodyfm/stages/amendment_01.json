@@ -1,0 +1,17 @@
+{
+  "version": "STAGES-transport-v1-amendment01",
+  "date": "2026-10-25",
+  "timing": "before_any_STAGES_EEG_CN B_association_or_model_performance_evaluation",
+  "reason": "Complete desktop Drive inventory resolves connector truncation. Strict clinical eligibility yields 593 participants; Bogan has zero qualifying inlab PCET sessions. Freeze the four available primary centers before signal QC and model evaluation. Reuse the original paper's budget grid for comparability.",
+  "overrides": {
+    "primary_outer_centers": ["Geisinger", "MedSleep", "St_Lukes", "Stanford"],
+    "search_budgets": [1,10,50,100,500],
+    "full_primary_macro_rule": "all_four_fixed_centers_must_have_at_least20_after_QC_else_macro_is_undefined",
+    "signal_unknown_voltage_units": "quarantine_until_documented_unit_calibration; do_not_infer_scale_from_range_or_model_performance",
+    "signal_qc_thresholds": {"minimum_std_uv":0.1,"maximum_std_uv":1000,"maximum_flat_difference_fraction":0.95,"maximum_absolute_gt500_uv_fraction":0.5},
+    "preprocessing_implementation": "scale_batched_CWT_amplitude_exactly_matching_historical_ssq_cwt_Wx_and_1Hz_interpolation; fixed1000000_sample_chunks_at100Hz_for_long_recordings; numerical_validation_required"
+  },
+  "availability_counts_before_signal_QC": {"Geisinger":34,"MedSleep":306,"St_Lukes":53,"Stanford":200},
+  "full_EDF_inventory_count":1914,
+  "limitations": ["legacy_validation_flag_V_legend_unavailable", "Geisinger_pilot_has_blank_EDF_voltage_units", "prefix_family_center_mapping_requires_final_documentary_confirmation"]
+}

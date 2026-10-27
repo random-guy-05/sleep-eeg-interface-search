@@ -1,0 +1,153 @@
+{
+  "version": "STAGES-transport-v1",
+  "created_date": "2026-10-25",
+  "status": "prospective_analysis_freeze_after_availability_audit_before_EEG_associations",
+  "primary_outcome": "PCET_A.PCET_ACC2",
+  "outcome_direction": "higher_better",
+  "primary_population": {
+    "minimum_age": 18,
+    "cnb_mode": "inlab",
+    "cnb_battery_complete": 1,
+    "task_status": [
+      "C1"
+    ],
+    "task_validation_codes": [
+      "V"
+    ],
+    "task_skipped": false,
+    "max_absolute_psg_cnb_calendar_days": 1,
+    "psg_type": "diagnostic_only",
+    "exclude_ambiguous_multiple_psg_dates": true,
+    "require_psg_inclusion_criteria": true,
+    "select_cnb_session": "earliest_eligible_date_then_session_then_dataset_id",
+    "select_asq": "contributor_best_survey_Use_yes",
+    "age_sex_conflict": "exclude_if_ASQ_SRBD_age_difference_gt2_or_sex_disagrees",
+    "age_fallback": "unique_matched_SRBD_age_if_best_ASQ_age_missing",
+    "sex_fallback": "unique_matched_SRBD_sex_if_best_ASQ_sex_missing"
+  },
+  "center_mapping": {
+    "STNF": "Stanford",
+    "STLK": "St_Lukes",
+    "BOGN": "Bogan",
+    "GSBB": "Geisinger",
+    "GSDV": "Geisinger",
+    "GSLH": "Geisinger",
+    "GSSA": "Geisinger",
+    "GSSW": "Geisinger",
+    "MSMI": "MedSleep",
+    "MSNF": "MedSleep",
+    "MSQW": "MedSleep",
+    "MSTH": "MedSleep",
+    "MSTR": "MedSleep"
+  },
+  "center_mapping_status": "prefix_family_mapping_supported_by_center_names_and_folder_structure_requires_final_documentary_confirmation",
+  "excluded_duplicate_subjects": [],
+  "excluded_center": "Mayo",
+  "outer_cv": "leave_one_center_out",
+  "inner_cv": "leave_one_remaining_center_out",
+  "minimum_target_n_for_summary": 20,
+  "primary_prediction_metric": "mean_absolute_error_in_raw_PCET_accuracy2_units",
+  "primary_methodology_contrast": "change_in_macro_source_target_MAE_gap_budget500_vs_budget1",
+  "secondary_metrics": [
+    "RMSE",
+    "Pearson_r",
+    "Spearman_r",
+    "incremental_MAE_vs_demographics",
+    "incremental_MAE_vs_clinical"
+  ],
+  "demographic_covariates": [
+    "age_spline",
+    "sex",
+    "education"
+  ],
+  "clinical_covariates": [
+    "age_spline",
+    "sex",
+    "education",
+    "bmi",
+    "ahi",
+    "ess",
+    "phq9"
+  ],
+  "age_spline": {
+    "n_knots": 4,
+    "degree": 3,
+    "knots": "training_quantiles"
+  },
+  "preprocessing": "training_only_median_imputation_missing_indicators_scaling_and_one_hot_education",
+  "ridge_alpha_grid": [
+    0.0001,
+    0.0003162278,
+    0.001,
+    0.003162278,
+    0.01,
+    0.03162278,
+    0.1,
+    0.3162278,
+    1.0,
+    3.16227766,
+    10.0,
+    31.6227766,
+    100.0,
+    316.227766,
+    1000.0,
+    3162.27766,
+    10000.0
+  ],
+  "tie_tolerance": 0.0001,
+  "tie_preference": "larger_alpha_then_lower_original_candidate_id",
+  "probe_bank": "reuse_frozen_original_500_four_head_physiology_candidates_with_original_feature_order",
+  "search_budgets": [
+    1,
+    5,
+    20,
+    100,
+    500
+  ],
+  "candidate_permutations": 100,
+  "permutation_seed": 2026102501,
+  "pilot_seed": 2026102502,
+  "bootstrap_seed": 2026102503,
+  "bootstrap_replicates": 2000,
+  "uncertainty": "paired_patient_bootstrap_stratified_by_center_conditional_on_fits_and_selection; candidate_order_sensitivity_separate; no_population_of_centers_CI_from_five_centers",
+  "fixed_baselines": [
+    "demographics",
+    "clinical",
+    "clinical_plus_frozen_BHS",
+    "clinical_plus_physiology_ridge",
+    "clinical_plus_latent_ridge",
+    "clinical_plus_training_only_PCA8",
+    "clinical_plus_historical_Stable4_descriptive"
+  ],
+  "secondary_outcomes": [
+    "CPF_A.CPF_CR",
+    "PVTB.PVTB_MEAN_RRT"
+  ],
+  "sensitivity_analyses": [
+    "cnb_window_14_days",
+    "include_webservice_status_C1_validation0_separate_mode_indicator",
+    "native_C4_M1_only",
+    "age_ge40",
+    "age_sex_without_education_baseline",
+    "score_recomputed_from_PCET_counts"
+  ],
+  "signal_primary": "native_C4_M1_or_explicit_C4_minus_M1",
+  "signal_sensitivity": "C3_M2_contralateral_with_recorded_channel_kind",
+  "forbidden_signal": "bare_C4_without_known_mastoid_reference_or_other_reference_fallback",
+  "signal_qc": {
+    "minimum_hours": 2,
+    "maximum_model_hours": 11,
+    "finite_fraction_min": 1.0,
+    "record_channel_units_sampling_clipping_flatness": true
+  },
+  "model": "existing_frozen_Philosophers_Stone_checkpoint_sha256_recorded_before_extraction",
+  "no_full_run_until": [
+    "checkpoint_loads",
+    "per_center_signal_pilot",
+    "documented_preprocessing",
+    "cohort_and_protocol_hashes_saved"
+  ],
+  "claims": "cross_sectional_prediction_and_transport; no_dementia_diagnosis_no_longitudinal_decline_no_acceptance_probability_claim",
+  "amendments": "append_dated_rationale_before_new_results; retain_all_prior_protocol_versions",
+  "excluded_duplicate_subjects_note": "Populate from the public NSRR STAGES duplicate-EDF notice and document any additional authorized exclusions before use; the original participant identifiers are not distributed in this template."
+}

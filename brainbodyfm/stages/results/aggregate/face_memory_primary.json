@@ -1,0 +1,16 @@
+{
+  "outcome": "face_memory_correct",
+  "n": 588,
+  "primary_delta_gap_MAE_500_minus1": 0.06659988441705887,
+  "conditional_patient_bootstrap_95CI": [
+    0.026336746343355477,
+    0.10749425189769898
+  ],
+  "bootstrap_replicates": 2000,
+  "by_center": {
+    "Geisinger": 34,
+    "MedSleep": 305,
+    "St_Lukes": 50,
+    "Stanford": 199
+  }
+}

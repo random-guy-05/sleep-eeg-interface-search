@@ -8,6 +8,10 @@ The current version includes the October 19 additions: one-shot language-model s
 
 **Version:** [`ieee-access-v1`](https://github.com/random-guy-05/sleep-eeg-interface-search/releases/tag/ieee-access-v1). Matching [main manuscript](https://github.com/random-guy-05/sleep-eeg-interface-search/releases/download/ieee-access-v1/IEEE_Access_Main.pdf), [supplement](https://github.com/random-guy-05/sleep-eeg-interface-search/releases/download/ieee-access-v1/IEEE_Access_Supplement.pdf), and code/results archive are attached to that release.
 
+## STAGES probe-search extension
+
+The separate STAGES center-held-out study and its aggregate results are documented in [`brainbodyfm/stages/`](brainbodyfm/stages/). This extension evaluates concurrent cognitive outcomes and does not reproduce the original future-diagnosis outcome. The restricted inputs and checkpoint are not included; the package explains the boundaries of a full rerun.
+
 ## Results
 
 Every method selects four features and uses the same final L2 logistic regression probe. Features are selected and models fitted at two hospitals, then tested at the third. Scores are equal-hospital means of age-conditioned AUROC.
