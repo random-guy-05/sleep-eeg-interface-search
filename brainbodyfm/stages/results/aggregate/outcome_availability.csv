@@ -1,0 +1,16 @@
+center,outcome,n,missing_value_n,unavailable_or_ineligible_n,analyzed_n
+Overall,executive_function,590,0,0,590
+Overall,face_memory,590,0,2,588
+Overall,vigilance,590,0,0,590
+Geisinger,executive_function,34,0,0,34
+Geisinger,face_memory,34,0,0,34
+Geisinger,vigilance,34,0,0,34
+MedSleep,executive_function,306,0,0,306
+MedSleep,face_memory,306,0,1,305
+MedSleep,vigilance,306,0,0,306
+St_Lukes,executive_function,50,0,0,50
+St_Lukes,face_memory,50,0,0,50
+St_Lukes,vigilance,50,0,0,50
+Stanford,executive_function,200,0,0,200
+Stanford,face_memory,200,0,1,199
+Stanford,vigilance,200,0,0,200

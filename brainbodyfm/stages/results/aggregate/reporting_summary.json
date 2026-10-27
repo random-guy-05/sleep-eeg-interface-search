@@ -1,0 +1,107 @@
+{
+  "stages_n": 590,
+  "stages_cognitive_minus_psg_days": {
+    "-1": 22,
+    "0": 465,
+    "1": 103
+  },
+  "stages_representation": {
+    "semantic": {
+      "n_participants": 590,
+      "n_features": 841,
+      "nonfinite_values": 0,
+      "participants_with_nonfinite": 0
+    },
+    "latent": {
+      "n_participants": 590,
+      "n_features": 1024,
+      "nonfinite_values": 0,
+      "participants_with_nonfinite": 0
+    },
+    "brain_health_score": {
+      "n_participants": 590,
+      "n_features": 1,
+      "nonfinite_values": 0,
+      "participants_with_nonfinite": 0
+    }
+  },
+  "benchmark_n": 338,
+  "benchmark_covariate_missing": {
+    "age": 0,
+    "sex": 0,
+    "outcome": 0
+  },
+  "benchmark_representation": {
+    "latent_1024": {
+      "n_participants": 338,
+      "n_features": 1024,
+      "minimum_finite_fraction": 1.0,
+      "evidence": "saved per-feature representation QC"
+    },
+    "physiology": {
+      "n_participants": 338,
+      "n_features": 539,
+      "minimum_finite_fraction": 1.0,
+      "evidence": "saved per-feature representation QC"
+    },
+    "semantic_841": {
+      "n_participants": 338,
+      "n_features": 841,
+      "minimum_finite_fraction": 1.0,
+      "evidence": "saved per-feature representation QC"
+    },
+    "stable4": {
+      "n_participants": 338,
+      "n_features": 4,
+      "minimum_finite_fraction": 1.0,
+      "evidence": "saved per-feature representation QC"
+    }
+  },
+  "benchmark_followup_days": [
+    {
+      "outcome": 0,
+      "variable": "Time_to_Event",
+      "n": 255,
+      "observed_n": 0,
+      "minimum": null,
+      "median": null,
+      "maximum": null
+    },
+    {
+      "outcome": 0,
+      "variable": "Time_to_Last_Visit",
+      "n": 255,
+      "observed_n": 255,
+      "minimum": 2192.0,
+      "median": 2702.0,
+      "maximum": 5321.0
+    },
+    {
+      "outcome": 1,
+      "variable": "Time_to_Event",
+      "n": 83,
+      "observed_n": 83,
+      "minimum": 390.0,
+      "median": 1207.0,
+      "maximum": 2175.0
+    },
+    {
+      "outcome": 1,
+      "variable": "Time_to_Last_Visit",
+      "n": 83,
+      "observed_n": 83,
+      "minimum": 530.0,
+      "median": 2479.0,
+      "maximum": 5368.0
+    }
+  ],
+  "date_interpretation": "Ranges are supplied deidentified dates. CreationTime is database record creation, not a verified PSG acquisition date. Unshifted recruitment dates cannot be reconstructed.",
+  "sample_size_basis": "STAGES: all available eligible successfully extracted records under fixed criteria; historical benchmark: frozen successfully extracted selected records. No power or precision target was specified in the saved analysis protocols.",
+  "input_sha256": {
+    "brainbodyfm/stages/data/cohort_before_signal_qc.csv": "026ede163df91115193dad3d2ee1c988af1787f5bd9d361c0fa79f99ab12f316",
+    "brainbodyfm/stages/results/provisional_assumed_uv/nested_transport/analysis_subjects.csv": "5188cd69fa3d18d17bfc025ff0d043a00e84a3675ad24d0a42ff0106595ab82d",
+    "brainbodyfm/cache/common_interface_manifest.csv": "f3acbd04603c3c21b850f27382bafefb72aa18c51e16fb7bbf97ec1a7ba033b7",
+    "demographics.csv": "2da2f66b2f0e0690a7899aca9e0e707aa60a2c472b0bf336ed231b44fce46458",
+    "brainbodyfm/cache/representation_qc.json": "cddf6d8faa5fdc37063bbc5d9c7310e5ba5c3206eb35842bcc9a02364bc86a74"
+  }
+}

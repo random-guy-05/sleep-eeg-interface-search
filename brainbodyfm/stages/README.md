@@ -36,3 +36,7 @@ python test_analysis.py
 ```
 
 The tests verify the ridge implementation against scikit-learn and check that held-center labels and covariates cannot affect source-only selection. They use synthetic data; passing them is not evidence of a full reproduction of restricted-data results.
+
+## Completed reporting tables
+
+`reporting_completeness.py` summarizes the final analysis sample’s supplied date fields, clinical-predictor missingness and unknown education categories, outcome-validation eligibility, and finite frozen representations. It reads authorized local inputs and writes aggregate outputs only. The dates describe the deidentified release; `CreationTime` in the historical benchmark denotes database record creation rather than a verified PSG acquisition date. The original unshifted recruitment calendars cannot be reconstructed from these files. The saved analysis protocols specified no power- or precision-based sample-size target. Aggregate outputs are in `results/aggregate/predictor_missingness.csv`, `outcome_availability.csv`, `supplied_date_ranges.csv`, and `reporting_summary.json`.

@@ -1,0 +1,13 @@
+dataset,group,field,n,missing_n,supplied_date_min,supplied_date_max
+STAGES,Overall,psg_date,590,0,2018-03-28,2019-06-28
+STAGES,Overall,cnb_date,590,0,2018-03-28,2019-06-28
+STAGES,Geisinger,psg_date,34,0,2018-09-18,2019-06-21
+STAGES,Geisinger,cnb_date,34,0,2018-09-18,2019-06-21
+STAGES,MedSleep,psg_date,306,0,2018-08-23,2019-06-22
+STAGES,MedSleep,cnb_date,306,0,2018-08-23,2019-06-22
+STAGES,St_Lukes,psg_date,50,0,2018-08-30,2019-06-17
+STAGES,St_Lukes,cnb_date,50,0,2018-08-31,2019-06-17
+STAGES,Stanford,psg_date,200,0,2018-03-28,2019-06-28
+STAGES,Stanford,cnb_date,200,0,2018-03-28,2019-06-28
+Human Sleep Project benchmark,Overall,CreationTime,338,0,2007-12-08,2020-10-19
+Human Sleep Project benchmark,Overall,Last_Known_Visit_Date,338,0,2016-12-30,2025-04-06
