@@ -144,3 +144,25 @@ The downloader was changed to the current official Kaggle SDK's
 request. This repairs file transport only. The old failed initialization state
 is archived; the extraction clock begins with the repaired source-only run.
 Scientific rules and all STAGES code remain unchanged.
+
+## Memory execution repair before the first completed source extraction
+
+The exact entry's wavelet implementation materializes full-resolution CWT and
+synchrosqueezed arrays although it retains only the CWT amplitude after
+one-second interpolation. The first process ended without a completed source
+record; a supervised retry showed large array-copy memory pressure and was
+stopped before any source record was saved. No source constants were computed.
+
+Use the existing bounded CWT implementation previously used for STAGES, now
+frozen as `reconstruction_wavelet.py`. It retains the submitted one-million-sample
+time chunks, end padding, wavelet, complete scale set, frequencies, one-second
+samples, float32 conversion where applicable, interpolation and 11-hour padding.
+It computes frequencies in groups of 16 and omits the unused synchrosqueezed
+array. The exact submitted EDF loader, filter, latent inference and head
+projection remain unchanged. Require numerical parity against the exact
+submitted function on seeded synthetic single-chunk and multiple-chunk inputs
+before launching reconstruction. Report the maximum errors, code hash and
+tolerances; do not claim a full-length million-sample reference comparison was
+run. This is a memory execution repair, not a change in score definition.
+Limit Torch and numerical worker threads to two and disable SSQ's optional
+parallel path. Record these runtime settings with the reconstructed constants.

@@ -26,7 +26,8 @@ CHECKPOINT_SHA = 'b2a9b8dab3ae8543241d613a80cd6a85a6dfca15573f897a1096861b3915af
 DATASET = 'physionet/physionetchallenge2026datalargeversion'
 FILES = ['RECONSTRUCTION_AMENDMENT_06.md', 'reconstruct_challenge_normalization.py',
          'run_reconstructed_rank.py', 'test_reconstruction.py', 'audit_challenge_date_gate.py',
-         'data/reconstruction_source_manifest.json']
+         'data/reconstruction_source_manifest.json', 'reconstruction_wavelet.py',
+         'verify_reconstruction_wavelet.py']
 
 
 def digest(path):
@@ -108,6 +109,9 @@ def main():
                         help='Run unchanged STAGES endpoints only after source reconstruction finishes')
     args = parser.parse_args()
     receipt = frozen_receipt()
+    os.environ['SSQ_PARALLEL'] = '0'
+    os.environ['NUMBA_NUM_THREADS'] = '2'
+    os.environ['OMP_NUM_THREADS'] = '2'
     source_manifest = json.loads((Path(__file__).parent / 'data/reconstruction_source_manifest.json').read_text())
     for kind, folder in [('entry', args.entry_source), ('upstream', args.upstream_source)]:
         for relative, expected in source_manifest[kind]['files'].items():
@@ -123,6 +127,22 @@ def main():
     from phi_challenge.downstream import _fit_stable4_artifact, STABLE4_COLUMNS
     from phi_challenge.embed import load_phi_runtime, embed_edf_feature_taps, embed_edf_path
     from phi_challenge.heads import load_head_bank, project_batch
+    from reconstruction_wavelet import compute_specs
+    import phi_challenge.embed as submitted_embed
+    # Preserve the submitted fixed time chunks, CWT scales/frequencies, casting,
+    # interpolation and padding; avoid materializing the unused full-resolution
+    # synchrosqueezed transform. This execution repair is frozen in amendment 06.
+    parity = args.work / 'wavelet_parity.json'
+    if not parity.exists():
+        raise ValueError('Run the submitted-function wavelet parity checks first')
+    checked = json.loads(parity.read_text())
+    if checked.get('status') != 'passed' or checked['compact_sha256'] != digest(Path(__file__).with_name('reconstruction_wavelet.py')):
+        raise ValueError('Memory-bounded wavelet implementation is not verified')
+    def bounded_specs(signals, fs_eeg, cfg, *, chunk_len=1_000_000):
+        if fs_eeg != 200:
+            raise ValueError('Submitted 200-Hz input required')
+        return compute_specs(signals[cfg.channel].to_numpy(), cfg, chunk_len=chunk_len, scale_batch=16)
+    submitted_embed.compute_wavelet_specs_oom_safe = bounded_specs
     if digest(args.checkpoint) != CHECKPOINT_SHA:
         raise ValueError('Checkpoint SHA256 differs from frozen reconstruction input')
     root = args.work / 'data'
@@ -253,6 +273,8 @@ def main():
                   source_failures=len(state['failures']), source_roster_sha256=digest(roster),
                   normalizer=normalizer, all_head_names=names, all_head_mean=features.mean(axis=0).tolist(),
                   all_head_scale=scale.tolist(), packages={k:importlib.metadata.version(k) for k in ['numpy','pandas','torch','scipy']})
+    result['memory_bounded_wavelet_verification'] = checked
+    result['runtime_threads'] = dict(torch=2, SSQ_PARALLEL='0', NUMBA_NUM_THREADS='2', OMP_NUM_THREADS='2')
     atomic(args.work / 'reconstructed_normalization.json', result)
     state['status'] = 'complete'
     state['normalizer_sha256'] = digest(args.work / 'reconstructed_normalization.json')
