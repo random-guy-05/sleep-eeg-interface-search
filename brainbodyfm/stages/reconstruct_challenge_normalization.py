@@ -59,12 +59,18 @@ def frozen_receipt():
 
 
 def download_file(relative, destination):
-    from urllib.parse import quote
     destination.parent.mkdir(parents=True, exist_ok=True)
     temporary = destination.with_suffix('.download')
-    url = 'https://www.kaggle.com/api/v1/datasets/download/' + DATASET + '/' + quote(relative, safe='/') + '?datasetVersionNumber=2'
+    # Current official Kaggle SDK uses the typed RPC endpoint. Its legacy
+    # path endpoint returns 404 for these nested EDF paths, even though the
+    # dataset and root-level demographics.csv are accessible.
+    request = dict(ownerSlug=DATASET.split('/')[0], datasetSlug=DATASET.split('/')[1],
+                   datasetVersionNumber=2, fileName=relative, raw=True)
+    url = 'https://api.kaggle.com/v1/datasets.DatasetApiService/DownloadDataset'
     subprocess.run(['curl', '-fsSL', '--retry', '3', '--connect-timeout', '20',
-                    '--max-time', '600', '--max-filesize', '2147483648', url, '-o', str(temporary)], check=True)
+                    '--max-time', '600', '--max-filesize', '2147483648',
+                    '--header', 'Content-Type: application/json', '--data-binary', json.dumps(request),
+                    url, '-o', str(temporary)], check=True)
     with temporary.open('rb') as f:
         magic = f.read(4)
     if magic.startswith(b'PK'):

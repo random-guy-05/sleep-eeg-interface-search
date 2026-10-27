@@ -1,7 +1,11 @@
 """Synthetic guards for the reconstruction amendment; no source/STAGES records."""
 import unittest
+from unittest.mock import patch
+import tempfile
+from pathlib import Path
 import numpy as np
 from reconstruct_challenge_normalization import ENTRY, META_SHA
+from reconstruct_challenge_normalization import download_file
 from run_reconstructed_rank import validate_reconstruction
 from age_conditioned_transfer import STABLE4, fixed_score
 
@@ -33,6 +37,19 @@ class ReconstructionGuards(unittest.TestCase):
         first=fixed_score(heads,n);n['feat_mean']=[2.,8.,-3.,1.,0.]
         second=fixed_score(heads,n)
         np.testing.assert_array_equal(np.argsort(first),np.argsort(second))
+
+    def test_download_request_pins_large_version_two_and_preserves_nested_path(self):
+        def fake_run(command, check):
+            import json
+            request=json.loads(command[command.index('--data-binary')+1])
+            self.assertEqual(request['datasetVersionNumber'],2)
+            self.assertEqual(request['fileName'],'physiological_data/site/synthetic.edf')
+            self.assertEqual(request['datasetSlug'],'physionetchallenge2026datalargeversion')
+            Path(command[command.index('-o')+1]).write_bytes(b'0       synthetic EDF')
+        with tempfile.TemporaryDirectory() as folder, patch('reconstruct_challenge_normalization.subprocess.run',side_effect=fake_run):
+            out=Path(folder)/'synthetic.edf'
+            download_file('physiological_data/site/synthetic.edf',out)
+            self.assertTrue(out.read_bytes().startswith(b'0       '))
 
 
 if __name__=='__main__':unittest.main()

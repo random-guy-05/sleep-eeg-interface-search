@@ -134,3 +134,13 @@ interval for a difference between the settings, which use different outcomes.
 
 No OSF registration was completed. Git records the original freeze, the later
 available results, and this post-sensitivity reconstruction amendment separately.
+
+## Transport repair before the first source extraction
+
+The first launch stopped at the legacy Kaggle download URL with HTTP 404;
+zero source records were extracted and no source constants were calculated.
+The downloader was changed to the current official Kaggle SDK's
+`datasets.DatasetApiService/DownloadDataset` RPC with an explicit version-2
+request. This repairs file transport only. The old failed initialization state
+is archived; the extraction clock begins with the repaired source-only run.
+Scientific rules and all STAGES code remain unchanged.
