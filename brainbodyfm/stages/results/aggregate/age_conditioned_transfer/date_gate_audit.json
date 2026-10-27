@@ -1,0 +1,43 @@
+{
+  "commit": "76a36e54251cfce85889a3b2390018ffc23329ee",
+  "source_sha256": "9ee90d6c01639368ae38537b7ae56beb16f71e1101abcd9572eb987ee03afc6e",
+  "date_metadata_field": "CreationTime",
+  "minimum_valid_fraction": 0.9,
+  "minimum_unique_dates": 8,
+  "minimum_target_records": 200,
+  "checks": [
+    {
+      "check": "missing_dates",
+      "enabled": false,
+      "expected": false,
+      "reason": "recording-date coverage 0.000 is below 0.900"
+    },
+    {
+      "check": "below_90pct",
+      "enabled": false,
+      "expected": false,
+      "reason": "recording-date coverage 0.895 is below 0.900"
+    },
+    {
+      "check": "at_90pct",
+      "enabled": true,
+      "expected": true,
+      "reason": null
+    },
+    {
+      "check": "only_seven_distinct",
+      "enabled": false,
+      "expected": false,
+      "reason": "recording date has only 7 distinct values"
+    },
+    {
+      "check": "eight_distinct",
+      "enabled": true,
+      "expected": true,
+      "reason": null
+    }
+  ],
+  "fallback": "ordinary per-record probabilities retained when adaptation is disabled",
+  "organizer_note": "https://groups.google.com/g/physionet-challenges/c/WyxLESJjrnY",
+  "organizer_note_summary": "Organizers state that the posted evaluation excludes date information."
+}

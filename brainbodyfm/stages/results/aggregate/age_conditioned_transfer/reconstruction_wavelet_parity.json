@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "entry_commit": "76a36e54251cfce85889a3b2390018ffc23329ee",
+  "compact_sha256": "19b1404ba0ac6b9d92e4c4fa80c642a69e47c43c838708821d831b4cef031f5c",
+  "checks": [
+    {
+      "name": "single_chunk",
+      "maximum_absolute_error": 0.0,
+      "shape": [
+        3600,
+        100
+      ],
+      "time_chunk_length": 1000000
+    },
+    {
+      "name": "fixed_multiple_chunks",
+      "maximum_absolute_error": 0.0,
+      "shape": [
+        3600,
+        100
+      ],
+      "time_chunk_length": 10000
+    }
+  ],
+  "rtol": 2e-05,
+  "atol": 2e-06,
+  "production_time_chunk_length": 1000000,
+  "frequency_scale_batch": 16,
+  "production_full_length_reference_not_run": true
+}
