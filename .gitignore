@@ -20,3 +20,5 @@ brainbodyfm/cache/
 /brainbodyfm/stages/results/*.log
 /brainbodyfm/stages/results/*.pid
 /brainbodyfm/stages/results/*.lock
+
+/brainbodyfm/stages/results/paired_cognitive_comparisons/

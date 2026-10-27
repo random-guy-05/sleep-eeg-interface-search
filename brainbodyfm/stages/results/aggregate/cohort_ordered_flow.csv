@@ -1,0 +1,12 @@
+stage,excluded,remaining
+Questionnaire or cognitive-testing subject IDs considered,0,1931
+Unavailable or unmapped center,141,1790
+Known duplicate recording,6,1784
+No contributor-selected questionnaire,142,1642
+"Age or sex missing, ineligible, or discordant",43,1599
+No completed eligible in-lab executive task,376,1223
+Recording unavailable or ambiguous,104,1119
+Diagnostic PSG or date unavailable,357,762
+Cognitive testing outside the allowed date window,169,593
+No usable C4–M1 route,1,592
+Recording shorter than two hours,2,590

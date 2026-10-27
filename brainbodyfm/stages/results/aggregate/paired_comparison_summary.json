@@ -1,0 +1,154 @@
+{
+  "description": "Exploratory paired model-minus-comparator held-center MAE; negative favors the model. Equal weighting of four observed center families. Within-center patient bootstrap conditions on all fitted models, preprocessing, hyperparameters and feature selection; it does not resample centers or refit models. No multiplicity adjustment.",
+  "rows": [
+    {
+      "outcome": "executive_function",
+      "contrast": "brain_health_vs_clinical",
+      "n": 590,
+      "delta_mae": -0.0015956687609151804,
+      "ci_lower": -0.007624618891850992,
+      "ci_upper": 0.004248717396639808,
+      "bootstrap_replicates": 20000,
+      "seed": 2026102607,
+      "by_center_delta_mae": {
+        "Geisinger": -0.010979998351958979,
+        "MedSleep": 0.011459424648907906,
+        "St_Lukes": -0.002627631327793525,
+        "Stanford": -0.004234470012816124
+      }
+    },
+    {
+      "outcome": "executive_function",
+      "contrast": "selected_eeg_vs_clinical",
+      "n": 590,
+      "delta_mae": -0.001666639520549542,
+      "ci_lower": -0.013290717619766704,
+      "ci_upper": 0.010126117880849394,
+      "bootstrap_replicates": 20000,
+      "seed": 2026102607,
+      "by_center_delta_mae": {
+        "Geisinger": -0.001770283767686496,
+        "MedSleep": -0.0028063256589747256,
+        "St_Lukes": -0.004906654860445192,
+        "Stanford": 0.0028167062049082457
+      }
+    },
+    {
+      "outcome": "executive_function",
+      "contrast": "selected_eeg_vs_demographics",
+      "n": 590,
+      "delta_mae": 0.00023466335936529964,
+      "ci_lower": -0.015611163058995788,
+      "ci_upper": 0.016446447931261265,
+      "bootstrap_replicates": 20000,
+      "seed": 2026102607,
+      "by_center_delta_mae": {
+        "Geisinger": 0.004016023203870824,
+        "MedSleep": 0.004912688165248108,
+        "St_Lukes": -0.016900976971812604,
+        "Stanford": 0.00891091904015487
+      }
+    },
+    {
+      "outcome": "face_memory",
+      "contrast": "brain_health_vs_clinical",
+      "n": 588,
+      "delta_mae": -0.0065355159779810134,
+      "ci_lower": -0.024484128010575312,
+      "ci_upper": 0.010828158817588529,
+      "bootstrap_replicates": 20000,
+      "seed": 2026102608,
+      "by_center_delta_mae": {
+        "Geisinger": -0.004694623998938392,
+        "MedSleep": 0.008542637348635989,
+        "St_Lukes": -0.020917897225967295,
+        "Stanford": -0.009072180035654357
+      }
+    },
+    {
+      "outcome": "face_memory",
+      "contrast": "selected_eeg_vs_clinical",
+      "n": 588,
+      "delta_mae": 0.015339765616459833,
+      "ci_lower": -0.03345408980583597,
+      "ci_upper": 0.06576341612467616,
+      "bootstrap_replicates": 20000,
+      "seed": 2026102608,
+      "by_center_delta_mae": {
+        "Geisinger": -0.06985595033751203,
+        "MedSleep": 0.03163104439302969,
+        "St_Lukes": 0.028895042297278194,
+        "Stanford": 0.07068892611304348
+      }
+    },
+    {
+      "outcome": "face_memory",
+      "contrast": "selected_eeg_vs_demographics",
+      "n": 588,
+      "delta_mae": -0.020948431848663542,
+      "ci_lower": -0.09394808316684446,
+      "ci_upper": 0.05314074586164363,
+      "bootstrap_replicates": 20000,
+      "seed": 2026102608,
+      "by_center_delta_mae": {
+        "Geisinger": -0.14002985330230022,
+        "MedSleep": 0.02357112067762702,
+        "St_Lukes": -0.021750424149470503,
+        "Stanford": 0.054415429379489524
+      }
+    },
+    {
+      "outcome": "vigilance",
+      "contrast": "brain_health_vs_clinical",
+      "n": 590,
+      "delta_mae": -0.0004701149726009169,
+      "ci_lower": -0.0016155958709457054,
+      "ci_upper": 0.0006836090262583414,
+      "bootstrap_replicates": 20000,
+      "seed": 2026102609,
+      "by_center_delta_mae": {
+        "Geisinger": -0.0001584951812812322,
+        "MedSleep": -0.0007347905504326787,
+        "St_Lukes": -0.00026584839450420893,
+        "Stanford": -0.0007213257641855475
+      }
+    },
+    {
+      "outcome": "vigilance",
+      "contrast": "selected_eeg_vs_clinical",
+      "n": 590,
+      "delta_mae": 0.0036407727286226522,
+      "ci_lower": -0.0025251680717508313,
+      "ci_upper": 0.009887252189226958,
+      "bootstrap_replicates": 20000,
+      "seed": 2026102609,
+      "by_center_delta_mae": {
+        "Geisinger": 0.007713932595682368,
+        "MedSleep": 0.012410631455462173,
+        "St_Lukes": -0.0019190726898721522,
+        "Stanford": -0.0036424004467817796
+      }
+    },
+    {
+      "outcome": "vigilance",
+      "contrast": "selected_eeg_vs_demographics",
+      "n": 590,
+      "delta_mae": 0.004132023313418249,
+      "ci_lower": -0.0018327599099986155,
+      "ci_upper": 0.010188751580573792,
+      "bootstrap_replicates": 20000,
+      "seed": 2026102609,
+      "by_center_delta_mae": {
+        "Geisinger": -0.004272406962002112,
+        "MedSleep": 0.01554845015909762,
+        "St_Lukes": 0.0038530244612699515,
+        "Stanford": 0.0013990255953075347
+      }
+    }
+  ],
+  "input_aggregate_result_sha256": {
+    "nested_transport": "c45914ef5f075c45a654b404f7e3540817d7de725107184fa2e704cfcb777113",
+    "secondary_face_memory_correct": "3e4735232195cdd4bedb18077fbe85edc0e5f835358f60aeceaaae24e122321f",
+    "secondary_pvt_mean_reciprocal_rt": "14c0af13fe40cae7cead4cb1a6fc0a39efb3bc356334b37a06970c07d421d9ab"
+  }
+}

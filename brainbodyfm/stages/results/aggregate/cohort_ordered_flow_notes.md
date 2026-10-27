@@ -1,0 +1,3 @@
+# Ordered STAGES eligibility accounting
+
+The initial 1,931 are the union of unique subject identifiers present in the contributor-selected questionnaire list or any cognitive-battery record, not the total number enrolled in STAGES. Eligibility flags were generated together and are nonexclusive. For this presentation each subject is assigned to the first applicable exclusion in the order shown. The intermediate exclusions depend on that order; they must not be treated as independent totals. The final 593 eligible and 590 completed records match the saved analysis. The recording-level exclusions were checked against the saved header audit. Earlier source-level counts and exclusion flags are subject to the availability of the exported source tables and PSG inventory.

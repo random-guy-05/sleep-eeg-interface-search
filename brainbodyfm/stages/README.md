@@ -21,6 +21,12 @@ Data are available to approved researchers from the [National Sleep Research Res
 
 The user confirmed the microvolt interpretation of blank EEG voltage dimensions on October 26, 2026; the executed code and file names retain `assumed_uv` as an audit trail. The STAGES checkpoint used in the completed run had SHA256 `b2a9b8dab3ae8543241d613a80cd6a85a6dfca15573f897a1096861b3915af87`; this does not identify the historical benchmark checkpoint. Source/held-center gap estimates also reflect different training sets and center composition. Bootstrap intervals condition on the fitted models and selection; they do not quantify uncertainty from refitting or sampling new centers.
 
+## Post hoc clinical comparisons and cohort accounting
+
+`paired_cognitive_comparisons.py` calculates paired differences in held-center mean absolute error using 20,000 patient resamples stratified within the four observed center families. It holds preprocessing, fitted models, tuning, and feature selections fixed; intervals do not account for refitting or sampling new centers. The comparisons were added after the original outcome analyses, are exploratory, and are not adjusted for multiplicity. Negative differences favor the sleep-derived model. Aggregate outputs are in `results/aggregate/paired_comparison_summary.*`.
+
+`cohort_flow_aggregate.py` assigns nonexclusive exclusion flags to the first matching condition in a documented order. The starting 1,931 identifiers are the union of records in the contributor-selected questionnaire or cognitive-battery sources, not the total STAGES enrollment. Changing the ordering changes intermediate counts; the final 593 eligible and 590 analyzed counts are invariant to the ordering. `clinical_descriptives_aggregate.py` computes center-level and overall baseline summaries. These scripts read restricted participant-level data locally, which are not included here. Only aggregate tables are shared.
+
 ## Tests
 
 With the recorded environment available, run from this folder:
