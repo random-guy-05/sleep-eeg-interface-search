@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-27",
+  "checked_assets": [
+    {
+      "asset": "brain_health_outputs_paper.csv",
+      "rows": 36520,
+      "hidden_site": "I0004",
+      "matching_rows": 0,
+      "sha256": "2d46d4a487d12624ab43d468a3ad0f7ba9968163dd65c695fa3fc6c108b51d4f"
+    },
+    {
+      "asset": "brain_health_outputs_paper.csv",
+      "rows": 36520,
+      "hidden_site": "I0007",
+      "matching_rows": 0,
+      "sha256": "2d46d4a487d12624ab43d468a3ad0f7ba9968163dd65c695fa3fc6c108b51d4f"
+    },
+    {
+      "asset": "df_master_sample.csv",
+      "rows": 100,
+      "hidden_site": "I0004",
+      "matching_rows": 0,
+      "sha256": "8528326a1ee74fdaa689f69a970368706a82b269ac2019577e9798ae315fe287"
+    },
+    {
+      "asset": "df_master_sample.csv",
+      "rows": 100,
+      "hidden_site": "I0007",
+      "matching_rows": 0,
+      "sha256": "8528326a1ee74fdaa689f69a970368706a82b269ac2019577e9798ae315fe287"
+    },
+    {
+      "asset": "s0001_released_checkpoint_training_recordings.csv",
+      "rows": 14548,
+      "hidden_site": "I0004",
+      "matching_rows": 0,
+      "sha256": "3522a510a2b88ff24b85b05b802dd0dd42ec366109e232db312179e42373d4b7"
+    },
+    {
+      "asset": "s0001_released_checkpoint_training_recordings.csv",
+      "rows": 14548,
+      "hidden_site": "I0007",
+      "matching_rows": 0,
+      "sha256": "3522a510a2b88ff24b85b05b802dd0dd42ec366109e232db312179e42373d4b7"
+    },
+    {
+      "asset": "s0001_conservative_development_subject_exclusions.csv",
+      "rows": 17595,
+      "hidden_site": "I0004",
+      "matching_rows": 0,
+      "sha256": "29cd446b5ccd58fd9199d889dcce32674c40679148a42ca0c5570ccd657fbbbb"
+    },
+    {
+      "asset": "s0001_conservative_development_subject_exclusions.csv",
+      "rows": 17595,
+      "hidden_site": "I0007",
+      "matching_rows": 0,
+      "sha256": "29cd446b5ccd58fd9199d889dcce32674c40679148a42ca0c5570ccd657fbbbb"
+    }
+  ],
+  "official_entry": {
+    "Team Name": "Arnav & Ivan",
+    "Title": "Stable4: Four Pretrained Sleep-EEG Outputs for Future Cognitive Impairment",
+    "Author(s)": "Arnav Mana, Ivan Habib",
+    "CinC Submission ID": 581.0,
+    "Final submission ID": 2593.0,
+    "Ranking (if eligible) on the test set": 26.0,
+    "AUROC on the validation set": 0.738,
+    "AUROC on the test set": 0.749,
+    "Age-conditioned AUROC on the validation set": 0.723,
+    "Age-conditioned AUROC on the test set": 0.622
+  },
+  "official_results_source": "https://moody-challenge.physionet.org/2026/results/challenge_2026_results.tsv",
+  "results_sha256": "6707f13d017617c5d19a190c38767023c9427dce0623587b011876c009792da1",
+  "source_level_finding": "No I0004/I0007-coded rows were found in the inspected released model-output, sample-master, or reconstructed S0001 membership assets.",
+  "person_level_finding": "Not verifiable: complete hidden evaluation participant rosters and cross-cohort identity linkage were unavailable. The head-fitting membership of the complete released scoring pipeline was not recovered.",
+  "attribution": "The organizer table confirms the selected entry scores and ID. The CinC manuscript attributes the entry to Stable4; exact organizer-side artifact and branch execution were not independently audited.",
+  "benchmark_curve_disposition": "Omitted from the new manuscript figures and supplement because the original S0001 benchmark has known overlap with reconstructed model-development lists."
+}

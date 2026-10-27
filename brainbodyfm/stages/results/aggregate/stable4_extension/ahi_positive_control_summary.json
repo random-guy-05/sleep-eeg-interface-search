@@ -1,0 +1,17 @@
+{
+  "n": 572,
+  "pearson_r": 0.3129859519891022,
+  "ci_low": 0.25033061407076795,
+  "ci_high": 0.3774201485582088,
+  "bootstrap": 2000,
+  "equal_demographic_mae": 9.861507941629881,
+  "equal_augmented_mae": 10.43647322277692,
+  "equal_mae_difference": 0.5749652811470392,
+  "by_center_pearson": {
+    "Geisinger": 0.4721923645631324,
+    "MedSleep": 0.47239204859557543,
+    "St_Lukes": 0.3765562163193712,
+    "Stanford": 0.2159746429908269
+  },
+  "interpretation": "Respiratory signal association recovered; this did not improve equal-center held-center MAE over demographics."
+}

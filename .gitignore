@@ -22,3 +22,6 @@ brainbodyfm/cache/
 /brainbodyfm/stages/results/*.lock
 
 /brainbodyfm/stages/results/paired_cognitive_comparisons/
+
+# Local fixed-interface extension caches and participant predictions
+/brainbodyfm/stages/results/stable4_extension/

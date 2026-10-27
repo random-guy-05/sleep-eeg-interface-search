@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-27",
+  "timing": "after the original STAGES outcome analyses",
+  "status": "post hoc extension, not preregistration",
+  "primary_endpoint": "unchanged change in held-minus-source executive-function MAE gap, budget 1 to 500",
+  "fixed_score": "four named outputs with CinC signed weights 0.360, 0.270, -0.235, -0.135; source-derived normalization and a source-fitted task link",
+  "separate_comparator": "four historical outputs with all four coefficients freely refitted",
+  "added_analyses": [
+    "source-mean intercept comparison",
+    "2000 center-stratified patient bootstrap samples repeating preprocessing, normalization, inner penalty tuning and fitting",
+    "equal-center and patient-weighted MAE contrasts",
+    "held-center candidate ranks",
+    "standardized BHS association with PCET, demographics and center plus clinical sensitivity",
+    "prespecified-head respiratory signal check; no head substitution after results",
+    "bounded I0004/I0007 provenance audit"
+  ],
+  "bootstrap_selection_condition": "original searched quartet fixed per outer fold; no repeated full-bank feature selection; all contrasts involving searched arm conditional on original selection",
+  "provenance": "organizer results verify entry scores; individual hidden membership and organizer-side execution not independently verified",
+  "benchmark_disposition": "known-overlap HSP benchmark search curve omitted from new manuscript",
+  "authorship_approval": "analysis amendment records procedures, not an author approval signature"
+}

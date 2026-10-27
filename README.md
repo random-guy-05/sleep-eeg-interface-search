@@ -10,7 +10,7 @@ The current version includes the October 19 additions: one-shot language-model s
 
 ## STAGES probe-search extension
 
-The separate STAGES center-held-out study and its aggregate results are documented in [`brainbodyfm/stages/`](brainbodyfm/stages/). This extension evaluates concurrent cognitive outcomes and does not reproduce the original future-diagnosis outcome. The restricted inputs and checkpoint are not included; the package explains the boundaries of a full rerun.
+The separate STAGES fixed-interface versus within-cohort search study and its aggregate results are documented in [`brainbodyfm/stages/`](brainbodyfm/stages/). This extension evaluates concurrent cognitive outcomes and does not reproduce the original future-diagnosis outcome. The restricted inputs and checkpoint are not included; the package explains the boundaries of a full rerun.
 
 ## Results
 

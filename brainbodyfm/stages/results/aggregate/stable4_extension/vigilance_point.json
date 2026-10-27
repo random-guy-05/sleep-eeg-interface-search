@@ -1,0 +1,134 @@
+{
+  "n": 590,
+  "models": [
+    "intercept",
+    "demographics",
+    "clinical",
+    "brain_health",
+    "stable4_score",
+    "stable4_four_refitted",
+    "selected_four"
+  ],
+  "equal_mae": [
+    0.2684061503815544,
+    0.2680552847694879,
+    0.2685465353542835,
+    0.2680764203816826,
+    0.2741354903726435,
+    0.2727908214594814,
+    0.2721873056543868
+  ],
+  "patient_mae": [
+    0.25213083072117703,
+    0.24643199476227248,
+    0.24956678636282523,
+    0.24890951124899766,
+    0.2515050728851846,
+    0.25019722119695387,
+    0.25505066945647703
+  ],
+  "center_mae": {
+    "intercept": {
+      "Geisinger": 0.38798659405311053,
+      "MedSleep": 0.24201320219874808,
+      "St_Lukes": 0.1814357,
+      "Stanford": 0.26218910527435896
+    },
+    "demographics": {
+      "Geisinger": 0.41006454420583394,
+      "MedSleep": 0.23703352937998923,
+      "St_Lukes": 0.17402793787973347,
+      "Stanford": 0.2510951276123951
+    },
+    "clinical": {
+      "Geisinger": 0.3980782046481495,
+      "MedSleep": 0.24017134808362464,
+      "St_Lukes": 0.17980003503087555,
+      "Stanford": 0.25613655365448446
+    },
+    "brain_health": {
+      "Geisinger": 0.39791970946686833,
+      "MedSleep": 0.23943655753319196,
+      "St_Lukes": 0.17953418663637138,
+      "Stanford": 0.25541522789029886
+    },
+    "stable4_score": {
+      "Geisinger": 0.41887668570796016,
+      "MedSleep": 0.24002467185858428,
+      "St_Lukes": 0.1788632312356296,
+      "Stanford": 0.25877737268840006
+    },
+    "stable4_four_refitted": {
+      "Geisinger": 0.4170175699592936,
+      "MedSleep": 0.24021529313786577,
+      "St_Lukes": 0.1790280074716892,
+      "Stanford": 0.254902415269077
+    },
+    "selected_four": {
+      "Geisinger": 0.4057921354567767,
+      "MedSleep": 0.25258197244587827,
+      "St_Lukes": 0.1778809609175076,
+      "Stanford": 0.2524941537973846
+    }
+  },
+  "penalties": {
+    "Geisinger": {
+      "demographics": 100.0,
+      "clinical": 1000.0,
+      "brain_health": 1000.0,
+      "stable4_score": 316.227766,
+      "stable4_four_refitted": 316.227766,
+      "selected_four": 316.227766
+    },
+    "MedSleep": {
+      "demographics": 1000.0,
+      "clinical": 316.227766,
+      "brain_health": 1000.0,
+      "stable4_score": 3162.27766,
+      "stable4_four_refitted": 3162.27766,
+      "selected_four": 100.0
+    },
+    "St_Lukes": {
+      "demographics": 1000.0,
+      "clinical": 10000.0,
+      "brain_health": 10000.0,
+      "stable4_score": 10000.0,
+      "stable4_four_refitted": 10000.0,
+      "selected_four": 1000.0
+    },
+    "Stanford": {
+      "demographics": 316.227766,
+      "clinical": 1000.0,
+      "brain_health": 1000.0,
+      "stable4_score": 3162.27766,
+      "stable4_four_refitted": 1000.0,
+      "selected_four": 1000.0
+    }
+  },
+  "selection": {
+    "Geisinger": [
+      "pred_regression_f_delta_bandpower_kurtosis_c_r",
+      "pred_regression_f_sigma_bandpower_kurtosis_c_n3",
+      "pred_regression_f_total_power_n3_rel_to_total_gamma",
+      "pred_regression_f_total_power_rem_rel_to_total_so"
+    ],
+    "MedSleep": [
+      "pred_regression_f_gamma_bandpower_mean_c_n1",
+      "pred_regression_f_sigma_bandpower_min_c_n1",
+      "pred_regression_f_slow_bandpower_kurtosis_c_r",
+      "pred_regression_f_theta-6-mean"
+    ],
+    "St_Lukes": [
+      "pred_regression_f_alpha-5-std",
+      "pred_regression_f_kurtosis_c4-m1_r",
+      "pred_regression_f_theta_bandpower_max_c_n1",
+      "pred_regression_f_theta_bandpower_mean_c_n1"
+    ],
+    "Stanford": [
+      "pred_regression_f_alpha-5-std",
+      "pred_regression_f_kurtosis_c4-m1_r",
+      "pred_regression_f_theta_bandpower_max_c_n1",
+      "pred_regression_f_theta_bandpower_mean_c_n1"
+    ]
+  }
+}
