@@ -94,3 +94,26 @@ files and bootstrap caches belong in ignored `results/age_conditioned_transfer/`
 Only reviewed aggregate summaries can be released. All available-only outputs
 must identify the unavailable primary, and within-center normalization remains
 an explicitly labeled sensitivity analysis.
+
+## Reconstruction amendment after the sensitivity results
+
+`RECONSTRUCTION_AMENDMENT_06.md` records the subsequent author-authorized
+reconstruction from the public **large release, version 2**, with 6,600 records.
+The exact submitted date gate is audited in `audit_challenge_date_gate.py` and
+documented in `SUPPLEMENT_DATE_GATE_AND_RECONSTRUCTION.md`, including the
+organizers' date-free evaluation statement. Missing `CreationTime` disables the
+date branch; identifying the remaining source-selected streams is a separate
+question because the original organizer-trained artifact remains unavailable.
+
+`reconstruct_challenge_normalization.py` uses immutable snapshots of the exact
+submission and pinned upstream source, checks the frozen dataset metadata and
+checkpoint hashes, streams one raw record at a time, and preserves the original
+68-hour extraction budget and queue rule. It is resumable and records the
+completed source roster privately. These are reconstructed source moments, not
+an exact recovery of the original runtime-dependent artifact. After extraction
+finishes, `run_reconstructed_rank.py` applies the unchanged STAGES endpoint,
+bootstrap, permutation and eight exploratory analysis families, including the
+previously frozen 500 random scores. Restricted raw files and individual
+latents/rosters are never committed. The amendment explicitly discloses that the
+planned realized-count power rerun was skipped before the available rank
+results; supplied planning percentages are not represented as verified power.
