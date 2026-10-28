@@ -1,0 +1,23 @@
+{
+  "discovery_code_commit": "1833ff19818d8413dcc15c6b77ac56b3efe4e6fb",
+  "selection_before_confirmation_commit": "57d06310eabaa6c10b2dc58e109a7ddb934203c6",
+  "discovery_n": 284,
+  "confirmation_n": 306,
+  "fixed_tests": 32,
+  "physiology_tests": 8624,
+  "confirmed_candidates": 0,
+  "complete_bootstrap": 2000,
+  "all_candidates_retained": true,
+  "participant_data_in_package": false,
+  "summary_sha256": "3991ef875689a134990c3fae8b6225df307492cd96ce6528c405572148978271",
+  "independent_lead_confirmation_r": 0.06661149965124195,
+  "independent_confirmation_agrees": true,
+  "figure_visually_reviewed": true,
+  "unit_tests_passed": 5,
+  "source_code_sha256": {
+    "unexpected_cognition_discovery.py": "57c7ddf0765b5d3da03da1dac7f6fc4d4bc0e37e08fb346652ca66e243990337",
+    "unexpected_cognition_inference.py": "5f576289bebb7cd1662e129589f9be8f75ac8c07d30ceb43292774a801db6a02",
+    "report_unexpected_cognition.py": "c2d70a95f5cb566d2b8d4a0488adaf359c141c4f6436d5558893466d5d594a62"
+  },
+  "bootstrap_implementation_timing": "Detailed bootstrap implementation added after confirmation, following the preceding frozen analysis plan; conditional on frozen selections."
+}

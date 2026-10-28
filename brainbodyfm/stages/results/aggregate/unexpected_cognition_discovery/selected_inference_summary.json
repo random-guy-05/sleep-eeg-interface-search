@@ -1,0 +1,995 @@
+{
+  "stage": "inference_complete",
+  "bootstrap": 2000,
+  "seed": 2026102781,
+  "selection_conditioned": true,
+  "selection_freeze": {
+    "commit": "1833ff19818d8413dcc15c6b77ac56b3efe4e6fb",
+    "files": {
+      "UNEXPECTED_COGNITION_DISCOVERY_PLAN.md": "7574be71d0dea1bc2e0433024fc28241d091a493c1ef7dc2f89f1fec5a66aef2",
+      "unexpected_cognition_discovery.py": "57c7ddf0765b5d3da03da1dac7f6fc4d4bc0e37e08fb346652ca66e243990337",
+      "test_unexpected_cognition_discovery.py": "b54034c8a5f719b5fffc2588ce45e9da79d497460ead2717d6f57874634a8138"
+    },
+    "utc": "2026-10-28T01:24:24.919939+00:00"
+  },
+  "source_normalizer": {
+    "mean": [
+      -0.18968769425237683,
+      -0.1602213516746136,
+      0.222790491072015,
+      0.05492227659626326
+    ],
+    "sd": [
+      0.7876760098329594,
+      0.28080699886738464,
+      0.18811536233213527,
+      0.49649989870283734
+    ],
+    "source_n": 284
+  },
+  "predictive_ridge_penalty": 1.0,
+  "prediction_context": "source-fitted outcome-normal-score model; clinical with or without frozen selected marker",
+  "results": {
+    "fixed__stable4__attention_slowness": {
+      "discovery_partial_r": 0.25039600991311894,
+      "confirmation_partial_r": 0.06661149965124184,
+      "confirmation_beta": 0.06946086221018993,
+      "partial_r_drop": 0.1837845102618771,
+      "marker_ordinary_auc": 0.5134119380987473,
+      "clinical_ordinary_auc": 0.5886514369933677,
+      "augmented_ordinary_auc": 0.5896831245394252,
+      "delta_ordinary_auc": 0.0010316875460574249,
+      "marker_age_conditioned_auc": 0.5302593659942363,
+      "clinical_age_conditioned_auc": 0.5273775216138329,
+      "augmented_age_conditioned_auc": 0.5590778097982709,
+      "delta_age_conditioned_auc": 0.03170028818443804,
+      "clinical_mae": 0.8133653250114604,
+      "augmented_mae": 0.8282673295274937,
+      "delta_mae": 0.014902004516033296,
+      "discovery_n": 274,
+      "confirmation_n": 289,
+      "source_threshold": 6.23972301637183,
+      "confirmation_cases": 59,
+      "eligible_pairs": 1388,
+      "discovery_HC3": {
+        "standardized_beta": 0.2632985474961725,
+        "se_HC3": 0.07067814155871045,
+        "p_HC3": 0.00024097199325864868,
+        "ci_low": 0.12410075876214616,
+        "ci_high": 0.4024963362301988,
+        "df": 251
+      },
+      "confirmation_HC3": {
+        "standardized_beta": 0.06946086221019018,
+        "se_HC3": 0.0695736819140251,
+        "p_HC3": 0.3189931221307096,
+        "ci_low": -0.06751733156149692,
+        "ci_high": 0.20643905598187728,
+        "df": 269
+      },
+      "centers": {
+        "Geisinger": {
+          "n": 31,
+          "r": 0.19917529226405034,
+          "p": 0.4948256247805081,
+          "ci_low": -0.3705742557004427,
+          "ci_high": 0.6600125488896995
+        },
+        "MedSleep": {
+          "n": 289,
+          "r": 0.06661149965124184,
+          "p": 0.2745215796267632,
+          "ci_low": -0.05296615804386866,
+          "ci_high": 0.18430587152470443
+        },
+        "St_Lukes": {
+          "n": 48,
+          "r": 0.4112383305227063,
+          "p": 0.019372573655599475,
+          "ci_low": 0.07300769771171,
+          "ci_high": 0.6646309353026497
+        },
+        "Stanford": {
+          "n": 195,
+          "r": 0.29043891279184464,
+          "p": 8.015319462136376e-05,
+          "ci_low": 0.1501608439239477,
+          "ci_high": 0.4192536008038707
+        }
+      },
+      "bootstrap_intervals": {
+        "discovery_partial_r": {
+          "ci_low": 0.12385998376003414,
+          "ci_high": 0.36740110575356266,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "confirmation_partial_r": {
+          "ci_low": -0.05499833874315897,
+          "ci_high": 0.18800919994337817,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "confirmation_beta": {
+          "ci_low": -0.05605137240751842,
+          "ci_high": 0.19461150664277324,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "partial_r_drop": {
+          "ci_low": -0.0001051475668901135,
+          "ci_high": 0.3589744109335066,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "marker_ordinary_auc": {
+          "ci_low": 0.43863423148903496,
+          "ci_high": 0.6266081298959294,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_ordinary_auc": {
+          "ci_low": 0.4674150764595348,
+          "ci_high": 0.6696601236955846,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_ordinary_auc": {
+          "ci_low": 0.4677449801744749,
+          "ci_high": 0.6773500697844961,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_ordinary_auc": {
+          "ci_low": -0.044676535532553685,
+          "ci_high": 0.04971580675213516,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "marker_age_conditioned_auc": {
+          "ci_low": 0.4296604532791106,
+          "ci_high": 0.6431306661657901,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_age_conditioned_auc": {
+          "ci_low": 0.3977869564152838,
+          "ci_high": 0.6309123097320573,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_age_conditioned_auc": {
+          "ci_low": 0.42061246867167923,
+          "ci_high": 0.6537589515919644,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_age_conditioned_auc": {
+          "ci_low": -0.05216230391105442,
+          "ci_high": 0.09889613253848861,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_mae": {
+          "ci_low": 0.7339815872364905,
+          "ci_high": 0.9826590922410787,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_mae": {
+          "ci_low": 0.7510483949583269,
+          "ci_high": 0.9825730264760928,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_mae": {
+          "ci_low": -0.026440849890103268,
+          "ci_high": 0.04516027166287326,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        }
+      }
+    },
+    "fixed__negated_brain_health__vigilance_variability": {
+      "discovery_partial_r": 0.1629261458419343,
+      "confirmation_partial_r": 0.018921681156855465,
+      "confirmation_beta": 0.022745533788495923,
+      "partial_r_drop": 0.14400446468507883,
+      "marker_ordinary_auc": 0.5116340560549973,
+      "clinical_ordinary_auc": 0.5233342147012163,
+      "augmented_ordinary_auc": 0.5377445795875198,
+      "delta_ordinary_auc": 0.014410364886303428,
+      "marker_age_conditioned_auc": 0.549936788874842,
+      "clinical_age_conditioned_auc": 0.4892541087231353,
+      "augmented_age_conditioned_auc": 0.5151706700379267,
+      "delta_age_conditioned_auc": 0.02591656131479142,
+      "clinical_mae": 0.841693482839352,
+      "augmented_mae": 0.8561915399724019,
+      "delta_mae": 0.014498057133049969,
+      "discovery_n": 284,
+      "confirmation_n": 306,
+      "source_threshold": 0.26530441235180535,
+      "confirmation_cases": 62,
+      "eligible_pairs": 1582,
+      "discovery_HC3": {
+        "standardized_beta": 0.2224355022515363,
+        "se_HC3": 0.07828927477777806,
+        "p_HC3": 0.004848970910201763,
+        "ci_low": 0.0682765043375225,
+        "ci_high": 0.3765945001655501,
+        "df": 261
+      },
+      "confirmation_HC3": {
+        "standardized_beta": 0.022745533788495927,
+        "se_HC3": 0.07531686889104686,
+        "p_HC3": 0.7628731784946431,
+        "ci_low": -0.12550015125583242,
+        "ci_high": 0.17099121883282425,
+        "df": 286
+      },
+      "centers": {
+        "Geisinger": {
+          "n": 34,
+          "r": 0.46011774279587064,
+          "p": 0.06310811457658809,
+          "ci_low": -0.026365280701182853,
+          "ci_high": 0.7703925262085741
+        },
+        "MedSleep": {
+          "n": 306,
+          "r": 0.018921681156855465,
+          "p": 0.7491626279468462,
+          "ci_low": -0.09687170377169416,
+          "ci_high": 0.1342096918131469
+        },
+        "St_Lukes": {
+          "n": 50,
+          "r": 0.10873938783987894,
+          "p": 0.5404336403582936,
+          "ci_low": -0.2381909273760806,
+          "ci_high": 0.43105965012053765
+        },
+        "Stanford": {
+          "n": 200,
+          "r": 0.14034302142594604,
+          "p": 0.057413833483561716,
+          "ci_low": -0.004410151793257438,
+          "ci_high": 0.27933544074017874
+        }
+      },
+      "bootstrap_intervals": {
+        "discovery_partial_r": {
+          "ci_low": 0.05315253866566134,
+          "ci_high": 0.2617322594330372,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "confirmation_partial_r": {
+          "ci_low": -0.10501272087292207,
+          "ci_high": 0.13736879682500483,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "confirmation_beta": {
+          "ci_low": -0.1251277753204676,
+          "ci_high": 0.162413968897421,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "partial_r_drop": {
+          "ci_low": -0.015466320015905392,
+          "ci_high": 0.2984933674884224,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "marker_ordinary_auc": {
+          "ci_low": 0.4324860159753002,
+          "ci_high": 0.59563701181567,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_ordinary_auc": {
+          "ci_low": 0.4062915946793613,
+          "ci_high": 0.6138163325628152,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_ordinary_auc": {
+          "ci_low": 0.4152600486122368,
+          "ci_high": 0.6216248888465445,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_ordinary_auc": {
+          "ci_low": -0.019369400743539177,
+          "ci_high": 0.04664042886246874,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "marker_age_conditioned_auc": {
+          "ci_low": 0.45065487611134264,
+          "ci_high": 0.6505588076773362,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_age_conditioned_auc": {
+          "ci_low": 0.37616108029901135,
+          "ci_high": 0.5984838580367484,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_age_conditioned_auc": {
+          "ci_low": 0.39295877792181894,
+          "ci_high": 0.6216461325431595,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_age_conditioned_auc": {
+          "ci_low": -0.025439948619139358,
+          "ci_high": 0.08105454868514558,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_mae": {
+          "ci_low": 0.769471516679193,
+          "ci_high": 0.9944189186159534,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_mae": {
+          "ci_low": 0.7815182744411083,
+          "ci_high": 1.0055574464080976,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_mae": {
+          "ci_low": -0.005854471097678079,
+          "ci_high": 0.045900151519715236,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        }
+      }
+    },
+    "fixed__stable4__vigilance_slow_tail": {
+      "discovery_partial_r": 0.1618277265284929,
+      "confirmation_partial_r": 0.0823672530880936,
+      "confirmation_beta": 0.08679001285660269,
+      "partial_r_drop": 0.07946047344039929,
+      "marker_ordinary_auc": 0.5513944223107571,
+      "clinical_ordinary_auc": 0.5539297356030424,
+      "augmented_ordinary_auc": 0.5547989858746831,
+      "delta_ordinary_auc": 0.0008692502716407535,
+      "marker_age_conditioned_auc": 0.5242718446601942,
+      "clinical_age_conditioned_auc": 0.5221914008321775,
+      "augmented_age_conditioned_auc": 0.5187239944521498,
+      "delta_age_conditioned_auc": -0.0034674063800277377,
+      "clinical_mae": 0.8272992252098603,
+      "augmented_mae": 0.8235837067863601,
+      "delta_mae": -0.0037155184235002636,
+      "discovery_n": 284,
+      "confirmation_n": 306,
+      "source_threshold": -1.946915207954472,
+      "confirmation_cases": 55,
+      "eligible_pairs": 1442,
+      "discovery_HC3": {
+        "standardized_beta": 0.17336570774874202,
+        "se_HC3": 0.07526368542867284,
+        "p_HC3": 0.022040204527803114,
+        "ci_low": 0.02516438185916961,
+        "ci_high": 0.3215670336383144,
+        "df": 261
+      },
+      "confirmation_HC3": {
+        "standardized_beta": 0.08679001285660326,
+        "se_HC3": 0.06355586265110427,
+        "p_HC3": 0.17314681991877118,
+        "ci_low": -0.03830656293076595,
+        "ci_high": 0.21188658864397247,
+        "df": 286
+      },
+      "centers": {
+        "Geisinger": {
+          "n": 34,
+          "r": 0.12476008935044054,
+          "p": 0.6332989208999862,
+          "ci_low": -0.37859498388731694,
+          "ci_high": 0.5711618474469168
+        },
+        "MedSleep": {
+          "n": 306,
+          "r": 0.0823672530880936,
+          "p": 0.16328454586391378,
+          "ci_low": -0.033533517274598225,
+          "ci_high": 0.19608205271498103
+        },
+        "St_Lukes": {
+          "n": 50,
+          "r": 0.2206820533747489,
+          "p": 0.2097742485573792,
+          "ci_low": -0.12696452825556326,
+          "ci_high": 0.5200434849702623
+        },
+        "Stanford": {
+          "n": 200,
+          "r": 0.1760986482260039,
+          "p": 0.01679538954194621,
+          "ci_low": 0.032256755378851594,
+          "ci_high": 0.3127938390215512
+        }
+      },
+      "bootstrap_intervals": {
+        "discovery_partial_r": {
+          "ci_low": 0.03766931614350492,
+          "ci_high": 0.2842437902424952,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "confirmation_partial_r": {
+          "ci_low": -0.027895481453844524,
+          "ci_high": 0.1949880258220213,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "confirmation_beta": {
+          "ci_low": -0.03046156659992464,
+          "ci_high": 0.20593232463857555,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "partial_r_drop": {
+          "ci_low": -0.09536591729600034,
+          "ci_high": 0.24600925882155253,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "marker_ordinary_auc": {
+          "ci_low": 0.4749931363049095,
+          "ci_high": 0.6544007259992431,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_ordinary_auc": {
+          "ci_low": 0.4395648319561417,
+          "ci_high": 0.6425513882497316,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_ordinary_auc": {
+          "ci_low": 0.4447405877710192,
+          "ci_high": 0.6478838216703353,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_ordinary_auc": {
+          "ci_low": -0.02944424486803517,
+          "ci_high": 0.04362367211698006,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "marker_age_conditioned_auc": {
+          "ci_low": 0.4363111429665259,
+          "ci_high": 0.6370413941388028,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_age_conditioned_auc": {
+          "ci_low": 0.39796617103919335,
+          "ci_high": 0.6306821537672046,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_age_conditioned_auc": {
+          "ci_low": 0.4054472912202474,
+          "ci_high": 0.6441060254545874,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_age_conditioned_auc": {
+          "ci_low": -0.048867034940835385,
+          "ci_high": 0.06398603267374035,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_mae": {
+          "ci_low": 0.7456166206428727,
+          "ci_high": 1.0032813029981311,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_mae": {
+          "ci_low": 0.7459326465905665,
+          "ci_high": 0.9928107794081653,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_mae": {
+          "ci_low": -0.03254097833875306,
+          "ci_high": 0.02300841580888143,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        }
+      }
+    },
+    "physiology__pred_regression_f_fs_chirp_c4m1__attention_slowness": {
+      "discovery_partial_r": 0.22876148054992548,
+      "confirmation_partial_r": 0.07299422300331296,
+      "confirmation_beta": 0.08111560381006741,
+      "partial_r_drop": 0.15576725754661253,
+      "marker_ordinary_auc": 0.5697126013264555,
+      "clinical_ordinary_auc": 0.5886514369933677,
+      "augmented_ordinary_auc": 0.6210022107590273,
+      "delta_ordinary_auc": 0.032350773765659535,
+      "marker_age_conditioned_auc": 0.5612391930835735,
+      "clinical_age_conditioned_auc": 0.5273775216138329,
+      "augmented_age_conditioned_auc": 0.5893371757925072,
+      "delta_age_conditioned_auc": 0.06195965417867433,
+      "clinical_mae": 0.8133653250114604,
+      "augmented_mae": 0.8379695831084777,
+      "delta_mae": 0.024604258097017273,
+      "discovery_n": 274,
+      "confirmation_n": 289,
+      "source_threshold": 6.23972301637183,
+      "confirmation_cases": 59,
+      "eligible_pairs": 1388,
+      "discovery_HC3": {
+        "standardized_beta": 0.24410287251226923,
+        "se_HC3": 0.06467953311488853,
+        "p_HC3": 0.0002004948756701563,
+        "ci_low": 0.11671910452704348,
+        "ci_high": 0.37148664049749497,
+        "df": 251
+      },
+      "confirmation_HC3": {
+        "standardized_beta": 0.08111560381006754,
+        "se_HC3": 0.07413158092205363,
+        "p_HC3": 0.2748411941902311,
+        "ci_low": -0.0648362816843751,
+        "ci_high": 0.22706748930451015,
+        "df": 269
+      },
+      "centers": {
+        "Geisinger": {
+          "n": 31,
+          "r": -0.006000223766904141,
+          "p": 0.9837581813541793,
+          "ci_low": -0.534884646794806,
+          "ci_high": 0.526262512514692
+        },
+        "MedSleep": {
+          "n": 289,
+          "r": 0.07299422300331296,
+          "p": 0.23104142510930786,
+          "ci_low": -0.04656806874168061,
+          "ci_high": 0.19049459324735676
+        },
+        "St_Lukes": {
+          "n": 48,
+          "r": 0.23313927122172942,
+          "p": 0.19909095957476455,
+          "ci_low": -0.12578646307138855,
+          "ci_high": 0.5380943944839187
+        },
+        "Stanford": {
+          "n": 195,
+          "r": 0.2895117491752424,
+          "p": 8.466980548711547e-05,
+          "ci_low": 0.14917123689482156,
+          "ci_high": 0.418418897137302
+        }
+      },
+      "bootstrap_intervals": {
+        "discovery_partial_r": {
+          "ci_low": 0.10913840734427663,
+          "ci_high": 0.3421614920962782,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "confirmation_partial_r": {
+          "ci_low": -0.05161883293506904,
+          "ci_high": 0.2016147102184293,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "confirmation_beta": {
+          "ci_low": -0.05705916052475112,
+          "ci_high": 0.22694937979606364,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "partial_r_drop": {
+          "ci_low": -0.020075432855581766,
+          "ci_high": 0.3267499865023243,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "marker_ordinary_auc": {
+          "ci_low": 0.4829146565703341,
+          "ci_high": 0.6649428566282737,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_ordinary_auc": {
+          "ci_low": 0.4674150764595348,
+          "ci_high": 0.6696601236955846,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_ordinary_auc": {
+          "ci_low": 0.4980441846887855,
+          "ci_high": 0.6981837658314978,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_ordinary_auc": {
+          "ci_low": -0.018934525046317836,
+          "ci_high": 0.08396640463885931,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "marker_age_conditioned_auc": {
+          "ci_low": 0.4540620247162922,
+          "ci_high": 0.6690404162881266,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_age_conditioned_auc": {
+          "ci_low": 0.3977869564152838,
+          "ci_high": 0.6309123097320573,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_age_conditioned_auc": {
+          "ci_low": 0.4501004509955858,
+          "ci_high": 0.6675884861120321,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_age_conditioned_auc": {
+          "ci_low": -0.035917376188268235,
+          "ci_high": 0.14032057319099356,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_mae": {
+          "ci_low": 0.7339815872364905,
+          "ci_high": 0.9826590922410787,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_mae": {
+          "ci_low": 0.7586467258129276,
+          "ci_high": 1.0070304348819181,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_mae": {
+          "ci_low": -0.014274287945786418,
+          "ci_high": 0.06770239857991645,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        }
+      }
+    },
+    "physiology__pred_regression_f_sigma_bandpower_kurtosis_c_w__executive_slowness": {
+      "discovery_partial_r": -0.21630783505921283,
+      "confirmation_partial_r": -0.06994412960216853,
+      "confirmation_beta": -0.07723809016082721,
+      "partial_r_drop": -0.1463637054570443,
+      "marker_ordinary_auc": 0.6096913962330888,
+      "clinical_ordinary_auc": 0.6452383057741622,
+      "augmented_ordinary_auc": 0.6359536652223893,
+      "delta_ordinary_auc": -0.009284640551772916,
+      "marker_age_conditioned_auc": 0.515126050420168,
+      "clinical_age_conditioned_auc": 0.49831932773109244,
+      "augmented_age_conditioned_auc": 0.473109243697479,
+      "delta_age_conditioned_auc": -0.025210084033613467,
+      "clinical_mae": 0.7169142048866834,
+      "augmented_mae": 0.7183750318282629,
+      "delta_mae": 0.0014608269415794517,
+      "discovery_n": 284,
+      "confirmation_n": 306,
+      "source_threshold": 8.00976215490114,
+      "confirmation_cases": 43,
+      "eligible_pairs": 1190,
+      "discovery_HC3": {
+        "standardized_beta": -0.22552714547888814,
+        "se_HC3": 0.05935637477440366,
+        "p_HC3": 0.0001804307685210352,
+        "ci_low": -0.34240546988543863,
+        "ci_high": -0.10864882107233764,
+        "df": 261
+      },
+      "confirmation_HC3": {
+        "standardized_beta": -0.07723809016082678,
+        "se_HC3": 0.06889701804001996,
+        "p_HC3": 0.2632002830408742,
+        "ci_low": -0.21284762607540778,
+        "ci_high": 0.05837144575375422,
+        "df": 286
+      },
+      "centers": {
+        "Geisinger": {
+          "n": 34,
+          "r": -0.37174010505984745,
+          "p": 0.14176863781112675,
+          "ci_low": -0.7231767276865385,
+          "ci_high": 0.13260575193990984
+        },
+        "MedSleep": {
+          "n": 306,
+          "r": -0.06994412960216853,
+          "p": 0.2366986946419789,
+          "ci_low": -0.1840378485777278,
+          "ci_high": 0.04600934826149447
+        },
+        "St_Lukes": {
+          "n": 50,
+          "r": -0.2511540426926055,
+          "p": 0.15192283974553936,
+          "ci_low": -0.5431905965870621,
+          "ci_high": 0.09509401530500132
+        },
+        "Stanford": {
+          "n": 200,
+          "r": -0.12691039010414143,
+          "p": 0.08603162730885429,
+          "ci_low": -0.2666779997487839,
+          "ci_high": 0.018085279270030792
+        }
+      },
+      "bootstrap_intervals": {
+        "discovery_partial_r": {
+          "ci_low": -0.3178255368451543,
+          "ci_high": -0.107709655033121,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "confirmation_partial_r": {
+          "ci_low": -0.18026500554876904,
+          "ci_high": 0.056528640778254216,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "confirmation_beta": {
+          "ci_low": -0.19567920098151945,
+          "ci_high": 0.06216803324105615,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "partial_r_drop": {
+          "ci_low": -0.31193743172562205,
+          "ci_high": 0.00919711218722051,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "marker_ordinary_auc": {
+          "ci_low": 0.5139626585119514,
+          "ci_high": 0.705485537629363,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_ordinary_auc": {
+          "ci_low": 0.529792542880639,
+          "ci_high": 0.7398086756272463,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_ordinary_auc": {
+          "ci_low": 0.5195371483218385,
+          "ci_high": 0.7327864529954642,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_ordinary_auc": {
+          "ci_low": -0.04575347799922129,
+          "ci_high": 0.028023346688497368,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "marker_age_conditioned_auc": {
+          "ci_low": 0.3948903360205948,
+          "ci_high": 0.6289528508771929,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_age_conditioned_auc": {
+          "ci_low": 0.3752326413743737,
+          "ci_high": 0.6288402501671299,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_age_conditioned_auc": {
+          "ci_low": 0.365137010919796,
+          "ci_high": 0.6207112068965516,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_age_conditioned_auc": {
+          "ci_low": -0.09896638817520698,
+          "ci_high": 0.07644730527005832,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_mae": {
+          "ci_low": 0.6374523686255691,
+          "ci_high": 0.8446707079658695,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_mae": {
+          "ci_low": 0.6436841949805217,
+          "ci_high": 0.8542219920622922,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_mae": {
+          "ci_low": -0.018202613933602958,
+          "ci_high": 0.035899132146029356,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        }
+      }
+    },
+    "physiology__pred_regression_f_total_power_rem_rel_delta__vigilance_slow_tail": {
+      "discovery_partial_r": 0.20419301682353777,
+      "confirmation_partial_r": 0.07133203321650124,
+      "confirmation_beta": 0.07479213180076721,
+      "partial_r_drop": 0.13286098360703652,
+      "marker_ordinary_auc": 0.5558131111915973,
+      "clinical_ordinary_auc": 0.5539297356030424,
+      "augmented_ordinary_auc": 0.5703730532415792,
+      "delta_ordinary_auc": 0.016443317638536792,
+      "marker_age_conditioned_auc": 0.5325936199722607,
+      "clinical_age_conditioned_auc": 0.5221914008321775,
+      "augmented_age_conditioned_auc": 0.542995839112344,
+      "delta_age_conditioned_auc": 0.020804438280166426,
+      "clinical_mae": 0.8272992252098603,
+      "augmented_mae": 0.8239857832647803,
+      "delta_mae": -0.003313441945079987,
+      "discovery_n": 284,
+      "confirmation_n": 306,
+      "source_threshold": -1.946915207954472,
+      "confirmation_cases": 55,
+      "eligible_pairs": 1442,
+      "discovery_HC3": {
+        "standardized_beta": 0.26607872161090707,
+        "se_HC3": 0.08302212143639999,
+        "p_HC3": 0.0015191115944357652,
+        "ci_low": 0.1026003003117,
+        "ci_high": 0.42955714291011415,
+        "df": 261
+      },
+      "confirmation_HC3": {
+        "standardized_beta": 0.0747921318007668,
+        "se_HC3": 0.05721115784821971,
+        "p_HC3": 0.19216094348050694,
+        "ci_low": -0.03781620431657186,
+        "ci_high": 0.18740046791810544,
+        "df": 286
+      },
+      "centers": {
+        "Geisinger": {
+          "n": 34,
+          "r": 0.42053856611407997,
+          "p": 0.09279313721755024,
+          "ci_low": -0.07534286382059513,
+          "ci_high": 0.7496598993839951
+        },
+        "MedSleep": {
+          "n": 306,
+          "r": 0.07133203321650124,
+          "p": 0.22750224192148144,
+          "ci_low": -0.044617348713251036,
+          "ci_high": 0.1853851217566362
+        },
+        "St_Lukes": {
+          "n": 50,
+          "r": 0.03429929174562806,
+          "p": 0.8472932175195729,
+          "ci_low": -0.3074381219567726,
+          "ci_high": 0.3681999521191819
+        },
+        "Stanford": {
+          "n": 200,
+          "r": 0.18331139729958815,
+          "p": 0.0127472308421564,
+          "ci_low": 0.03970056036936396,
+          "ci_high": 0.3195023133329217
+        }
+      },
+      "bootstrap_intervals": {
+        "discovery_partial_r": {
+          "ci_low": 0.07977909827424444,
+          "ci_high": 0.3168313379188867,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "confirmation_partial_r": {
+          "ci_low": -0.029263184310953563,
+          "ci_high": 0.17900683768186756,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "confirmation_beta": {
+          "ci_low": -0.03005609381705644,
+          "ci_high": 0.18876526712627453,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "partial_r_drop": {
+          "ci_low": -0.038426992669198454,
+          "ci_high": 0.28319910001975207,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "marker_ordinary_auc": {
+          "ci_low": 0.478436141782089,
+          "ci_high": 0.6535700515400317,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_ordinary_auc": {
+          "ci_low": 0.4395648319561417,
+          "ci_high": 0.6425513882497316,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_ordinary_auc": {
+          "ci_low": 0.4599963643574828,
+          "ci_high": 0.6600072162607828,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_ordinary_auc": {
+          "ci_low": -0.01390629385865629,
+          "ci_high": 0.05857533511441922,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "marker_age_conditioned_auc": {
+          "ci_low": 0.4385034333716755,
+          "ci_high": 0.6374922466074443,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_age_conditioned_auc": {
+          "ci_low": 0.39796617103919335,
+          "ci_high": 0.6306821537672046,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_age_conditioned_auc": {
+          "ci_low": 0.41239961147232734,
+          "ci_high": 0.6525860443893411,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_age_conditioned_auc": {
+          "ci_low": -0.027206858550214316,
+          "ci_high": 0.07555620155038759,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "clinical_mae": {
+          "ci_low": 0.7456166206428727,
+          "ci_high": 1.0032813029981311,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "augmented_mae": {
+          "ci_low": 0.7492914268754234,
+          "ci_high": 0.9862923486243047,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "delta_mae": {
+          "ci_low": -0.03291809663347736,
+          "ci_high": 0.02451128858089751,
+          "valid_replicates": 2000,
+          "requested_replicates": 2000
+        }
+      }
+    }
+  },
+  "completed_utc": "2026-10-28T01:27:20.970732+00:00"
+}
