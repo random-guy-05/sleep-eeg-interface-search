@@ -28,3 +28,4 @@ brainbodyfm/cache/
 
 # Restricted age-conditioned analysis working files and patient bootstrap draws
 /brainbodyfm/stages/results/age_conditioned_transfer/
+/brainbodyfm/stages/results/cinc_method_replication/
