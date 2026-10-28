@@ -1,0 +1,22 @@
+{
+  "source_summary_sha256": "a311f4a16a6d58076ccc5dbd3e3a9139f523ea6e5078e4a9a54d9660f65066ba",
+  "freeze": {
+    "commit": "02cbde05d02c49349d565ff173224f9acffdb4fc",
+    "files": {
+      "CINC_METHOD_REPLICATION_PLAN.md": "60af9f16aa6c68509a38e437a02fdc084ade6a5ab3e5c7dbd93643b55d1f12ac",
+      "cinc_method_replication.py": "1d8579c3fe94eb11889e658231243a17bdb5ce814eddbd3cb0924e86f6182378",
+      "test_cinc_method_replication.py": "e83d15248416e9242928f67bead438a1c1940b9dd7ae7fcd6b5aba6903799bb7"
+    },
+    "execution_started_utc": "2026-10-28T00:09:30.196559+00:00"
+  },
+  "completed_utc": "2026-10-28T00:14:24.684441+00:00",
+  "outcomes": 3,
+  "models_per_outcome": 16,
+  "fixed_score_permutation_family": 33,
+  "incremental_contrast_family": 9,
+  "fixed_composite_nominal_ci_above_chance": false,
+  "composite_centers_above_chance": 4,
+  "positive_familywise_contrasts": [],
+  "participant_level_files_in_package": false,
+  "input_and_four_record_raw_audits_complete": true
+}

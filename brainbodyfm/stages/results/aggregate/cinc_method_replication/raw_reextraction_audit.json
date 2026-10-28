@@ -1,0 +1,78 @@
+{
+  "created_utc": "2026-10-28T00:22:20.983406+00:00",
+  "selection": "smallest EDF byte count per center, ID tie-break, independent of outcomes and predictions",
+  "records": [
+    {
+      "center": "Geisinger",
+      "duration_hours": 6.500277777777778,
+      "channel_kind": "native_c4m1",
+      "direct_EDF_calibration_max_error_uv": 5.684341886080802e-14,
+      "fresh_latent_relative_L2": 0.0,
+      "four_output_absolute_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "brain_health_absolute_error": 0.0,
+      "spectrogram_sha_matches": true,
+      "source_input_bytes_match": true,
+      "cached_checkpoint_sha256": "b2a9b8dab3ae8543241d613a80cd6a85a6dfca15573f897a1096861b3915af87",
+      "submitted_tap_vs_ordinary_relative_L2": 0.0
+    },
+    {
+      "center": "MedSleep",
+      "duration_hours": 3.5166666666666666,
+      "channel_kind": "derived_c4m1",
+      "direct_EDF_calibration_max_error_uv": 0.0,
+      "fresh_latent_relative_L2": 0.0,
+      "four_output_absolute_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "brain_health_absolute_error": 0.0,
+      "spectrogram_sha_matches": true,
+      "source_input_bytes_match": true,
+      "cached_checkpoint_sha256": "b2a9b8dab3ae8543241d613a80cd6a85a6dfca15573f897a1096861b3915af87"
+    },
+    {
+      "center": "St_Lukes",
+      "duration_hours": 8.017222222222221,
+      "channel_kind": "native_c4m1",
+      "direct_EDF_calibration_max_error_uv": 3.765876499528531e-13,
+      "fresh_latent_relative_L2": 0.0,
+      "four_output_absolute_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "brain_health_absolute_error": 0.0,
+      "spectrogram_sha_matches": true,
+      "source_input_bytes_match": true,
+      "cached_checkpoint_sha256": "b2a9b8dab3ae8543241d613a80cd6a85a6dfca15573f897a1096861b3915af87"
+    },
+    {
+      "center": "Stanford",
+      "duration_hours": 8.517222222222221,
+      "channel_kind": "derived_c4m1",
+      "direct_EDF_calibration_max_error_uv": 6.039613253960852e-14,
+      "fresh_latent_relative_L2": 0.0,
+      "four_output_absolute_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "brain_health_absolute_error": 0.0,
+      "spectrogram_sha_matches": true,
+      "source_input_bytes_match": true,
+      "cached_checkpoint_sha256": "b2a9b8dab3ae8543241d613a80cd6a85a6dfca15573f897a1096861b3915af87"
+    }
+  ],
+  "runtime_weight_loading": "memory-mapped deserialization, exact submitted loader and model setup",
+  "voltage_units": "user-confirmed microvolts; missing metadata receives the existing documented uV override",
+  "status": "complete"
+}

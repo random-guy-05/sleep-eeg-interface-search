@@ -1,0 +1,127 @@
+{
+  "created_utc": "2026-10-28T00:22:55.759071+00:00",
+  "entry_commit": "76a36e54251cfce85889a3b2390018ffc23329ee",
+  "checks": {
+    "input_dimensions": {
+      "n": 590,
+      "unique_subjects": 590,
+      "semantic": [
+        590,
+        841
+      ],
+      "latent": [
+        590,
+        1024
+      ],
+      "finite": true
+    },
+    "every_subject_cache_matches_joined_input": {
+      "checked": 590,
+      "semantic_max_abs_difference": 0.0,
+      "latent_max_abs_difference": 0.0,
+      "bhs_max_abs_difference": 0.0,
+      "matching_head_order": 590,
+      "checkpoint_counts": {
+        "b2a9b8dab3ae8543241d613a80cd6a85a6dfca15573f897a1096861b3915af87": 590
+      },
+      "extraction_source_versions": [
+        {
+          "hashes": {
+            "extract.py": "f72a1099f383220e4889145f365474d15c5736bd7c175224d218d7d075ecb681",
+            "signal_io.py": "c000c37348f49d0000753a51a2f8fc4e0d1de97de2fb297e8a4a1af1b79ccf31",
+            "wavelet.py": "19b1404ba0ac6b9d92e4c4fa80c642a69e47c43c838708821d831b4cef031f5c"
+          },
+          "n": 590
+        }
+      ]
+    },
+    "independent_checkpoint_projection": {
+      "heads": [
+        "pred_regression_f_total_power_rem_rel_theta",
+        "pred_regression_f_fs_chirp_c4m1",
+        "pred_regression_f_sigma-9-std",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n1"
+      ],
+      "max_absolute_error_by_head": [
+        4.5187346398023465e-07,
+        2.3767164730736923e-07,
+        1.517812880935665e-07,
+        1.9989652200180785e-07
+      ],
+      "max_error_in_head_sd_units": [
+        6.392005621404141e-07,
+        8.452573814092577e-07,
+        8.675287459587756e-07,
+        4.1119721639564786e-07
+      ],
+      "correlations": [
+        0.9999999999999929,
+        0.9999999999999784,
+        0.9999999999999649,
+        0.9999999999999943
+      ]
+    },
+    "original_cognitive_rows": {
+      "checked": 590,
+      "duplicate_matching_rows": 0,
+      "missing_matches": 0,
+      "pcet_max_abs_difference": 0.0,
+      "pcet_formula_max_abs_rounding_error": 5.0000000000105516e-05,
+      "face_memory_max_abs_difference": 0.0,
+      "face_memory_missing": 0,
+      "invalid_pcet_status": 0,
+      "score_direction": "higher accuracy and more correct face-memory responses mean better performance"
+    },
+    "historical_HSP_development_reproduction": {
+      "n": 338,
+      "site_auc": {
+        "I0002": 0.7560975609756098,
+        "I0006": 0.7551020408163265,
+        "S0001": 0.7512315270935961
+      },
+      "eligible_pairs": {
+        "I0002": 41,
+        "I0006": 441,
+        "S0001": 812
+      },
+      "macro_auc": 0.7541437096285107,
+      "within_site_pooled_auc": 0.7527047913446677
+    },
+    "historical_latents_projected_with_current_checkpoint": {
+      "max_abs_error_by_head": [
+        2.1487500023731343e-07,
+        1.3074831606285642e-07,
+        1.0920155091298511e-07,
+        1.2545596739244047e-07
+      ],
+      "correlations": [
+        0.9999999999999973,
+        0.9999999999999958,
+        0.9999999999999907,
+        0.9999999999999973
+      ],
+      "note": "Historical extraction checkpoint identity remains unverified; this checks compatibility of head tensors with recovered latents."
+    },
+    "independent_submitted_metric": {
+      "composite": {
+        "submitted_metric_value": 0.5326037391700866,
+        "absolute_difference": 0.0,
+        "eligible_pairs": 2193,
+        "matches": true
+      },
+      "executive_function": {
+        "submitted_metric_value": 0.4921052631578947,
+        "absolute_difference": 0.0,
+        "eligible_pairs": 2660,
+        "matches": true
+      },
+      "face_memory": {
+        "submitted_metric_value": 0.5421166306695464,
+        "absolute_difference": 0.0,
+        "eligible_pairs": 1852,
+        "matches": true
+      }
+    }
+  },
+  "status": "complete"
+}

@@ -1,0 +1,21 @@
+{
+  "state_before_sha256": "fd59cf9a08652ae3989642c0147011de958d0bb3366475facb839c5d7c88bacb",
+  "completed_latents_reused_unchanged": 102,
+  "prior_active_seconds_preserved": 3771.276018540986,
+  "change": "capture already-computed CARR feature taps; unchanged latent and endpoint computations",
+  "new_freeze": {
+    "commit": "dbce22ae7f0f5e96070432d498f08e693bc352b4",
+    "files": {
+      "RECONSTRUCTION_AMENDMENT_06.md": "cd9294264c25f0238ad6b47257f6b7aa71084457bfcf6b99ae8bde5e1d227695",
+      "reconstruct_challenge_normalization.py": "ff03fdb98d05da8dc35e64d23a61f0539f03a0cb3d63bfb83064790cc779a271",
+      "run_reconstructed_rank.py": "7e22b1a8664fae3b0db2438ff24e70ef30cc155b36881798a801808e48aee6cd",
+      "test_reconstruction.py": "70a723c84694fd478ef50f368aef87298c4c1fa6ddbc1c2264d54e9fa1c7412e",
+      "audit_challenge_date_gate.py": "4bd27bf9b1fefd1bd1e0e71d37b71076c814c38c3ed60c70f054c574078750ea",
+      "data/reconstruction_source_manifest.json": "8198190c9081de0f0445d8e9836a9118f2b24b53efd203bc7debe740b4ee6ece",
+      "reconstruction_wavelet.py": "19b1404ba0ac6b9d92e4c4fa80c642a69e47c43c838708821d831b4cef031f5c",
+      "verify_reconstruction_wavelet.py": "cd18627ad0556d8e67c1b2c3cd2d302cc7e72aa7f63d84aafa8017097d0af1d3",
+      "RECONSTRUCTION_AMENDMENT_07_TAP_CAPTURE.md": "1fccc87ca8c9e11cdee21030b18839165f906dc2d0cc9fe92fa124ec377d8e92"
+    },
+    "utc": "2026-10-28T00:29:51.871719+00:00"
+  }
+}
