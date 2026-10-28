@@ -46,3 +46,21 @@ reconstruction when original logs, training roster, or artifact are absent.
 
 Evidence: input_audit.json, raw_reextraction_audit.json, summary.json,
 amendment07_migration.json, and the published amendment/code commits.
+
+## Subsequent statistical-design correction
+
+A 1,000-replicate simulation showed that residualizing the case definition on
+demographics over the full cohort can depress a held-center demographic
+classifier: mean age-conditioned AUROC 0.4778 versus 0.4991 with independently
+defined residual labels. The newly fitted binary comparisons against those
+residual labels are retained as design diagnostics and are not used as a test
+of general incremental cognitive prediction. This does not change the
+arithmetic of the outcome-blind Stable4 AUROC for its residual phenotype.
+
+A separate corrected analysis was frozen at
+6c973b463cc4baa2233ec064f059cf463a311ef6. Its references and labels are estimated
+only on source centers. For its general executive-memory low-performance
+composite, ordinary AUROC is 0.529 (95% CI 0.459–0.595) for Stable4 and 0.625
+(0.551–0.682) for the negated brain-health score. The brain-health advantage
+over demographics is +0.020 (paired 95% CI -0.057 to +0.118), an additional
+post hoc diagnostic comparison. All original analyses are retained.

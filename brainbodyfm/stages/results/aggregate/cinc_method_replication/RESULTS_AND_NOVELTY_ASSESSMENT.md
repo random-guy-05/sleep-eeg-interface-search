@@ -1,5 +1,7 @@
 # STAGES validation of the CinC cognitive-risk method
 
+**Subsequent design-audit note.** The fitted binary comparisons below are retained as methodological diagnostics. Full-cohort residual-case construction removes demographic signal and, in the specified null simulation, depressed held-center demographic AUROC to 0.478 versus 0.499 with independently defined residual labels. These contrasts are not used to establish general incremental cognitive prediction. A separately frozen, source-reference-only general-performance analysis addresses that question. The outcome-blind fixed-score calculation still estimates discrimination of its explicitly defined residual phenotype.
+
 The published Stable4 method did not establish discrimination of low composite performance above chance in STAGES.
 
 Among 588 participants, 103 met the existing low-composite definition. Stable4 produced an age-conditioned AUROC of **0.533 (95% CI 0.445–0.616)**, based on 2,193 eligible case–noncase pairs.

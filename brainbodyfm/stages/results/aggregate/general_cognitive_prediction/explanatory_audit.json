@@ -1,0 +1,164 @@
+{
+  "purpose": "Describe endpoint, age and population shifts; not causal attribution or new predictive endpoint",
+  "n_stages": 588,
+  "n_hsp_development": 338,
+  "correlations": {
+    "stable4": {
+      "age": {
+        "Pearson": 0.16279101392883877,
+        "Spearman": 0.11525568552851458,
+        "within_center_Pearson": 0.20620307217423933
+      },
+      "raw_PCET": {
+        "Pearson": -0.07024706166317361,
+        "Spearman": -0.033557591503587406,
+        "within_center_Pearson": -0.06634800590975096
+      },
+      "raw_face_memory": {
+        "Pearson": -0.0889449437162338,
+        "Spearman": -0.05816101031142761,
+        "within_center_Pearson": -0.09713640535007707
+      },
+      "original_adjusted_composite": {
+        "Pearson": -0.044308994392865356,
+        "Spearman": -0.01799620303083445,
+        "within_center_Pearson": -0.0468041166618189
+      }
+    },
+    "negated_brain_health": {
+      "age": {
+        "Pearson": 0.45903287427838524,
+        "Spearman": 0.46028724704055,
+        "within_center_Pearson": 0.44869470388562455
+      },
+      "raw_PCET": {
+        "Pearson": -0.16226781283740868,
+        "Spearman": -0.16122737903615503,
+        "within_center_Pearson": -0.16955029639224406
+      },
+      "raw_face_memory": {
+        "Pearson": -0.09939760069170128,
+        "Spearman": -0.09317527601393999,
+        "within_center_Pearson": -0.09577291961174954
+      },
+      "original_adjusted_composite": {
+        "Pearson": -0.06248943228344317,
+        "Spearman": -0.05885904281739999,
+        "within_center_Pearson": -0.06979673505989818
+      }
+    }
+  },
+  "age_profiles": {
+    "STAGES": {
+      "n": 588,
+      "mean": 44.22959183673469,
+      "sd": 13.702376097515222,
+      "median": 43.0,
+      "min": 18.0,
+      "max": 80.0,
+      "share_age60plus": 0.1564625850340136
+    },
+    "HSP_development": {
+      "n": 338,
+      "mean": 67.0,
+      "sd": 8.587868145817147,
+      "median": 68.0,
+      "min": 50.0,
+      "max": 88.0,
+      "share_age60plus": 0.7899408284023669
+    },
+    "HSP_development_cases": {
+      "n": 83,
+      "mean": 70.13253012048193,
+      "sd": 8.573946363786792,
+      "median": 71.0,
+      "min": 51.0,
+      "max": 88.0,
+      "share_age60plus": 0.8795180722891566
+    },
+    "HSP_development_noncases": {
+      "n": 255,
+      "mean": 65.98039215686275,
+      "sd": 8.342403368565924,
+      "median": 67.0,
+      "min": 50.0,
+      "max": 86.0,
+      "share_age60plus": 0.7607843137254902
+    }
+  },
+  "head_distribution_shift": {
+    "pred_regression_f_total_power_rem_rel_theta": {
+      "HSP_development_mean": 0.12752954282396453,
+      "HSP_development_sd": 0.7856543417161093,
+      "STAGES_mean": -0.2378042168015627,
+      "STAGES_sd": 0.7078473967910085,
+      "STAGES_to_HSP_sd_ratio": 0.9009654236045503,
+      "mean_shift_in_HSP_sd": -0.46500571590749007
+    },
+    "pred_regression_f_fs_chirp_c4m1": {
+      "HSP_development_mean": -0.01910708833890533,
+      "HSP_development_sd": 0.3402865350794895,
+      "STAGES_mean": -0.16844210371558815,
+      "STAGES_sd": 0.2816600826872927,
+      "STAGES_to_HSP_sd_ratio": 0.8277144513564079,
+      "mean_shift_in_HSP_sd": -0.4388507918533972
+    },
+    "pred_regression_f_sigma-9-std": {
+      "HSP_development_mean": 0.13334490307798816,
+      "HSP_development_sd": 0.19020259366113507,
+      "STAGES_mean": 0.22492880471126767,
+      "STAGES_sd": 0.17473670941571032,
+      "STAGES_to_HSP_sd_ratio": 0.9186873115254213,
+      "mean_shift_in_HSP_sd": 0.4815071123396213
+    },
+    "pred_regression_f_sigma_bandpower_kurtosis_c_n1": {
+      "HSP_development_mean": -0.030967297337573967,
+      "HSP_development_sd": 0.5324220620137292,
+      "STAGES_mean": 0.13898010684342002,
+      "STAGES_sd": 0.4866247482493294,
+      "STAGES_to_HSP_sd_ratio": 0.9139830652561898,
+      "mean_shift_in_HSP_sd": 0.31919677321074585
+    }
+  },
+  "historical_source_scales_are_descriptive_not_original_organizer_constants": true,
+  "current_vs_historical_HSP_inference": {
+    "n_current_source_records": 120,
+    "matched_original_HSP_development_records": 14,
+    "mapping": "exact site plus numeric subject identifier extracted from BidsFolder; matching session 1",
+    "latent_relative_L2": {
+      "median": 0.000740556564364337,
+      "maximum": 0.0027859034022908753,
+      "minimum": 0.0003926517338904912
+    },
+    "metadata": {
+      "age_max_abs_difference": 0.0,
+      "sex_disagreements": 0
+    },
+    "head_comparison": {
+      "names": [
+        "pred_regression_f_total_power_rem_rel_theta",
+        "pred_regression_f_fs_chirp_c4m1",
+        "pred_regression_f_sigma-9-std",
+        "pred_regression_f_sigma_bandpower_kurtosis_c_n1"
+      ],
+      "median_abs_difference_in_old_source_sd": [
+        0.0002856606342529072,
+        0.00024413462787975515,
+        0.00011126141141146184,
+        0.00039792575203789066
+      ],
+      "max_abs_difference_in_old_source_sd": [
+        0.004091890077688953,
+        0.0009572929083794257,
+        0.0009782604802604927,
+        0.0021513337302235813
+      ],
+      "new_old_correlations": [
+        0.9999979168801566,
+        0.9999997026585355,
+        0.9999990476131474,
+        0.9999988705335494
+      ]
+    }
+  }
+}

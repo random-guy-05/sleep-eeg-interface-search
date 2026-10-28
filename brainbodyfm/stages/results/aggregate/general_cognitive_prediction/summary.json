@@ -1,0 +1,2137 @@
+{
+  "status": "complete",
+  "freeze": {
+    "commit": "6c973b463cc4baa2233ec064f059cf463a311ef6",
+    "files": {
+      "GENERAL_COGNITIVE_PREDICTION_CORRECTION.md": "ff8b15c7c3e2adda283a5522ccc8456b289af6bf8f9bfdc639478b6b69e41865",
+      "general_cognitive_prediction.py": "68c70baae3ab298777842c5acc5f7a0913881793d5c45daccff9dddbaf105623",
+      "test_general_cognitive_prediction.py": "d4eb0ed163cf4b18d6fcaebdeadb5136068200804c82242ddaf0e22c65a2785b"
+    },
+    "execution_started_utc": "2026-10-28T00:39:40.764106+00:00"
+  },
+  "models": [
+    "stable4",
+    "equal_weights",
+    "without_1",
+    "without_2",
+    "without_3",
+    "without_4",
+    "component_1",
+    "component_2",
+    "component_3",
+    "component_4",
+    "negated_brain_health",
+    "age",
+    "demographics",
+    "clinical",
+    "demographics_plus_four",
+    "clinical_plus_four"
+  ],
+  "method": "source_only_raw_cognitive_reference_no_outcome_covariate_regression",
+  "prior_results_known": true,
+  "analyses": {
+    "composite": {
+      "age_conditioned": {
+        "stable4": 0.5399515738498789,
+        "equal_weights": 0.5317191283292978,
+        "without_1": 0.5205811138014528,
+        "without_2": 0.5302663438256658,
+        "without_3": 0.5239709443099274,
+        "without_4": 0.5457627118644067,
+        "component_1": 0.5239709443099274,
+        "component_2": 0.5162227602905569,
+        "component_3": 0.538498789346247,
+        "component_4": 0.5016949152542373,
+        "negated_brain_health": 0.5433414043583535,
+        "age": 0.5130750605326877,
+        "demographics": 0.5220338983050847,
+        "clinical": 0.511864406779661,
+        "demographics_plus_four": 0.5292978208232445,
+        "clinical_plus_four": 0.514769975786925
+      },
+      "equal_center": {
+        "stable4": 0.5770257065375737,
+        "equal_weights": 0.5877720253703579,
+        "without_1": 0.6053381967323338,
+        "without_2": 0.6073320409093286,
+        "without_3": 0.5301374601253577,
+        "without_4": 0.5547688204576525,
+        "component_1": 0.51152300589435,
+        "component_2": 0.4732854837625227,
+        "component_3": 0.6136116527338876,
+        "component_4": 0.6261227653391306,
+        "negated_brain_health": 0.6706738160873169,
+        "age": 0.5191530513906633,
+        "demographics": 0.5084596435001532,
+        "clinical": 0.5377001949841995,
+        "demographics_plus_four": 0.5810145154904114,
+        "clinical_plus_four": 0.5803354325885086
+      },
+      "ordinary_within_center": {
+        "stable4": 0.526097210828548,
+        "equal_weights": 0.5322497949138638,
+        "without_1": 0.5394790812141099,
+        "without_2": 0.5229183757178015,
+        "without_3": 0.527122641509434,
+        "without_4": 0.5233285479901558,
+        "component_1": 0.4940525020508614,
+        "component_2": 0.5334290401968826,
+        "component_3": 0.5230721903199343,
+        "component_4": 0.5354799015586547,
+        "negated_brain_health": 0.5905455291222313,
+        "age": 0.6004152994257588,
+        "demographics": 0.605414273995078,
+        "clinical": 0.5843929450369155,
+        "demographics_plus_four": 0.5998769483182936,
+        "clinical_plus_four": 0.5839315012305168
+      },
+      "pooled_ordinary_auc": {
+        "stable4": 0.5294818817546091,
+        "equal_weights": 0.5505205022250477,
+        "without_1": 0.5702876668785759,
+        "without_2": 0.5219524793388429,
+        "without_3": 0.5128933566433567,
+        "without_4": 0.5189129052765417,
+        "component_1": 0.46602828989192624,
+        "component_2": 0.53611729179911,
+        "component_3": 0.5416600445009536,
+        "component_4": 0.5552288620470438,
+        "negated_brain_health": 0.625437062937063,
+        "age": 0.6011999364272091,
+        "demographics": 0.6051136363636364,
+        "clinical": 0.5941870629370629,
+        "demographics_plus_four": 0.5999086141131598,
+        "clinical_plus_four": 0.5921606802288621
+      },
+      "paired_differences": {
+        "stable4__minus__demographics": 0.017917675544794176,
+        "demographics_plus_four__minus__demographics": 0.007263922518159771,
+        "clinical_plus_four__minus__clinical": 0.0029055690072639084
+      },
+      "n": 588,
+      "cases": 104,
+      "eligible_pairs": 2065,
+      "counts": {
+        "Geisinger": {
+          "n": 34,
+          "cases": 10,
+          "noncases": 24,
+          "eligible_pairs": 18
+        },
+        "MedSleep": {
+          "n": 305,
+          "cases": 59,
+          "noncases": 246,
+          "eligible_pairs": 1605
+        },
+        "St_Lukes": {
+          "n": 50,
+          "cases": 10,
+          "noncases": 40,
+          "eligible_pairs": 25
+        },
+        "Stanford": {
+          "n": 199,
+          "cases": 25,
+          "noncases": 174,
+          "eligible_pairs": 417
+        }
+      },
+      "by_center": {
+        "Geisinger": {
+          "stable4": 0.6666666666666666,
+          "equal_weights": 0.6666666666666666,
+          "without_1": 0.8333333333333334,
+          "without_2": 0.7222222222222222,
+          "without_3": 0.5555555555555556,
+          "without_4": 0.6666666666666666,
+          "component_1": 0.5,
+          "component_2": 0.5,
+          "component_3": 0.7222222222222222,
+          "component_4": 0.9444444444444444,
+          "negated_brain_health": 0.8333333333333334,
+          "age": 0.5,
+          "demographics": 0.6388888888888888,
+          "clinical": 0.8333333333333334,
+          "demographics_plus_four": 0.7777777777777778,
+          "clinical_plus_four": 0.7777777777777778
+        },
+        "MedSleep": {
+          "stable4": 0.5370716510903427,
+          "equal_weights": 0.5208722741433022,
+          "without_1": 0.5196261682242991,
+          "without_2": 0.5227414330218069,
+          "without_3": 0.5246105919003116,
+          "without_4": 0.5520249221183801,
+          "component_1": 0.5320872274143302,
+          "component_2": 0.5327102803738317,
+          "component_3": 0.5414330218068536,
+          "component_4": 0.4685358255451713,
+          "negated_brain_health": 0.5202492211838006,
+          "age": 0.5090342679127726,
+          "demographics": 0.5532710280373832,
+          "clinical": 0.5202492211838006,
+          "demographics_plus_four": 0.5370716510903427,
+          "clinical_plus_four": 0.5127725856697819
+        },
+        "St_Lukes": {
+          "stable4": 0.56,
+          "equal_weights": 0.6,
+          "without_1": 0.56,
+          "without_2": 0.64,
+          "without_3": 0.52,
+          "without_4": 0.48,
+          "component_1": 0.52,
+          "component_2": 0.4,
+          "component_3": 0.68,
+          "component_4": 0.48,
+          "negated_brain_health": 0.72,
+          "age": 0.54,
+          "demographics": 0.44,
+          "clinical": 0.32,
+          "demographics_plus_four": 0.52,
+          "clinical_plus_four": 0.52
+        },
+        "Stanford": {
+          "stable4": 0.5443645083932853,
+          "equal_weights": 0.5635491606714629,
+          "without_1": 0.5083932853717026,
+          "without_2": 0.5443645083932853,
+          "without_3": 0.5203836930455635,
+          "without_4": 0.5203836930455635,
+          "component_1": 0.4940047961630695,
+          "component_2": 0.460431654676259,
+          "component_3": 0.5107913669064749,
+          "component_4": 0.6115107913669064,
+          "negated_brain_health": 0.6091127098321343,
+          "age": 0.5275779376498801,
+          "demographics": 0.40167865707434053,
+          "clinical": 0.47721822541966424,
+          "demographics_plus_four": 0.4892086330935252,
+          "clinical_plus_four": 0.5107913669064749
+        }
+      },
+      "source_outcome_references": {
+        "Geisinger": {
+          "source_n": 554,
+          "source_cases": 96,
+          "held_n": 34,
+          "held_cases": 10,
+          "task_mean": [
+            2.2655084837545125,
+            32.545126353790614
+          ],
+          "task_sd": [
+            0.8493733667353608,
+            3.7303932297138123
+          ],
+          "composite_mean": -4.488988402816517e-17,
+          "composite_sd": 0.7670706041103666
+        },
+        "MedSleep": {
+          "source_n": 283,
+          "source_cases": 48,
+          "held_n": 305,
+          "held_cases": 59,
+          "task_mean": [
+            2.1821583038869257,
+            32.696113074204945
+          ],
+          "task_sd": [
+            0.8542506030549455,
+            3.5466929424752327
+          ],
+          "composite_mean": 3.8288963676118474e-16,
+          "composite_sd": 0.7561125075295049
+        },
+        "St_Lukes": {
+          "source_n": 538,
+          "source_cases": 94,
+          "held_n": 50,
+          "held_cases": 10,
+          "task_mean": [
+            2.258740520446097,
+            32.50371747211896
+          ],
+          "task_sd": [
+            0.8628792322429369,
+            3.7278447297466575
+          ],
+          "composite_mean": 1.254675834520623e-16,
+          "composite_sd": 0.7669684271584142
+        },
+        "Stanford": {
+          "source_n": 389,
+          "source_cases": 72,
+          "held_n": 199,
+          "held_cases": 25,
+          "task_mean": [
+            2.2276933161953725,
+            32.44215938303342
+          ],
+          "task_sd": [
+            0.870644656681045,
+            3.756724420353979
+          ],
+          "composite_mean": -9.132940048330336e-18,
+          "composite_sd": 0.7796982882055531
+        }
+      },
+      "intervals": {
+        "age_conditioned": {
+          "stable4": {
+            "ci_low": 0.4476829042385165,
+            "ci_high": 0.618926769469504,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "equal_weights": {
+            "ci_low": 0.43951157895212345,
+            "ci_high": 0.6101704236169626,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_1": {
+            "ci_low": 0.4323007845045301,
+            "ci_high": 0.6012402647545503,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_2": {
+            "ci_low": 0.4457823617910742,
+            "ci_high": 0.6169327434138883,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_3": {
+            "ci_low": 0.43391652941766035,
+            "ci_high": 0.6028690464038164,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_4": {
+            "ci_low": 0.45193748261295075,
+            "ci_high": 0.6311065302183261,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_1": {
+            "ci_low": 0.44188888776229274,
+            "ci_high": 0.6016649865560935,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_2": {
+            "ci_low": 0.42888899957238374,
+            "ci_high": 0.598382205767445,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_3": {
+            "ci_low": 0.45507081532743354,
+            "ci_high": 0.6232247683198221,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_4": {
+            "ci_low": 0.41795236626668164,
+            "ci_high": 0.5833766666666664,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "negated_brain_health": {
+            "ci_low": 0.4557130805958286,
+            "ci_high": 0.6255293209876542,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "age": {
+            "ci_low": 0.4774949510752076,
+            "ci_high": 0.5459406647288686,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics": {
+            "ci_low": 0.42263435531803706,
+            "ci_high": 0.6279756005143777,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical": {
+            "ci_low": 0.40934036760528125,
+            "ci_high": 0.6167577094567778,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics_plus_four": {
+            "ci_low": 0.4208353140834953,
+            "ci_high": 0.622738541492712,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical_plus_four": {
+            "ci_low": 0.41096425697787153,
+            "ci_high": 0.6173809471282625,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          }
+        },
+        "equal_center": {
+          "stable4": {
+            "ci_low": 0.40505208805201426,
+            "ci_high": 0.7101898584062168,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          },
+          "equal_weights": {
+            "ci_low": 0.4260926796943638,
+            "ci_high": 0.7225810519166621,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          },
+          "without_1": {
+            "ci_low": 0.44968299926729227,
+            "ci_high": 0.7247094375429622,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          },
+          "without_2": {
+            "ci_low": 0.43685279441930847,
+            "ci_high": 0.7295480231455084,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          },
+          "without_3": {
+            "ci_low": 0.3685525922003567,
+            "ci_high": 0.6753058044955151,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          },
+          "without_4": {
+            "ci_low": 0.3947462542991618,
+            "ci_high": 0.6996248508051478,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          },
+          "component_1": {
+            "ci_low": 0.3549615228818933,
+            "ci_high": 0.6630014351839394,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          },
+          "component_2": {
+            "ci_low": 0.3402600557579534,
+            "ci_high": 0.6388620788624855,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          },
+          "component_3": {
+            "ci_low": 0.466205941041816,
+            "ci_high": 0.742209005010855,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          },
+          "component_4": {
+            "ci_low": 0.48427428161439856,
+            "ci_high": 0.7522566719545013,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          },
+          "negated_brain_health": {
+            "ci_low": 0.5136812056178421,
+            "ci_high": 0.7582749599605695,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          },
+          "age": {
+            "ci_low": 0.39725131712851697,
+            "ci_high": 0.6356469530027203,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          },
+          "demographics": {
+            "ci_low": 0.36137981725537294,
+            "ci_high": 0.681780904633849,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          },
+          "clinical": {
+            "ci_low": 0.3427888408611541,
+            "ci_high": 0.702880203722141,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          },
+          "demographics_plus_four": {
+            "ci_low": 0.3847582164528987,
+            "ci_high": 0.7252884239933393,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          },
+          "clinical_plus_four": {
+            "ci_low": 0.3783740420186711,
+            "ci_high": 0.726744728800742,
+            "valid_replicates": 1996,
+            "requested_replicates": 2000
+          }
+        },
+        "ordinary_within_center": {
+          "stable4": {
+            "ci_low": 0.44492482678003875,
+            "ci_high": 0.597282076872975,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "equal_weights": {
+            "ci_low": 0.4533098497022634,
+            "ci_high": 0.6000533158407118,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_1": {
+            "ci_low": 0.46238765220907657,
+            "ci_high": 0.6093871594628929,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_2": {
+            "ci_low": 0.4482072575329874,
+            "ci_high": 0.589879906071517,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_3": {
+            "ci_low": 0.44870321422547726,
+            "ci_high": 0.5937655890810553,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_4": {
+            "ci_low": 0.4423171696938579,
+            "ci_high": 0.594308315558614,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_1": {
+            "ci_low": 0.4211757754737305,
+            "ci_high": 0.5570687893517617,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_2": {
+            "ci_low": 0.46011454203947577,
+            "ci_high": 0.6000147464672093,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_3": {
+            "ci_low": 0.45112858930298444,
+            "ci_high": 0.5941980870045538,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_4": {
+            "ci_low": 0.4654347401431219,
+            "ci_high": 0.6008646652229536,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "negated_brain_health": {
+            "ci_low": 0.5123521363135468,
+            "ci_high": 0.6488832228036244,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "age": {
+            "ci_low": 0.5259567371901851,
+            "ci_high": 0.6595115216473766,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics": {
+            "ci_low": 0.5008331400462868,
+            "ci_high": 0.6721122651913319,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical": {
+            "ci_low": 0.47800144995612875,
+            "ci_high": 0.6569959051901261,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics_plus_four": {
+            "ci_low": 0.49791184944740324,
+            "ci_high": 0.6688846743125504,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical_plus_four": {
+            "ci_low": 0.475234594375938,
+            "ci_high": 0.6537505646859862,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          }
+        },
+        "pooled_ordinary_auc": {
+          "stable4": {
+            "ci_low": 0.4593135600983612,
+            "ci_high": 0.5945728906750111,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "equal_weights": {
+            "ci_low": 0.48032907196969693,
+            "ci_high": 0.618599428834139,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_1": {
+            "ci_low": 0.4979668938607828,
+            "ci_high": 0.6339874324215282,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_2": {
+            "ci_low": 0.45550192829987407,
+            "ci_high": 0.5835218819855656,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_3": {
+            "ci_low": 0.43937598591179217,
+            "ci_high": 0.574282706276703,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_4": {
+            "ci_low": 0.4469327244502556,
+            "ci_high": 0.5848874115803374,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_1": {
+            "ci_low": 0.39195588333714004,
+            "ci_high": 0.525600033139327,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_2": {
+            "ci_low": 0.47152182772724244,
+            "ci_high": 0.5952285387522778,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_3": {
+            "ci_low": 0.47939494746076877,
+            "ci_high": 0.6076833484708728,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_4": {
+            "ci_low": 0.49290958506637383,
+            "ci_high": 0.6198869636706329,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "negated_brain_health": {
+            "ci_low": 0.5511601620605966,
+            "ci_high": 0.6821448095924962,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "age": {
+            "ci_low": 0.5387029816998437,
+            "ci_high": 0.6562790116636759,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics": {
+            "ci_low": 0.4953941144769607,
+            "ci_high": 0.6730319376861275,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical": {
+            "ci_low": 0.4742214074478719,
+            "ci_high": 0.6644445777844878,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics_plus_four": {
+            "ci_low": 0.4864420088765998,
+            "ci_high": 0.6717621868297227,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical_plus_four": {
+            "ci_low": 0.47142285344602436,
+            "ci_high": 0.6645307722669098,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          }
+        },
+        "paired_differences": {
+          "stable4__minus__demographics": {
+            "ci_low": -0.1152010781288302,
+            "ci_high": 0.1460537752078323,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000,
+            "familywise_95_bonferroni": {
+              "ci_low": -0.16784086588804156,
+              "ci_high": 0.20319119020449733,
+              "valid_replicates": 2000,
+              "requested_replicates": 2000
+            }
+          },
+          "demographics_plus_four__minus__demographics": {
+            "ci_low": -0.08103063188179979,
+            "ci_high": 0.08535276621506276,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000,
+            "familywise_95_bonferroni": {
+              "ci_low": -0.11429980881581522,
+              "ci_high": 0.12478928374684249,
+              "valid_replicates": 2000,
+              "requested_replicates": 2000
+            }
+          },
+          "clinical_plus_four__minus__clinical": {
+            "ci_low": -0.05372075390875991,
+            "ci_high": 0.0644406144296368,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000,
+            "familywise_95_bonferroni": {
+              "ci_low": -0.0806568940521364,
+              "ci_high": 0.0969801893495498,
+              "valid_replicates": 2000,
+              "requested_replicates": 2000
+            }
+          }
+        }
+      },
+      "permutation_p_one_sided": {
+        "stable4": 0.14158584141585842,
+        "equal_weights": 0.19608039196080393,
+        "without_1": 0.29447055294470553,
+        "without_2": 0.20837916208379162,
+        "without_3": 0.2595740425957404,
+        "without_4": 0.11088891110888911,
+        "component_1": 0.263973602639736,
+        "component_2": 0.32626737326267374,
+        "component_3": 0.15648435156484353,
+        "component_4": 0.4764523547645235,
+        "negated_brain_health": 0.13068693130686931
+      },
+      "permutation_p_holm_33": {
+        "stable4": 1.0,
+        "equal_weights": 1.0,
+        "without_1": 1.0,
+        "without_2": 1.0,
+        "without_3": 1.0,
+        "without_4": 1.0,
+        "component_1": 1.0,
+        "component_2": 1.0,
+        "component_3": 1.0,
+        "component_4": 1.0,
+        "negated_brain_health": 1.0
+      }
+    },
+    "executive_function": {
+      "age_conditioned": {
+        "stable4": 0.534629404617254,
+        "equal_weights": 0.532604293236128,
+        "without_1": 0.5370595382746051,
+        "without_2": 0.5281490481976508,
+        "without_3": 0.5301741595787768,
+        "without_4": 0.5394896719319563,
+        "component_1": 0.507492912110166,
+        "component_2": 0.5293641150263264,
+        "component_3": 0.5334143377885784,
+        "component_4": 0.5042527339003645,
+        "negated_brain_health": 0.4892669096800324,
+        "age": 0.5121506682867558,
+        "demographics": 0.5194410692588093,
+        "clinical": 0.543134872417983,
+        "demographics_plus_four": 0.5427298501417578,
+        "clinical_plus_four": 0.5496152288375861
+      },
+      "equal_center": {
+        "stable4": 0.5034541721890312,
+        "equal_weights": 0.5142178384566723,
+        "without_1": 0.5650366324058612,
+        "without_2": 0.49068479941865883,
+        "without_3": 0.5331460005760874,
+        "without_4": 0.4868880408111775,
+        "component_1": 0.4691743317951658,
+        "component_2": 0.5460561306417082,
+        "component_3": 0.5175225669854289,
+        "component_4": 0.5619338933639684,
+        "negated_brain_health": 0.5783991636347752,
+        "age": 0.5099221121329924,
+        "demographics": 0.4744213048164997,
+        "clinical": 0.5086421695645653,
+        "demographics_plus_four": 0.5459901829947928,
+        "clinical_plus_four": 0.5548542882312316
+      },
+      "ordinary_within_center": {
+        "stable4": 0.5308450643592062,
+        "equal_weights": 0.5357957725257222,
+        "without_1": 0.5463859830384433,
+        "without_2": 0.5265401007361488,
+        "without_3": 0.5348917301648801,
+        "without_4": 0.529854922725903,
+        "component_1": 0.4993327306384261,
+        "component_2": 0.535408325799647,
+        "component_3": 0.5315769081751259,
+        "component_4": 0.5449653450428343,
+        "negated_brain_health": 0.5144862025915881,
+        "age": 0.5902750871755134,
+        "demographics": 0.5770157992164966,
+        "clinical": 0.5920616470790822,
+        "demographics_plus_four": 0.5853459038271127,
+        "clinical_plus_four": 0.5940849799819191
+      },
+      "pooled_ordinary_auc": {
+        "stable4": 0.5373989057091356,
+        "equal_weights": 0.5553286860533746,
+        "without_1": 0.5728756241126832,
+        "without_2": 0.5309224903890635,
+        "without_3": 0.5314169950070985,
+        "without_4": 0.5277959450621321,
+        "component_1": 0.48994241413964174,
+        "component_2": 0.5448324267415335,
+        "component_3": 0.5348466238095998,
+        "component_4": 0.5695257541195424,
+        "negated_brain_health": 0.5396002488474851,
+        "age": 0.5903507792435675,
+        "demographics": 0.5712405685207932,
+        "clinical": 0.593501252213307,
+        "demographics_plus_four": 0.5871045957025953,
+        "clinical_plus_four": 0.600456220389542
+      },
+      "paired_differences": {
+        "stable4__minus__demographics": 0.01518833535844466,
+        "demographics_plus_four__minus__demographics": 0.0232887808829485,
+        "clinical_plus_four__minus__clinical": 0.006480356419603095
+      },
+      "n": 590,
+      "cases": 139,
+      "eligible_pairs": 2469,
+      "counts": {
+        "Geisinger": {
+          "n": 34,
+          "cases": 14,
+          "noncases": 20,
+          "eligible_pairs": 20
+        },
+        "MedSleep": {
+          "n": 306,
+          "cases": 62,
+          "noncases": 244,
+          "eligible_pairs": 1708
+        },
+        "St_Lukes": {
+          "n": 50,
+          "cases": 15,
+          "noncases": 35,
+          "eligible_pairs": 44
+        },
+        "Stanford": {
+          "n": 200,
+          "cases": 48,
+          "noncases": 152,
+          "eligible_pairs": 697
+        }
+      },
+      "by_center": {
+        "Geisinger": {
+          "stable4": 0.55,
+          "equal_weights": 0.55,
+          "without_1": 0.7,
+          "without_2": 0.5,
+          "without_3": 0.55,
+          "without_4": 0.45,
+          "component_1": 0.4,
+          "component_2": 0.6,
+          "component_3": 0.6,
+          "component_4": 0.8,
+          "negated_brain_health": 0.7,
+          "age": 0.475,
+          "demographics": 0.425,
+          "clinical": 0.5,
+          "demographics_plus_four": 0.7,
+          "clinical_plus_four": 0.65
+        },
+        "MedSleep": {
+          "stable4": 0.5351288056206089,
+          "equal_weights": 0.5298594847775175,
+          "without_1": 0.5450819672131147,
+          "without_2": 0.5357142857142857,
+          "without_3": 0.5304449648711944,
+          "without_4": 0.5403981264637002,
+          "component_1": 0.5216627634660421,
+          "component_2": 0.5263466042154566,
+          "component_3": 0.5562060889929742,
+          "component_4": 0.5111241217798594,
+          "negated_brain_health": 0.4502341920374707,
+          "age": 0.5149297423887588,
+          "demographics": 0.5090749414519906,
+          "clinical": 0.5374707259953162,
+          "demographics_plus_four": 0.538056206088993,
+          "clinical_plus_four": 0.5409836065573771
+        },
+        "St_Lukes": {
+          "stable4": 0.38636363636363635,
+          "equal_weights": 0.4318181818181818,
+          "without_1": 0.5,
+          "without_2": 0.4090909090909091,
+          "without_3": 0.5227272727272727,
+          "without_4": 0.4090909090909091,
+          "component_1": 0.4772727272727273,
+          "component_2": 0.5227272727272727,
+          "component_3": 0.4318181818181818,
+          "component_4": 0.45454545454545453,
+          "negated_brain_health": 0.5909090909090909,
+          "age": 0.5454545454545454,
+          "demographics": 0.4090909090909091,
+          "clinical": 0.4318181818181818,
+          "demographics_plus_four": 0.38636363636363635,
+          "clinical_plus_four": 0.45454545454545453
+        },
+        "Stanford": {
+          "stable4": 0.5423242467718795,
+          "equal_weights": 0.5451936872309899,
+          "without_1": 0.5150645624103299,
+          "without_2": 0.5179340028694405,
+          "without_3": 0.5294117647058824,
+          "without_4": 0.5480631276901005,
+          "component_1": 0.47776183644189385,
+          "component_2": 0.5351506456241033,
+          "component_3": 0.48206599713055953,
+          "component_4": 0.48206599713055953,
+          "negated_brain_health": 0.5724533715925395,
+          "age": 0.5043041606886657,
+          "demographics": 0.554519368723099,
+          "clinical": 0.5652797704447633,
+          "demographics_plus_four": 0.5595408895265424,
+          "clinical_plus_four": 0.5738880918220947
+        }
+      },
+      "source_outcome_references": {
+        "Geisinger": {
+          "source_n": 556,
+          "source_cases": 145,
+          "held_n": 34,
+          "held_cases": 14,
+          "task_mean": [
+            2.262854856115108
+          ],
+          "task_sd": [
+            0.8529094864103648
+          ],
+          "composite_mean": -1.8210852490254366e-16,
+          "composite_sd": 1.0
+        },
+        "MedSleep": {
+          "source_n": 284,
+          "source_cases": 74,
+          "held_n": 306,
+          "held_cases": 62,
+          "task_mean": [
+            2.184646830985916
+          ],
+          "task_sd": [
+            0.853772290755438
+          ],
+          "composite_mean": -5.254013186958487e-16,
+          "composite_sd": 1.0
+        },
+        "St_Lukes": {
+          "source_n": 540,
+          "source_cases": 140,
+          "held_n": 50,
+          "held_cases": 15,
+          "task_mean": [
+            2.2560333333333333
+          ],
+          "task_sd": [
+            0.8663924387515889
+          ],
+          "composite_mean": 0.0,
+          "composite_sd": 1.0
+        },
+        "Stanford": {
+          "source_n": 390,
+          "source_cases": 96,
+          "held_n": 200,
+          "held_cases": 48,
+          "task_mean": [
+            2.222408717948718
+          ],
+          "task_sd": [
+            0.8757522860014798
+          ],
+          "composite_mean": -2.7328566760003855e-17,
+          "composite_sd": 1.0
+        }
+      },
+      "intervals": {
+        "age_conditioned": {
+          "stable4": {
+            "ci_low": 0.4555208207905744,
+            "ci_high": 0.598387796521621,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "equal_weights": {
+            "ci_low": 0.44734794882790163,
+            "ci_high": 0.5948708381703485,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_1": {
+            "ci_low": 0.45819529673529047,
+            "ci_high": 0.6038864411556422,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_2": {
+            "ci_low": 0.4518677724886501,
+            "ci_high": 0.5919564004321926,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_3": {
+            "ci_low": 0.4588132294938551,
+            "ci_high": 0.5988026757875535,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_4": {
+            "ci_low": 0.46398626578972124,
+            "ci_high": 0.6065368762710908,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_1": {
+            "ci_low": 0.4406660767467606,
+            "ci_high": 0.5775103915353795,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_2": {
+            "ci_low": 0.4527606717666801,
+            "ci_high": 0.6035885703000997,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_3": {
+            "ci_low": 0.45188217576682327,
+            "ci_high": 0.5985272387043276,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_4": {
+            "ci_low": 0.429136650004424,
+            "ci_high": 0.5831605716506195,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "negated_brain_health": {
+            "ci_low": 0.40075762351975,
+            "ci_high": 0.5613684208501487,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "age": {
+            "ci_low": 0.4812838703471762,
+            "ci_high": 0.5484025178692031,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics": {
+            "ci_low": 0.41066960284798754,
+            "ci_high": 0.5914560804884484,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical": {
+            "ci_low": 0.4197134528062678,
+            "ci_high": 0.6064348704287222,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics_plus_four": {
+            "ci_low": 0.43087858391024797,
+            "ci_high": 0.60911405958835,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical_plus_four": {
+            "ci_low": 0.4369564951045949,
+            "ci_high": 0.6201474972993362,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          }
+        },
+        "equal_center": {
+          "stable4": {
+            "ci_low": 0.37277303842517795,
+            "ci_high": 0.6380272092341422,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "equal_weights": {
+            "ci_low": 0.37603928575264356,
+            "ci_high": 0.6416482702166645,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_1": {
+            "ci_low": 0.4310525813868384,
+            "ci_high": 0.6723459206133027,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_2": {
+            "ci_low": 0.35385507024553325,
+            "ci_high": 0.6235565556094086,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_3": {
+            "ci_low": 0.4055184850872934,
+            "ci_high": 0.6584984955884964,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_4": {
+            "ci_low": 0.35508527187054756,
+            "ci_high": 0.6221409671243121,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_1": {
+            "ci_low": 0.3426049739778144,
+            "ci_high": 0.5948206330444409,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_2": {
+            "ci_low": 0.42203630972749495,
+            "ci_high": 0.6700259824073324,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_3": {
+            "ci_low": 0.38310789172370713,
+            "ci_high": 0.6390896725758378,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_4": {
+            "ci_low": 0.443558910193654,
+            "ci_high": 0.6798089208262756,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "negated_brain_health": {
+            "ci_low": 0.4382233412829781,
+            "ci_high": 0.6980839618915756,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "age": {
+            "ci_low": 0.40747831185237426,
+            "ci_high": 0.6191334579795107,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics": {
+            "ci_low": 0.34106584358871267,
+            "ci_high": 0.6258244623587729,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical": {
+            "ci_low": 0.3321011991711634,
+            "ci_high": 0.6503305993594998,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics_plus_four": {
+            "ci_low": 0.36795920637401214,
+            "ci_high": 0.6757391703084751,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical_plus_four": {
+            "ci_low": 0.3693272426141199,
+            "ci_high": 0.6763507006908681,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          }
+        },
+        "ordinary_within_center": {
+          "stable4": {
+            "ci_low": 0.46773027419072766,
+            "ci_high": 0.5901828122379275,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "equal_weights": {
+            "ci_low": 0.47072515939884474,
+            "ci_high": 0.5940773595713497,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_1": {
+            "ci_low": 0.4800161511858028,
+            "ci_high": 0.6053909069499346,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_2": {
+            "ci_low": 0.4655240035458498,
+            "ci_high": 0.5833765841998817,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_3": {
+            "ci_low": 0.4743766528154024,
+            "ci_high": 0.5955500432976744,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_4": {
+            "ci_low": 0.4675129649899145,
+            "ci_high": 0.5913894530555314,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_1": {
+            "ci_low": 0.44427157601806333,
+            "ci_high": 0.560832951092949,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_2": {
+            "ci_low": 0.4720345453526499,
+            "ci_high": 0.5952960250948652,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_3": {
+            "ci_low": 0.46271614860234395,
+            "ci_high": 0.5878865683273384,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_4": {
+            "ci_low": 0.48375111656665964,
+            "ci_high": 0.6132847334839171,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "negated_brain_health": {
+            "ci_low": 0.44888606646611023,
+            "ci_high": 0.5748043787210111,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "age": {
+            "ci_low": 0.5390786307953442,
+            "ci_high": 0.6522578476040025,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics": {
+            "ci_low": 0.48516293741822086,
+            "ci_high": 0.6407932479685521,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical": {
+            "ci_low": 0.4873065127468095,
+            "ci_high": 0.6492568951893419,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics_plus_four": {
+            "ci_low": 0.4906307163232823,
+            "ci_high": 0.6482161078955999,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical_plus_four": {
+            "ci_low": 0.4922929307054541,
+            "ci_high": 0.6514981156454316,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          }
+        },
+        "pooled_ordinary_auc": {
+          "stable4": {
+            "ci_low": 0.4714059323528112,
+            "ci_high": 0.5975087699759557,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "equal_weights": {
+            "ci_low": 0.48830445392040367,
+            "ci_high": 0.6126401069527052,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_1": {
+            "ci_low": 0.5124262884917065,
+            "ci_high": 0.6275892615783711,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_2": {
+            "ci_low": 0.4692990795419661,
+            "ci_high": 0.5891438311688312,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_3": {
+            "ci_low": 0.46129223397812313,
+            "ci_high": 0.5962727049003803,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_4": {
+            "ci_low": 0.4644746041681068,
+            "ci_high": 0.5846841073076771,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_1": {
+            "ci_low": 0.4236914133577624,
+            "ci_high": 0.5553603561047243,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_2": {
+            "ci_low": 0.4877811887461215,
+            "ci_high": 0.6016765880540391,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_3": {
+            "ci_low": 0.4663616427533819,
+            "ci_high": 0.5954120443496788,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_4": {
+            "ci_low": 0.5066477823913016,
+            "ci_high": 0.63623300838946,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "negated_brain_health": {
+            "ci_low": 0.4790067999226958,
+            "ci_high": 0.6039605274717317,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "age": {
+            "ci_low": 0.5399357995398684,
+            "ci_high": 0.645348583237605,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics": {
+            "ci_low": 0.4729450199998567,
+            "ci_high": 0.6356934433664588,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical": {
+            "ci_low": 0.48150300398133605,
+            "ci_high": 0.6438301799567703,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics_plus_four": {
+            "ci_low": 0.4866937416974621,
+            "ci_high": 0.6494315107962946,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical_plus_four": {
+            "ci_low": 0.4956141566134665,
+            "ci_high": 0.6528823657463981,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          }
+        },
+        "paired_differences": {
+          "stable4__minus__demographics": {
+            "ci_low": -0.08816964285714282,
+            "ci_high": 0.14004914772572902,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000,
+            "familywise_95_bonferroni": {
+              "ci_low": -0.14088617226755829,
+              "ci_high": 0.18136008605697576,
+              "valid_replicates": 2000,
+              "requested_replicates": 2000
+            }
+          },
+          "demographics_plus_four__minus__demographics": {
+            "ci_low": -0.046411314113466114,
+            "ci_high": 0.09789582182592912,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000,
+            "familywise_95_bonferroni": {
+              "ci_low": -0.08047767680630843,
+              "ci_high": 0.13613015748235285,
+              "valid_replicates": 2000,
+              "requested_replicates": 2000
+            }
+          },
+          "clinical_plus_four__minus__clinical": {
+            "ci_low": -0.03950713716016422,
+            "ci_high": 0.075674035074936,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000,
+            "familywise_95_bonferroni": {
+              "ci_low": -0.06362272830852506,
+              "ci_high": 0.09830298398012953,
+              "valid_replicates": 2000,
+              "requested_replicates": 2000
+            }
+          }
+        }
+      },
+      "permutation_p_one_sided": {
+        "stable4": 0.16278372162783722,
+        "equal_weights": 0.17348265173482652,
+        "without_1": 0.13978602139786023,
+        "without_2": 0.20487951204879512,
+        "without_3": 0.19668033196680332,
+        "without_4": 0.12718728127187282,
+        "component_1": 0.41535846415358463,
+        "component_2": 0.19718028197180282,
+        "component_3": 0.16818318168183183,
+        "component_4": 0.4497550244975502,
+        "negated_brain_health": 0.6293370662933707
+      },
+      "permutation_p_holm_33": {
+        "stable4": 1.0,
+        "equal_weights": 1.0,
+        "without_1": 1.0,
+        "without_2": 1.0,
+        "without_3": 1.0,
+        "without_4": 1.0,
+        "component_1": 1.0,
+        "component_2": 1.0,
+        "component_3": 1.0,
+        "component_4": 1.0,
+        "negated_brain_health": 1.0
+      }
+    },
+    "face_memory": {
+      "age_conditioned": {
+        "stable4": 0.5233984552476147,
+        "equal_weights": 0.5152203543843707,
+        "without_1": 0.5193094048159927,
+        "without_2": 0.5188550658791459,
+        "without_3": 0.49977283053157656,
+        "without_4": 0.5311222171740119,
+        "component_1": 0.5002271694684235,
+        "component_2": 0.5197637437528396,
+        "component_3": 0.5152203543843707,
+        "component_4": 0.5193094048159927,
+        "negated_brain_health": 0.5474784189004998,
+        "age": 0.49909132212630625,
+        "demographics": 0.5581553839164016,
+        "clinical": 0.5806451612903226,
+        "demographics_plus_four": 0.570649704679691,
+        "clinical_plus_four": 0.5738300772376193
+      },
+      "equal_center": {
+        "stable4": 0.46635083636309826,
+        "equal_weights": 0.4633302598536297,
+        "without_1": 0.5150230948124774,
+        "without_2": 0.4699953309337325,
+        "without_3": 0.43342459617704854,
+        "without_4": 0.4709228475890334,
+        "component_1": 0.39711208919950985,
+        "component_2": 0.5193959855781841,
+        "component_3": 0.5735072774888124,
+        "component_4": 0.58288070964427,
+        "negated_brain_health": 0.6431082177583909,
+        "age": 0.4420641720032228,
+        "demographics": 0.5364815105312075,
+        "clinical": 0.6082799341454852,
+        "demographics_plus_four": 0.5716169445576543,
+        "clinical_plus_four": 0.5527129595255678
+      },
+      "ordinary_within_center": {
+        "stable4": 0.511567022086824,
+        "equal_weights": 0.5186595582635186,
+        "without_1": 0.5304169840060929,
+        "without_2": 0.5047124904798173,
+        "without_3": 0.4963823305407464,
+        "without_4": 0.5126142421934501,
+        "component_1": 0.4752475247524752,
+        "component_2": 0.519563975628332,
+        "component_3": 0.512519040365575,
+        "component_4": 0.5123762376237624,
+        "negated_brain_health": 0.552503808073115,
+        "age": 0.5088775704493527,
+        "demographics": 0.517778941355674,
+        "clinical": 0.5375095201827875,
+        "demographics_plus_four": 0.5103293983244478,
+        "clinical_plus_four": 0.5250856816450876
+      },
+      "pooled_ordinary_auc": {
+        "stable4": 0.4953025914037422,
+        "equal_weights": 0.5043451029515384,
+        "without_1": 0.5262663430674078,
+        "without_2": 0.49295388710561344,
+        "without_3": 0.4796837078211853,
+        "without_4": 0.4995889767478275,
+        "component_1": 0.46375166366554454,
+        "component_2": 0.515012134972207,
+        "component_3": 0.511997964456275,
+        "component_4": 0.4986494950285758,
+        "negated_brain_health": 0.5815783292883426,
+        "age": 0.5201009942848195,
+        "demographics": 0.47646402567916696,
+        "clinical": 0.5213340640413372,
+        "demographics_plus_four": 0.4732443435371487,
+        "clinical_plus_four": 0.5096884052297816
+      },
+      "paired_differences": {
+        "stable4__minus__demographics": -0.03475692866878688,
+        "demographics_plus_four__minus__demographics": 0.01249432076328938,
+        "clinical_plus_four__minus__clinical": -0.0068150840527033685
+      },
+      "n": 588,
+      "cases": 106,
+      "eligible_pairs": 2201,
+      "counts": {
+        "Geisinger": {
+          "n": 34,
+          "cases": 5,
+          "noncases": 29,
+          "eligible_pairs": 13
+        },
+        "MedSleep": {
+          "n": 305,
+          "cases": 66,
+          "noncases": 239,
+          "eligible_pairs": 1733
+        },
+        "St_Lukes": {
+          "n": 50,
+          "cases": 7,
+          "noncases": 43,
+          "eligible_pairs": 15
+        },
+        "Stanford": {
+          "n": 199,
+          "cases": 28,
+          "noncases": 171,
+          "eligible_pairs": 440
+        }
+      },
+      "by_center": {
+        "Geisinger": {
+          "stable4": 0.5384615384615384,
+          "equal_weights": 0.5384615384615384,
+          "without_1": 0.46153846153846156,
+          "without_2": 0.5384615384615384,
+          "without_3": 0.5384615384615384,
+          "without_4": 0.5384615384615384,
+          "component_1": 0.46153846153846156,
+          "component_2": 0.46153846153846156,
+          "component_3": 0.6153846153846154,
+          "component_4": 0.6923076923076923,
+          "negated_brain_health": 0.7692307692307693,
+          "age": 0.38461538461538464,
+          "demographics": 0.5384615384615384,
+          "clinical": 0.6923076923076923,
+          "demographics_plus_four": 0.6153846153846154,
+          "clinical_plus_four": 0.6153846153846154
+        },
+        "MedSleep": {
+          "stable4": 0.5216387766878245,
+          "equal_weights": 0.5118291979226774,
+          "without_1": 0.5106751298326602,
+          "without_2": 0.5089440276976341,
+          "without_3": 0.5043277553375649,
+          "without_4": 0.5285631852279284,
+          "component_1": 0.5072129255626082,
+          "component_2": 0.5274091171379112,
+          "component_3": 0.49682631275245237,
+          "component_4": 0.49451817657241776,
+          "negated_brain_health": 0.5297172533179457,
+          "age": 0.49538372763993077,
+          "demographics": 0.5729948066935949,
+          "clinical": 0.586266589728794,
+          "demographics_plus_four": 0.5718407386035776,
+          "clinical_plus_four": 0.5810732833237161
+        },
+        "St_Lukes": {
+          "stable4": 0.26666666666666666,
+          "equal_weights": 0.26666666666666666,
+          "without_1": 0.5333333333333333,
+          "without_2": 0.26666666666666666,
+          "without_3": 0.2,
+          "without_4": 0.26666666666666666,
+          "component_1": 0.13333333333333333,
+          "component_2": 0.6,
+          "component_3": 0.6,
+          "component_4": 0.5333333333333333,
+          "negated_brain_health": 0.6666666666666666,
+          "age": 0.36666666666666664,
+          "demographics": 0.5333333333333333,
+          "clinical": 0.6,
+          "demographics_plus_four": 0.5333333333333333,
+          "clinical_plus_four": 0.4666666666666667
+        },
+        "Stanford": {
+          "stable4": 0.5386363636363637,
+          "equal_weights": 0.5363636363636364,
+          "without_1": 0.5545454545454546,
+          "without_2": 0.5659090909090909,
+          "without_3": 0.4909090909090909,
+          "without_4": 0.55,
+          "component_1": 0.4863636363636364,
+          "component_2": 0.48863636363636365,
+          "component_3": 0.5818181818181818,
+          "component_4": 0.6113636363636363,
+          "negated_brain_health": 0.6068181818181818,
+          "age": 0.5215909090909091,
+          "demographics": 0.5011363636363636,
+          "clinical": 0.5545454545454546,
+          "demographics_plus_four": 0.5659090909090909,
+          "clinical_plus_four": 0.5477272727272727
+        }
+      },
+      "source_outcome_references": {
+        "Geisinger": {
+          "source_n": 554,
+          "source_cases": 83,
+          "held_n": 34,
+          "held_cases": 5,
+          "task_mean": [
+            32.545126353790614
+          ],
+          "task_sd": [
+            3.7303932297138123
+          ],
+          "composite_mean": -1.8597237668811287e-16,
+          "composite_sd": 1.0
+        },
+        "MedSleep": {
+          "source_n": 283,
+          "source_cases": 63,
+          "held_n": 305,
+          "held_cases": 66,
+          "task_mean": [
+            32.696113074204945
+          ],
+          "task_sd": [
+            3.5466929424752327
+          ],
+          "composite_mean": 6.339648084078632e-16,
+          "composite_sd": 1.0
+        },
+        "St_Lukes": {
+          "source_n": 538,
+          "source_cases": 81,
+          "held_n": 50,
+          "held_cases": 7,
+          "task_mean": [
+            32.50371747211896
+          ],
+          "task_sd": [
+            3.7278447297466575
+          ],
+          "composite_mean": 4.820596627368709e-16,
+          "composite_sd": 1.0
+        },
+        "Stanford": {
+          "source_n": 389,
+          "source_cases": 60,
+          "held_n": 199,
+          "held_cases": 28,
+          "task_mean": [
+            32.44215938303342
+          ],
+          "task_sd": [
+            3.756724420353979
+          ],
+          "composite_mean": -3.447684868244702e-16,
+          "composite_sd": 0.9999999999999999
+        }
+      },
+      "intervals": {
+        "age_conditioned": {
+          "stable4": {
+            "ci_low": 0.4413598087889234,
+            "ci_high": 0.6146350455509173,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "equal_weights": {
+            "ci_low": 0.43697646545881025,
+            "ci_high": 0.61286063815724,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_1": {
+            "ci_low": 0.4438143533213375,
+            "ci_high": 0.6053135740147397,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_2": {
+            "ci_low": 0.4424143476953892,
+            "ci_high": 0.6309286815492151,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_3": {
+            "ci_low": 0.42487135891833416,
+            "ci_high": 0.5861275537517753,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_4": {
+            "ci_low": 0.44560962270277144,
+            "ci_high": 0.6208007042597448,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_1": {
+            "ci_low": 0.42550533442506755,
+            "ci_high": 0.5905630376626101,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_2": {
+            "ci_low": 0.4330342694841466,
+            "ci_high": 0.596777118775405,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_3": {
+            "ci_low": 0.4311276372370393,
+            "ci_high": 0.606598629283797,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_4": {
+            "ci_low": 0.44001896817501013,
+            "ci_high": 0.606495427091448,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "negated_brain_health": {
+            "ci_low": 0.43937077354445,
+            "ci_high": 0.6182511383377989,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "age": {
+            "ci_low": 0.462262981378075,
+            "ci_high": 0.5370450547033921,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics": {
+            "ci_low": 0.4165595261684475,
+            "ci_high": 0.6455770239919396,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical": {
+            "ci_low": 0.45115589394958455,
+            "ci_high": 0.6821241103068574,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics_plus_four": {
+            "ci_low": 0.4263241007820504,
+            "ci_high": 0.6448810640969659,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical_plus_four": {
+            "ci_low": 0.44681678720140255,
+            "ci_high": 0.6780287189489407,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          }
+        },
+        "equal_center": {
+          "stable4": {
+            "ci_low": 0.27479489215091063,
+            "ci_high": 0.6371198522850633,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          },
+          "equal_weights": {
+            "ci_low": 0.2735537946756482,
+            "ci_high": 0.6413218233389488,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          },
+          "without_1": {
+            "ci_low": 0.31969291244348164,
+            "ci_high": 0.6810322539891069,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          },
+          "without_2": {
+            "ci_low": 0.28580647119631286,
+            "ci_high": 0.6616023700848812,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          },
+          "without_3": {
+            "ci_low": 0.2644355832061484,
+            "ci_high": 0.6223870316779145,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          },
+          "without_4": {
+            "ci_low": 0.2725626461589391,
+            "ci_high": 0.6749859769497015,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          },
+          "component_1": {
+            "ci_low": 0.24655801221178197,
+            "ci_high": 0.5697148118306721,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          },
+          "component_2": {
+            "ci_low": 0.34702128338444926,
+            "ci_high": 0.6724352021883211,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          },
+          "component_3": {
+            "ci_low": 0.3758380970802424,
+            "ci_high": 0.7242687565858622,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          },
+          "component_4": {
+            "ci_low": 0.39824775205484064,
+            "ci_high": 0.7330742041204052,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          },
+          "negated_brain_health": {
+            "ci_low": 0.4634727709647527,
+            "ci_high": 0.7934685636816268,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          },
+          "age": {
+            "ci_low": 0.3111114968396639,
+            "ci_high": 0.5942156551219082,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          },
+          "demographics": {
+            "ci_low": 0.29842825309183696,
+            "ci_high": 0.7087243587636696,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          },
+          "clinical": {
+            "ci_low": 0.33498047794123376,
+            "ci_high": 0.7454034795537071,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          },
+          "demographics_plus_four": {
+            "ci_low": 0.2940663547682524,
+            "ci_high": 0.729161091032234,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          },
+          "clinical_plus_four": {
+            "ci_low": 0.314523659317431,
+            "ci_high": 0.7397378669030894,
+            "valid_replicates": 1966,
+            "requested_replicates": 2000
+          }
+        },
+        "ordinary_within_center": {
+          "stable4": {
+            "ci_low": 0.44565885892038615,
+            "ci_high": 0.6061726088959033,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "equal_weights": {
+            "ci_low": 0.4511461221174776,
+            "ci_high": 0.6064964356796559,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_1": {
+            "ci_low": 0.4596070398748043,
+            "ci_high": 0.5977505739448993,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_2": {
+            "ci_low": 0.43722738405250366,
+            "ci_high": 0.6114356264093381,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_3": {
+            "ci_low": 0.4351502587120186,
+            "ci_high": 0.5752985030298515,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_4": {
+            "ci_low": 0.44560071072727436,
+            "ci_high": 0.6037209273126859,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_1": {
+            "ci_low": 0.41240336276894407,
+            "ci_high": 0.5753855124483008,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_2": {
+            "ci_low": 0.4447880202884967,
+            "ci_high": 0.5811737968274302,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_3": {
+            "ci_low": 0.44137136570690233,
+            "ci_high": 0.5926045305017822,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_4": {
+            "ci_low": 0.447188206319578,
+            "ci_high": 0.584242853905174,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "negated_brain_health": {
+            "ci_low": 0.4621471950891974,
+            "ci_high": 0.6123540605414977,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "age": {
+            "ci_low": 0.43912978272145436,
+            "ci_high": 0.5720858160020199,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics": {
+            "ci_low": 0.4014637213573058,
+            "ci_high": 0.615298843069332,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical": {
+            "ci_low": 0.4305706931148433,
+            "ci_high": 0.6363536104157075,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics_plus_four": {
+            "ci_low": 0.41053819148744686,
+            "ci_high": 0.6165874718947524,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical_plus_four": {
+            "ci_low": 0.42815005305651205,
+            "ci_high": 0.6306280132882219,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          }
+        },
+        "pooled_ordinary_auc": {
+          "stable4": {
+            "ci_low": 0.4336332603693651,
+            "ci_high": 0.5905141746245717,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "equal_weights": {
+            "ci_low": 0.44543141904913197,
+            "ci_high": 0.5975320252118309,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_1": {
+            "ci_low": 0.4681066945606695,
+            "ci_high": 0.5983966671057245,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_2": {
+            "ci_low": 0.4322001936002339,
+            "ci_high": 0.5983371792379769,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_3": {
+            "ci_low": 0.41814889772013986,
+            "ci_high": 0.5722377561744638,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "without_4": {
+            "ci_low": 0.4367920506257479,
+            "ci_high": 0.5899681486880465,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_1": {
+            "ci_low": 0.39878668212614815,
+            "ci_high": 0.5588970568378373,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_2": {
+            "ci_low": 0.44928285242230437,
+            "ci_high": 0.5763117741683143,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_3": {
+            "ci_low": 0.4435621858847981,
+            "ci_high": 0.5806239040077511,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "component_4": {
+            "ci_low": 0.43882469213400893,
+            "ci_high": 0.5849784019334308,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "negated_brain_health": {
+            "ci_low": 0.4821092984372787,
+            "ci_high": 0.6382098593938975,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "age": {
+            "ci_low": 0.45288008967220295,
+            "ci_high": 0.5785551175852132,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics": {
+            "ci_low": 0.3886498890756144,
+            "ci_high": 0.6067614066394944,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical": {
+            "ci_low": 0.4145813396255059,
+            "ci_high": 0.6297128836454808,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "demographics_plus_four": {
+            "ci_low": 0.3872069175811884,
+            "ci_high": 0.603124212486435,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          },
+          "clinical_plus_four": {
+            "ci_low": 0.4076153708010982,
+            "ci_high": 0.6265776676765069,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000
+          }
+        },
+        "paired_differences": {
+          "stable4__minus__demographics": {
+            "ci_low": -0.15745532263735365,
+            "ci_high": 0.14900308150411232,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000,
+            "familywise_95_bonferroni": {
+              "ci_low": -0.20941963635224697,
+              "ci_high": 0.21695993406232178,
+              "valid_replicates": 2000,
+              "requested_replicates": 2000
+            }
+          },
+          "demographics_plus_four__minus__demographics": {
+            "ci_low": -0.0603338109643397,
+            "ci_high": 0.08486314058630291,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000,
+            "familywise_95_bonferroni": {
+              "ci_low": -0.0944749996956432,
+              "ci_high": 0.14172768743149985,
+              "valid_replicates": 2000,
+              "requested_replicates": 2000
+            }
+          },
+          "clinical_plus_four__minus__clinical": {
+            "ci_low": -0.054174963789716105,
+            "ci_high": 0.04249467907110329,
+            "valid_replicates": 2000,
+            "requested_replicates": 2000,
+            "familywise_95_bonferroni": {
+              "ci_low": -0.08033581823320352,
+              "ci_high": 0.060711887067339675,
+              "valid_replicates": 2000,
+              "requested_replicates": 2000
+            }
+          }
+        }
+      },
+      "permutation_p_one_sided": {
+        "stable4": 0.2595740425957404,
+        "equal_weights": 0.3377662233776622,
+        "without_1": 0.2940705929407059,
+        "without_2": 0.30296970302969706,
+        "without_3": 0.502049795020498,
+        "without_4": 0.1957804219578042,
+        "component_1": 0.49825017498250174,
+        "component_2": 0.2920707929207079,
+        "component_3": 0.3478652134786521,
+        "component_4": 0.29827017298270175,
+        "negated_brain_health": 0.096990300969903
+      },
+      "permutation_p_holm_33": {
+        "stable4": 1.0,
+        "equal_weights": 1.0,
+        "without_1": 1.0,
+        "without_2": 1.0,
+        "without_3": 1.0,
+        "without_4": 1.0,
+        "component_1": 1.0,
+        "component_2": 1.0,
+        "component_3": 1.0,
+        "component_4": 1.0,
+        "negated_brain_health": 1.0
+      }
+    }
+  },
+  "completed_utc": "2026-10-28T00:43:51.719052+00:00"
+}

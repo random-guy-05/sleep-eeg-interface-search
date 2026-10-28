@@ -1,0 +1,21 @@
+{
+  "summary_sha256": "b157864335d997b81fd4d348d8b1e029985bafb30fa1173517a15b66b3b9bded",
+  "freeze": {
+    "commit": "6c973b463cc4baa2233ec064f059cf463a311ef6",
+    "files": {
+      "GENERAL_COGNITIVE_PREDICTION_CORRECTION.md": "ff8b15c7c3e2adda283a5522ccc8456b289af6bf8f9bfdc639478b6b69e41865",
+      "general_cognitive_prediction.py": "68c70baae3ab298777842c5acc5f7a0913881793d5c45daccff9dddbaf105623",
+      "test_general_cognitive_prediction.py": "d4eb0ed163cf4b18d6fcaebdeadb5136068200804c82242ddaf0e22c65a2785b"
+    },
+    "execution_started_utc": "2026-10-28T00:39:40.764106+00:00"
+  },
+  "all_3_outcomes_complete": true,
+  "models_per_outcome": 16,
+  "reference_holdout_isolation_unit_tests": 3,
+  "cognitive_outcome_blind_scores_unchanged_from_residual_run": true,
+  "same_composite_participants": 588,
+  "source_reference_case_count": 104,
+  "original_residual_case_count": 103,
+  "old_fitted_binary_results_retained_as_design_diagnostics": true,
+  "participant_data_released": false
+}

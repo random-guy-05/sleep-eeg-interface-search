@@ -54,6 +54,10 @@ def main():
         f"The extension was committed before its first metric was computed: `{s['freeze']['commit']}`. Earlier continuous and within-center-normalization results were already known; this extension is explicitly post hoc. The analysis completed at {s['completed_utc']}.",'',
         '## Complete model results','',
         'All intervals below are nominal percentile 95% intervals from 2,000 participant bootstrap samples stratified by center. Every sample repeats outcome adjustment, labeling, source normalization, and all trained fits. AUROC uses within-center pairs with age difference at most two years. Holm p-values adjust the 33 outcome-blind score/outcome tests together. No permutation p-value is assigned to a trained classifier.','']
+    design_audit=a.results/'residual_label_design_audit.json'
+    if design_audit.exists():
+        design=json.loads(design_audit.read_text());shutil.copy2(design_audit,out/design_audit.name)
+        lines[2:2]=['**Subsequent design-audit note.** The fitted binary comparisons below are retained as methodological diagnostics. Full-cohort residual-case construction removes demographic signal and, in the specified null simulation, depressed held-center demographic AUROC to 0.478 versus 0.499 with independently defined residual labels. These contrasts are not used to establish general incremental cognitive prediction. A separately frozen, source-reference-only general-performance analysis addresses that question. The outcome-blind fixed-score calculation still estimates discrimination of its explicitly defined residual phenotype.','']
     for task,t in s['analyses'].items():
         lines += [f'### {TASKS[task]}','',f"n = {t['n']}; cases = {t['cases']}; eligible pairs = {t['eligible_pairs']:,}.",'',
             '| Model | Age-conditioned AUROC (95% CI) | Equal-center AUROC | Ordinary within-center AUROC | Holm p |',

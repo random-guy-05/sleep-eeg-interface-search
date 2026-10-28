@@ -1,0 +1,31 @@
+{
+  "simulation_replicates": 1000,
+  "seed": 2026102752,
+  "n": 588,
+  "real_cognitive_or_EEG_values_used": false,
+  "purpose": "Check whether full-cohort residual-case construction depresses out-of-center demographic AUROC under a known null.",
+  "statistics": {
+    "full_cohort_fitted_residual_cases": {
+      "mean_age_conditioned_auc": 0.47782150498603015,
+      "mc_standard_error_of_mean": 0.0012493315851314802,
+      "median": 0.47761709741550695,
+      "simulation_95_range": [
+        0.4036723716979476,
+        0.5525513887826089
+      ],
+      "share_below_chance": 0.694
+    },
+    "independent_true_norm_residual_cases": {
+      "mean_age_conditioned_auc": 0.4990577940674332,
+      "mc_standard_error_of_mean": 0.0013953003677502462,
+      "median": 0.49735717456041995,
+      "simulation_95_range": [
+        0.41474862830842657,
+        0.5839026778287766
+      ],
+      "share_below_chance": 0.52
+    }
+  },
+  "paired_mean_design_effect": -0.021236289081403043,
+  "paired_mc_se": 0.0012700594748265405
+}

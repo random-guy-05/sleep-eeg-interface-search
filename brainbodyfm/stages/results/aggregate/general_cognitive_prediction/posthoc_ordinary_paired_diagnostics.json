@@ -1,0 +1,56 @@
+{
+  "pooled_ordinary_auc__negated_brain_health__minus__demographics": {
+    "estimate": 0.020323426573426673,
+    "ci_low": -0.056935349287343645,
+    "ci_high": 0.11823001855779061,
+    "interpretation": "additional post hoc diagnostic paired interval, not multiplicity adjusted"
+  },
+  "ordinary_within_center__negated_brain_health__minus__demographics": {
+    "estimate": -0.014868744872846618,
+    "ci_low": -0.10315264812094019,
+    "ci_high": 0.09106812271376587,
+    "interpretation": "additional post hoc diagnostic paired interval, not multiplicity adjusted"
+  },
+  "age_conditioned__negated_brain_health__minus__demographics": {
+    "estimate": 0.02130750605326881,
+    "ci_low": -0.1167266183036544,
+    "ci_high": 0.1515194779514209,
+    "interpretation": "additional post hoc diagnostic paired interval, not multiplicity adjusted"
+  },
+  "pooled_ordinary_auc__negated_brain_health__minus__age": {
+    "estimate": 0.02423712650985388,
+    "ci_low": -0.04771719051979829,
+    "ci_high": 0.08878872011509514,
+    "interpretation": "additional post hoc diagnostic paired interval, not multiplicity adjusted"
+  },
+  "ordinary_within_center__negated_brain_health__minus__age": {
+    "estimate": -0.009869770303527425,
+    "ci_low": -0.08647405339897578,
+    "ci_high": 0.07057314007875845,
+    "interpretation": "additional post hoc diagnostic paired interval, not multiplicity adjusted"
+  },
+  "age_conditioned__negated_brain_health__minus__age": {
+    "estimate": 0.030266343825665842,
+    "ci_low": -0.058623892904408025,
+    "ci_high": 0.11868497575628725,
+    "interpretation": "additional post hoc diagnostic paired interval, not multiplicity adjusted"
+  },
+  "pooled_ordinary_auc__stable4__minus__demographics": {
+    "estimate": -0.07563175460902727,
+    "ci_low": -0.16348222005077312,
+    "ci_high": 0.04526748941260972,
+    "interpretation": "additional post hoc diagnostic paired interval, not multiplicity adjusted"
+  },
+  "ordinary_within_center__stable4__minus__demographics": {
+    "estimate": -0.07931706316652998,
+    "ci_low": -0.1690227509590234,
+    "ci_high": 0.040215918279214315,
+    "interpretation": "additional post hoc diagnostic paired interval, not multiplicity adjusted"
+  },
+  "age_conditioned__stable4__minus__demographics": {
+    "estimate": 0.017917675544794176,
+    "ci_low": -0.1152010781288302,
+    "ci_high": 0.1460537752078323,
+    "interpretation": "additional post hoc diagnostic paired interval, not multiplicity adjusted"
+  }
+}
