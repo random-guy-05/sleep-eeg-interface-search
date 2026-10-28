@@ -42,3 +42,14 @@ The ongoing HSP reconstruction is not edited or interrupted. The extraction
 uses one CPU thread and processes one recording at a time, without retaining
 new spectrogram copies or EDF copies. Expected additional feature storage is
 small; raw EDFs are read from the already authorized mounted dataset.
+
+The transfer stage is implemented before this extraction begins. `--run-transfer`
+continues automatically only after all 590 records pass their audit. It reports
+all four outcomes, both CARR procedures, clinical and Stable4 comparators, 2,000
+conditional bootstrap intervals with repeated outcome-reference labeling, and
+the three prelisted ordinary-AUROC differences per outcome. Bonferroni intervals
+cover these 12 exploratory differences. Source branch decisions and all failures
+are retained. These intervals condition on trained models; a positive signal
+still requires full-refit inference or a new evaluation before a strong claim.
+Bootstrap seed is 2026102801 plus outcome index. No outcome is used to decide
+whether to complete extraction or which CARR results are reported.

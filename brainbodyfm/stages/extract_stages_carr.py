@@ -11,7 +11,7 @@ import torch
 from threadpoolctl import threadpool_limits
 
 BASE=Path(__file__).resolve().parent
-FILES=['STAGES_CARR_REPRESENTATION_PLAN.md','extract_stages_carr.py']
+FILES=['STAGES_CARR_REPRESENTATION_PLAN.md','extract_stages_carr.py','run_stages_carr_transfer.py']
 
 
 def digest(path):
@@ -35,7 +35,7 @@ def receipt():
 
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--data-root',type=Path,required=True);ap.add_argument('--work',type=Path,required=True);ap.add_argument('--limit',type=int,default=0);a=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--data-root',type=Path,required=True);ap.add_argument('--work',type=Path,required=True);ap.add_argument('--limit',type=int,default=0);ap.add_argument('--run-transfer',action='store_true');a=ap.parse_args()
     freeze=receipt();root=a.data_root.resolve();work=a.work.resolve();out=root/'cache/carr_taps';out.mkdir(exist_ok=True,parents=True);status_path=out/'state_private.json'
     if status_path.exists():
         state=json.loads(status_path.read_text())
@@ -100,6 +100,8 @@ def main():
         count+=1;state['active_seconds']=initial+time.monotonic()-started;atomic(status_path,state)
     state['status']='complete' if len(state['completed'])==590 else 'partial_or_failures';state['active_seconds']=initial+time.monotonic()-started;atomic(status_path,state)
     print(json.dumps(dict(stage='STAGES_CARR_pass_complete',n=len(state['completed']),failures=len(state['failures']),status=state['status'])),flush=True)
+    if a.run_transfer and state['status']=='complete':
+        subprocess.run([sys.executable,str(BASE/'run_stages_carr_transfer.py'),'--data-root',str(root),'--entry-source',str(work/'entry_source')],check=True)
 
 
 if __name__=='__main__':
