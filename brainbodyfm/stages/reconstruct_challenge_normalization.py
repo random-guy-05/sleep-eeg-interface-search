@@ -27,7 +27,7 @@ DATASET = 'physionet/physionetchallenge2026datalargeversion'
 FILES = ['RECONSTRUCTION_AMENDMENT_06.md', 'reconstruct_challenge_normalization.py',
          'run_reconstructed_rank.py', 'test_reconstruction.py', 'audit_challenge_date_gate.py',
          'data/reconstruction_source_manifest.json', 'reconstruction_wavelet.py',
-         'verify_reconstruction_wavelet.py']
+         'verify_reconstruction_wavelet.py', 'RECONSTRUCTION_AMENDMENT_07_TAP_CAPTURE.md']
 
 
 def digest(path):
@@ -43,6 +43,25 @@ def atomic(path, value):
     tmp = path.with_suffix(path.suffix + '.tmp')
     tmp.write_text(json.dumps(value, indent=2) + '\n')
     tmp.replace(path)
+
+
+def save_feature_taps(work, record_key, taps):
+    """Retain already-computed private CARR inputs without changing the latent."""
+    arrays = {name: np.asarray(taps[name], dtype=np.float32)
+              for name in ['latent', 'global', 'temporal', 'counterfactual']}
+    expected = {'latent': (1024,), 'global': (2048,),
+                'temporal': (32, 32), 'counterfactual': (8,)}
+    for name, value in arrays.items():
+        if value.shape != expected[name] or not np.isfinite(value).all():
+            raise ValueError('Invalid submitted feature tap: ' + name)
+    folder = Path(work) / 'feature_taps'
+    folder.mkdir(exist_ok=True)
+    path = folder / (hashlib.sha256(record_key.encode()).hexdigest() + '.npz')
+    temporary = path.with_suffix('.tmp')
+    with temporary.open('wb') as handle:
+        np.savez_compressed(handle, **arrays)
+    temporary.replace(path)
+    return dict(feature_tap_file=path.name, feature_tap_sha256=digest(path))
 
 
 def frozen_receipt():
@@ -215,6 +234,7 @@ def main():
             edf_sha = digest(path)
             state['status'] = 'extracting'
             save()
+            taps = None
             try:
                 taps = embed_edf_feature_taps(runtime, path, float(item['age']), int(item['sex']), amp=True)
                 latent = np.asarray(taps['latent'], np.float32)
@@ -224,10 +244,18 @@ def main():
                 route = 'submitted_ordinary_fallback:' + type(error).__name__
             if latent.shape != (1024,) or not np.isfinite(latent).all():
                 raise ValueError('Invalid latent')
+            tap_metadata = {}
+            if taps is not None:
+                try:
+                    tap_metadata = save_feature_taps(args.work, key, taps)
+                except Exception as tap_error:
+                    tap_metadata = dict(feature_tap_cache_error=type(tap_error).__name__ + ':' + str(tap_error))
+                    print(json.dumps(dict(stage='source_tap_cache_failed', reason=type(tap_error).__name__)), flush=True)
             target = cache / (hashlib.sha256(key.encode()).hexdigest() + '.npy')
             np.save(target, latent)
             state['completed'].append(dict(key=key, site=str(item['record']['SiteID']), sex=int(item['sex']),
-                                          latent_file=target.name, latent_sha256=digest(target), edf_sha256=edf_sha, route=route))
+                                          latent_file=target.name, latent_sha256=digest(target), edf_sha256=edf_sha, route=route,
+                                          **tap_metadata))
             done.add(key)
             print(json.dumps(dict(stage='source_record_complete', completed=len(state['completed']),
                                   queue=len(queue), seconds=round(time.monotonic()-tick, 1))), flush=True)
@@ -271,6 +299,9 @@ def main():
                   freeze=state['freeze'], source_n=len(features), active_seconds=state['active_seconds'],
                   source_center_counts=pd.Series([r['site'] for r in state['completed']]).value_counts().to_dict(),
                   source_failures=len(state['failures']), source_roster_sha256=digest(roster),
+                  prior_execution_freezes=state.get('prior_execution_freezes', []),
+                  retained_feature_tap_records=sum('feature_tap_file' in r for r in state['completed']),
+                  feature_tap_backfill_required=sum('feature_tap_file' not in r for r in state['completed']),
                   normalizer=normalizer, all_head_names=names, all_head_mean=features.mean(axis=0).tolist(),
                   all_head_scale=scale.tolist(), packages={k:importlib.metadata.version(k) for k in ['numpy','pandas','torch','scipy']})
     result['memory_bounded_wavelet_verification'] = checked

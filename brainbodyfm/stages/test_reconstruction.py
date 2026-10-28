@@ -5,7 +5,7 @@ import tempfile
 from pathlib import Path
 import numpy as np
 from reconstruct_challenge_normalization import ENTRY, META_SHA
-from reconstruct_challenge_normalization import download_file
+from reconstruct_challenge_normalization import download_file, save_feature_taps, digest
 from run_reconstructed_rank import validate_reconstruction
 from age_conditioned_transfer import STABLE4, fixed_score
 
@@ -50,6 +50,25 @@ class ReconstructionGuards(unittest.TestCase):
             out=Path(folder)/'synthetic.edf'
             download_file('physiological_data/site/synthetic.edf',out)
             self.assertTrue(out.read_bytes().startswith(b'0       '))
+
+    def test_feature_tap_cache_retains_exact_arrays_without_modifying_input(self):
+        rng=np.random.default_rng(46)
+        taps={name:rng.normal(size=shape).astype(np.float32) for name,shape in
+              [('latent',(1024,)),('global',(2048,)),('temporal',(32,32)),('counterfactual',(8,))]}
+        before={k:v.copy() for k,v in taps.items()}
+        with tempfile.TemporaryDirectory() as folder:
+            meta=save_feature_taps(Path(folder),'synthetic',taps)
+            path=Path(folder)/'feature_taps'/meta['feature_tap_file']
+            self.assertEqual(digest(path),meta['feature_tap_sha256'])
+            with np.load(path) as saved:
+                for k in taps:
+                    np.testing.assert_array_equal(saved[k],before[k])
+                    np.testing.assert_array_equal(taps[k],before[k])
+
+    def test_invalid_feature_tap_cache_is_rejected(self):
+        with tempfile.TemporaryDirectory() as folder:
+            taps={'latent':np.zeros(1024),'global':np.zeros(2048),'temporal':np.zeros((32,32)),'counterfactual':np.full(8,np.nan)}
+            with self.assertRaises(ValueError):save_feature_taps(Path(folder),'synthetic',taps)
 
 
 if __name__=='__main__':unittest.main()
