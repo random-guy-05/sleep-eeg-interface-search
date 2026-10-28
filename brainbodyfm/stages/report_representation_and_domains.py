@@ -26,7 +26,7 @@ def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--data-root',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);a=ap.parse_args()
  root=a.data_root;out=a.out;out.mkdir(exist_ok=True,parents=True)
- source={n:root/'results'/n for n in ['cinc_trainable_transfer/summary.json','cinc_trainable_transfer/diagnostics_summary.json','cognitive_domain_specificity/summary.json','cinc_trainable_transfer/additional_sample_availability_audit.json']}
+ source={n:root/'results'/n for n in ['cinc_trainable_transfer/summary.json','cinc_trainable_transfer/diagnostics_summary.json','cognitive_domain_specificity/summary.json','cinc_trainable_transfer/additional_sample_availability_audit.json','general_cognitive_prediction/summary.json','age_conditioned_transfer/available_summary.json']}
  data={n:json.loads(p.read_text()) for n,p in source.items()}
  train=data['cinc_trainable_transfer/summary.json'];diag=data['cinc_trainable_transfer/diagnostics_summary.json'];dom=data['cognitive_domain_specificity/summary.json']
  assert train['status']==dom['status']=='complete'

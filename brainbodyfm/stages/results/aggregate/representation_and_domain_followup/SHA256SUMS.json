@@ -1,0 +1,23 @@
+{
+  "same_participant_domain_metrics_and_contrasts.csv": "1b78992ac716386219180f744a5b0d3014bc0ee566d687cf8a5decd6c0d707d0",
+  "aggregate_provenance.json": "da13a95e4ab0c73c891624cc125541bbcfe2474c51b61c40c4bdd306f01c3091",
+  "outcome_counts.csv": "52ad131b235ec3ff090ad6d45acf8ebf7fd5e3ac4b366a6f6daaa59bd7238e27",
+  "figure_3_validation_and_center_information.svg": "e044277fd1e2ce624ba878cf5247c8bdf3b6b050fbf8aaba4a27de1efa50b38e",
+  "figure_2_paired_domains.svg": "3b886619b19a3098f5dd89d2965a242931e07f2bd8d1964a6e46978014831aa2",
+  "CINC_TRAINABLE_TRANSFER_PLAN.md": "6d3a9e116e83d4f0f3ee6b2ce8b495e992c0dcb41aff86133f58573584ad5bc4",
+  "patient_vs_center_cv.csv": "349439329a54f2966c5edbaf83c0f69c6cf85cd9ce0593b6c5b68e0fc6677d6e",
+  "center_prediction.csv": "8575fe94d8096525963e1851f38525af132898d56f0af60d68935a2625a818ae",
+  "all_model_metrics.csv": "c4a4e1437227e27f7b74afd51ea8fddd957f05886580f7f8534ce8ab4c4a66d9",
+  "figure_2_paired_domains.png": "5c4640465512e80cb4d5627a4488a1c8bc1ca07dced7cbb7c5081b6ad114ac68",
+  "figure_3_validation_and_center_information.png": "e123d31b7d0c65e025426875023722b07f85edbc28c92367cad904eaae416a26",
+  "RUN_STATUS_SNAPSHOT.json": "f48ca00b68eada1a1fe7d287f0969443d97d6c62796a39766c3388c8eab1d62b",
+  "TIMING14_FIXED_SCORE_PLAN.md": "411abd00123d20a75d16586fd5f6721c0c8e4501ebb63a64dfb2f2d904a8eaf2",
+  "submitted_branch_gates.csv": "dd7382039ede1c5fc74e23bc3a856ace4d80a7928b661527a6a94ec586a25dff",
+  "figure_1_full_representation.png": "57906676937c0eeb9149b4a174917ec67483461930e33ec7d24ad707e7be4142",
+  "STAGES_CARR_REPRESENTATION_PLAN.md": "b800df2f72a4388b8ad4fb5120a85354a226126fb53c368b1cb6c1f1db3f6904",
+  "COGNITIVE_DOMAIN_SPECIFICITY_PLAN.md": "5b3692aa8485d9ca35f00163578b5478727b235db5128933ec0eb2ba3fee479d",
+  "same_participant_outcome_counts.csv": "e0badbe201067443eca57016ab098f8f63b833302abb2941b8b1cdf64313d432",
+  "REPRESENTATION_AND_DOMAIN_FINDINGS_20261027.md": "d35ecb89f4597da030ce3666151236f1cb89381ce3daf4b70b5e266a9d7ddbe0",
+  "paired_model_contrasts.csv": "36d4a04c1cdf6241a3f6e638bf31baf163d527658547826d985793e9ad735b49",
+  "figure_1_full_representation.svg": "6a4033c83e002b0ba31f525a4b19518587ea54f4e91ecab62f5fc463f10442f3"
+}

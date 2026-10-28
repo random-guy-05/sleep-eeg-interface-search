@@ -117,3 +117,26 @@ previously frozen 500 random scores. Restricted raw files and individual
 latents/rosters are never committed. The amendment explicitly discloses that the
 planned realized-count power rerun was skipped before the available rank
 results; supplied planning percentages are not represented as verified power.
+# October 27: full representations and cognitive domains
+
+The completed exploratory follow-up is in
+[`REPRESENTATION_AND_DOMAIN_FINDINGS_20261027.md`](REPRESENTATION_AND_DOMAIN_FINDINGS_20261027.md).
+It reports all 12 readouts across four outcomes, random-patient versus
+held-center evaluation, center classification, and direct paired cognitive-domain
+contrasts in the same 561 patients. The
+[`aggregate packet`](results/aggregate/representation_and_domain_followup/)
+contains every model/metric estimate, interval, branch gate and three figures.
+Fitted-readout intervals condition on trained models; the fixed-score domain
+bootstrap repeats all data-fitted steps. The nominal attention-versus-executive
+contrast does not survive its multiplicity correction, and threshold-free
+concordance does not support domain specificity. These findings do not change
+the original endpoints or transfer CinC validation to a new model.
+
+[`TIMING14_FIXED_SCORE_PLAN.md`](TIMING14_FIXED_SCORE_PLAN.md) freezes a separate
+additional-participant evaluation motivated by those findings. Its source-only
+eligibility audit found 87 additional patients under the original 14-day timing
+sensitivity. Their associations have not been computed. The private extraction
+is queued after the existing 590-person CARR extraction; no participant arrays
+or identifiers are included in the aggregate packet. Status snapshots are dated,
+not live completion reports.
+

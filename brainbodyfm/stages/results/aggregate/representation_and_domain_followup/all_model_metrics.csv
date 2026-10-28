@@ -1,0 +1,193 @@
+task,model,label,metric,estimate,ci_low,ci_high,valid_replicates,conditional_on_fitted_models
+composite,age,Age,ordinary_auc,0.6011999364272091,0.5368776509395541,0.6545116967891247,2000,True
+composite,demographics,Demographics,ordinary_auc,0.606583757151939,0.54087936574212,0.6637777505968245,2000,True
+composite,clinical,Clinical,ordinary_auc,0.5920414812460267,0.5282015771868708,0.6478565710785557,2000,True
+composite,negated_brain_health,Brain-health risk,ordinary_auc,0.625437062937063,0.5559413540404993,0.6802535665295487,2000,True
+composite,stable4,Stable4,ordinary_auc,0.5294818817546091,0.45930277785736234,0.5962129427715916,2000,True
+composite,submitted_available,Submitted available branches,ordinary_auc,0.5016489192625556,0.4352651722010172,0.5717292058503781,2000,True
+composite,submitted_latent,Submitted latent network,ordinary_auc,0.5406071201525747,0.4801794246661867,0.6021970194688119,2000,True
+composite,clinical_plus_cognition23,Clinical + cognition outputs (23),ordinary_auc,0.6254569294342022,0.5630361670995098,0.6779562504946199,2000,True
+composite,clinical_plus_physiology539,Clinical + physiology outputs (539),ordinary_auc,0.5265813731722823,0.45589146173263995,0.6043896053998752,2000,True
+composite,clinical_plus_latent1024,Clinical + latent representation (1024),ordinary_auc,0.53611729179911,0.47455473245757185,0.6031424125719463,2000,True
+composite,clinical_plus_all841,Clinical + all outputs (841),ordinary_auc,0.5391171328671329,0.4669515387808473,0.6143461798864851,2000,True
+composite,source_selected_linear,Source-selected linear representation,ordinary_auc,0.6254569294342022,0.5630361670995098,0.6779562504946199,2000,True
+composite,age,Age,within_center_ordinary,0.6004152994257588,0.5280069439673827,0.6580832733949145,2000,True
+composite,demographics,Demographics,within_center_ordinary,0.6016714520098442,0.5327708981525185,0.6599440281212778,2000,True
+composite,clinical,Clinical,within_center_ordinary,0.5870077932731748,0.5161871946684496,0.6470763556672909,2000,True
+composite,negated_brain_health,Brain-health risk,within_center_ordinary,0.5905455291222313,0.5177754581082765,0.6499026273638352,2000,True
+composite,stable4,Stable4,within_center_ordinary,0.526097210828548,0.4463833071192555,0.6001130487869412,2000,True
+composite,submitted_available,Submitted available branches,within_center_ordinary,0.48087571780147664,0.41039663691962464,0.5579441202170433,2000,True
+composite,submitted_latent,Submitted latent network,within_center_ordinary,0.5515278917145201,0.48321645257402335,0.6149572803156959,2000,True
+composite,clinical_plus_cognition23,Clinical + cognition outputs (23),within_center_ordinary,0.6095672682526662,0.5358313404645748,0.6667107730435075,2000,True
+composite,clinical_plus_physiology539,Clinical + physiology outputs (539),within_center_ordinary,0.5434782608695652,0.4739791133668621,0.6194686601471285,2000,True
+composite,clinical_plus_latent1024,Clinical + latent representation (1024),within_center_ordinary,0.5339417555373257,0.46973677232735783,0.6030225778342679,2000,True
+composite,clinical_plus_all841,Clinical + all outputs (841),within_center_ordinary,0.5547579983593109,0.4868022778036276,0.6293403740623582,2000,True
+composite,source_selected_linear,Source-selected linear representation,within_center_ordinary,0.6095672682526662,0.5358313404645748,0.6667107730435075,2000,True
+composite,age,Age,age_conditioned,0.5130750605326877,0.47808002741876726,0.5444347706738326,2000,True
+composite,demographics,Demographics,age_conditioned,0.524455205811138,0.44568367938416437,0.6103808079052434,2000,True
+composite,clinical,Clinical,age_conditioned,0.5191283292978208,0.4367570935418516,0.5964632848658914,2000,True
+composite,negated_brain_health,Brain-health risk,age_conditioned,0.5433414043583535,0.46251394082720754,0.6292494855257783,2000,True
+composite,stable4,Stable4,age_conditioned,0.5399515738498789,0.45021857190194664,0.6225505148540476,2000,True
+composite,submitted_available,Submitted available branches,age_conditioned,0.4668280871670702,0.37856088742967864,0.5487718487013342,2000,True
+composite,submitted_latent,Submitted latent network,age_conditioned,0.5012106537530266,0.42328274256955634,0.5874402181652002,2000,True
+composite,clinical_plus_cognition23,Clinical + cognition outputs (23),age_conditioned,0.5515738498789347,0.47173728596572084,0.6210547863003023,2000,True
+composite,clinical_plus_physiology539,Clinical + physiology outputs (539),age_conditioned,0.488135593220339,0.40808964903340855,0.5820562093086893,2000,True
+composite,clinical_plus_latent1024,Clinical + latent representation (1024),age_conditioned,0.46779661016949153,0.39471995928272247,0.5599313137233632,2000,True
+composite,clinical_plus_all841,Clinical + all outputs (841),age_conditioned,0.49491525423728816,0.4197925379415555,0.5879642192333909,2000,True
+composite,source_selected_linear,Source-selected linear representation,age_conditioned,0.5515738498789347,0.47173728596572084,0.6210547863003023,2000,True
+composite,age,Age,average_precision,0.23193833067420758,0.18762259754018812,0.29408099144215155,2000,True
+composite,demographics,Demographics,average_precision,0.22836315410357225,0.1891195437179301,0.2852924937239465,2000,True
+composite,clinical,Clinical,average_precision,0.2237418319687046,0.1837432531429157,0.28470336788843614,2000,True
+composite,negated_brain_health,Brain-health risk,average_precision,0.251627991324112,0.20207362604385368,0.31248542127200923,2000,True
+composite,stable4,Stable4,average_precision,0.23736392680922522,0.18577795612927672,0.3045936413278386,2000,True
+composite,submitted_available,Submitted available branches,average_precision,0.19749364887171106,0.1610619622925862,0.26121263788381827,2000,True
+composite,submitted_latent,Submitted latent network,average_precision,0.18907971418770397,0.1617363178428572,0.23684883037749377,2000,True
+composite,clinical_plus_cognition23,Clinical + cognition outputs (23),average_precision,0.25251912317174585,0.20414266063889835,0.3200142257208503,2000,True
+composite,clinical_plus_physiology539,Clinical + physiology outputs (539),average_precision,0.19220222838965836,0.16247357845116497,0.2421445808902558,2000,True
+composite,clinical_plus_latent1024,Clinical + latent representation (1024),average_precision,0.19853540841539652,0.16581302988952928,0.2519640610130596,2000,True
+composite,clinical_plus_all841,Clinical + all outputs (841),average_precision,0.200865992694704,0.1692096106100643,0.25623789160164695,2000,True
+composite,source_selected_linear,Source-selected linear representation,average_precision,0.25251912317174585,0.20414266063889835,0.3200142257208503,2000,True
+executive_function,age,Age,ordinary_auc,0.5903507792435675,0.5397533565503049,0.6443704632204141,2000,True
+executive_function,demographics,Demographics,ordinary_auc,0.5527524765110307,0.5017831211882927,0.6247599285180814,2000,True
+executive_function,clinical,Clinical,ordinary_auc,0.5978401314425178,0.5377298666717593,0.6489772527577291,2000,True
+executive_function,negated_brain_health,Brain-health risk,ordinary_auc,0.5396002488474851,0.48227597013674267,0.6033923095070137,2000,True
+executive_function,stable4,Stable4,ordinary_auc,0.5373989057091356,0.46830758184535803,0.6010014869866608,2000,True
+executive_function,submitted_available,Submitted available branches,ordinary_auc,0.5067396193909618,0.4476999779709299,0.5761256229321297,2000,True
+executive_function,submitted_latent,Submitted latent network,ordinary_auc,0.5268707428735504,0.46552056647112394,0.580340969345579,2000,True
+executive_function,clinical_plus_cognition23,Clinical + cognition outputs (23),ordinary_auc,0.5954154636379588,0.5368999869880144,0.6444438481499813,2000,True
+executive_function,clinical_plus_physiology539,Clinical + physiology outputs (539),ordinary_auc,0.5276045239196668,0.46904194425467427,0.5841902732683981,2000,True
+executive_function,clinical_plus_latent1024,Clinical + latent representation (1024),ordinary_auc,0.5313691397214821,0.4752388043073085,0.5889890436705197,2000,True
+executive_function,clinical_plus_all841,Clinical + all outputs (841),ordinary_auc,0.5563017435275726,0.48799890044216976,0.6152086657215787,2000,True
+executive_function,source_selected_linear,Source-selected linear representation,ordinary_auc,0.5954154636379588,0.5368999869880144,0.6444438481499813,2000,True
+executive_function,age,Age,within_center_ordinary,0.5902750871755134,0.5375993035405869,0.6501825099197305,2000,True
+executive_function,demographics,Demographics,within_center_ordinary,0.5657367945240863,0.5104581116435737,0.6265393447964389,2000,True
+executive_function,clinical,Clinical,within_center_ordinary,0.591071505445779,0.5293056982377821,0.6474106361549571,2000,True
+executive_function,negated_brain_health,Brain-health risk,within_center_ordinary,0.5144862025915881,0.45207703115711373,0.5770276984411503,2000,True
+executive_function,stable4,Stable4,within_center_ordinary,0.5308450643592062,0.4656273508463226,0.5931214531474811,2000,True
+executive_function,submitted_available,Submitted available branches,within_center_ordinary,0.5102242886047613,0.45593450186640466,0.5838775460948946,2000,True
+executive_function,submitted_latent,Submitted latent network,within_center_ordinary,0.5204270523914073,0.4547073003104141,0.5812210257572409,2000,True
+executive_function,clinical_plus_cognition23,Clinical + cognition outputs (23),within_center_ordinary,0.5911145550820096,0.5240176979667789,0.6489403506465693,2000,True
+executive_function,clinical_plus_physiology539,Clinical + physiology outputs (539),within_center_ordinary,0.5198243574841792,0.4559762117748655,0.5837285309287104,2000,True
+executive_function,clinical_plus_latent1024,Clinical + latent representation (1024),within_center_ordinary,0.5283481854578329,0.460444282209485,0.59196646029279,2000,True
+executive_function,clinical_plus_all841,Clinical + all outputs (841),within_center_ordinary,0.5358818717981833,0.4675720810261403,0.6014201439991207,2000,True
+executive_function,source_selected_linear,Source-selected linear representation,within_center_ordinary,0.5911145550820096,0.5240176979667789,0.6489403506465693,2000,True
+executive_function,age,Age,age_conditioned,0.5121506682867558,0.4820919256367257,0.5472842657310883,2000,True
+executive_function,demographics,Demographics,age_conditioned,0.5182260024301336,0.43483994979898904,0.5783113090386929,2000,True
+executive_function,clinical,Clinical,age_conditioned,0.5334143377885784,0.4419194705323537,0.5963735653881002,2000,True
+executive_function,negated_brain_health,Brain-health risk,age_conditioned,0.4892669096800324,0.40623820881845624,0.5576509342758978,2000,True
+executive_function,stable4,Stable4,age_conditioned,0.534629404617254,0.454274472100092,0.6039341159525674,2000,True
+executive_function,submitted_available,Submitted available branches,age_conditioned,0.4783313082219522,0.4010184156842686,0.560335179968777,2000,True
+executive_function,submitted_latent,Submitted latent network,age_conditioned,0.46537059538274606,0.3779871203678109,0.540349364990786,2000,True
+executive_function,clinical_plus_cognition23,Clinical + cognition outputs (23),age_conditioned,0.5390846496557311,0.44195198562986915,0.5964634192845131,2000,True
+executive_function,clinical_plus_physiology539,Clinical + physiology outputs (539),age_conditioned,0.46780072904009723,0.38629335300923495,0.5347430321269815,2000,True
+executive_function,clinical_plus_latent1024,Clinical + latent representation (1024),age_conditioned,0.4933171324422843,0.39873410490919237,0.554961403023348,2000,True
+executive_function,clinical_plus_all841,Clinical + all outputs (841),age_conditioned,0.47468610773592546,0.3869746293649386,0.5448325089123902,2000,True
+executive_function,source_selected_linear,Source-selected linear representation,age_conditioned,0.5390846496557311,0.44195198562986915,0.5964634192845131,2000,True
+executive_function,age,Age,average_precision,0.3007883549268294,0.2580305944422741,0.37076571565972066,2000,True
+executive_function,demographics,Demographics,average_precision,0.2696549047120783,0.23333036652526457,0.3480122584091618,2000,True
+executive_function,clinical,Clinical,average_precision,0.32545874744947434,0.27677861576741825,0.38967182629827735,2000,True
+executive_function,negated_brain_health,Brain-health risk,average_precision,0.27123104511590196,0.22549440999465145,0.3402857324563539,2000,True
+executive_function,stable4,Stable4,average_precision,0.30899723222227177,0.25057388810434533,0.38818103561081096,2000,True
+executive_function,submitted_available,Submitted available branches,average_precision,0.23526626162149947,0.19183892002773384,0.3002324586032997,2000,True
+executive_function,submitted_latent,Submitted latent network,average_precision,0.2592973868270806,0.21243231290164033,0.32278312353824157,2000,True
+executive_function,clinical_plus_cognition23,Clinical + cognition outputs (23),average_precision,0.2940303112914653,0.24758341455757424,0.3552566215050611,2000,True
+executive_function,clinical_plus_physiology539,Clinical + physiology outputs (539),average_precision,0.2842845695490811,0.2369085917115767,0.37528222299616576,2000,True
+executive_function,clinical_plus_latent1024,Clinical + latent representation (1024),average_precision,0.2660533996890503,0.2235940718721775,0.3473298613351647,2000,True
+executive_function,clinical_plus_all841,Clinical + all outputs (841),average_precision,0.2818021582609641,0.2285105656032945,0.35329087775127516,2000,True
+executive_function,source_selected_linear,Source-selected linear representation,average_precision,0.2940303112914653,0.24758341455757424,0.3552566215050611,2000,True
+face_memory,age,Age,ordinary_auc,0.5201009942848195,0.4536576542352104,0.5769434788093559,2000,True
+face_memory,demographics,Demographics,ordinary_auc,0.49243521490644326,0.42951579059066164,0.581470586580623,2000,True
+face_memory,clinical,Clinical,ordinary_auc,0.5340562123228685,0.4677459772699594,0.5974029942916749,2000,True
+face_memory,negated_brain_health,Brain-health risk,ordinary_auc,0.5815783292883426,0.48271755992023313,0.6409890457336205,2000,True
+face_memory,stable4,Stable4,ordinary_auc,0.4953025914037422,0.4382460060859642,0.5886242452284708,2000,True
+face_memory,submitted_available,Submitted available branches,ordinary_auc,0.4653370390667815,0.41321339974492965,0.5697875384985067,2000,True
+face_memory,submitted_latent,Submitted latent network,ordinary_auc,0.4845768417756204,0.4277877930154487,0.5501665359092166,2000,True
+face_memory,clinical_plus_cognition23,Clinical + cognition outputs (23),ordinary_auc,0.5016832380803257,0.437865551324789,0.5780978723063476,2000,True
+face_memory,clinical_plus_physiology539,Clinical + physiology outputs (539),ordinary_auc,0.45425898379394036,0.3962491170256231,0.5618197677197342,2000,True
+face_memory,clinical_plus_latent1024,Clinical + latent representation (1024),ordinary_auc,0.4712087998121037,0.4136543237677069,0.5507930902098871,2000,True
+face_memory,clinical_plus_all841,Clinical + all outputs (841),ordinary_auc,0.5376575589133328,0.47392997192720127,0.6027154249797184,2000,True
+face_memory,source_selected_linear,Source-selected linear representation,ordinary_auc,0.5016832380803257,0.437865551324789,0.5780978723063476,2000,True
+face_memory,age,Age,within_center_ordinary,0.5088775704493527,0.4415288990247057,0.5703731189432935,2000,True
+face_memory,demographics,Demographics,within_center_ordinary,0.5004998095963442,0.4175450688135641,0.5707515353030334,2000,True
+face_memory,clinical,Clinical,within_center_ordinary,0.5431740289413557,0.4620712536782246,0.6043583496650361,2000,True
+face_memory,negated_brain_health,Brain-health risk,within_center_ordinary,0.552503808073115,0.4645441359261592,0.6128023202119138,2000,True
+face_memory,stable4,Stable4,within_center_ordinary,0.511567022086824,0.44825274250470115,0.604630557819799,2000,True
+face_memory,submitted_available,Submitted available branches,within_center_ordinary,0.4793888042650419,0.42021357294278044,0.560136474618761,2000,True
+face_memory,submitted_latent,Submitted latent network,within_center_ordinary,0.48015041888804266,0.41960557849595165,0.5479260325051161,2000,True
+face_memory,clinical_plus_cognition23,Clinical + cognition outputs (23),within_center_ordinary,0.5036652703731912,0.42939893294194353,0.5760240619132212,2000,True
+face_memory,clinical_plus_physiology539,Clinical + physiology outputs (539),within_center_ordinary,0.5002380045696877,0.4376212737725987,0.5734696467163946,2000,True
+face_memory,clinical_plus_latent1024,Clinical + latent representation (1024),within_center_ordinary,0.4883377760853008,0.4238193507356353,0.5561142587952869,2000,True
+face_memory,clinical_plus_all841,Clinical + all outputs (841),within_center_ordinary,0.527989337395278,0.4630397511728373,0.605920800058479,2000,True
+face_memory,source_selected_linear,Source-selected linear representation,within_center_ordinary,0.5036652703731912,0.42939893294194353,0.5760240619132212,2000,True
+face_memory,age,Age,age_conditioned,0.49909132212630625,0.4647731285617561,0.5355741687465613,2000,True
+face_memory,demographics,Demographics,age_conditioned,0.548614266242617,0.45757749633182443,0.6278378014516292,2000,True
+face_memory,clinical,Clinical,age_conditioned,0.5701953657428441,0.47614336457194095,0.6438279150168588,2000,True
+face_memory,negated_brain_health,Brain-health risk,age_conditioned,0.5474784189004998,0.44587736706733094,0.6232504731948003,2000,True
+face_memory,stable4,Stable4,age_conditioned,0.5233984552476147,0.44516592668488164,0.6157237184790268,2000,True
+face_memory,submitted_available,Submitted available branches,age_conditioned,0.4647887323943662,0.3924415094339623,0.5519174361789142,2000,True
+face_memory,submitted_latent,Submitted latent network,age_conditioned,0.4838709677419355,0.40719296580435693,0.5563889768815597,2000,True
+face_memory,clinical_plus_cognition23,Clinical + cognition outputs (23),age_conditioned,0.5329395729213994,0.4440107443755089,0.6229559032854667,2000,True
+face_memory,clinical_plus_physiology539,Clinical + physiology outputs (539),age_conditioned,0.5161290322580645,0.4346425900439661,0.5983454155374409,2000,True
+face_memory,clinical_plus_latent1024,Clinical + latent representation (1024),age_conditioned,0.5115856428895956,0.4288345264352694,0.5908556022459422,2000,True
+face_memory,clinical_plus_all841,Clinical + all outputs (841),age_conditioned,0.5611085870059064,0.4822109921313033,0.656958754705839,2000,True
+face_memory,source_selected_linear,Source-selected linear representation,age_conditioned,0.5329395729213994,0.4440107443755089,0.6229559032854667,2000,True
+face_memory,age,Age,average_precision,0.195239207479368,0.14758622346243666,0.2554790711067211,2000,True
+face_memory,demographics,Demographics,average_precision,0.2011956318906692,0.1446932175726246,0.27459141829866013,2000,True
+face_memory,clinical,Clinical,average_precision,0.21983254415773368,0.16494148950106483,0.29334764852352974,2000,True
+face_memory,negated_brain_health,Brain-health risk,average_precision,0.22770597052472918,0.15792485085525218,0.2890472030853783,2000,True
+face_memory,stable4,Stable4,average_precision,0.19569791104183376,0.16309240494514604,0.2602011820579012,2000,True
+face_memory,submitted_available,Submitted available branches,average_precision,0.16921309540327759,0.14522199568963362,0.2275821764510783,2000,True
+face_memory,submitted_latent,Submitted latent network,average_precision,0.17318255615079642,0.14208385368139817,0.21461895660094915,2000,True
+face_memory,clinical_plus_cognition23,Clinical + cognition outputs (23),average_precision,0.2064041117319046,0.15984590645848887,0.27986585106838435,2000,True
+face_memory,clinical_plus_physiology539,Clinical + physiology outputs (539),average_precision,0.17289755590539457,0.14271919601486607,0.2443773493264688,2000,True
+face_memory,clinical_plus_latent1024,Clinical + latent representation (1024),average_precision,0.173945055227478,0.14124333670390965,0.22646676255242632,2000,True
+face_memory,clinical_plus_all841,Clinical + all outputs (841),average_precision,0.19122588156472198,0.15592594648800806,0.2516068507634031,2000,True
+face_memory,source_selected_linear,Source-selected linear representation,average_precision,0.2064041117319046,0.15984590645848887,0.27986585106838435,2000,True
+attention_slowness,age,Age,ordinary_auc,0.6138635027523917,0.5360866725981807,0.6819613648526843,2000,True
+attention_slowness,demographics,Demographics,ordinary_auc,0.5664448720004276,0.4983337185191664,0.6292303282633225,2000,True
+attention_slowness,clinical,Clinical,ordinary_auc,0.5916305916305916,0.5016910886252208,0.6700240968856138,2000,True
+attention_slowness,negated_brain_health,Brain-health risk,ordinary_auc,0.6536529314307091,0.5779354207436399,0.7183343386525997,2000,True
+attention_slowness,stable4,Stable4,ordinary_auc,0.5471113248891026,0.46247788578537935,0.6340196626487957,2000,True
+attention_slowness,submitted_available,Submitted available branches,ordinary_auc,0.5659505103949548,0.4714237102452607,0.6272006804551158,2000,True
+attention_slowness,submitted_latent,Submitted latent network,ordinary_auc,0.5276308054085832,0.4545865959846978,0.6006703329702184,2000,True
+attention_slowness,clinical_plus_cognition23,Clinical + cognition outputs (23),ordinary_auc,0.6352413019079686,0.5588012063180791,0.6970371354427825,2000,True
+attention_slowness,clinical_plus_physiology539,Clinical + physiology outputs (539),ordinary_auc,0.6307519640852974,0.5541232430121318,0.7017921742340347,2000,True
+attention_slowness,clinical_plus_latent1024,Clinical + latent representation (1024),ordinary_auc,0.6703008925231148,0.5896414950906185,0.7269315595947897,2000,True
+attention_slowness,clinical_plus_all841,Clinical + all outputs (841),ordinary_auc,0.6421356421356421,0.5695956159343486,0.7014767973409766,2000,True
+attention_slowness,source_selected_linear,Source-selected linear representation,ordinary_auc,0.6352413019079686,0.5588012063180791,0.6970371354427825,2000,True
+attention_slowness,age,Age,within_center_ordinary,0.567568550440032,0.4769816228318539,0.6414060027783967,2000,True
+attention_slowness,demographics,Demographics,within_center_ordinary,0.551058258782457,0.46604502482995386,0.6266919136503334,2000,True
+attention_slowness,clinical,Clinical,within_center_ordinary,0.5980798603534803,0.516377662632444,0.6698482295962825,2000,True
+attention_slowness,negated_brain_health,Brain-health risk,within_center_ordinary,0.6346643392246709,0.5548616939582808,0.7052907726310922,2000,True
+attention_slowness,stable4,Stable4,within_center_ordinary,0.5750236380827697,0.48941859188325015,0.660958603579356,2000,True
+attention_slowness,submitted_available,Submitted available branches,within_center_ordinary,0.5269474143574078,0.4255810870537198,0.6017194542343187,2000,True
+attention_slowness,submitted_latent,Submitted latent network,within_center_ordinary,0.528329333042403,0.4431106440398198,0.6042859701654233,2000,True
+attention_slowness,clinical_plus_cognition23,Clinical + cognition outputs (23),within_center_ordinary,0.6053531165902974,0.5163313947932224,0.6788724953845344,2000,True
+attention_slowness,clinical_plus_physiology539,Clinical + physiology outputs (539),within_center_ordinary,0.6086260818968652,0.5328522855214014,0.6861857041910923,2000,True
+attention_slowness,clinical_plus_latent1024,Clinical + latent representation (1024),within_center_ordinary,0.633427885664412,0.5510613558977857,0.7053744379773343,2000,True
+attention_slowness,clinical_plus_all841,Clinical + all outputs (841),within_center_ordinary,0.6065168375881882,0.5294377095695486,0.6801016378609267,2000,True
+attention_slowness,source_selected_linear,Source-selected linear representation,within_center_ordinary,0.6053531165902974,0.5163313947932224,0.6788724953845344,2000,True
+attention_slowness,age,Age,age_conditioned,0.4807086614173228,0.43669548826659893,0.531461863712884,2000,True
+attention_slowness,demographics,Demographics,age_conditioned,0.5137795275590551,0.4223154835340283,0.6003283886816039,2000,True
+attention_slowness,clinical,Clinical,age_conditioned,0.584251968503937,0.47725102165547034,0.6763382643762844,2000,True
+attention_slowness,negated_brain_health,Brain-health risk,age_conditioned,0.6196850393700788,0.524080336555166,0.7107579027469373,2000,True
+attention_slowness,stable4,Stable4,age_conditioned,0.5677165354330709,0.4678169087406944,0.6725764920579744,2000,True
+attention_slowness,submitted_available,Submitted available branches,age_conditioned,0.5291338582677165,0.41393246696789665,0.6144941805257874,2000,True
+attention_slowness,submitted_latent,Submitted latent network,age_conditioned,0.5173228346456693,0.4035464369546924,0.5989591868524884,2000,True
+attention_slowness,clinical_plus_cognition23,Clinical + cognition outputs (23),age_conditioned,0.6118110236220472,0.5206618229476075,0.7023954003370976,2000,True
+attention_slowness,clinical_plus_physiology539,Clinical + physiology outputs (539),age_conditioned,0.6047244094488189,0.514453002601453,0.7066891010436431,2000,True
+attention_slowness,clinical_plus_latent1024,Clinical + latent representation (1024),age_conditioned,0.6244094488188976,0.529449852672701,0.7260506083209304,2000,True
+attention_slowness,clinical_plus_all841,Clinical + all outputs (841),age_conditioned,0.5779527559055118,0.48457203309299807,0.6839343663946689,2000,True
+attention_slowness,source_selected_linear,Source-selected linear representation,age_conditioned,0.6118110236220472,0.5206618229476075,0.7023954003370976,2000,True
+attention_slowness,age,Age,average_precision,0.23914625853728805,0.16571312855628545,0.32037337380378655,2000,True
+attention_slowness,demographics,Demographics,average_precision,0.16458466649479414,0.12819528688476828,0.2258037940791985,2000,True
+attention_slowness,clinical,Clinical,average_precision,0.19050555108944872,0.15042096674334782,0.26995332844384984,2000,True
+attention_slowness,negated_brain_health,Brain-health risk,average_precision,0.2499306926993274,0.17848575429726826,0.3525284909362752,2000,True
+attention_slowness,stable4,Stable4,average_precision,0.24289279477260375,0.17265882201507038,0.3462074478462865,2000,True
+attention_slowness,submitted_available,Submitted available branches,average_precision,0.1617559855501917,0.11603699097394495,0.2250621991413054,2000,True
+attention_slowness,submitted_latent,Submitted latent network,average_precision,0.15904146116270537,0.1223797687143591,0.22263004455682156,2000,True
+attention_slowness,clinical_plus_cognition23,Clinical + cognition outputs (23),average_precision,0.2488021194060388,0.18599970179859707,0.34358286703062885,2000,True
+attention_slowness,clinical_plus_physiology539,Clinical + physiology outputs (539),average_precision,0.22935069633599645,0.17142074074281122,0.3110267114485054,2000,True
+attention_slowness,clinical_plus_latent1024,Clinical + latent representation (1024),average_precision,0.26327702046467183,0.18700217957581552,0.35414673798843116,2000,True
+attention_slowness,clinical_plus_all841,Clinical + all outputs (841),average_precision,0.23037797048934186,0.17221808693779855,0.3087325565013978,2000,True
+attention_slowness,source_selected_linear,Source-selected linear representation,average_precision,0.2488021194060388,0.18599970179859707,0.34358286703062885,2000,True

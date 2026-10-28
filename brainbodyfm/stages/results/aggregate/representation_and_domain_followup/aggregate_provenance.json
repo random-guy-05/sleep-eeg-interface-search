@@ -1,0 +1,65 @@
+{
+  "created_utc": "2026-10-28T01:54:24.987278+00:00",
+  "source_hashes": {
+    "cinc_trainable_transfer/summary.json": "0a054287e1d43826f7ec6594f9e7c7ea63b97b3d1b16bcb284c2ba9eb6937c3d",
+    "cinc_trainable_transfer/diagnostics_summary.json": "0f21617ce078900d4eba7ad2b5548bcb4ae7ed87ef8169672f135f1aa25566e4",
+    "cognitive_domain_specificity/summary.json": "2cd6522f8c5abce2661f8db28ea8f0ee5d3c4dbac43303e28073b3c3d4afb3e5",
+    "cinc_trainable_transfer/additional_sample_availability_audit.json": "28c9ad4619e3398ab250a81134a80e61cac9f6f677c74695686f847001a44711",
+    "general_cognitive_prediction/summary.json": "b157864335d997b81fd4d348d8b1e029985bafb30fa1173517a15b66b3b9bded",
+    "age_conditioned_transfer/available_summary.json": "cc8a19bdf3e0ffa05e8cb8e50028cc86027688c5d5a87814548ef7825b36edba"
+  },
+  "freezes": {
+    "trainable": {
+      "commit": "1a6c78db212507076ae76f434dc85d3f7e85a9d0",
+      "files": {
+        "CINC_TRAINABLE_TRANSFER_PLAN.md": "6d3a9e116e83d4f0f3ee6b2ce8b495e992c0dcb41aff86133f58573584ad5bc4",
+        "cinc_trainable_transfer.py": "cf48dc27f39734e70b7831451d4db634a8b0979a893c61963672f9e67fccfd19",
+        "test_cinc_trainable_transfer.py": "ac29797280130a2114dfca3dfbda21a0d8751bce6df19455410ffe77aaaa9153"
+      },
+      "utc": "2026-10-28T01:35:31.179199+00:00"
+    },
+    "domain_contrasts": {
+      "commit": "1d7b884ee89b6777f3a9e7dfad8a8cc1fdcbccb1",
+      "files": {
+        "COGNITIVE_DOMAIN_SPECIFICITY_PLAN.md": "5b3692aa8485d9ca35f00163578b5478727b235db5128933ec0eb2ba3fee479d",
+        "cognitive_domain_specificity.py": "880753cbeb41a13311322f817502770615f02c811f90ab0fc3f22139cc8c3360"
+      },
+      "utc": "2026-10-28T01:42:03.057047+00:00"
+    }
+  },
+  "cohort_n": 590,
+  "common_domain_n": 561,
+  "common_by_center": {
+    "MedSleep": 288,
+    "Stanford": 194,
+    "St_Lukes": 48,
+    "Geisinger": 31
+  },
+  "bootstrap_replicates": 2000,
+  "trainable_intervals_conditional_on_fitted_models": true,
+  "domain_analysis_repeats_all_data_fitted_steps": true,
+  "timing_availability": {
+    "timing_only_exclusions": 169,
+    "date_records_found": 169,
+    "additional_within_14_days": 87,
+    "center_prefix_counts": {
+      "GSDV": 47,
+      "GSSW": 13,
+      "GSLH": 10,
+      "GSBB": 8,
+      "GSSA": 6,
+      "MSTR": 2,
+      "STLK": 1
+    },
+    "minimum_abs_gap_bins": {
+      "2_to_7": 55,
+      "8_to_14": 32,
+      "15_to_30": 25,
+      "31_to_365": 57,
+      "over_365": 0
+    },
+    "cognitive_scores_or_model_outputs_examined": false
+  },
+  "original_endpoints_unchanged": true,
+  "new_analyses_posthoc": true
+}

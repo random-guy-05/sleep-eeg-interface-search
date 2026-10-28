@@ -1,0 +1,17 @@
+task,center,source_n,held_n,held_cases,recipe,deployment_streams,fusion_weights,site_loso_auc,min_site_auc,stable4_accepted,latent_accepted,b_rem_gate_pass,final_gate_pass
+composite,Geisinger,554,34,10,B__beta_theta_kurtosis_topk10_sex_bce_latent,"['kurtosis', 'rem', 'latent']","[0.15, 0.0, 0.85]",0.5323033707865169,0.4815521628498728,False,True,False,False
+composite,MedSleep,283,305,59,B__beta_theta_kurtosis_topk10_sex_bce,"['kurtosis', 'rem']","[0.176, 0.8240000000000001]",0.3742632612966601,0.40305010893246185,False,False,False,False
+composite,St_Lukes,538,50,10,B__beta_theta_kurtosis_topk10_sex_bce,"['kurtosis', 'rem']","[0.25, 0.75]",0.5296358009997619,0.4961636828644501,False,False,False,False
+composite,Stanford,389,199,25,B__beta_theta_kurtosis_topk10_sex_bce,"['kurtosis', 'rem']","[0.006, 0.994]",0.4980340760157274,0.5215311004784688,False,False,False,False
+executive_function,Geisinger,556,34,14,B__beta_theta_kurtosis_topk10_sex_bce,"['kurtosis', 'rem']","[0.248, 0.752]",0.46435845213849286,0.4166666666666667,False,False,False,False
+executive_function,MedSleep,284,306,62,B__beta_theta_kurtosis_topk10_sex_bce_latent,"['kurtosis', 'rem', 'latent']","[0.25, 0.0, 0.75]",0.45194424064563465,0.41262848751835535,False,True,False,False
+executive_function,St_Lukes,540,50,15,B__beta_theta_kurtosis_topk10_sex_bce,"['kurtosis', 'rem']","[0.247, 0.753]",0.5474660956459672,0.5,False,False,False,False
+executive_function,Stanford,390,200,48,B__beta_theta_kurtosis_topk10_sex_bce,"['kurtosis', 'rem']","[0.248, 0.752]",0.4619903248099516,0.4772727272727273,False,False,False,False
+face_memory,Geisinger,554,34,5,B__beta_theta_kurtosis_topk10_sex_bce_latent,"['kurtosis', 'rem', 'latent']","[0.0, 0.0, 1.0]",0.5236139630390144,0.4,False,True,False,False
+face_memory,MedSleep,283,305,66,B__beta_theta_kurtosis_topk10_sex_bce_latent,"['kurtosis', 'rem', 'latent']","[0.25, 0.65, 0.1]",0.5087440381558028,0.45161290322580644,False,True,False,False
+face_memory,St_Lukes,538,50,7,B__beta_theta_kurtosis_topk10_sex_bce_latent,"['kurtosis', 'rem', 'latent']","[0.2, 0.05, 0.75]",0.5442571127502634,0.4765003615328995,False,True,False,False
+face_memory,Stanford,389,199,28,B__beta_theta_kurtosis_topk10_sex_bce_latent,"['kurtosis', 'rem', 'latent']","[0.0, 0.05, 0.95]",0.5004803073967339,0.3333333333333333,False,True,False,False
+attention_slowness,Geisinger,532,31,4,B__beta_theta_kurtosis_topk10_sex_bce,"['kurtosis', 'rem']","[0.201, 0.7989999999999999]",0.5898931000971818,0.4810126582278481,False,False,False,False
+attention_slowness,MedSleep,274,289,40,B__beta_theta_kurtosis_topk10_sex_bce_latent,"['kurtosis', 'rem', 'latent']","[0.2, 0.0, 0.8]",0.521311475409836,0.5063291139240507,False,True,False,False
+attention_slowness,St_Lukes,515,48,15,B__beta_theta_kurtosis_topk10_sex_bce,"['kurtosis', 'rem']","[0.239, 0.761]",0.49211788896504455,0.5268518518518519,False,False,False,False
+attention_slowness,Stanford,368,195,18,B__beta_theta_kurtosis_topk10_sex_bce,"['kurtosis', 'rem']","[0.118, 0.882]",0.5168961201501877,0.25,False,False,False,False

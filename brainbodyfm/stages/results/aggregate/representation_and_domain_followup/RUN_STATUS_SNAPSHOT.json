@@ -1,0 +1,28 @@
+{
+  "HSP_source_normalization": {
+    "status": "downloading",
+    "completed": 245,
+    "failures": 0,
+    "total": 6600,
+    "freeze_commit": "dbce22ae7f0f5e96070432d498f08e693bc352b4"
+  },
+  "STAGES_CARR": {
+    "status": "extracting",
+    "completed": 9,
+    "failures": 0,
+    "total": 590,
+    "freeze_commit": "e0761e4d0e91907ef8cba244ec4d37756fc08eb4"
+  },
+  "timing14": {
+    "status": "prepared_and_queued_after_CARR",
+    "additional_n": 87,
+    "center_counts": {
+      "Geisinger": 84,
+      "MedSleep": 2,
+      "St_Lukes": 1
+    },
+    "plan_code_freeze": "aac93de87c0fb1ea4c172cdfd7adcbcd0e701dca",
+    "associations_computed": false
+  },
+  "snapshot_utc": "2026-10-28T01:55:25.418038+00:00"
+}

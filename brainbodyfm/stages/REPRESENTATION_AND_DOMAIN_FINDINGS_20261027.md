@@ -76,6 +76,15 @@ plan's trigger for additional full-refit composite inference. All four
 available-system final source deployment gates failed; their predictions are
 reported as evaluations of that procedure, not successful deployment gates.
 
+The earlier general-performance evaluation, which repeated all fitted steps
+for the fixed score, gives an ordinary composite Stable4 AUROC of 0.529 with
+95% CI 0.459–0.595. This nominal interval excludes discrimination as large as
+0.667 under that source-normalized evaluation. It supplies a quantitative limit
+on the expected transfer rather than only a nonsignificant test. It does not
+settle the HSP-normalized primary endpoint, and the brain-health composite
+interval still includes 0.667. The 0.667 target is a reader-specified benchmark,
+not a prespecified equivalence margin or an established clinical-utility cutoff.
+
 ## Direct test of cognitive-domain specificity
 
 The same-participant analysis included 561 patients with valid executive,
@@ -123,7 +132,8 @@ change between designs (105 versus 104 cases), so this is a diagnostic
 comparison rather than a causal estimate of the effect of center shift.
 
 Separately, center classification from the representation was strong. In
-patient folds, latent coordinates identified the four centers with balanced
+patient folds among the 588 composite-eligible participants, latent coordinates
+identified the four centers with balanced
 accuracy 0.769; physiology outputs achieved 0.754, cognition outputs 0.556,
 clinical covariates 0.407 and demographics 0.343. Chance balanced accuracy is
 0.250. These results demonstrate center-associated information. They do not

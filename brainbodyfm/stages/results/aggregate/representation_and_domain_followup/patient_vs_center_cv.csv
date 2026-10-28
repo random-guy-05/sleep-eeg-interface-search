@@ -1,0 +1,13 @@
+model,label,center_held_out_auc,random_patient_cv_auc
+age,Age,0.6011999364272091,0.6033816425120773
+demographics,Demographics,0.606583757151939,0.6132209405501331
+clinical,Clinical,0.5920414812460267,0.5703835157251306
+negated_brain_health,Brain-health risk,0.625437062937063,0.6287094547964114
+stable4,Stable4,0.5294818817546091,0.5356600611258996
+submitted_available,Submitted available branches,0.5016489192625556,0.531460120279996
+submitted_latent,Submitted latent network,0.5406071201525747,0.5621610963225869
+clinical_plus_cognition23,Clinical + cognition outputs (23),0.6254569294342022,0.6108449176772158
+clinical_plus_physiology539,Clinical + physiology outputs (539),0.5265813731722823,0.5515725130631963
+clinical_plus_latent1024,Clinical + latent representation (1024),0.53611729179911,0.5755102040816327
+clinical_plus_all841,Clinical + all outputs (841),0.5391171328671329,0.5686483288967761
+source_selected_linear,Source-selected linear representation,0.6254569294342022,0.6108449176772158
