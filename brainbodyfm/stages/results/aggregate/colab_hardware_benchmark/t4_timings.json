@@ -1,0 +1,71 @@
+{
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "python": "3.13.16",
+  "vcpus": 8,
+  "benchmark_cpu_threads": 2,
+  "precision": "float32_TF32_disabled_autocast_disabled",
+  "chosen_records": 3,
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "ssqueezepy": "0.6.6",
+    "mne": "1.13.2",
+    "numba": "0.68.0"
+  },
+  "all_parity_pass": true,
+  "median_gpu_end_to_end_seconds": 121.57667931749995,
+  "median_cpu_end_to_end_seconds": 126.40705219899996,
+  "complete": true,
+  "timing_records": [
+    {
+      "source_center": "I0002",
+      "download_seconds": 38.07048211899996,
+      "edf_and_filter_seconds": 16.378675532999978,
+      "cwt_seconds": 138.08825193899997,
+      "gpu_warmup_seconds": 4.779064737999988,
+      "gpu_forward_seconds": 0.3143447264999395,
+      "cpu_forward_seconds": 5.316908438000155,
+      "end_to_end_gpu_seconds": 192.85175431749985,
+      "end_to_end_cpu_seconds": 197.85431802900007,
+      "gpu_latent_relative_L2_to_cache": 3.3543784638823126e-07,
+      "cpu_latent_relative_L2_to_cache": 1.210178652399918e-06,
+      "max_head_difference_in_source_SD": 4.4501197749013954e-07,
+      "parity_pass": true,
+      "first_record_includes_CWT_warmup": true
+    },
+    {
+      "source_center": "I0006",
+      "download_seconds": 14.089578260000053,
+      "edf_and_filter_seconds": 2.4802279460000136,
+      "cwt_seconds": 104.67994583599989,
+      "gpu_warmup_seconds": 0.39100897699995585,
+      "gpu_forward_seconds": 0.32692727549999745,
+      "cpu_forward_seconds": 5.157300157000009,
+      "end_to_end_gpu_seconds": 121.57667931749995,
+      "end_to_end_cpu_seconds": 126.40705219899996,
+      "gpu_latent_relative_L2_to_cache": 3.7481567005670513e-07,
+      "cpu_latent_relative_L2_to_cache": 9.829340115175e-07,
+      "max_head_difference_in_source_SD": 1.5575419638480525e-06,
+      "parity_pass": true,
+      "first_record_includes_CWT_warmup": false
+    },
+    {
+      "source_center": "S0001",
+      "download_seconds": 12.83744356699981,
+      "edf_and_filter_seconds": 0.9372302079998462,
+      "cwt_seconds": 104.34973758599995,
+      "gpu_warmup_seconds": 0.39426536900009523,
+      "gpu_forward_seconds": 0.3441482780000342,
+      "cpu_forward_seconds": 5.209579434000034,
+      "end_to_end_gpu_seconds": 118.46855963899964,
+      "end_to_end_cpu_seconds": 123.33399079499964,
+      "gpu_latent_relative_L2_to_cache": 2.180295814468991e-05,
+      "cpu_latent_relative_L2_to_cache": 2.4716335246921517e-05,
+      "max_head_difference_in_source_SD": 6.4526739151915535e-06,
+      "parity_pass": true,
+      "first_record_includes_CWT_warmup": false
+    }
+  ]
+}

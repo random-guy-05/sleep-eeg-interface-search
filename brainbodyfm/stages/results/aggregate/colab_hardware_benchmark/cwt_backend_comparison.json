@@ -1,0 +1,50 @@
+{
+  "variants": {
+    "cpu16": {
+      "seconds": [
+        115.51327527499984
+      ],
+      "batch": 16,
+      "SSQ_GPU": "0",
+      "shape": [
+        39600,
+        100
+      ]
+    },
+    "cpu128": {
+      "seconds": [
+        101.07801600200014
+      ],
+      "batch": 128,
+      "SSQ_GPU": "0",
+      "shape": [
+        39600,
+        100
+      ]
+    },
+    "gpu64": {
+      "seconds": [
+        10.72886384100002
+      ],
+      "batch": 64,
+      "SSQ_GPU": "1",
+      "shape": [
+        39600,
+        100
+      ]
+    }
+  },
+  "parity": {
+    "cpu128": {
+      "allclose": true,
+      "max_absolute": 0.0,
+      "relative_L2": 0.0
+    },
+    "gpu64": {
+      "allclose": false,
+      "max_absolute": 0.00016736984252929688,
+      "relative_L2": 6.008934860801673e-07
+    }
+  },
+  "complete": true
+}

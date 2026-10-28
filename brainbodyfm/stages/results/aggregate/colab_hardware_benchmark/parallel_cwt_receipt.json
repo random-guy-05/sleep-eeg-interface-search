@@ -1,0 +1,9 @@
+{
+  "pass_exact_equality": true,
+  "cold_seconds": 42.62928192299978,
+  "warm_seconds": 33.82977747000041,
+  "workers": 3,
+  "scale_batch": 128,
+  "original_CPU_seconds": 115.51327527499984,
+  "original_CPU128_seconds": 101.07801600200014
+}
