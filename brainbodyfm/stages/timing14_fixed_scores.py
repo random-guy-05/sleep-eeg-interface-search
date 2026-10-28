@@ -137,7 +137,8 @@ def evaluate(original,new,oh,nh,ob,nb,columns):
   f=combined.iloc[take];y=labels[take];s=scores[take];pairs=eligible_pairs(f.age.to_numpy(float),f.center.to_numpy());age,npairs=rank_auc(y,s,pairs);i,j=np.triu_indices(len(f),1);keep=f.center.to_numpy()[i]==f.center.to_numpy()[j];within,_=rank_auc(y,s,(i[keep],j[keep]))
   for k,score in enumerate(['brain_health_risk','stable4']):
    for metric,value in [('ordinary_auc',roc_auc_score(y,s[:,k]) if len(np.unique(y))==2 else np.nan),('within_center_ordinary',within[k]),('age_conditioned',age[k]),('continuous_concordance',continuous_concordance(zvalues[take],s[:,k],pairs))]:output[sample+'__'+score+'__'+metric]=float(value)
-  output[sample+'__counts']=dict(n=len(f),cases=int(y.sum()),eligible_pairs=npairs,by_center={c:dict(n=int(f.center.eq(c).sum()),cases=int(y[f.center.eq(c)].sum())) for c in CENTERS})
+  pa,pb=pairs;cross=y[pa]!=y[pb];pair_centers=f.center.to_numpy()[pa]
+  output[sample+'__counts']=dict(n=len(f),cases=int(y.sum()),eligible_pairs=npairs,by_center={c:dict(n=int(f.center.eq(c).sum()),cases=int(y[f.center.eq(c)].sum()),eligible_pairs=int((cross&(pair_centers==c)).sum())) for c in CENTERS})
  return output
 
 def analyze(root,freeze):
