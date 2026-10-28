@@ -127,3 +127,10 @@ prediction demonstrates center-associated information, not necessarily equipment
 artifact or an explanation of weak cognition prediction. Patient/case-mix
 differences may also contribute. These diagnostics are exploratory and specified
 before this extension's predictive results are calculated.
+
+Execution repair before any new held-center prediction: the submitted model
+retains a compatibility `derived` family whose `brain_age_gap` is computed from
+the age output and chronological age. The wrapper now constructs it with the
+submitted `brain_age_gap_batch` instead of incorrectly seeking it among the
+841 direct outputs. B-primary scoring ignores that compatibility family; no
+method, target, parameter, training result, or selection rule was changed.

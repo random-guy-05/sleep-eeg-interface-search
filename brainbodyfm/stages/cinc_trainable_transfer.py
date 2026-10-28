@@ -92,7 +92,12 @@ def fit_linear_models(frame,reps,train,test,columns):
 def submitted_predict(frame,semantic,latent,names,train,test,labels):
     model=original.ENTRY.tune_and_fit(names,semantic[train],labels.astype(int),frame.age.to_numpy(float)[train],frame.sex.to_numpy(float)[train],
         strategy='b_primary',tune=True,latent_matrix=latent[train],sites=frame.center.to_numpy()[train],verbose=False)
-    family={family:semantic[test][:,[names.index(h) for h in heads]] for family,heads in model.family_columns().items()}
+    family={}
+    for key,heads in model.family_columns().items():
+        if key=='derived':
+            gap=original.ENTRY.brain_age_gap_batch(names,semantic[test],frame.age.to_numpy(float)[test],age_mean=model.age_mean_tr_data,age_std=model.age_std_tr_data)
+            if gap is not None:family[key]=gap[:,None]
+        else:family[key]=semantic[test][:,[names.index(h) for h in heads]]
     score=model.predict_scores(family,frame.sex.to_numpy(float)[test],latent=latent[test],age=frame.age.to_numpy(float)[test])
     detail={k:getattr(model,k) for k in ['recipe','deployment_streams','fusion_weights','site_loso_auc','min_site_auc','stable4_accepted','latent_accepted','b_rem_gate_pass','final_gate_pass']}
     # Standalone latent uses exact submitted defaults and final seed, not a
