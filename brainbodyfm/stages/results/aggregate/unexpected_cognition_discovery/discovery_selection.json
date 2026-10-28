@@ -1,0 +1,290 @@
+{
+  "stage": "discovery_complete_confirmation_not_read",
+  "freeze": {
+    "commit": "1833ff19818d8413dcc15c6b77ac56b3efe4e6fb",
+    "files": {
+      "UNEXPECTED_COGNITION_DISCOVERY_PLAN.md": "7574be71d0dea1bc2e0433024fc28241d091a493c1ef7dc2f89f1fec5a66aef2",
+      "unexpected_cognition_discovery.py": "57c7ddf0765b5d3da03da1dac7f6fc4d4bc0e37e08fb346652ca66e243990337",
+      "test_unexpected_cognition_discovery.py": "b54034c8a5f719b5fffc2588ce45e9da79d497460ead2717d6f57874634a8138"
+    },
+    "utc": "2026-10-28T01:24:24.919939+00:00"
+  },
+  "source_normalizer": {
+    "mean": [
+      -0.18968769425237683,
+      -0.1602213516746136,
+      0.222790491072015,
+      0.05492227659626326
+    ],
+    "sd": [
+      0.7876760098329594,
+      0.28080699886738464,
+      0.18811536233213527,
+      0.49649989870283734
+    ],
+    "source_n": 284
+  },
+  "discovery_n": 284,
+  "confirmation_n": 306,
+  "new_endpoint_count": 16,
+  "fixed_test_family": 32,
+  "physiology_test_family": 8624,
+  "selected": [
+    {
+      "endpoint": "attention_slowness",
+      "marker": "stable4",
+      "track": "fixed",
+      "family": "fixed_score",
+      "discovery_r": 0.25039600991311894,
+      "discovery_p": 5.639376070234637e-05,
+      "discovery_q": 0.0018046003424750838,
+      "discovery_direction": 1
+    },
+    {
+      "endpoint": "vigilance_variability",
+      "marker": "negated_brain_health",
+      "track": "fixed",
+      "family": "fixed_score",
+      "discovery_r": 0.16292614584193416,
+      "discovery_p": 0.00811266670820733,
+      "discovery_q": 0.08822937934235996,
+      "discovery_direction": 1
+    },
+    {
+      "endpoint": "vigilance_slow_tail",
+      "marker": "stable4",
+      "track": "fixed",
+      "family": "fixed_score",
+      "discovery_r": 0.16182772652849292,
+      "discovery_p": 0.008557173853613173,
+      "discovery_q": 0.08822937934235996,
+      "discovery_direction": 1
+    },
+    {
+      "endpoint": "attention_slowness",
+      "marker": "pred_regression_f_fs_chirp_c4m1",
+      "track": "physiology",
+      "family": "spindle_morphology",
+      "discovery_r": 0.22876148054992543,
+      "discovery_p": 0.0002430893561322696,
+      "discovery_q": 0.8427595597958383,
+      "discovery_direction": 1
+    },
+    {
+      "endpoint": "executive_slowness",
+      "marker": "pred_regression_f_sigma_bandpower_kurtosis_c_w",
+      "track": "physiology",
+      "family": "sigma_dynamics",
+      "discovery_r": -0.21630783505921294,
+      "discovery_p": 0.0004106637381259599,
+      "discovery_q": 0.8427595597958383,
+      "discovery_direction": -1
+    },
+    {
+      "endpoint": "vigilance_slow_tail",
+      "marker": "pred_regression_f_total_power_rem_rel_delta",
+      "track": "physiology",
+      "family": "REM_spectral",
+      "discovery_r": 0.20419301682353794,
+      "discovery_p": 0.0008658319981158416,
+      "discovery_q": 0.8427595597958383,
+      "discovery_direction": 1
+    }
+  ],
+  "availability": [
+    {
+      "endpoint": "executive_concept",
+      "new_endpoint": true,
+      "n": 283,
+      "discovery_by_center": {
+        "Stanford": 200,
+        "St_Lukes": 50,
+        "Geisinger": 33
+      }
+    },
+    {
+      "endpoint": "executive_perseveration",
+      "new_endpoint": true,
+      "n": 284,
+      "discovery_by_center": {
+        "Stanford": 200,
+        "St_Lukes": 50,
+        "Geisinger": 34
+      }
+    },
+    {
+      "endpoint": "executive_set_failure",
+      "new_endpoint": true,
+      "n": 284,
+      "discovery_by_center": {
+        "Stanford": 200,
+        "St_Lukes": 50,
+        "Geisinger": 34
+      }
+    },
+    {
+      "endpoint": "executive_slowness",
+      "new_endpoint": true,
+      "n": 284,
+      "discovery_by_center": {
+        "Stanford": 200,
+        "St_Lukes": 50,
+        "Geisinger": 34
+      }
+    },
+    {
+      "endpoint": "memory_slowness",
+      "new_endpoint": true,
+      "n": 283,
+      "discovery_by_center": {
+        "Stanford": 199,
+        "St_Lukes": 50,
+        "Geisinger": 34
+      }
+    },
+    {
+      "endpoint": "memory_confident_errors",
+      "new_endpoint": true,
+      "n": 283,
+      "discovery_by_center": {
+        "Stanford": 199,
+        "St_Lukes": 50,
+        "Geisinger": 34
+      }
+    },
+    {
+      "endpoint": "memory_discrimination",
+      "new_endpoint": true,
+      "n": 283,
+      "discovery_by_center": {
+        "Stanford": 199,
+        "St_Lukes": 50,
+        "Geisinger": 34
+      }
+    },
+    {
+      "endpoint": "attention_discrimination",
+      "new_endpoint": true,
+      "n": 274,
+      "discovery_by_center": {
+        "Stanford": 195,
+        "St_Lukes": 48,
+        "Geisinger": 31
+      }
+    },
+    {
+      "endpoint": "attention_slowness",
+      "new_endpoint": true,
+      "n": 274,
+      "discovery_by_center": {
+        "Stanford": 195,
+        "St_Lukes": 48,
+        "Geisinger": 31
+      }
+    },
+    {
+      "endpoint": "attention_variability",
+      "new_endpoint": true,
+      "n": 274,
+      "discovery_by_center": {
+        "Stanford": 195,
+        "St_Lukes": 48,
+        "Geisinger": 31
+      }
+    },
+    {
+      "endpoint": "working_accuracy",
+      "new_endpoint": true,
+      "n": 248,
+      "discovery_by_center": {
+        "Stanford": 169,
+        "St_Lukes": 50,
+        "Geisinger": 29
+      }
+    },
+    {
+      "endpoint": "working_slowness",
+      "new_endpoint": true,
+      "n": 242,
+      "discovery_by_center": {
+        "Stanford": 166,
+        "St_Lukes": 49,
+        "Geisinger": 27
+      }
+    },
+    {
+      "endpoint": "working_load_cost",
+      "new_endpoint": true,
+      "n": 241,
+      "discovery_by_center": {
+        "Stanford": 166,
+        "St_Lukes": 48,
+        "Geisinger": 27
+      }
+    },
+    {
+      "endpoint": "vigilance_lapses",
+      "new_endpoint": true,
+      "n": 284,
+      "discovery_by_center": {
+        "Stanford": 200,
+        "St_Lukes": 50,
+        "Geisinger": 34
+      }
+    },
+    {
+      "endpoint": "vigilance_variability",
+      "new_endpoint": true,
+      "n": 284,
+      "discovery_by_center": {
+        "Stanford": 200,
+        "St_Lukes": 50,
+        "Geisinger": 34
+      }
+    },
+    {
+      "endpoint": "vigilance_slow_tail",
+      "new_endpoint": true,
+      "n": 284,
+      "discovery_by_center": {
+        "Stanford": 200,
+        "St_Lukes": 50,
+        "Geisinger": 34
+      }
+    },
+    {
+      "endpoint": "executive_accuracy_context",
+      "new_endpoint": false,
+      "n": 284,
+      "discovery_by_center": {
+        "Stanford": 200,
+        "St_Lukes": 50,
+        "Geisinger": 34
+      }
+    },
+    {
+      "endpoint": "memory_accuracy_context",
+      "new_endpoint": false,
+      "n": 283,
+      "discovery_by_center": {
+        "Stanford": 199,
+        "St_Lukes": 50,
+        "Geisinger": 34
+      }
+    },
+    {
+      "endpoint": "vigilance_speed_context",
+      "new_endpoint": false,
+      "n": 284,
+      "discovery_by_center": {
+        "Stanford": 200,
+        "St_Lukes": 50,
+        "Geisinger": 34
+      }
+    }
+  ],
+  "discovery_output_sha256": {
+    "discovery_fixed_scores.csv": "5c982f343631bfde2c785244a2a41588c5a9d9964cbf93815b317a465b2d89e0",
+    "discovery_all_physiology.csv": "a0f45f5cc0119e0ff8b59b8305787b2bf4bab5c36fcd19ad8513940b946c8c37"
+  }
+}

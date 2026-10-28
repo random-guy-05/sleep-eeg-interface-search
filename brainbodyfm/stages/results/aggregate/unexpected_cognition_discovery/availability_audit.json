@@ -1,0 +1,110 @@
+{
+  "PVTB": {
+    "status_counts": {
+      "C1": 590
+    },
+    "validation_counts": {
+      "0": 590
+    },
+    "nonmissing_endpoint": 590,
+    "numeric_range": [
+      0.0,
+      13061.09
+    ]
+  },
+  "SPCPTNL": {
+    "status_counts": {
+      "C1": 589,
+      "I1": 1
+    },
+    "validation_counts": {
+      "V": 563,
+      "F": 23,
+      "C": 3,
+      "S": 1
+    },
+    "nonmissing_endpoint": 589,
+    "numeric_range": [
+      0.0,
+      318.7892
+    ]
+  },
+  "CPF_A": {
+    "status_counts": {
+      "C1": 590
+    },
+    "validation_counts": {
+      "V": 588,
+      "F": 1,
+      "0": 1
+    },
+    "nonmissing_endpoint": 590,
+    "numeric_range": [
+      344.0,
+      3910.5
+    ]
+  },
+  "CPW_A": {
+    "status_counts": {
+      "missing": 559,
+      "C1": 31
+    },
+    "validation_counts": {
+      "missing": 559,
+      "V": 30,
+      "C": 1
+    },
+    "nonmissing_endpoint": 31,
+    "numeric_range": [
+      30.0,
+      40.0
+    ]
+  },
+  "SLNB2_90": {
+    "status_counts": {
+      "missing": 559,
+      "C1": 31
+    },
+    "validation_counts": {
+      "missing": 559,
+      "V": 29,
+      "C": 1,
+      "F": 1
+    },
+    "nonmissing_endpoint": 31,
+    "numeric_range": [
+      13.0,
+      20.0
+    ]
+  },
+  "SLNB12_60": {
+    "status_counts": {
+      "C1": 554,
+      "missing": 31,
+      "I1": 5
+    },
+    "validation_counts": {
+      "0": 554,
+      "missing": 31,
+      "S": 5
+    },
+    "nonmissing_endpoint": 554,
+    "numeric_range": [
+      0.0,
+      20.0
+    ]
+  },
+  "PCET_A": {
+    "status_counts": {
+      "C1": 590
+    },
+    "validation_counts": {
+      "V": 590
+    },
+    "nonmissing_endpoint": 590,
+    "numeric_range": [
+      1115.0,
+      7935.0
+    ]
+  }
+}
